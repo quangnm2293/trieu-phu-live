@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ai Là Triệu Phú Live — Sân khấu</title>
+<link rel="stylesheet" href="/stage.css">
+</head>
+<body>
+<div id="scaler">
+  <div id="frame">
+    <div class="bg-rays"></div>
+    <div class="bg-stars"></div>
+    <div class="bg-glow"></div>
+    <div id="giftGlow"></div>
+
+    <!-- TIÊU ĐỀ -->
+    <div id="titleBar">
+      <div class="title-main">AI LÀ TRIỆU PHÚ <span>LIVE</span></div>
+      <div class="title-sub">Thang điểm là ĐIỂM trong game — không quy đổi tiền thật</div>
+    </div>
+
+    <!-- THANG ĐIỂM -->
+    <div id="ladder"></div>
+
+    <!-- VÙNG CHÍNH (trái thang điểm) -->
+    <div id="main">
+      <!-- Ghế nóng -->
+      <div id="seatZone">
+        <div id="seatRingWrap">
+          <svg id="seatRing" viewBox="0 0 200 200">
+            <circle class="ring-bg" cx="100" cy="100" r="92"></circle>
+            <circle class="ring-fg" cx="100" cy="100" r="92"></circle>
+          </svg>
+          <div id="seatAvatar" class="avatar-fallback">?</div>
+          <div id="seatTimer">--</div>
+        </div>
+        <div id="seatInfo">
+          <div id="seatName">GHẾ NÓNG ĐANG TRỐNG</div>
+          <div id="seatPoints"></div>
+          <div id="lifelines">
+            <div class="lifeline" id="ll-fifty">50:50</div>
+            <div class="lifeline" id="ll-poll">KHÁN GIẢ</div>
+            <div class="lifeline" id="ll-swap">ĐỔI CÂU</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Thông báo -->
+      <div id="announce"></div>
+
+      <!-- Câu hỏi -->
+      <div id="questionPanel">
+        <div id="questionLabel">SẮP MỞ CÂU HỎI LOẠI</div>
+        <div id="questionText">Người đúng và nhanh nhất sẽ ngồi vào ghế nóng!</div>
+      </div>
+
+      <!-- Spotlight người thắng vòng loại -->
+      <div id="winnerSpot" class="hidden">
+        <div id="winnerAvatar" class="avatar-fallback">?</div>
+        <div id="winnerName"></div>
+        <div id="winnerSub">GIÀNH GHẾ NÓNG 👑</div>
+      </div>
+
+      <!-- Đáp án -->
+      <div id="answers">
+        <div class="answer" data-letter="A"><div class="diamond">◆ A</div><div class="ans-text"></div><div class="poll-bar"></div><div class="poll-pct"></div></div>
+        <div class="answer" data-letter="B"><div class="diamond">◆ B</div><div class="ans-text"></div><div class="poll-bar"></div><div class="poll-pct"></div></div>
+        <div class="answer" data-letter="C"><div class="diamond">◆ C</div><div class="ans-text"></div><div class="poll-bar"></div><div class="poll-pct"></div></div>
+        <div class="answer" data-letter="D"><div class="diamond">◆ D</div><div class="ans-text"></div><div class="poll-bar"></div><div class="poll-pct"></div></div>
+      </div>
+
+      <!-- Dải dưới: đổi theo pha -->
+      <div id="bottomZone">
+        <div id="panelInfo">
+          <div id="likeRow">
+            <div id="likeLabel">🔥 NHIỆT HUYẾT</div>
+            <div id="likeBarWrap"><div id="likeBar"></div></div>
+            <div id="likeCount">0/1000</div>
+          </div>
+          <div id="answerCount"></div>
+          <div id="instruction">Comment A / B / C / D để trả lời — ĐÚNG &amp; NHANH NHẤT lên bảng vàng!</div>
+          <div id="fastestRecord"></div>
+        </div>
+        <div id="panelTop5" class="hidden">
+          <div class="panel-title" id="top5Title">🏆 ĐÚNG &amp; NHANH NHẤT</div>
+          <div id="top5List"></div>
+          <div id="top5Stats"></div>
+        </div>
+        <div id="panelBoard" class="hidden">
+          <div id="runSummary"></div>
+          <div class="board-cols">
+            <div class="board">
+              <div class="panel-title">🥇 BẢNG VÀNG KHÁN GIẢ</div>
+              <div id="audienceBoard"></div>
+            </div>
+            <div class="board">
+              <div class="panel-title">💖 TOP ỦNG HỘ HÔM NAY</div>
+              <div id="supportBoard"></div>
+            </div>
+          </div>
+          <div id="boardRules">Comment chữ cái để trả lời · Đúng +100 điểm · TOP 5 nhanh nhất +50/40/30/20/10 · Ghế nóng: leo 15 câu tới 150.000.000 điểm!</div>
+        </div>
+      </div>
+    </div>
+
+    <button id="muteBtn" title="Bật/tắt tiếng MC">🔊</button>
+    <div id="soundHint">Chạm vào màn hình để mở tiếng MC 🔊</div>
+    <div id="debugChip"></div>
+  </div>
+</div>
+<script src="/stage.js"></script>
+</body>
+</html>

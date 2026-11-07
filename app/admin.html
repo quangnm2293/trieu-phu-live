@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<title>Ai Là Triệu Phú Live — Admin / Giả lập</title>
+<style>
+  body { font-family: Arial, sans-serif; background: #0a0e2a; color: #e6ebff; margin: 0; padding: 18px; }
+  h1 { font-size: 20px; color: #ffd968; } h2 { font-size: 16px; color: #8fd0ff; margin: 18px 0 8px; }
+  .card { background: #121840; border: 1px solid #2c3a7a; border-radius: 10px; padding: 14px; margin-bottom: 14px; }
+  label { display: block; font-size: 13px; color: #aebfff; margin: 8px 0 3px; }
+  input, select, textarea { width: 100%; padding: 8px; border-radius: 6px; border: 1px solid #3a4a9a; background: #0a0e2a; color: #fff; box-sizing: border-box; }
+  .row { display: flex; gap: 10px; } .row > div { flex: 1; }
+  button { background: #f7c948; color: #231a00; border: 0; border-radius: 8px; padding: 9px 14px; font-weight: 800; cursor: pointer; margin: 4px 4px 0 0; }
+  button.sec { background: #2c3a7a; color: #e6ebff; }
+  button.danger { background: #d42a2a; color: #fff; }
+  #status { font-family: monospace; font-size: 13px; white-space: pre-wrap; color: #b7ffce; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  @media (max-width: 900px) { .grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<h1>🎛️ AI LÀ TRIỆU PHÚ LIVE — Admin / Giả lập sự kiện</h1>
+
+<div class="card">
+  <h2>Trạng thái server</h2>
+  <div id="status">đang tải…</div>
+  <button class="sec" onclick="forcePhase('qualifier')">▶ Mở câu hỏi loại ngay</button>
+  <button class="sec" onclick="forcePhase('intermission')">⏸ Về màn nghỉ</button>
+  <button class="danger" onclick="resetSession()">↺ Reset điểm buổi</button>
+</div>
+
+<div class="grid">
+  <div class="card">
+    <h2>Bơm sự kiện giả lập</h2>
+    <div class="row">
+      <div><label>uniqueId</label><input id="evUid" value="user_a"></div>
+      <div><label>Nickname</label><input id="evName" value="Bạn A"></div>
+    </div>
+    <label>Loại sự kiện</label>
+    <select id="evType">
+      <option value="chat">chat (đáp án / từ khóa)</option>
+      <option value="gift">gift</option>
+      <option value="like">like</option>
+      <option value="follow">follow</option>
+      <option value="share">share</option>
+    </select>
+    <label>Nội dung chat (A/B/C/D, 50, KHÁN GIẢ, ĐỔI, DỪNG…)</label>
+    <input id="evText" value="A">
+    <div class="row">
+      <div><label>Coins (gift)</label><input id="evCoins" type="number" value="10"></div>
+      <div><label>Số like (like)</label><input id="evLikes" type="number" value="100"></div>
+    </div>
+    <button onclick="sendEvent()">Gửi sự kiện</button>
+    <button class="sec" onclick="quickAnswer(true)">✔ Trả lời ĐÚNG (user trên)</button>
+    <button class="sec" onclick="quickAnswer(false)">✘ Trả lời SAI (user trên)</button>
+  </div>
+
+  <div class="card">
+    <h2>Bot khán giả (demo / QA)</h2>
+    <div class="row">
+      <div><label>Số bot</label><input id="botCount" type="number" value="12"></div>
+      <div><label>Tỉ lệ đúng (%)</label><input id="botSkill" type="number" value="55"></div>
+    </div>
+    <div class="row">
+      <div><label>Độ trễ min (ms)</label><input id="botMin" type="number" value="500"></div>
+      <div><label>Độ trễ max (ms)</label><input id="botMax" type="number" value="8000"></div>
+    </div>
+    <button onclick="setBots(true)">🤖 Bật bot</button>
+    <button class="sec" onclick="setBots(false)">Tắt bot</button>
+    <h2>Trao ghế nóng thủ công</h2>
+    <div class="row">
+      <div><label>uniqueId</label><input id="seatUid" value="bot_ga_rung"></div>
+      <div><label>Nickname</label><input id="seatName" value="ga_rung"></div>
+    </div>
+    <button onclick="giveSeat()">👑 Cho lên ghế nóng</button>
+  </div>
+</div>
+
+<div class="card">
+  <h2>Ngân hàng câu hỏi — <span id="bankInfo">…</span></h2>
+  <div class="row">
+    <div><label>Cấp (1–15)</label><input id="qLevel" type="number" value="1"></div>
+    <div><label>Thể loại</label><input id="qCat" value="Đời sống"></div>
+  </div>
+  <label>Câu hỏi</label><input id="qText">
+  <div class="row">
+    <div><label>Đáp án A</label><input id="qA"></div>
+    <div><label>Đáp án B</label><input id="qB"></div>
+  </div>
+  <div class="row">
+    <div><label>Đáp án C</label><input id="qC"></div>
+    <div><label>Đáp án D</label><input id="qD"></div>
+  </div>
+  <div class="row">
+    <div><label>Đáp án đúng</label>
+      <select id="qCorrect"><option>A</option><option>B</option><option>C</option><option>D</option></select></div>
+    <div><label>Câu loại (qualifier)</label>
+      <select id="qQual"><option value="">Không</option><option value="1">Có</option></select></div>
+  </div>
+  <button onclick="addQuestion()">➕ Thêm câu hỏi</button>
+  <div id="qMsg" style="margin-top:8px;font-size:13px;color:#ffd968"></div>
+</div>
+
+<script>
+const $ = id => document.getElementById(id);
+async function post(url, body) {
+  const r = await fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body || {}) });
+  return r.json();
+}
+async function refresh() {
+  try {
+    const s = await (await fetch('/api/state')).json();
+    $('status').textContent =
+      `phase=${s.phase} · feed=${s.feedStatus} · viewers=${s.viewerCount}\n` +
+      `ghế nóng: ${s.hotseat ? s.hotseat.nickname + ' — câu ' + s.hotseat.level : '(trống)'}\n` +
+      `câu hiện tại: ${s.question ? (s.question.kind === 'qualifier' ? 'LOẠI' : 'Câu ' + s.question.level) + ' · ' + s.question.text : '(không)'}\n` +
+      `đã trả lời: ${s.question ? s.question.answersCount : 0} · nhiệt huyết: ${s.likeMeter.cur}/${s.likeMeter.target}`;
+  } catch (e) { $('status').textContent = 'không nối được server'; }
+  try {
+    const b = await (await fetch('/api/admin/bank')).json();
+    $('bankInfo').textContent = `tổng ${b.total} câu, câu loại ${b.qualifier} · theo cấp: ` +
+      Array.from({ length: 15 }, (_, i) => `${i + 1}:${b.perLevel[i + 1] || 0}`).join(' ');
+  } catch (e) {}
+}
+setInterval(refresh, 1200); refresh();
+
+async function sendEvent() {
+  const type = $('evType').value;
+  const ev = { type, uniqueId: $('evUid').value, nickname: $('evName').value, avatarUrl: '' };
+  if (type === 'chat') ev.text = $('evText').value;
+  if (type === 'gift') { ev.coins = Number($('evCoins').value) || 0; ev.giftName = 'Quà live'; ev.repeatEnd = true; }
+  if (type === 'like') ev.likeCount = Number($('evLikes').value) || 0;
+  await post('/api/sim', ev); refresh();
+}
+async function quickAnswer(right) {
+  const dbg = await (await fetch('/api/admin/state')).json();
+  const correct = dbg.debug && dbg.debug.correct;
+  if (!correct) return alert('Chưa có câu hỏi đang mở');
+  let letter = correct;
+  if (!right) letter = ['A', 'B', 'C', 'D'].find(l => l !== correct && !(dbg.debug.removed || []).includes(l));
+  $('evType').value = 'chat'; $('evText').value = letter;
+  await sendEvent();
+}
+function forcePhase(phase) { post('/api/sim/phase', { phase }).then(refresh); }
+function resetSession() { if (confirm('Reset toàn bộ điểm khán giả + danh sách câu đã dùng của buổi?')) post('/api/sim/reset').then(refresh); }
+function setBots(on) {
+  post('/api/sim/bots', {
+    on, count: Number($('botCount').value) || 0,
+    skill: (Number($('botSkill').value) || 0) / 100,
+    delayMin: Number($('botMin').value) || 0, delayMax: Number($('botMax').value) || 0,
+  });
+}
+function giveSeat() { post('/api/sim/hotseat', { uniqueId: $('seatUid').value, nickname: $('seatName').value }).then(refresh); }
+async function addQuestion() {
+  const r = await post('/api/admin/question', {
+    level: Number($('qLevel').value), category: $('qCat').value, question: $('qText').value,
+    options: { A: $('qA').value, B: $('qB').value, C: $('qC').value, D: $('qD').value },
+    correct: $('qCorrect').value, qualifier: $('qQual').value === '1',
+  });
+  $('qMsg').textContent = r.ok ? 'Đã thêm câu hỏi id=' + r.id : 'Lỗi: ' + r.error;
+  refresh();
+}
+</script>
+</body>
+</html>
