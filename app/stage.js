@@ -29,37 +29,83 @@ function setAvatar(el, user, size) {
 }
 
 // ---------- âm thanh: giọng MC (file mp3) ----------
+// Engine phát MỚI (sửa lỗi lệch tiếng/hình):
+// - Mỗi key được gắn seq của cue sinh ra nó; luôn giữ tham chiếu tới Audio đang phát.
+// - Cue ƯU TIÊN (đúng/sai/chốt đáp án/lên ghế nóng/bỏ cuộc/quán quân/mốc an toàn):
+//   NGẮT clip đang phát ngay lập tức, xoá sạch hàng đợi, phát cue này trước.
+// - Trước khi phát bất kỳ key nào đang chờ cũng kiểm tra "độ tươi": key thuộc cue cũ,
+//   clip đọc câu hỏi không còn là câu đang mở, hay clip mở câu mà câu đã chốt/công bố
+//   → BỎ QUA, không phát nối đuôi sau khi màn hình đã sang cảnh khác.
 let audioUnlocked = false;
-const audioQueue = [];
+let audioQueue = [];           // [{key, seq}]
 let audioPlaying = false;
-let lastCueSeq = 0;
+let currentAudio = null;       // phần tử Audio đang phát (để ngắt ngay khi cần)
+let newestCueSeq = 0;          // seq của cue mới nhất đã nhận
+let newestCueKeys = new Set(); // các key thuộc cue mới nhất
+const PRIORITY_KEYS = new Set([
+  'mc/correct', 'mc/wrong', 'mc/locked', 'mc/hotseat-new',
+  'mc/walkaway', 'mc/champion', 'mc/milestone5', 'mc/milestone10',
+]);
 function cueUrl(key) {
   if (key.startsWith('mc/')) return '/audio/mc/' + key.slice(3) + '.mp3';
   if (key.startsWith('q/')) return '/audio/questions/' + key.slice(2) + '.mp3';
   return null;
 }
+function stopCurrentAudio() {
+  if (currentAudio) {
+    try { currentAudio.onended = null; currentAudio.onerror = null; currentAudio.pause(); } catch (_) {}
+    currentAudio = null;
+  }
+  audioPlaying = false;
+}
+function cueKeyFresh(entry) {
+  // (a) key thuộc cue cũ hơn cue mới nhất và không nằm trong cue mới nhất → đã lỗi thời
+  if (entry.seq < newestCueSeq && !newestCueKeys.has(entry.key)) return false;
+  if (!S) return true;
+  // (b) clip đọc câu hỏi: chỉ phát khi đúng câu đang mở trên sân khấu
+  if (entry.key.startsWith('q/')) {
+    if (!S.question || S.question.audioKey !== entry.key) return false;
+    if (!['qualifier', 'question'].includes(S.phase)) return false;
+  }
+  // (c) clip mở câu (giới thiệu cấp độ/vòng loại): câu đã chốt hoặc đã công bố → không đọc nữa
+  if (/^mc\/(level-\d+|qualifier-intro|qualifier-again|next-qualifier)$/.test(entry.key)) {
+    if (['locked', 'reveal', 'qualifier_reveal', 'run_end', 'intermission'].includes(S.phase)) return false;
+  }
+  return true;
+}
 function playNextCue() {
   if (audioPlaying || muted) return;
-  const key = audioQueue.shift();
-  if (!key) return;
-  const url = cueUrl(key);
-  if (!url) { playNextCue(); return; }
-  const a = new Audio(url);
-  audioPlaying = true;
-  const done = () => { audioPlaying = false; playNextCue(); };
-  a.onended = done;
-  a.onerror = done; // clip chưa sinh → bỏ qua, không kẹt hàng đợi
-  const p = a.play();
-  if (p && p.catch) p.catch(() => { // trình duyệt chặn autoplay: chờ người dùng chạm 1 lần
-    audioPlaying = false;
-    audioQueue.unshift(key);
-    $('soundHint').classList.remove('got');
-  });
+  while (audioQueue.length) {
+    const entry = audioQueue.shift();
+    if (!cueKeyFresh(entry)) continue; // clip đã lỗi thời → bỏ qua
+    const url = cueUrl(entry.key);
+    if (!url) continue;
+    const a = new Audio(url);
+    currentAudio = a;
+    audioPlaying = true;
+    const done = () => { if (currentAudio === a) currentAudio = null; audioPlaying = false; playNextCue(); };
+    a.onended = done;
+    a.onerror = done; // clip chưa sinh → bỏ qua, không kẹt hàng đợi
+    const p = a.play();
+    if (p && p.catch) p.catch(() => { // trình duyệt chặn autoplay: chờ người dùng chạm 1 lần
+      if (currentAudio === a) currentAudio = null;
+      audioPlaying = false;
+      audioQueue.unshift(entry);
+      $('soundHint').classList.remove('got');
+    });
+    return;
+  }
 }
 function enqueueCue(cue) {
-  if (!cue || cue.seq <= lastCueSeq) return;
-  lastCueSeq = cue.seq;
-  for (const k of cue.keys) audioQueue.push(k);
+  if (!cue || cue.seq <= newestCueSeq) return;
+  newestCueSeq = cue.seq;
+  newestCueKeys = new Set(cue.keys);
+  if (cue.keys.some(k => PRIORITY_KEYS.has(k))) {
+    // ƯU TIÊN: ngắt ngay clip đang phát + xoá hàng đợi chờ → tiếng khớp với hình
+    stopCurrentAudio();
+    audioQueue = [];
+  }
+  for (const k of cue.keys) audioQueue.push({ key: k, seq: cue.seq });
   if (audioQueue.length > 8) audioQueue.splice(0, audioQueue.length - 8);
   playNextCue();
 }
@@ -77,7 +123,8 @@ $('muteBtn').addEventListener('click', e => {
   e.stopPropagation();
   muted = !muted;
   $('muteBtn').textContent = muted ? '🔇' : '🔊';
-  if (!muted) { unlockAudio(); }
+  if (muted) { stopCurrentAudio(); audioQueue = []; } // tắt tiếng = dừng ngay clip đang phát
+  else { unlockAudio(); }
 });
 if (muted) $('muteBtn').textContent = '🔇';
 if (OBS) { $('muteBtn').style.display = 'none'; $('debugChip').style.display = 'none'; }
@@ -240,7 +287,9 @@ function render() {
         <div class="ttime">${fmtMs(t.elapsedMs)}</div>
         <div class="tbonus">+${100 + (t.bonus || 0)}</div>
       </div>`).join('') : '<div class="board-empty">Chưa có ai trả lời đúng câu này.</div>';
-    $('top5Stats').textContent = `Đáp án đúng: ${phase === 'reveal' ? S.lastReveal.correctLetter : S.lastQualifier.correctLetter} · ${src.correctCount}/${src.totalAnswers} người trả lời đúng (${src.pctCorrect}%)`;
+    // Chỉ nêu số người trả lời ĐÚNG — không lặp lại tổng số người trả lời ở đây:
+    // tổng số người trả lời của câu chỉ có MỘT chỗ hiển thị duy nhất là #answerCount (panelInfo).
+    $('top5Stats').textContent = `Đáp án đúng: ${phase === 'reveal' ? S.lastReveal.correctLetter : S.lastQualifier.correctLetter} · ${src.correctCount} người trả lời đúng (${src.pctCorrect}%)`;
   }
   if (showBoard) {
     const rs = S.runSummary;
@@ -261,6 +310,8 @@ function render() {
   // Panel thông tin thường
   $('likeBar').style.width = Math.min(100, (S.likeMeter.cur / S.likeMeter.target) * 100) + '%';
   $('likeCount').textContent = `${S.likeMeter.cur}/${fmtPts(S.likeMeter.target)}`;
+  // Bộ đếm người trả lời DUY NHẤT trên sân khấu — lấy thẳng từ state của server
+  // (question.answersCount = số người đã trả lời câu hiện tại, server là nguồn chuẩn).
   $('answerCount').textContent = q && ['qualifier', 'question'].includes(phase)
     ? `Đã có ${q.answersCount} người trả lời câu này` : '';
   $('instruction').textContent =
@@ -273,11 +324,18 @@ function render() {
 
   // Debug chip
   if (!OBS) $('debugChip').textContent = `phase=${S.phase} feed=${S.feedStatus} viewers=${S.viewerCount}`;
+
+  updateTimer(); // mỗi gói state (10 lần/giây) cũng làm mới đồng hồ ngay
 }
 
 // ---------- vòng lặp hiển thị đồng hồ ----------
-function raf() {
-  if (S && S.timer) {
+// Thời gian còn lại luôn TÍNH TỪ HẠN CHÓT phía server (timer.endsAt - giờ server),
+// không tự đếm lùi cục bộ → không trôi, không đứng yên khi state về thưa.
+// updateTimer được gọi từ 3 nguồn: rAF (mượt khi tab đang vẽ), interval 200ms
+// (vẫn chạy khi rAF bị throttle ở tab nền/nguồn OBS) và cuối mỗi render().
+function updateTimer() {
+  if (!S) return;
+  if (S.timer) {
     const remain = Math.max(0, S.timer.endsAt - (Date.now() + serverOffset));
     const frac = S.timer.totalMs ? remain / S.timer.totalMs : 0;
     const ring = document.querySelector('#seatRing .ring-fg');
@@ -287,11 +345,12 @@ function raf() {
     const whole = Math.ceil(remain / 1000);
     if (S.phase === 'question' && !S.timer.frozen && whole <= 5 && whole >= 1 && whole !== lastTickSecond) { lastTickSecond = whole; sfx.tick(); }
   } else {
-    $('seatTimer').textContent = S && S.phase === 'intermission' ? Math.max(0, Math.ceil((S.phaseEndsAt - (Date.now() + serverOffset)) / 1000)) + 's' : '';
+    $('seatTimer').textContent = S.phase === 'intermission' ? Math.max(0, Math.ceil((S.phaseEndsAt - (Date.now() + serverOffset)) / 1000)) + 's' : '';
   }
-  requestAnimationFrame(raf);
 }
+function raf() { updateTimer(); requestAnimationFrame(raf); }
 requestAnimationFrame(raf);
+setInterval(updateTimer, 200);
 
 // ---------- kết nối WS ----------
 function connect() {
