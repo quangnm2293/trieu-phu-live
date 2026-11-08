@@ -40,7 +40,7 @@ module.exports = {
   READING_TEST_MS: envInt('READING_TEST_MS', 0), // >0: ép cửa sổ đọc = đúng số ms này (QA/test — ghi đè durations)
   REVEAL_TIME_MS: envInt('REVEAL_TIME_MS', 5000), // hiện đáp án + TOP 5
   LOCKED_MS: envInt('LOCKED_MS', 1500), // hiện trạng thái "đã chốt đáp án" trước khi công bố
-  INTERMISSION_MS: envInt('INTERMISSION_MS', 20000), // nghỉ giữa các lượt
+  INTERMISSION_MS: envInt('INTERMISSION_MS', 10000), // nghỉ giữa các lượt (đại ca yêu cầu rút ngắn tối 08/11 — cũ 20s)
   RUN_END_MS: envInt('RUN_END_MS', 6000), // bảng tổng kết lượt
 
   // --- Thang điểm (ĐIỂM trong game — không phải tiền thật) ---
