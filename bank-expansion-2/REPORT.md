@@ -110,4 +110,4 @@ Bước tiếp theo (ngoài phạm vi đợt này): merge 2 file chính vào `ap
 - **NAME-JOKE: PASS** (21 mục OK — cửa sổ đọc theo duration + đệm, trần 25s, tắt nhạc bằng cờ).
 - **POLL-STALE: PASS** — test hồi quy mới kèm đợt này cho lỗi "tỉ lệ phiếu khán giả câu cũ hiện đè lên câu mới": 0/24 mẫu trong pha đọc rò tỉ lệ cũ; phiếu vẫn hiện đúng ở câu đã bầu. (Kèm trong commit này: sửa `game.js` gắn qid vào kết quả phiếu + `stage.js`/`stage.html`/`stage.css` không render phiếu trong pha đọc, huy hiệu "MC ĐANG ĐỌC" khối vàng lớn và băng lóe "MC ĐỌC XONG" khi cửa sổ mở.)
 
-**Commit:** __COMMIT_LINE__
+**Commit:** 09e9f08 (commit ghép ngân hàng đợt 2 — push origin/main, HEAD == origin/main)
