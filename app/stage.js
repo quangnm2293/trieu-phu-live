@@ -69,6 +69,8 @@ const OPEN_CLIP_PHASES = [
 function cueUrl(key) {
   if (key.startsWith('mc/')) return '/audio/mc/' + key.slice(3) + '.mp3';
   if (key.startsWith('q/')) return '/audio/questions/' + key.slice(2) + '.mp3';
+  // Clip đọc TÊN tổng hợp động trên server (macOS `say`) — tên file đã gồm đuôi (.mp3/.m4a/…)
+  if (key.startsWith('dyn/')) return '/audio/dynamic/' + key.slice(4);
   return null;
 }
 function stopCurrentAudio() {
@@ -131,7 +133,7 @@ let doneConfirmedFor = null;   // qid server ĐÃ XÁC NHẬN mở cửa sổ (o
 let doneInflight = null;       // { qid, attempts, timer } — lần gửi đang thử lại
 let doneRetryCount = 0;        // tổng số lần gửi lại (phục vụ test/gỡ lỗi)
 const DONE_RETRY_MS = 700;     // gửi lại mỗi 700ms tới khi server xác nhận
-const DONE_MAX_ATTEMPTS = 15;  // ~10s — quá thì thôi, cửa sổ dự phòng (trần 20s) sẽ mở
+const DONE_MAX_ATTEMPTS = 15;  // ~10s — quá thì thôi, cửa sổ dự phòng (trần 25s) sẽ mở
 function sendAudioDone(qid) {
   if (!qid || doneConfirmedFor === qid) return;
   // Đang thử lại cho đúng qid này rồi → không gửi chồng.
@@ -257,6 +259,7 @@ function unlockAudio() {
   $('soundHint').classList.add('got');
   ensureCtx();
   playNextCue();
+  syncMusic();
 }
 addEventListener('pointerdown', unlockAudio);
 addEventListener('keydown', unlockAudio);
@@ -271,9 +274,93 @@ $('muteBtn').addEventListener('click', e => {
     if (wasQ && S && S.question && S.question.audioKey === wasQ) sendAudioDone(wasQ.slice(2));
   }
   else { unlockAudio(); }
+  syncMusic(); // nhạc nền tôn trọng tắt tiếng: mute → fade-out dừng, bỏ mute → phát lại nếu đang pha nghỉ
 });
 if (muted) $('muteBtn').textContent = '🔇';
 if (OBS) { $('muteBtn').style.display = 'none'; $('debugChip').style.display = 'none'; }
+
+// ---------- nhạc nền lúc NGHỈ GIẢI LAO (mục F) ----------
+// Chỉ phát ở 2 pha nghỉ 'intermission' / 'run_end' — hai pha không có cue câu
+// hỏi. Vào pha nghỉ: fade-in ~1s tới âm lượng 0,35. Ra khỏi pha nghỉ: fade-out
+// ~1s rồi dừng — syncMusic được gọi TRƯỚC khi xử lý cue của state mới (xem
+// ws.onmessage) nên nhạc luôn rút trước khi clip MC của vòng loại/câu hỏi phát.
+// Tắt tiếng của stage (mute=1 / nút 🔇) thì nhạc cũng tắt. Playlist do server
+// gửi trong state.musicTracks (mọi .mp3 trong app/music/): phát NGẪU nhiên,
+// không lặp lại bài vừa phát, hết bài tự chuyển bài kế tiếp.
+const MUSIC_VOLUME = 0.35;
+const MUSIC_FADE_MS = 1000;
+const MUSIC_PHASES = ['intermission', 'run_end'];
+let musicAudio = null;     // phần tử Audio của bài đang phát
+let musicIdx = -1;         // vị trí bài hiện tại trong playlist
+let musicOn = false;       // nhạc đang (được yêu cầu) phát
+let musicFadeTimer = null; // interval fade đang chạy
+let musicPlayBlockedUntil = 0; // autoplay bị chặn → thử lại thưa hơn
+
+function musicShouldPlay() {
+  return !!(S && S.musicEnabled && Array.isArray(S.musicTracks) && S.musicTracks.length
+    && MUSIC_PHASES.includes(S.phase) && !muted);
+}
+function musicFadeTo(target, onDone) {
+  if (!musicAudio) { if (onDone) onDone(); return; }
+  if (musicFadeTimer) { clearInterval(musicFadeTimer); musicFadeTimer = null; }
+  const from = musicAudio.volume;
+  const steps = Math.max(1, Math.round(MUSIC_FADE_MS / 50));
+  let i = 0;
+  musicFadeTimer = setInterval(() => {
+    i++;
+    if (!musicAudio) { clearInterval(musicFadeTimer); musicFadeTimer = null; return; }
+    musicAudio.volume = Math.max(0, Math.min(1, from + (target - from) * (i / steps)));
+    if (i >= steps) {
+      clearInterval(musicFadeTimer); musicFadeTimer = null;
+      if (onDone) onDone();
+    }
+  }, 50);
+}
+function musicPlayCurrent() {
+  if (!musicAudio || !S || !S.musicTracks.length) return;
+  if (musicIdx < 0 || musicIdx >= S.musicTracks.length) musicIdx = 0;
+  const wantSrc = S.musicTracks[musicIdx];
+  const curSrc = musicAudio.getAttribute('src');
+  if (curSrc !== wantSrc) { try { musicAudio.src = wantSrc; } catch (_) {} }
+  if (Date.now() < musicPlayBlockedUntil) return;
+  const p = musicAudio.play();
+  if (p && p.catch) p.catch(() => { musicPlayBlockedUntil = Date.now() + 1500; });
+}
+function musicNext() {
+  if (!S || !S.musicTracks.length) return;
+  const n = S.musicTracks.length;
+  if (n > 1) { let i; do { i = Math.floor(Math.random() * n); } while (i === musicIdx); musicIdx = i; }
+  else musicIdx = 0;
+  if (musicAudio) { musicAudio.volume = MUSIC_VOLUME; }
+  musicPlayCurrent();
+}
+function syncMusic() {
+  const want = musicShouldPlay();
+  if (want && !musicOn) {
+    musicOn = true;
+    if (!musicAudio) {
+      musicAudio = new Audio();
+      musicAudio.onended = () => { if (musicOn) musicNext(); };
+      musicAudio.onerror = () => { if (musicOn) musicNext(); };
+    }
+    if (musicIdx < 0) musicIdx = Math.floor(Math.random() * S.musicTracks.length);
+    musicAudio.volume = 0;
+    musicPlayCurrent();
+    musicFadeTo(MUSIC_VOLUME);
+  } else if (!want && musicOn) {
+    musicOn = false;
+    musicFadeTo(0, () => { if (!musicOn && musicAudio) { try { musicAudio.pause(); } catch (_) {} } });
+  } else if (want && musicOn && musicAudio && musicAudio.paused) {
+    musicPlayCurrent(); // bị chặn autoplay lần trước → thử lại khi có state mới
+  }
+}
+// Hook kiểm thử (vô hại trên sóng): test CDP đọc trạng thái nhạc nền qua đây.
+window.__tpMusic = {
+  get on() { return musicOn; },
+  get playing() { return !!(musicAudio && !musicAudio.paused); },
+  get src() { return musicAudio ? (musicAudio.getAttribute('src') || '') : ''; },
+  get volume() { return musicAudio ? musicAudio.volume : 0; },
+};
 
 // ---------- hiệu ứng âm thanh tổng hợp (WebAudio) ----------
 let actx = null;
@@ -527,6 +614,7 @@ function connect() {
     try {
       S = JSON.parse(e.data);
       serverOffset = S.serverNow - Date.now();
+      syncMusic(); // nhạc nền rút TRƯỚC khi cue của pha mới được xử lý (không chồng lên MC)
       processStateCues(S);
       enforcePhaseExitStop(); // clip đọc câu hỏi không được phát tràn sang pha khác
       render();

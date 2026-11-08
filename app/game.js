@@ -8,6 +8,7 @@
 const fs = require('fs');
 const path = require('path');
 const CFG = require('./config');
+const { createNameTts } = require('./name-tts');
 
 const LETTERS = ['A', 'B', 'C', 'D'];
 
@@ -42,6 +43,7 @@ class Engine {
     this.loadBank();
     this.durations = {}; // {qid: giây} từ audio/durations.json (sinh bởi tools/gen-durations.js)
     this.loadDurations();
+    this.musicTracks = this.loadMusicTracks(); // nhạc nền lúc nghỉ (mục F) — đọc thư mục music/ 1 lần lúc khởi động
     this.users = new Map(); // uniqueId -> {uniqueId,nickname,avatarUrl,points,correctCount,followClaimed,lastShareAt}
     this.support = new Map(); // uniqueId -> {nickname,avatarUrl,points}
     this.usedIds = new Set();
@@ -70,6 +72,15 @@ class Engine {
     this.audioCue = null; // {seq, keys:[...]} — cue mới nhất (giữ tương thích ngược)
     this.cueLog = []; // nhật ký cue {seq, keys, ts} — state luôn kèm 5 cue gần nhất để stage không bỏ lỡ cue nào
     this.fastestRecord = null; // {ms, nickname}
+    // Đọc TÊN bằng TTS động (mục A/B): sinh MP3 bất đồng bộ trên máy chủ (macOS `say`),
+    // cache trong audio/dynamic/. Máy không có engine thì tự tắt êm.
+    this.nameTts = createNameTts({
+      dir: path.join(__dirname, 'audio', 'dynamic'),
+      cmdTemplate: CFG.NAME_TTS_CMD,
+      log: m => console.log(m),
+    });
+    this.lastJokeIdx = 0; // clip joke sai câu <5 vừa phát — tránh lặp lại ngay lần kế tiếp
+    this.pendingFastestCue = null; // {nickname, until} — chờ clip tên khán giả nhanh nhất sẵn sàng trong pha reveal
     this.giftPending = new Map();
     this.bigGift = null;
     this.dirty = false;
@@ -87,6 +98,15 @@ class Engine {
       const j = JSON.parse(fs.readFileSync(path.join(__dirname, 'audio', 'durations.json'), 'utf8'));
       this.durations = j.durations || j || {};
     } catch (_) { this.durations = {}; /* thiếu file → dùng READING_DEFAULT_MS */ }
+  }
+  /** Danh sách nhạc nền: mọi file .mp3 trong app/music/ là 1 bài trong playlist của stage. */
+  loadMusicTracks() {
+    try {
+      return fs.readdirSync(path.join(__dirname, 'music'))
+        .filter(f => f.toLowerCase().endsWith('.mp3'))
+        .sort()
+        .map(f => '/music/' + f);
+    } catch (_) { return []; }
   }
   /** Thời lượng clip đọc câu hỏi (ms) theo durations.json; thiếu mục → mặc định. */
   questionDurationMs(qid) {
@@ -107,7 +127,7 @@ class Engine {
     // Trần dự phòng (live 08/11: tín hiệu stage mất → game chờ hết clip dài nhất
     // ~39s mới mở cửa sổ, sân khấu đứng hình). Chỉ cắt ở đường DỰ PHÒNG — khi
     // stage báo audio-done đúng hạn thì cửa sổ mở đúng lúc MC đọc xong, không bị cắt.
-    if (CFG.READING_MAX_MS > 0) ms = Math.min(ms, CFG.READING_MAX_MS);
+    if (CFG.READING_FALLBACK_CAP_MS > 0) ms = Math.min(ms, CFG.READING_FALLBACK_CAP_MS);
     return ms;
   }
   /**
@@ -219,6 +239,17 @@ class Engine {
     if (this.announcements.length > 6) this.announcements.shift();
   }
 
+  // ---------- đọc tên bằng TTS động (mục A/B) ----------
+  // Khơi sinh clip tên (bất đồng bộ, không chặn game). Trả cacheKey hoặc null
+  // (tên sạch xong rỗng / máy không có engine TTS tên).
+  requestNameCue(kind, nickname) {
+    try { return this.nameTts.request(kind, nickname); } catch (_) { return null; }
+  }
+  // 'dyn/<file>' nếu clip tên đã sinh xong, null nếu chưa (→ bỏ qua lần đó).
+  nameTtsReadyKey(kind, nickname) {
+    try { return this.nameTts.readyKey(kind, nickname); } catch (_) { return null; }
+  }
+
   // ---------- rút câu hỏi ----------
   drawFrom(pool) {
     let cand = pool.filter(q => !this.usedIds.has(q.id));
@@ -294,6 +325,9 @@ class Engine {
       const w = this.users.get(winnerEntry.uid);
       this.announce('hotseat', `👑 ${w ? w.nickname : winnerEntry.uid} giành ghế nóng với đáp án đúng sau ${fmtMs(winnerEntry.elapsedMs)}!`);
       this.cue(['mc/hotseat-new']);
+      // Mục A: khơi sinh clip đọc tên người thắng NGAY từ lúc chốt vòng loại —
+      // có trọn thời gian màn công bố (~5s) để file kịp sẵn sàng trước startRun.
+      this.requestNameCue('hotseat', w ? w.nickname : winnerEntry.uid);
     } else {
       this.pendingHotseat = null;
       this.qualifierFails++;
@@ -312,6 +346,12 @@ class Engine {
       runAudience: new Map(), timeouts: 0,
     };
     this.cooldownUid = null; // ghế đã có chủ; cooldown áp dụng khi lượt này kết thúc
+    // Mục A: MC đọc tên người lên ghế nóng — phát SAU mc/hotseat-new (đã cue ở
+    // closeQualifier) và TRƯỚC lời mở câu 1. Khơi sinh lại ở đây cho các đường
+    // vào ghế trực tiếp (admin/QA); file chưa kịp xong thì bỏ qua lần đó.
+    this.requestNameCue('hotseat', u.nickname);
+    const nameKey = this.nameTtsReadyKey('hotseat', u.nickname);
+    if (nameKey) this.cue([nameKey]);
     this.startQuestion(now, 1);
   }
   startQuestion(now, level) {
@@ -503,6 +543,15 @@ class Engine {
       correctCount: res.correctCount, totalAnswers: res.totalAnswers, pctCorrect: res.pctCorrect,
       questionText: ctx.text,
     };
+    // Mục B: có khán giả trả lời đúng → khơi sinh clip đọc tên người NHANH NHẤT
+    // (top5[0]; scoreCtx đã loại chính người ghế nóng). Cue tên bắn trong pha
+    // reveal ngay khi file sẵn sàng (xem tick) — chưa kịp thì bỏ qua.
+    if (res.top5.length) {
+      const fastest = res.top5[0];
+      if (this.requestNameCue('fastest', fastest.nickname)) {
+        this.pendingFastestCue = { nickname: fastest.nickname, until: now + CFG.REVEAL_TIME_MS };
+      }
+    }
     if (correct) {
       const keys = ['mc/correct'];
       if (ctx.level === 5) { keys.push('mc/milestone5'); this.announce('milestone', '★ ĐÃ CHẠM MỐC AN TOÀN 2.000.000 ĐIỂM!'); }
@@ -510,7 +559,16 @@ class Engine {
       if (ctx.level === 15) keys.push('mc/champion');
       this.cue(keys);
     } else {
-      this.cue(['mc/wrong']);
+      const keys = ['mc/wrong'];
+      // Mục C: trả lời SAI (không tính hết giờ/DỪNG) ở câu 1–4 → thêm 1 câu joke
+      // trêu nhẹ ngay sau mc/wrong; không lặp lại joke của lần sai ngay trước.
+      if (ctx.hotseatResult === 'wrong' && ctx.level <= 4) {
+        let n;
+        do { n = 1 + Math.floor(Math.random() * 6); } while (n === this.lastJokeIdx);
+        this.lastJokeIdx = n;
+        keys.push(`mc/joke-wrong-${n}`);
+      }
+      this.cue(keys);
     }
     this.phase = 'reveal';
     this.phaseEndsAt = now + CFG.REVEAL_TIME_MS;
@@ -631,6 +689,16 @@ class Engine {
   // ---------- vòng tick ----------
   tick(now) {
     if (this.dirty && now - this.lastSave > 10000) this.save();
+    // Mục B: trong pha reveal, clip tên khán giả nhanh nhất hễ sinh xong là cue
+    // ngay (sau cue công bố kết quả); hết pha reveal mà chưa xong thì bỏ qua.
+    if (this.pendingFastestCue) {
+      const p = this.pendingFastestCue;
+      if (this.phase !== 'reveal' || now > p.until) this.pendingFastestCue = null;
+      else {
+        const key = this.nameTtsReadyKey('fastest', p.nickname);
+        if (key) { this.cue([key]); this.pendingFastestCue = null; }
+      }
+    }
     switch (this.phase) {
       case 'intermission':
         if (now >= this.phaseEndsAt) this.startQualifier(now);
@@ -809,6 +877,8 @@ class Engine {
       announcements: this.announcements,
       audioCue: this.audioCue,
       audioCues: this.cueLog.slice(-5), // 5 cue gần nhất — stage xử lý mọi cue có seq > mốc đã nhận, theo thứ tự
+      musicEnabled: CFG.MUSIC_ENABLED, // nhạc nền lúc nghỉ (mục F) — stage tự quản phát/dừng theo pha
+      musicTracks: this.musicTracks,
       fastestRecord: this.fastestRecord,
       bigGift: this.bigGift && now - this.bigGift.ts < 8000 ? this.bigGift : null,
     };

@@ -16,7 +16,7 @@ const ROOT = __dirname;
 const engine = new Engine(path.join(ROOT, 'data'), path.join(ROOT, CFG.BANK_PATH));
 
 // ---------------- HTTP ----------------
-const MIME = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.json': 'application/json', '.mp3': 'audio/mpeg' };
+const MIME = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.json': 'application/json', '.mp3': 'audio/mpeg', '.m4a': 'audio/mp4', '.aiff': 'audio/aiff', '.aif': 'audio/aiff', '.wav': 'audio/wav' };
 function sendFile(res, file) {
   fs.readFile(file, (err, buf) => {
     if (err) { res.writeHead(404); res.end('not found'); return; }
@@ -127,6 +127,12 @@ const server = http.createServer(async (req, res) => {
   if (p.startsWith('/audio/')) {
     const file = path.join(ROOT, 'audio', path.normalize(p.slice('/audio/'.length)));
     if (!file.startsWith(path.join(ROOT, 'audio'))) { res.writeHead(403); return res.end('forbidden'); }
+    return sendFile(res, file);
+  }
+  if (p.startsWith('/music/')) {
+    // Nhạc nền lúc nghỉ (mục F): playlist từ thư mục app/music/
+    const file = path.join(ROOT, 'music', path.normalize(p.slice('/music/'.length)));
+    if (!file.startsWith(path.join(ROOT, 'music'))) { res.writeHead(403); return res.end('forbidden'); }
     return sendFile(res, file);
   }
   if (p === '/api/state') return json(res, engine.getState());

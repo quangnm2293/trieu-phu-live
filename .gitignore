@@ -6,3 +6,6 @@ node_modules/
 app/data/
 # Binary cloudflared do start-live.sh tự tải về
 /tools/
+
+# Clip đọc tên sinh động trên máy chủ (macOS say) — không commit
+app/audio/dynamic/

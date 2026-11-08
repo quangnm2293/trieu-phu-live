@@ -4,9 +4,14 @@ Game đố vui tương tác cho **TikTok LIVE** theo format "Ai là triệu phú
 khán giả comment đáp án để tranh ghế nóng, người đúng & nhanh nhất lên ghế,
 leo thang 15 câu (đỉnh 150.000.000 **điểm trong game** — không quy đổi tiền
 thật), khán giả chơi cùng mọi câu với bảng TOP 5 đúng–nhanh nhất, có giọng
-MC đọc câu hỏi (TTS Meta, giọng MAI_03, sinh sẵn 1.031 clip cho 1.000 câu hỏi).
+MC đọc câu hỏi (TTS Meta, giọng MAI_03, sinh sẵn 1.037 clip cho 1.000 câu hỏi).
 **Luật giờ:** MC đọc xong câu hỏi mới bắt đầu tính giờ trả lời — trong lúc đọc,
 đáp án gửi vào chưa được tính (xem `app/README.md` mục 2).
+MC còn **đọc tên người lên ghế nóng + khán giả đúng–nhanh nhất mỗi câu** bằng
+TTS động trên máy chủ (lệnh `say` của macOS, ưu tiên giọng Việt "Linh"), đọc
+thêm **câu joke khi ghế nóng sai ở câu 1–4**, và sân khấu tự phát **nhạc nền
+lúc nghỉ giải lao** từ thư mục `app/music/` (thả file remix của bạn vào đó).
+Chi tiết: `app/README.md` mục 2b/2c.
 
 Sự kiện live (chat/quà/like/follow/share) lấy từ dịch vụ anh em
 [tiktok-live-feed](https://github.com/quangnm2293/tiktok-live-feed).

@@ -34,7 +34,7 @@ module.exports = {
   // Cửa sổ trả lời mở theo tín hiệu stage báo đọc xong (POST /api/stage/audio-done)
   // hoặc — dự phòng nếu stage không báo — khi hết thời lượng clip + đệm dưới đây.
   READING_BUFFER_MS: envInt('READING_BUFFER_MS', 1500), // đệm sau thời lượng clip (tín hiệu dự phòng)
-  READING_MAX_MS: envInt('READING_MAX_MS', 20000), // TRẦN cửa sổ đọc dự phòng: clip dài nhất ~39s mà tín hiệu stage mất thì game cũng chỉ chờ tối đa 20s rồi tự mở cửa sổ (tránh đứng hình cả buổi như live 08/11)
+  READING_FALLBACK_CAP_MS: envInt('READING_FALLBACK_CAP_MS', envInt('READING_MAX_MS', 25000)), // TRẦN cửa sổ đọc dự phòng: clip dài nhất ~39s mà tín hiệu stage mất hẳn thì game cũng chỉ chờ tối đa 25s rồi tự mở cửa sổ (tránh đứng hình như live 08/11). Tên env cũ READING_MAX_MS vẫn được tôn trọng nếu có.
   READING_DEFAULT_MS: envInt('READING_DEFAULT_MS', 12000), // thời lượng giả định khi durations.json thiếu mục
   READING_SCALE: envFloat('READING_SCALE', 0), // >0: nhân thời lượng clip (hiệu chỉnh thực tế nếu cần)
   READING_TEST_MS: envInt('READING_TEST_MS', 0), // >0: ép cửa sổ đọc = đúng số ms này (QA/test — ghi đè durations)
@@ -58,6 +58,15 @@ module.exports = {
   // --- Like / Nhiệt huyết ---
   LIKE_METER_TARGET: envInt('LIKE_METER_TARGET', 1000),
   LIKE_TIME_BONUS_MS: envInt('LIKE_TIME_BONUS_MS', 10000),
+
+  // --- Đọc TÊN người chơi bằng TTS động (mục A/B) ---
+  // Trên Mac của chủ phòng: dùng lệnh `say` của macOS (ưu tiên giọng Việt 'Linh') → MP3 trong audio/dynamic/.
+  // NAME_TTS_CMD: lệnh thay thế dạng mẫu, có 2 placeholder {text} và {out} (vd cho QA trên Linux trỏ vào stub).
+  // Để trống = tự phát hiện `say` trên macOS; máy không có (Linux) → tính năng tự tắt êm, game chạy bình thường.
+  NAME_TTS_CMD: process.env.NAME_TTS_CMD || '',
+
+  // --- Nhạc nền lúc nghỉ giải lao (mục F) ---
+  MUSIC_ENABLED: envBool('MUSIC_ENABLED', true), // phát nhạc thư mục music/ ở pha intermission/run_end; tắt bằng env MUSIC_ENABLED=0
 
   // --- Khác ---
   HOTSEAT_COOLDOWN_RUNS: envInt('HOTSEAT_COOLDOWN_RUNS', 1),
