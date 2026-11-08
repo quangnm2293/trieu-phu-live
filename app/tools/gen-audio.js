@@ -293,6 +293,12 @@ async function main() {
     missing: results.missing,
   };
   fs.writeFileSync(path.join(AUDIO_DIR, 'manifest.json'), JSON.stringify(manifest, null, 1));
+  // Cập nhật luôn durations.json — server dựa vào đó để tính cửa sổ "MC đang đọc"
+  // (đọc xong mới tính giờ). Thêm câu hỏi mới → chạy gen-audio là đủ, khỏi chạy tay.
+  try {
+    const durs = await require('./gen-durations').generate(AUDIO_DIR);
+    console.log(`AUDIO: durations.json cập nhật (${Object.keys(durs).length} clip) — cửa sổ đọc của server đã khớp giọng mới`);
+  } catch (e) { console.log('AUDIO: KHÔNG cập nhật được durations.json —', e.message, '(server sẽ dùng thời lượng mặc định; chạy node tools/gen-durations.js để sửa)'); }
   console.log(`AUDIO: đã sinh ${results.ok.length}/${jobs.length} clip (MC cố định ${Object.keys(mc).length} + câu hỏi ${bank.length})`);
   if (results.missing.length) console.log('AUDIO: còn thiếu ' + results.missing.length + ' clip: ' + results.missing.slice(0, 20).join(', ') + (results.missing.length > 20 ? ' …' : ''));
   console.log('AUDIO: manifest → app/audio/manifest.json');

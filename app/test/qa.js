@@ -33,6 +33,8 @@ async function waitFor(fn, desc, timeout = 25000) {
   throw new Error('timeout chờ: ' + desc);
 }
 const waitPhase = (phase, timeout) => waitFor(async () => { const s = await get('/api/state'); return s.phase === phase ? s : null; }, 'phase=' + phase, timeout);
+// Chờ cửa sổ trả lời MỞ (hết pha "MC đang đọc") — đáp án gửi trong lúc đọc bị engine bỏ qua.
+const waitOpen = (timeout) => waitFor(async () => { const s = await get('/api/state'); return s.question && s.question.answersOpen ? s : null; }, 'cửa sổ trả lời mở', timeout);
 const wrongOf = (correct, removed = []) => ['A', 'B', 'C', 'D'].find(l => l !== correct && !removed.includes(l));
 
 async function main() {
@@ -49,6 +51,7 @@ async function main() {
     REVEAL_TIME_MS: '1500', LOCKED_MS: '300', QUESTION_TIME_MS: '20000',
     POLL_TIME_MS: '3000', RUN_END_MS: '1200',
     LIKE_METER_TARGET: '50', LIKE_TIME_BONUS_MS: '10000',
+    READING_TEST_MS: '2000', // cửa sổ "MC đang đọc" cố định 2s để QA tất định (mục 13 kiểm riêng pha đọc)
   };
   const srv = spawn(process.execPath, [path.join(APP, 'server.js')], { env, stdio: 'pipe' });
   let srvLog = '';
@@ -61,6 +64,7 @@ async function main() {
 
     // ============ 1) VÒNG LOẠI: đúng + nhanh nhất lên ghế ============
     let s = await waitPhase('qualifier');
+    await waitOpen(); // hết pha đọc mới gửi đáp án (gửi lúc đọc = bị bỏ qua)
     let dbg = await get('/api/admin/state');
     const firstQualifierId = dbg.debug.questionId;
     const qc = dbg.debug.correct;
@@ -76,6 +80,7 @@ async function main() {
 
     // ============ 2) CÂU 1: khóa đáp án đầu tiên + TOP 5/% đúng khán giả ============
     s = await waitFor(async () => { const x = await get('/api/state'); return x.phase === 'question' && x.hotseat ? x : null; }, 'vào câu 1');
+    await waitOpen();
     dbg = await get('/api/admin/state');
     check(dbg.debug.hotseatUid === 'user_a', 'lượt ghế nóng bắt đầu với user_a');
     check(s.question.audioKey === 'q/' + dbg.debug.questionId, 'state có audio key của câu hiện tại (' + s.question.audioKey + ')');
@@ -99,11 +104,13 @@ async function main() {
     sim('user_a', 'Bạn A', '50');
     s = await waitFor(async () => { const x = await get('/api/admin/state'); return x.debug.removed.length === 2 ? x : null; }, '50:50 áp dụng');
     check(s.debug.removed.length === 2 && !s.debug.removed.includes(s.debug.correct), '50:50 loại đúng 2 đáp án SAI');
+    await waitOpen();
     sim('user_a', 'Bạn A', s.debug.correct);
     s = await waitFor(async () => { const x = await get('/api/state'); return x.phase === 'question' && x.hotseat && x.hotseat.level === 3 ? x : null; }, 'lên câu 3');
     check(true, 'qua câu 2 bằng đáp án đúng sau 50:50');
 
     // ============ 4) TRỢ GIÚP HỎI KHÁN GIẢ (đóng băng giờ + % phiếu) ============
+    await waitOpen(); // cần timer tồn tại (timer chỉ có khi cửa sổ đã mở)
     dbg = await get('/api/admin/state');
     const c3 = dbg.debug.correct;
     const before = await get('/api/state');
@@ -127,17 +134,20 @@ async function main() {
     sim('user_a', 'Bạn A', 'doi');
     s = await waitFor(async () => { const x = await get('/api/admin/state'); return x.debug.questionId && x.debug.questionId !== qBeforeSwap ? x : null; }, 'đổi câu');
     check(s.question.level === 4, 'đổi câu: câu mới CÙNG cấp độ (câu 4)');
+    await waitOpen(); // câu mới sau ĐỔI cũng qua pha đọc trước
     sim('user_a', 'Bạn A', s.debug.correct);
     s = await waitFor(async () => { const x = await get('/api/state'); return x.phase === 'question' && x.hotseat && x.hotseat.level === 5 ? x : null; }, 'lên câu 5');
     check(true, 'qua câu 4 sau khi đổi câu');
 
     // ============ 6) LEO TỚI CÂU 7 RỒI SAI → RƠI VỀ MỐC 2.000.000 ============
     for (const lv of [5, 6]) {
+      await waitOpen();
       dbg = await get('/api/admin/state');
       sim('user_a', 'Bạn A', dbg.debug.correct);
       await waitFor(async () => { const x = await get('/api/state'); return x.phase === 'question' && x.hotseat && x.hotseat.level === lv + 1 ? x : null; }, 'lên câu ' + (lv + 1));
     }
     check(true, 'leo qua mốc câu 5, tới câu 7');
+    await waitOpen();
     dbg = await get('/api/admin/state');
     sim('user_a', 'Bạn A', wrongOf(dbg.debug.correct, dbg.debug.removed));
     s = await waitPhase('run_end');
@@ -154,6 +164,7 @@ async function main() {
     await post('/api/sim/hotseat', { uniqueId: 'user_x', nickname: 'Bạn X' });
     s = await waitFor(async () => { const x = await get('/api/state'); return x.phase === 'question' && x.hotseat && x.hotseat.level === 1 ? x : null; }, 'user_x vào ghế');
     for (const lv of [1, 2]) {
+      await waitOpen();
       dbg = await get('/api/admin/state');
       sim('user_x', 'Bạn X', dbg.debug.correct);
       await waitFor(async () => { const x = await get('/api/state'); return x.phase === 'question' && x.hotseat && x.hotseat.level === lv + 1 ? x : null; }, 'user_x lên câu ' + (lv + 1));
@@ -208,6 +219,81 @@ async function main() {
     const { validateBank } = require(path.join(APP, 'test', 'validate-bank.js'));
     const vr = validateBank(bank);
     check(vr.errors.length === 0, `ngân hàng hợp lệ: ${vr.total} câu, câu loại ${vr.qualifier}` + (vr.errors.length ? ' — lỗi: ' + vr.errors.join('; ') : ''));
+
+    // ============ 13) PHA ĐỌC CỦA MC: đọc xong mới tính giờ ============
+    // 13a) Vòng loại cũng đi qua đủ hai trạng thái: đang đọc (reading) → cửa sổ mở (answersOpen)
+    {
+      const seen = { qid: null, reading: false, open: false };
+      await waitFor(async () => {
+        const x = await get('/api/state');
+        if (x.phase === 'qualifier' && x.question) {
+          if (seen.qid !== x.question.audioKey) { seen.qid = x.question.audioKey; seen.reading = false; seen.open = false; }
+          if (x.question.reading) seen.reading = true;
+          if (x.question.answersOpen) seen.open = true;
+          return seen.reading && seen.open ? x : null;
+        }
+        return null;
+      }, 'vòng loại: reading → answersOpen', 40000);
+      check(true, 'vòng loại cũng theo luồng đọc → mở cửa sổ (reading trước, answersOpen sau)');
+    }
+    // 13b) Đáp án trong lúc đọc bị BỎ QUA (khán giả + ghế nóng); audio-done sai qid không mở được cửa sổ
+    await post('/api/sim/hotseat', { uniqueId: 'user_r', nickname: 'Bạn R' });
+    s = await waitFor(async () => { const x = await get('/api/state'); return x.phase === 'question' && x.hotseat && x.question && x.question.reading ? x : null; }, 'user_r vào ghế, đang đọc');
+    dbg = await get('/api/admin/state');
+    const rQid = dbg.debug.questionId, rc = dbg.debug.correct;
+    check(s.timer === null && s.question.answersOpen === false, 'đang đọc: chưa có đồng hồ trả lời (timer=null), cửa sổ chưa mở');
+    sim('fan_r', 'Fan R', rc);            // khán giả trả lời đúng TRONG lúc đọc
+    sim('user_r', 'Bạn R', rc);           // ghế nóng trả lời đúng TRONG lúc đọc
+    await sleep(500);
+    dbg = await get('/api/admin/state');
+    s = await get('/api/state');
+    check(Object.keys(dbg.debug.answers).length === 0 && s.phase === 'question' && !s.question.hotseatLocked && s.question.reading,
+      'đáp án gửi trong lúc MC đọc bị BỎ QUA (không khóa, không đếm — cả khán giả lẫn ghế nóng)');
+    let doneRes = await post('/api/stage/audio-done', { qid: 'qid-khong-ton-tai' });
+    check(doneRes.opened === false, 'audio-done với qid lạ bị bỏ qua (opened=false)');
+    s = await get('/api/state');
+    check(s.question.reading === true, 'cửa sổ vẫn đóng sau audio-done sai qid');
+    // 13c) audio-done đúng qid → cửa sổ mở SỚM (trước hạn dự phòng 2000ms); elapsed tính từ mốc mở
+    const tDone = Date.now();
+    doneRes = await post('/api/stage/audio-done', { qid: rQid });
+    check(doneRes.opened === true, 'audio-done đúng qid → mở cửa sổ ngay (opened=true)');
+    s = await get('/api/state');
+    check(s.question.answersOpen === true && !!s.timer && Date.now() - tDone < 1500,
+      'cửa sổ mở sớm nhờ tín hiệu stage (không chờ hết cửa sổ dự phòng)');
+    await sleep(300); sim('fan_r', 'Fan R', rc);   // chính người lúc nãy — giờ phải được tính
+    dbg = await waitFor(async () => { const x = await get('/api/admin/state'); return x.debug.answers.fan_r ? x : null; }, 'đáp án fan_r sau khi mở được ghi', 6000);
+    check(dbg.debug.answers.fan_r.letter === rc && dbg.debug.answers.fan_r.elapsedMs < 1500,
+      `trả lời lại sau khi mở → được tính, elapsed đo từ MỐC MỞ (${dbg.debug.answers.fan_r.elapsedMs}ms — nhỏ hơn nhiều thời gian đọc 2000ms)`);
+    sim('user_r', 'Bạn R', rc);
+    s = await waitFor(async () => { const x = await get('/api/state'); return x.phase === 'question' && x.hotseat && x.hotseat.level === 2 ? x : null; }, 'user_r lên câu 2');
+    check(true, 'ghế nóng qua câu 1 sau khi cửa sổ mở');
+    // 13d) Không có tín hiệu nào → cửa sổ TỰ mở đúng hạn dự phòng (không sớm hơn hẳn, không kẹt)
+    {
+      const first = await waitFor(async () => { const x = await get('/api/state'); return x.phase === 'question' && x.question && x.question.reading ? x : null; }, 'câu 2 đang đọc');
+      const t0 = Date.now();
+      const opened = await waitFor(async () => { const x = await get('/api/state'); return x.question && x.question.answersOpen ? x : null; }, 'câu 2 tự mở (dự phòng)', 8000);
+      const waited = Date.now() - t0;
+      check(waited >= 1000 && waited <= 3600, `không có tín hiệu stage → cửa sổ tự mở theo hạn dự phòng (chờ ${waited}ms, kỳ vọng ≈2000ms)`);
+      check(opened.timer && opened.timer.remainingMs > 15000, 'sau khi tự mở: đồng hồ trả lời chạy đủ 20s của QA');
+    }
+    // 13e) 50:50 dùng được NGAY trong lúc đọc (câu 3)
+    await waitOpen();
+    dbg = await get('/api/admin/state');
+    sim('user_r', 'Bạn R', dbg.debug.correct);
+    s = await waitFor(async () => { const x = await get('/api/state'); return x.phase === 'question' && x.hotseat && x.hotseat.level === 3 && x.question && x.question.reading ? x : null; }, 'user_r lên câu 3, đang đọc');
+    sim('user_r', 'Bạn R', '50');
+    s = await waitFor(async () => { const x = await get('/api/admin/state'); return x.debug.removed.length === 2 ? x : null; }, '50:50 trong lúc đọc', 6000);
+    check(s.debug.removed.length === 2 && s.debug.reading === true, 'trợ giúp 50:50 áp dụng NGAY trong lúc MC đang đọc');
+    await waitOpen();
+    dbg = await get('/api/admin/state');
+    sim('user_r', 'Bạn R', dbg.debug.correct);
+    s = await waitFor(async () => { const x = await get('/api/state'); return x.phase === 'question' && x.hotseat && x.hotseat.level === 4 ? x : null; }, 'user_r lên câu 4');
+    check(true, 'qua câu 3 bằng đáp án đúng sau 50:50 trong lúc đọc');
+    // dọn lượt user_r để không ảnh hưởng phần sau (trả lời sai ở câu 4)
+    await waitOpen();
+    dbg = await get('/api/admin/state');
+    sim('user_r', 'Bạn R', wrongOf(dbg.debug.correct, dbg.debug.removed));
+    await waitPhase('run_end');
   } catch (e) {
     failures++;
     console.log('QA: NGOẠI LỆ — ' + e.message);

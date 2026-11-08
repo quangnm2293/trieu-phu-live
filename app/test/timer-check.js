@@ -33,7 +33,7 @@ function req(method, p, body) {
 
 (async () => {
   const child = spawn(process.execPath, [path.join(__dirname, '..', 'server.js')], {
-    env: { ...process.env, PORT: String(PORT), FEED_URL: 'ws://127.0.0.1:9/events', QUESTION_TIME_MS: '9000', INTERMISSION_MS: '1200' },
+    env: { ...process.env, PORT: String(PORT), FEED_URL: 'ws://127.0.0.1:9/events', QUESTION_TIME_MS: '9000', INTERMISSION_MS: '1200', READING_TEST_MS: '300' },
     stdio: 'ignore',
   });
   try {

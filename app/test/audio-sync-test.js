@@ -96,6 +96,7 @@ async function main() {
     REVEAL_TIME_MS: '1500', LOCKED_MS: '300', QUESTION_TIME_MS: '20000',
     POLL_TIME_MS: '3000', RUN_END_MS: '1200',
     LIKE_METER_TARGET: '50', LIKE_TIME_BONUS_MS: '10000',
+    READING_TEST_MS: '600', // cửa sổ đọc ngắn tất định — đáp án vòng loại phải chờ cửa sổ mở
   };
   const srv = spawn(process.execPath, [path.join(APP, 'server.js')], { env, stdio: 'pipe' });
   let srvLog = '';
@@ -132,6 +133,8 @@ async function main() {
 
     // ============ (a) hai cue liên tiếp: hotseat-new → level-1, đúng thứ tự ============
     await waitFor(async () => { const s = await get('/api/state'); return s.phase === 'qualifier' ? s : null; }, 'vào vòng loại');
+    // Chờ cửa sổ trả lời MỞ (hết pha đọc của MC) mới gửi đáp án — gửi trong lúc đọc bị bỏ qua
+    await waitFor(async () => { const s = await get('/api/state'); return s.question && s.question.answersOpen ? s : null; }, 'cửa sổ vòng loại mở');
     const dbg = await get('/api/admin/state');
     const qc = dbg.debug.correct;
     sim('user_c', 'Bạn C', wrongOf(qc));

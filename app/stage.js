@@ -111,9 +111,29 @@ function enforcePhaseExitStop() {
     playNextCue();
   }
 }
+// ---------- tín hiệu "MC đã đọc xong câu hỏi" → server mở cửa sổ trả lời ----------
+// Luật chơi: đọc câu hỏi XONG mới bắt đầu tính giờ. Stage là nơi biết chính xác khi
+// nào clip đọc câu hỏi kết thúc → POST /api/stage/audio-done {qid}. Nếu stage không
+// báo (mở giữa chừng, OBS không tương tác…), server tự mở theo thời lượng clip + đệm.
+// Stage đang TẮT TIẾNG (mute=1 / nút 🔇): không có gì để chờ nghe → báo ngay khi cue
+// của câu hỏi được xử lý (tương đương "đọc xong lập tức").
+const doneSignalLog = [];      // các qid đã báo xong (theo thứ tự) — phục vụ test/gỡ lỗi
+let doneSignalFor = null;      // qid đã báo cho câu hiện tại (mỗi câu báo đúng 1 lần)
+function sendAudioDone(qid) {
+  if (!qid || doneSignalFor === qid) return;
+  doneSignalFor = qid;
+  doneSignalLog.push(qid);
+  try {
+    fetch('/api/stage/audio-done', {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ qid }),
+    }).catch(() => {});
+  } catch (_) {}
+}
 // Gỡ hook kiểm thử (vô hại trên sóng): test CDP đọc trạng thái engine tiếng qua đây.
 window.__tpAudio = {
   played: playedLog,
+  doneSignals: doneSignalLog,
   get current() { return currentEntry ? currentEntry.key : null; },
   get queue() { return audioQueue.map(e => e.key); },
   get newestSeq() { return newestCueSeq; },
@@ -131,9 +151,18 @@ function playNextCue() {
     currentEntry = entry;
     audioPlaying = true;
     playedLog.push(entry.key);
-    const done = () => { if (currentAudio === a) { currentAudio = null; currentEntry = null; } audioPlaying = false; playNextCue(); };
+    const done = () => {
+      if (currentAudio === a) { currentAudio = null; currentEntry = null; }
+      audioPlaying = false;
+      // Clip đọc câu hỏi của ĐÚNG câu đang mở vừa kết thúc (hoặc lỗi/không có file)
+      // → báo server mở cửa sổ trả lời ngay, khỏi chờ hết cửa sổ dự phòng.
+      if (entry.key.startsWith('q/') && S && S.question && S.question.audioKey === entry.key) {
+        sendAudioDone(entry.key.slice(2));
+      }
+      playNextCue();
+    };
     a.onended = done;
-    a.onerror = done; // clip chưa sinh → bỏ qua, không kẹt hàng đợi
+    a.onerror = done; // clip chưa sinh → bỏ qua, không kẹt hàng đợi (và vẫn báo đọc xong ở trên)
     const p = a.play();
     if (p && p.catch) p.catch(() => { // trình duyệt chặn autoplay: chờ người dùng chạm 1 lần
       if (currentAudio === a) { currentAudio = null; currentEntry = null; }
@@ -148,6 +177,11 @@ function playNextCue() {
 function enqueueCue(cue) {
   if (!cue || cue.seq <= newestCueSeq) return;
   newestCueSeq = cue.seq;
+  // Đang tắt tiếng: clip không phát nên không có "đọc xong" để chờ — cue chứa clip
+  // của câu đang mở thì báo đọc xong ngay (server mở cửa sổ trả lời lập tức).
+  if (muted && S && S.question && cue.keys.includes(S.question.audioKey)) {
+    sendAudioDone(S.question.audioKey.slice(2));
+  }
   if (cue.keys.some(k => PRIORITY_KEYS.has(k))) {
     // ƯU TIÊN: ngắt ngay clip đang phát + xoá hàng đợi chờ → tiếng khớp với hình
     stopCurrentAudio();
@@ -185,7 +219,11 @@ $('muteBtn').addEventListener('click', e => {
   e.stopPropagation();
   muted = !muted;
   $('muteBtn').textContent = muted ? '🔇' : '🔊';
-  if (muted) { stopCurrentAudio(); audioQueue = []; } // tắt tiếng = dừng ngay clip đang phát
+  if (muted) { // tắt tiếng = dừng ngay clip đang phát; nếu đang dừng clip đọc câu hỏi thì coi như đã đọc xong
+    const wasQ = currentEntry && currentEntry.key.startsWith('q/') ? currentEntry.key : null;
+    stopCurrentAudio(); audioQueue = [];
+    if (wasQ && S && S.question && S.question.audioKey === wasQ) sendAudioDone(wasQ.slice(2));
+  }
   else { unlockAudio(); }
 });
 if (muted) $('muteBtn').textContent = '🔇';
@@ -299,6 +337,11 @@ function render() {
     $('questionLabel').textContent = `CÂU ${q.level} · ${q.category} · TRỊ GIÁ ${fmtPts(val)} ĐIỂM`;
     $('questionText').textContent = q.text;
   }
+  // Pha đọc của MC: câu hỏi + đáp án hiện sẵn nhưng đáp án MỜ chờ (chưa nhận trả
+  // lời, đồng hồ chưa chạy) + huy hiệu "MC đang đọc" với thanh tiến trình đọc.
+  const reading = !!(q && q.reading && ['qualifier', 'question'].includes(phase));
+  $('readingBadge').classList.toggle('hidden', !reading);
+  $('answers').classList.toggle('waiting', reading);
   $('answers').style.visibility = (phase === 'intermission' || phase === 'run_end' || phase === 'boot') ? 'hidden' : 'visible';
   document.querySelectorAll('#answers .answer').forEach(el => {
     const L = el.dataset.letter;
@@ -374,9 +417,11 @@ function render() {
   $('likeCount').textContent = `${S.likeMeter.cur}/${fmtPts(S.likeMeter.target)}`;
   // Bộ đếm người trả lời DUY NHẤT trên sân khấu — lấy thẳng từ state của server
   // (question.answersCount = số người đã trả lời câu hiện tại, server là nguồn chuẩn).
-  $('answerCount').textContent = q && ['qualifier', 'question'].includes(phase)
+  // Trong pha đọc đáp án chưa được nhận → chưa hiện bộ đếm.
+  $('answerCount').textContent = q && q.answersOpen && ['qualifier', 'question'].includes(phase)
     ? `Đã có ${q.answersCount} người trả lời câu này` : '';
   $('instruction').textContent =
+    reading ? '🎙 Nghe MC đọc xong câu hỏi — đọc xong mới bắt đầu tính giờ trả lời!' :
     phase === 'qualifier' ? 'CÂU HỎI LOẠI: Comment A / B / C / D — đúng & nhanh nhất vào GHẾ NÓNG!' :
     phase === 'question' && S.poll && S.poll.active ? '🗳 PHIẾU KHÁN GIẢ đang mở — comment đáp án để giúp ghế nóng!' :
     phase === 'question' ? 'Comment A / B / C / D để chơi cùng — đúng & nhanh nhất lên bảng! Ghế nóng gõ 50 / KHÁN GIẢ / ĐỔI để dùng trợ giúp.' :
@@ -397,6 +442,21 @@ function render() {
 // (vẫn chạy khi rAF bị throttle ở tab nền/nguồn OBS) và cuối mỗi render().
 function updateTimer() {
   if (!S) return;
+  // Pha đọc: vòng quanh avatar + thanh trong huy hiệu hiển thị TIẾN TRÌNH ĐỌC
+  // (theo mốc server ước lượng readingEndsAt) thay cho đồng hồ trả lời.
+  if (S.question && S.question.reading && ['qualifier', 'question'].includes(S.phase)) {
+    const nowSrv = Date.now() + serverOffset;
+    const total = S.question.readingMs || 0;
+    const remain = Math.max(0, (S.question.readingEndsAt || nowSrv) - nowSrv);
+    const frac = total ? remain / total : 0;
+    const ring = document.querySelector('#seatRing .ring-fg');
+    ring.style.strokeDashoffset = String(578 * (1 - Math.max(0, Math.min(1, frac))));
+    ring.style.stroke = '#6ec3ff';
+    $('seatTimer').textContent = '🎙 ' + Math.ceil(remain / 1000) + 's';
+    const bar = $('readingBar');
+    if (bar) bar.style.width = String(Math.max(0, Math.min(100, (1 - frac) * 100))) + '%';
+    return;
+  }
   if (S.timer) {
     const remain = Math.max(0, S.timer.endsAt - (Date.now() + serverOffset));
     const frac = S.timer.totalMs ? remain / S.timer.totalMs : 0;

@@ -61,6 +61,11 @@ function scheduleBots() {
   const hotseatUid = dbg.debug.hotseatUid;
   const letters = ['A', 'B', 'C', 'D'];
   const removed = dbg.debug.removed || [];
+  // Pha đọc của MC: đáp án gửi trong lúc đọc bị engine bỏ qua — dời lịch trả lời
+  // của bot qua khỏi mốc server ước lượng cửa sổ mở (readingEndsAt) để bot không
+  // "đốt" lượt trả lời duy nhất của chúng vào khoảng đọc.
+  const readPad = st.question && st.question.reading && st.question.readingEndsAt
+    ? Math.max(0, st.question.readingEndsAt - st.serverNow) : 0;
   const pickAnswer = (skill) => {
     if (Math.random() < skill) return correct;
     const wrong = letters.filter(l => l !== correct && !removed.includes(l));
@@ -69,8 +74,13 @@ function scheduleBots() {
   for (let i = 0; i < botCfg.count; i++) {
     const bot = botIdentity(i);
     if (Math.random() > 0.9) continue; // vài bot "đứng xem"
-    const delay = botCfg.delayMin + Math.random() * (botCfg.delayMax - botCfg.delayMin);
     const isSeat = bot.uniqueId === hotseatUid;
+    // Bot giữ ghế trả lời ở nhịp CUỐI của dải trễ: ghế chốt đáp án là engine khóa câu hỏi
+    // (ngừng nhận đáp án khán giả) — ghế trả lời sớm thì phần lớn bot khán giả chưa kịp
+    // trả lời đã bị hủy lịch, sân khấu trông như "bot không chạy" (chỉ 1–4/12 đáp án/câu).
+    const delay = readPad + (isSeat
+      ? botCfg.delayMin + (0.55 + Math.random() * 0.45) * (botCfg.delayMax - botCfg.delayMin)
+      : botCfg.delayMin + Math.random() * (botCfg.delayMax - botCfg.delayMin));
     const t = setTimeout(() => {
       if (!botCfg.on) return;
       if (isSeat) {
@@ -120,6 +130,14 @@ const server = http.createServer(async (req, res) => {
     return sendFile(res, file);
   }
   if (p === '/api/state') return json(res, engine.getState());
+  if (p === '/api/stage/audio-done' && req.method === 'POST') {
+    // Stage báo clip đọc câu hỏi đã phát xong → server mở cửa sổ trả lời ngay
+    // (engine tự bỏ qua nếu qid không khớp câu đang đọc). Thiếu tín hiệu này thì
+    // server vẫn tự mở theo thời lượng clip + đệm (xem game.js readingWindowMs).
+    const b = await readJson(req);
+    const opened = b && b.qid ? engine.audioDone(String(b.qid)) : false;
+    return json(res, { ok: true, opened });
+  }
   if (p === '/api/admin/state') return json(res, engine.getDebugState());
   if (p === '/api/admin/bank' && req.method === 'GET') return json(res, engine.bankCounts());
   if (p === '/api/admin/question' && req.method === 'POST') {
@@ -145,6 +163,9 @@ const server = http.createServer(async (req, res) => {
   if (p === '/api/sim/reset' && req.method === 'POST') {
     engine.resetSession();
     return json(res, { ok: true });
+  }
+  if (p === '/api/sim/bots' && req.method === 'GET') {
+    return json(res, { ok: true, bots: { ...botCfg } });
   }
   if (p === '/api/sim/bots' && req.method === 'POST') {
     const b = await readJson(req);

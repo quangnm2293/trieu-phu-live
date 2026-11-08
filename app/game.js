@@ -40,6 +40,8 @@ class Engine {
     this.bankPath = bankPath;
     this.bank = [];
     this.loadBank();
+    this.durations = {}; // {qid: giây} từ audio/durations.json (sinh bởi tools/gen-durations.js)
+    this.loadDurations();
     this.users = new Map(); // uniqueId -> {uniqueId,nickname,avatarUrl,points,correctCount,followClaimed,lastShareAt}
     this.support = new Map(); // uniqueId -> {nickname,avatarUrl,points}
     this.usedIds = new Set();
@@ -79,6 +81,74 @@ class Engine {
   loadBank() {
     try { this.bank = JSON.parse(fs.readFileSync(this.bankPath, 'utf8')); }
     catch (e) { console.error('[bank] không đọc được', this.bankPath, e.message); this.bank = []; }
+  }
+  loadDurations() {
+    try {
+      const j = JSON.parse(fs.readFileSync(path.join(__dirname, 'audio', 'durations.json'), 'utf8'));
+      this.durations = j.durations || j || {};
+    } catch (_) { this.durations = {}; /* thiếu file → dùng READING_DEFAULT_MS */ }
+  }
+  /** Thời lượng clip đọc câu hỏi (ms) theo durations.json; thiếu mục → mặc định. */
+  questionDurationMs(qid) {
+    const d = this.durations[qid];
+    return Number.isFinite(d) && d > 0 ? Math.round(d * 1000) : CFG.READING_DEFAULT_MS;
+  }
+  /**
+   * Độ dài cửa sổ "MC đang đọc" (ms) cho 1 câu hỏi — tín hiệu DỰ PHÒNG phía server:
+   * thời lượng clip (+ hệ số READING_SCALE nếu đặt) + READING_BUFFER_MS đệm.
+   * Cửa sổ thật thường mở sớm hơn nhờ tín hiệu stage POST /api/stage/audio-done.
+   * READING_TEST_MS > 0 → ép đúng giá trị đó (QA/test dùng để chạy nhanh + tất định).
+   */
+  readingWindowMs(qid) {
+    if (CFG.READING_TEST_MS > 0) return CFG.READING_TEST_MS;
+    let ms = this.questionDurationMs(qid);
+    if (CFG.READING_SCALE > 0) ms = Math.round(ms * CFG.READING_SCALE);
+    return ms + CFG.READING_BUFFER_MS;
+  }
+  /**
+   * Đưa ctx vào trạng thái "MC đang đọc": chưa tính giờ, chưa nhận đáp án.
+   * introKey (nếu có) là clip MC phát TRƯỚC clip câu hỏi trong cùng cue (level-N /
+   * qualifier-intro / lifeline-swap…): cửa sổ đọc dự phòng cộng thêm thời lượng của
+   * nó để khớp thứ tự phát thật trên stage. Chế độ test (READING_TEST_MS) bỏ qua.
+   */
+  beginReading(ctx, now, introKey = null) {
+    ctx.reading = true;
+    ctx.answersOpen = false;
+    ctx.windowOpenedAt = 0;
+    let ms = this.readingWindowMs(ctx.qid);
+    if (introKey && CFG.READING_TEST_MS <= 0) {
+      const d = this.durations[introKey];
+      if (Number.isFinite(d) && d > 0) ms += Math.round(d * 1000);
+    }
+    ctx.readingMs = ms;
+    ctx.readingEndsAt = now + ms;
+  }
+  /**
+   * Mở cửa sổ trả lời (gọi từ tín hiệu audio-done của stage hoặc từ tick khi hết
+   * cửa sổ đọc dự phòng). Hạn chót = mốc mở + thời lượng pha (+ bonus Nhiệt huyết
+   * đã chờ sẵn từ lúc đọc). Nếu ghế nóng đã xin phiếu khán giả trong lúc đọc thì
+   * phiếu bắt đầu ngay tại đây (đồng hồ đóng băng trong lúc bầu như thường lệ).
+   */
+  openWindow(now) {
+    const ctx = this.ctx;
+    if (!ctx || !ctx.reading) return false;
+    ctx.reading = false;
+    ctx.answersOpen = true;
+    ctx.windowOpenedAt = now;
+    const span = ctx.kind === 'qualifier' ? CFG.QUALIFIER_TIME_MS : CFG.QUESTION_TIME_MS;
+    ctx.deadline = now + span + (ctx.preWindowBonusMs || 0);
+    ctx.preWindowBonusMs = 0;
+    this.phaseEndsAt = ctx.deadline;
+    this.announce('open', '📣 MC đọc xong — MỜI TRẢ LỜI!');
+    if (ctx.pollPending) { ctx.pollPending = false; this.startPoll(now); }
+    return true;
+  }
+  /** Stage báo clip đọc câu hỏi đã phát xong → mở cửa sổ ngay (bỏ qua nếu sai câu). */
+  audioDone(qid) {
+    const ctx = this.ctx;
+    if (!ctx || !ctx.reading || ctx.qid !== qid) return false;
+    if (this.phase !== 'qualifier' && this.phase !== 'question') return false;
+    return this.openWindow(Date.now());
   }
   dayFile() {
     const d = new Date();
@@ -174,20 +244,24 @@ class Engine {
     this.qualifierCount++;
     this.phase = 'qualifier';
     this.ctx = this.newCtx(q, 'qualifier', 0);
-    this.ctx.deadline = now + CFG.QUALIFIER_TIME_MS;
-    this.phaseEndsAt = this.ctx.deadline;
-    const keys = [];
-    if (this.qualifierCount === 1) keys.push('mc/qualifier-intro');
-    else if (this.lastQualifier && !this.lastQualifier.hadCorrect) keys.push('mc/qualifier-again');
-    else keys.push('mc/next-qualifier');
-    keys.push('q/' + q.id);
-    this.cue(keys);
+    let introKey = 'mc/next-qualifier';
+    if (this.qualifierCount === 1) introKey = 'mc/qualifier-intro';
+    else if (this.lastQualifier && !this.lastQualifier.hadCorrect) introKey = 'mc/qualifier-again';
+    this.beginReading(this.ctx, now, introKey); // MC đọc câu loại trước — hết đọc mới tính 15 giây
+    this.ctx.deadline = this.ctx.readingEndsAt;
+    this.phaseEndsAt = this.ctx.readingEndsAt;
+    this.cue([introKey, 'q/' + q.id]);
   }
   newCtx(q, kind, level) {
     return {
       qid: q.id, kind, level, category: q.category, text: q.question,
       options: { ...q.options }, correct: q.correct,
       openedAt: Date.now(), deadline: 0,
+      // Pha đọc của MC: reading=true → chưa tính giờ, chưa nhận đáp án (kể cả ghế nóng);
+      // windowOpenedAt là mốc tính "trả lời nhanh" (elapsed) cho mọi đáp án của câu này.
+      reading: false, answersOpen: false, windowOpenedAt: 0, readingMs: 0, readingEndsAt: 0,
+      preWindowBonusMs: 0, // bonus +giờ (Nhiệt huyết) tích lũy trong lúc đọc — cộng vào hạn chót khi cửa sổ mở
+      pollPending: false, // ghế nóng xin phiếu khán giả trong lúc đọc → phiếu mở ngay khi cửa sổ mở
       answers: new Map(), // uid -> {letter, elapsedMs}
       removed: [], hotseatAnswer: null, hotseatResult: null,
       poll: null, bonusUsed: false, scored: false,
@@ -234,17 +308,18 @@ class Engine {
     if (!q) { this.endRun(now, 'wrong', this.milestonePoints(level - 1)); return; }
     this.run.level = level;
     this.ctx = this.newCtx(q, 'ladder', level);
-    let dur = CFG.QUESTION_TIME_MS;
-    // Thanh Nhiệt huyết đã đầy từ trước → cộng giờ ngay khi mở câu (tối đa 1 lần/câu)
+    // Thanh Nhiệt huyết đã đầy từ trước → +giờ chờ sẵn, cộng vào hạn chót khi cửa sổ
+    // trả lời mở (tối đa 1 lần/câu) — vì giờ chỉ bắt đầu chạy sau khi MC đọc xong.
     if (this.likeMeter >= CFG.LIKE_METER_TARGET) {
-      dur += CFG.LIKE_TIME_BONUS_MS;
+      this.ctx.preWindowBonusMs += CFG.LIKE_TIME_BONUS_MS;
       this.likeMeter = 0;
       this.ctx.bonusUsed = true;
       this.announce('lifeline', `🔥 Thanh Nhiệt huyết đầy — ghế nóng được +${Math.round(CFG.LIKE_TIME_BONUS_MS / 1000)} giây cho câu này!`);
     }
-    this.ctx.deadline = now + dur;
+    this.beginReading(this.ctx, now, `mc/level-${level}`); // MC đọc câu hỏi trước — hết đọc mới tính 30 giây
+    this.ctx.deadline = this.ctx.readingEndsAt;
     this.phase = 'question';
-    this.phaseEndsAt = this.ctx.deadline;
+    this.phaseEndsAt = this.ctx.readingEndsAt;
     this.cue([`mc/level-${level}`, 'q/' + q.id]);
   }
   milestonePoints(completedLevels) {
@@ -354,20 +429,35 @@ class Engine {
     this.announce('lifeline', '🔄 Ghế nóng đổi câu hỏi!');
     if (!q) return;
     const fresh = this.newCtx(q, 'ladder', ctx.level);
-    fresh.deadline = now + CFG.QUESTION_TIME_MS;
+    // Giữ nguyên trạng thái bonus Nhiệt huyết của câu cũ (đã tiêu thanh thì không
+    // được tiêu lần hai; bonus đang chờ thì mang sang câu mới).
+    fresh.bonusUsed = ctx.bonusUsed;
+    fresh.preWindowBonusMs = ctx.preWindowBonusMs;
+    // Đổi câu = bắt đầu lại từ pha đọc với clip của câu mới (kể cả khi đổi giữa lúc đọc).
+    this.beginReading(fresh, now, 'mc/lifeline-swap');
+    fresh.deadline = fresh.readingEndsAt;
     this.ctx = fresh;
-    this.phaseEndsAt = fresh.deadline;
+    this.phaseEndsAt = fresh.readingEndsAt;
     this.lastPoll = null;
     this.cue(['mc/lifeline-swap', 'q/' + q.id]);
   }
   usePoll(now) {
     const ctx = this.ctx, run = this.run;
-    if (!run || !run.lifelines.poll || ctx.hotseatAnswer || ctx.poll) return;
+    if (!run || !run.lifelines.poll || ctx.hotseatAnswer || ctx.poll || ctx.pollPending) return;
     run.lifelines.poll = false;
-    ctx.poll = { votes: new Map(), endsAt: now + CFG.POLL_TIME_MS, frozenRemaining: Math.max(0, ctx.deadline - now) };
-    this.phaseEndsAt = ctx.poll.endsAt;
     this.announce('lifeline', '🗳️ Ghế nóng hỏi ý kiến khán giả — cả phòng comment đáp án!');
     this.cue(['mc/lifeline-poll']);
+    // Đang trong pha đọc: phiếu CHƯA mở ngay — quyền trợ giúp bị tiêu luôn tại đây,
+    // phiếu sẽ tự mở ngay khi cửa sổ trả lời mở (xem openWindow). Nhờ vậy phiếu luôn
+    // chạy trọn POLL_TIME_MS trên một cửa sổ đang mở, đồng hồ đóng băng như thường lệ.
+    if (ctx.reading) { ctx.pollPending = true; return; }
+    this.startPoll(now);
+  }
+  startPoll(now) {
+    const ctx = this.ctx;
+    if (!ctx || ctx.poll) return;
+    ctx.poll = { votes: new Map(), endsAt: now + CFG.POLL_TIME_MS, frozenRemaining: Math.max(0, ctx.deadline - now) };
+    this.phaseEndsAt = ctx.poll.endsAt;
   }
   endPoll(now) {
     const ctx = this.ctx;
@@ -428,8 +518,9 @@ class Engine {
         const n = Math.max(0, Number(ev.likeCount) || 1);
         this.likeMeter = Math.min(CFG.LIKE_METER_TARGET, this.likeMeter + n);
         if (this.phase === 'question' && this.ctx && !this.ctx.bonusUsed && this.likeMeter >= CFG.LIKE_METER_TARGET) {
-          this.ctx.deadline += CFG.LIKE_TIME_BONUS_MS;
-          this.phaseEndsAt = this.ctx.deadline;
+          // Đang đọc → bonus chờ, cộng vào hạn chót khi cửa sổ mở; đang mở → cộng thẳng.
+          if (this.ctx.reading) this.ctx.preWindowBonusMs += CFG.LIKE_TIME_BONUS_MS;
+          else { this.ctx.deadline += CFG.LIKE_TIME_BONUS_MS; this.phaseEndsAt = this.ctx.deadline; }
           this.likeMeter = 0;
           this.ctx.bonusUsed = true;
           this.announce('lifeline', `🔥 Thanh Nhiệt huyết đầy — ghế nóng được +${Math.round(CFG.LIKE_TIME_BONUS_MS / 1000)} giây!`);
@@ -490,12 +581,15 @@ class Engine {
 
     // Người ghế nóng trong lúc câu hỏi mở: từ khóa trợ giúp / DỪNG / đáp án
     // (khi phiếu khán giả đang mở thì ghế nóng phải chờ kết quả — bỏ qua chat)
+    // LƯU Ý PHA ĐỌC: từ khóa (50 / KHÁN GIẢ / ĐỔI / DỪNG) vẫn nhận ngay trong lúc MC
+    // đọc; riêng ĐÁP ÁN của ghế nóng trong lúc đọc thì bỏ qua (chưa tính giờ, chưa chốt).
     if (this.phase === 'question' && ctx && ctx.kind === 'ladder' && isHotseat && !ctx.hotseatAnswer && !ctx.poll) {
       const kw = parseKeyword(text);
       if (kw === 'stop') { this.endRun(now, 'walkaway', ctx.level > 1 ? CFG.LADDER[ctx.level - 2] : 0); return; }
       if (kw === 'fifty') { this.useFifty(now); return; }
       if (kw === 'poll') { this.usePoll(now); return; }
       if (kw === 'swap') { this.useSwap(now); return; }
+      if (ctx.reading) return; // đáp án trong lúc MC đang đọc → không chốt, không tính
       const letter = parseAnswer(text);
       if (letter && !ctx.removed.includes(letter)) { this.lockHotseat(now, letter); return; }
       return; // comment thường của ghế nóng: bỏ qua
@@ -506,16 +600,20 @@ class Engine {
       const letter = parseAnswer(text);
       if (!letter || ctx.removed.includes(letter)) return;
       if (!ctx.poll.votes.has(user.uniqueId)) ctx.poll.votes.set(user.uniqueId, letter);
-      if (!ctx.answers.has(user.uniqueId)) ctx.answers.set(user.uniqueId, { letter, elapsedMs: now - ctx.openedAt });
+      if (!ctx.answers.has(user.uniqueId)) ctx.answers.set(user.uniqueId, { letter, elapsedMs: now - ctx.windowOpenedAt });
       return;
     }
 
-    // Trả lời câu hỏi (loại hoặc ghế nóng) — đáp án hợp lệ đầu tiên bị khóa
+    // Trả lời câu hỏi (loại hoặc ghế nóng) — đáp án hợp lệ đầu tiên bị khóa.
+    // Trong pha đọc (ctx.reading): BỎ QUA HẲN — không khóa, không đếm; người chơi
+    // trả lời lại sau khi cửa sổ mở vẫn được tính như bình thường.
+    // Thời gian trả lời (elapsed) tính từ lúc CỬA SỔ MỞ (windowOpenedAt).
     if ((this.phase === 'qualifier' || this.phase === 'question') && ctx) {
+      if (ctx.reading) return;
       if (ctx.kind === 'ladder' && isHotseat) return; // ghế nóng đã xử lý ở trên (hoặc đã chốt)
       const letter = parseAnswer(text);
       if (!letter || ctx.removed.includes(letter)) return;
-      if (!ctx.answers.has(user.uniqueId)) ctx.answers.set(user.uniqueId, { letter, elapsedMs: now - ctx.openedAt });
+      if (!ctx.answers.has(user.uniqueId)) ctx.answers.set(user.uniqueId, { letter, elapsedMs: now - ctx.windowOpenedAt });
     }
   }
 
@@ -529,7 +627,10 @@ class Engine {
       case 'qualifier': {
         const ctx = this.ctx;
         if (!ctx) { this.startQualifier(now); break; }
-        const elapsed = now - ctx.openedAt;
+        // Pha đọc: hết cửa sổ đọc dự phòng mà stage chưa báo xong thì tự mở cửa sổ.
+        if (ctx.reading) { if (now >= ctx.readingEndsAt) this.openWindow(now); break; }
+        // Mốc thời gian tính từ lúc CỬA SỔ MỞ (không tính thời gian MC đọc).
+        const elapsed = now - ctx.windowOpenedAt;
         let hasCorrect = false;
         for (const a of ctx.answers.values()) if (a.letter === ctx.correct) { hasCorrect = true; break; }
         if ((hasCorrect && elapsed >= CFG.QUALIFIER_MIN_MS) || elapsed >= CFG.QUALIFIER_TIME_MS) this.closeQualifier(now);
@@ -546,6 +647,8 @@ class Engine {
         const ctx = this.ctx;
         if (!ctx) break;
         if (ctx.poll) { if (now >= ctx.poll.endsAt) this.endPoll(now); break; }
+        // Pha đọc: đồng hồ chưa chạy — hết cửa sổ đọc dự phòng thì tự mở cửa sổ.
+        if (ctx.reading) { if (now >= ctx.readingEndsAt) this.openWindow(now); break; }
         if (now >= ctx.deadline) {
           // hết giờ = sai (ghế nóng không chốt đáp án)
           ctx.hotseatAnswer = null;
@@ -641,7 +744,10 @@ class Engine {
     const run = this.run;
     const hs = run ? this.users.get(run.uid) : null;
     let timer = null;
-    if (ctx && (this.phase === 'question' || this.phase === 'qualifier')) {
+    // Đồng hồ chỉ tồn tại khi CỬA SỔ TRẢ LỜI ĐANG MỞ (sau khi MC đọc xong). Trong
+    // pha đọc, timer = null và sân khấu hiển thị tiến trình đọc qua
+    // question.reading / readingEndsAt / readingMs.
+    if (ctx && ctx.answersOpen && (this.phase === 'question' || this.phase === 'qualifier')) {
       const inPoll = !!(ctx.poll);
       timer = {
         totalMs: ctx.kind === 'qualifier' ? CFG.QUALIFIER_TIME_MS : CFG.QUESTION_TIME_MS,
@@ -669,6 +775,10 @@ class Engine {
         options: ctx.options, removed: ctx.removed,
         hotseatLocked: ctx.hotseatAnswer, answersCount: ctx.answers.size,
         audioKey: 'q/' + ctx.qid,
+        // Pha đọc của MC: reading=true → sân khấu hiện "MC đang đọc…", đáp án chưa mở;
+        // readingEndsAt = mốc server ƯỚC LƯỢNG cửa sổ mở (dự phòng), readingMs = tổng cửa sổ đọc.
+        reading: !!ctx.reading, readingEndsAt: ctx.reading ? ctx.readingEndsAt : null,
+        readingMs: ctx.readingMs || 0, answersOpen: !!ctx.answersOpen,
       } : null,
       timer,
       hotseat: run && hs ? {
@@ -703,6 +813,10 @@ class Engine {
       answers,
       hotseatUid: this.run ? this.run.uid : null,
       removed: ctx ? ctx.removed : [],
+      reading: ctx ? !!ctx.reading : null,
+      answersOpen: ctx ? !!ctx.answersOpen : null,
+      windowOpenedAt: ctx ? ctx.windowOpenedAt : null,
+      readingEndsAt: ctx ? ctx.readingEndsAt : null,
     };
     return s;
   }

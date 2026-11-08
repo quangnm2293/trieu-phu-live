@@ -12,6 +12,10 @@ function envBool(name, def) {
   if (v === undefined) return def;
   return v !== '0' && v.toLowerCase() !== 'false';
 }
+function envFloat(name, def) {
+  const v = parseFloat(process.env[name]);
+  return Number.isFinite(v) ? v : def;
+}
 
 module.exports = {
   PORT: envInt('PORT', 3021),
@@ -24,6 +28,15 @@ module.exports = {
   QUALIFIER_MIN_MS: envInt('QUALIFIER_MIN_MS', 5000), // có đáp án đúng sau mốc này thì chốt sớm
   QUALIFIER_MAX_FAILS: envInt('QUALIFIER_MAX_FAILS', 3), // số câu loại liên tiếp không ai đúng trước khi nghỉ
   POLL_TIME_MS: envInt('POLL_TIME_MS', 10000), // phiếu "Hỏi ý kiến khán giả"
+
+  // --- Pha "MC đang đọc câu hỏi" (đọc xong mới bắt đầu tính giờ trả lời) ---
+  // Khi câu hỏi mở: MC đọc clip câu hỏi, đồng hồ CHƯA chạy, đáp án CHƯA được nhận.
+  // Cửa sổ trả lời mở theo tín hiệu stage báo đọc xong (POST /api/stage/audio-done)
+  // hoặc — dự phòng nếu stage không báo — khi hết thời lượng clip + đệm dưới đây.
+  READING_BUFFER_MS: envInt('READING_BUFFER_MS', 1500), // đệm sau thời lượng clip (tín hiệu dự phòng)
+  READING_DEFAULT_MS: envInt('READING_DEFAULT_MS', 12000), // thời lượng giả định khi durations.json thiếu mục
+  READING_SCALE: envFloat('READING_SCALE', 0), // >0: nhân thời lượng clip (hiệu chỉnh thực tế nếu cần)
+  READING_TEST_MS: envInt('READING_TEST_MS', 0), // >0: ép cửa sổ đọc = đúng số ms này (QA/test — ghi đè durations)
   REVEAL_TIME_MS: envInt('REVEAL_TIME_MS', 5000), // hiện đáp án + TOP 5
   LOCKED_MS: envInt('LOCKED_MS', 1500), // hiện trạng thái "đã chốt đáp án" trước khi công bố
   INTERMISSION_MS: envInt('INTERMISSION_MS', 20000), // nghỉ giữa các lượt

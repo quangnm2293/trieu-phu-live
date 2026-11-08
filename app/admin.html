@@ -67,6 +67,8 @@
     </div>
     <button onclick="setBots(true)">🤖 Bật bot</button>
     <button class="sec" onclick="setBots(false)">Tắt bot</button>
+    <div id="botStatus" style="margin-top:10px;font-size:14px;font-weight:700">Bot: đang tải trạng thái…</div>
+    <div style="font-size:12px;color:#aebfff;margin-top:4px">Trạng thái ở trên là trạng thái THẬT trên server (trang tự cập nhật mỗi ~1 giây). Bot chạy trên server — tắt tab này bot vẫn chạy/dừng theo trạng thái đã đặt. Đổi số bot/tỉ lệ/trễ rồi bấm Bật bot để áp dụng (ăn từ câu hỏi kế tiếp).</div>
     <h2>Trao ghế nóng thủ công</h2>
     <div class="row">
       <div><label>uniqueId</label><input id="seatUid" value="bot_ga_rung"></div>
@@ -117,6 +119,10 @@ async function refresh() {
       `đã trả lời: ${s.question ? s.question.answersCount : 0} · nhiệt huyết: ${s.likeMeter.cur}/${s.likeMeter.target}`;
   } catch (e) { $('status').textContent = 'không nối được server'; }
   try {
+    const bs = await (await fetch('/api/sim/bots')).json();
+    if (bs.ok) renderBotStatus(bs.bots);
+  } catch (e) {}
+  try {
     const b = await (await fetch('/api/admin/bank')).json();
     $('bankInfo').textContent = `tổng ${b.total} câu, câu loại ${b.qualifier} · theo cấp: ` +
       Array.from({ length: 15 }, (_, i) => `${i + 1}:${b.perLevel[i + 1] || 0}`).join(' ');
@@ -143,12 +149,34 @@ async function quickAnswer(right) {
 }
 function forcePhase(phase) { post('/api/sim/phase', { phase }).then(refresh); }
 function resetSession() { if (confirm('Reset toàn bộ điểm khán giả + danh sách câu đã dùng của buổi?')) post('/api/sim/reset').then(refresh); }
-function setBots(on) {
-  post('/api/sim/bots', {
-    on, count: Number($('botCount').value) || 0,
-    skill: (Number($('botSkill').value) || 0) / 100,
-    delayMin: Number($('botMin').value) || 0, delayMax: Number($('botMax').value) || 0,
-  });
+let botFormTouched = false;
+['botCount', 'botSkill', 'botMin', 'botMax'].forEach(id => $(id).addEventListener('input', () => { botFormTouched = true; }));
+function renderBotStatus(bots) {
+  const el = $('botStatus');
+  el.textContent = bots.on
+    ? `🟢 Bot ĐANG BẬT — ${bots.count} bot · tỉ lệ đúng ${Math.round(bots.skill * 100)}% · trễ ${bots.delayMin}–${bots.delayMax}ms`
+    : '🔴 Bot ĐANG TẮT';
+  el.style.color = bots.on ? '#7dff9a' : '#ff9a9a';
+  if (!botFormTouched) { // chưa sửa tay thì đồng bộ form theo đúng cấu hình server đang giữ
+    $('botCount').value = bots.count; $('botSkill').value = Math.round(bots.skill * 100);
+    $('botMin').value = bots.delayMin; $('botMax').value = bots.delayMax;
+  }
+}
+async function setBots(on) {
+  try {
+    const r = await post('/api/sim/bots', {
+      on, count: Number($('botCount').value) || 0,
+      skill: (Number($('botSkill').value) || 0) / 100,
+      delayMin: Number($('botMin').value) || 0, delayMax: Number($('botMax').value) || 0,
+    });
+    if (!r.ok) throw new Error(r.error || 'server từ chối');
+    botFormTouched = false;
+    renderBotStatus(r.bots); // hiển thị ngay trạng thái SERVER xác nhận, không chờ vòng poll
+  } catch (e) {
+    $('botStatus').textContent = '⚠️ Không đặt được trạng thái bot: ' + e.message;
+    $('botStatus').style.color = '#ffd968';
+  }
+  refresh();
 }
 function giveSeat() { post('/api/sim/hotseat', { uniqueId: $('seatUid').value, nickname: $('seatName').value }).then(refresh); }
 async function addQuestion() {

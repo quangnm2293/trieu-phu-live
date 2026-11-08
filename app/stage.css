@@ -92,6 +92,18 @@ html, body { width: 100%; height: 100%; background: #02020a; overflow: hidden; f
 #questionLabel { font-size: 22px; font-weight: 800; color: #8fd0ff; letter-spacing: 1px; margin-bottom: 10px; }
 #questionText { font-size: 39px; font-weight: 800; line-height: 1.28; }
 
+/* Huy hiệu pha đọc của MC (đọc xong mới tính giờ) */
+#readingBadge { margin-top: 16px; border-top: 1px dashed rgba(140, 165, 255, .45); padding-top: 14px; }
+#readingLabel { font-size: 25px; font-weight: 900; color: #ffd968; letter-spacing: 1px;
+  animation: readPulse 1.1s ease-in-out infinite; }
+@keyframes readPulse { 50% { opacity: .55; } }
+#readingBarWrap { margin-top: 10px; height: 12px; border-radius: 999px; background: rgba(255,255,255,.14); overflow: hidden; }
+#readingBar { height: 100%; width: 0%; border-radius: 999px;
+  background: linear-gradient(90deg, #6ec3ff, #f7c948); transition: width .2s linear; }
+#readingHint { margin-top: 8px; font-size: 20px; font-weight: 700; color: #aebfff; }
+/* Đáp án trong pha đọc: hiện nhưng MỜ chờ — chưa nhận trả lời */
+#answers.waiting .answer { opacity: .45; filter: saturate(.45); }
+
 /* Spotlight vòng loại */
 #winnerSpot { margin-top: 10px; text-align: center; padding: 14px 0 4px; }
 #winnerSpot.hidden { display: none; }
