@@ -72,12 +72,21 @@ function cueUrl(key) {
   return null;
 }
 function stopCurrentAudio() {
+  // Clip đọc câu hỏi bị NGẮT giữa chừng (cue ưu tiên chen vào) thì 'ended' không
+  // bao giờ chạy — không báo ở đây là server cứ chờ hết cửa sổ dự phòng mới mở
+  // cửa sổ trả lời, sân khấu đứng hình (live 08/11). Báo audio-done luôn: server
+  // tự bỏ qua nếu qid/pha không còn khớp, nên báo thừa cũng vô hại.
+  const interrupted = currentEntry && currentEntry.key.startsWith('q/') ? currentEntry.key : null;
   if (currentAudio) {
     try { currentAudio.onended = null; currentAudio.onerror = null; currentAudio.pause(); } catch (_) {}
     currentAudio = null;
   }
   currentEntry = null;
   audioPlaying = false;
+  if (interrupted && S && S.question && S.question.audioKey === interrupted
+    && ['qualifier', 'question'].includes(S.phase)) {
+    sendAudioDone(interrupted.slice(2));
+  }
 }
 function cueKeyFresh(entry) {
   if (!S) return true;
@@ -118,22 +127,59 @@ function enforcePhaseExitStop() {
 // Stage đang TẮT TIẾNG (mute=1 / nút 🔇): không có gì để chờ nghe → báo ngay khi cue
 // của câu hỏi được xử lý (tương đương "đọc xong lập tức").
 const doneSignalLog = [];      // các qid đã báo xong (theo thứ tự) — phục vụ test/gỡ lỗi
-let doneSignalFor = null;      // qid đã báo cho câu hiện tại (mỗi câu báo đúng 1 lần)
+let doneConfirmedFor = null;   // qid server ĐÃ XÁC NHẬN mở cửa sổ (opened=true)
+let doneInflight = null;       // { qid, attempts, timer } — lần gửi đang thử lại
+let doneRetryCount = 0;        // tổng số lần gửi lại (phục vụ test/gỡ lỗi)
+const DONE_RETRY_MS = 700;     // gửi lại mỗi 700ms tới khi server xác nhận
+const DONE_MAX_ATTEMPTS = 15;  // ~10s — quá thì thôi, cửa sổ dự phòng (trần 20s) sẽ mở
 function sendAudioDone(qid) {
-  if (!qid || doneSignalFor === qid) return;
-  doneSignalFor = qid;
+  if (!qid || doneConfirmedFor === qid) return;
+  // Đang thử lại cho đúng qid này rồi → không gửi chồng.
+  if (doneInflight && doneInflight.qid === qid) return;
+  // Sang câu khác thì hủy lịch thử lại của câu cũ.
+  if (doneInflight && doneInflight.timer) { clearTimeout(doneInflight.timer); doneInflight = null; }
   doneSignalLog.push(qid);
-  try {
-    fetch('/api/stage/audio-done', {
-      method: 'POST', headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ qid }),
-    }).catch(() => {});
-  } catch (_) {}
+  const inflight = { qid, attempts: 0, timer: null };
+  doneInflight = inflight;
+  const attempt = () => {
+    if (doneInflight !== inflight || doneConfirmedFor === qid) return;
+    // Câu đã sang câu khác / cửa sổ đã mở / đã rời pha đọc → không cần báo nữa.
+    if (!S || !S.question || S.question.audioKey !== 'q/' + qid
+      || S.question.answersOpen || !['qualifier', 'question'].includes(S.phase)) {
+      doneInflight = null;
+      return;
+    }
+    inflight.attempts += 1;
+    let p;
+    try {
+      p = fetch('/api/stage/audio-done', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ qid }),
+      });
+    } catch (_) { p = Promise.reject(new Error('fetch throw')); }
+    Promise.resolve(p).then(r => (r && r.ok ? r.json() : null)).then(j => {
+      if (doneInflight !== inflight) return;
+      if (j && j.opened === true) { doneConfirmedFor = qid; doneInflight = null; return; }
+      scheduleRetry();
+    }).catch(() => {
+      if (doneInflight !== inflight) return;
+      scheduleRetry();
+    });
+    function scheduleRetry() {
+      if (doneInflight !== inflight) return;
+      if (inflight.attempts >= DONE_MAX_ATTEMPTS) { doneInflight = null; return; }
+      doneRetryCount += 1;
+      inflight.timer = setTimeout(attempt, DONE_RETRY_MS);
+    }
+  };
+  attempt();
 }
 // Gỡ hook kiểm thử (vô hại trên sóng): test CDP đọc trạng thái engine tiếng qua đây.
 window.__tpAudio = {
   played: playedLog,
   doneSignals: doneSignalLog,
+  get doneRetries() { return doneRetryCount; },
+  get doneConfirmed() { return doneConfirmedFor; },
   get current() { return currentEntry ? currentEntry.key : null; },
   get queue() { return audioQueue.map(e => e.key); },
   get newestSeq() { return newestCueSeq; },

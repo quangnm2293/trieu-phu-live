@@ -103,7 +103,12 @@ class Engine {
     if (CFG.READING_TEST_MS > 0) return CFG.READING_TEST_MS;
     let ms = this.questionDurationMs(qid);
     if (CFG.READING_SCALE > 0) ms = Math.round(ms * CFG.READING_SCALE);
-    return ms + CFG.READING_BUFFER_MS;
+    ms += CFG.READING_BUFFER_MS;
+    // Trần dự phòng (live 08/11: tín hiệu stage mất → game chờ hết clip dài nhất
+    // ~39s mới mở cửa sổ, sân khấu đứng hình). Chỉ cắt ở đường DỰ PHÒNG — khi
+    // stage báo audio-done đúng hạn thì cửa sổ mở đúng lúc MC đọc xong, không bị cắt.
+    if (CFG.READING_MAX_MS > 0) ms = Math.min(ms, CFG.READING_MAX_MS);
+    return ms;
   }
   /**
    * Đưa ctx vào trạng thái "MC đang đọc": chưa tính giờ, chưa nhận đáp án.
@@ -115,6 +120,9 @@ class Engine {
     ctx.reading = true;
     ctx.answersOpen = false;
     ctx.windowOpenedAt = 0;
+    ctx.readingStartedAt = now;
+    ctx.windowOpenedVia = null;      // 'audio-done' | 'fallback' — để lần sau nhìn log là biết tín hiệu stage có tới không
+    ctx.windowOpenedAfterMs = null;
     let ms = this.readingWindowMs(ctx.qid);
     if (introKey && CFG.READING_TEST_MS <= 0) {
       const d = this.durations[introKey];
@@ -129,12 +137,15 @@ class Engine {
    * đã chờ sẵn từ lúc đọc). Nếu ghế nóng đã xin phiếu khán giả trong lúc đọc thì
    * phiếu bắt đầu ngay tại đây (đồng hồ đóng băng trong lúc bầu như thường lệ).
    */
-  openWindow(now) {
+  openWindow(now, via = 'fallback') {
     const ctx = this.ctx;
     if (!ctx || !ctx.reading) return false;
     ctx.reading = false;
     ctx.answersOpen = true;
     ctx.windowOpenedAt = now;
+    ctx.windowOpenedVia = via;
+    ctx.windowOpenedAfterMs = now - (ctx.readingStartedAt || now);
+    console.log(`[reading] cửa sổ mở (${via}) qid=${ctx.qid} sau ${ctx.windowOpenedAfterMs}ms (dự phòng tối đa ${this.readingWindowMs(ctx.qid)}ms)`);
     const span = ctx.kind === 'qualifier' ? CFG.QUALIFIER_TIME_MS : CFG.QUESTION_TIME_MS;
     ctx.deadline = now + span + (ctx.preWindowBonusMs || 0);
     ctx.preWindowBonusMs = 0;
@@ -148,7 +159,7 @@ class Engine {
     const ctx = this.ctx;
     if (!ctx || !ctx.reading || ctx.qid !== qid) return false;
     if (this.phase !== 'qualifier' && this.phase !== 'question') return false;
-    return this.openWindow(Date.now());
+    return this.openWindow(Date.now(), 'audio-done');
   }
   dayFile() {
     const d = new Date();
@@ -816,6 +827,8 @@ class Engine {
       reading: ctx ? !!ctx.reading : null,
       answersOpen: ctx ? !!ctx.answersOpen : null,
       windowOpenedAt: ctx ? ctx.windowOpenedAt : null,
+      windowOpenedVia: ctx ? ctx.windowOpenedVia : null,
+      windowOpenedAfterMs: ctx ? ctx.windowOpenedAfterMs : null,
       readingEndsAt: ctx ? ctx.readingEndsAt : null,
     };
     return s;

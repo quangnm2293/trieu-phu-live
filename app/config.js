@@ -34,6 +34,7 @@ module.exports = {
   // Cửa sổ trả lời mở theo tín hiệu stage báo đọc xong (POST /api/stage/audio-done)
   // hoặc — dự phòng nếu stage không báo — khi hết thời lượng clip + đệm dưới đây.
   READING_BUFFER_MS: envInt('READING_BUFFER_MS', 1500), // đệm sau thời lượng clip (tín hiệu dự phòng)
+  READING_MAX_MS: envInt('READING_MAX_MS', 20000), // TRẦN cửa sổ đọc dự phòng: clip dài nhất ~39s mà tín hiệu stage mất thì game cũng chỉ chờ tối đa 20s rồi tự mở cửa sổ (tránh đứng hình cả buổi như live 08/11)
   READING_DEFAULT_MS: envInt('READING_DEFAULT_MS', 12000), // thời lượng giả định khi durations.json thiếu mục
   READING_SCALE: envFloat('READING_SCALE', 0), // >0: nhân thời lượng clip (hiệu chỉnh thực tế nếu cần)
   READING_TEST_MS: envInt('READING_TEST_MS', 0), // >0: ép cửa sổ đọc = đúng số ms này (QA/test — ghi đè durations)
