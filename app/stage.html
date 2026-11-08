@@ -55,11 +55,14 @@
         <div id="questionText">Người đúng và nhanh nhất sẽ ngồi vào ghế nóng!</div>
         <!-- Huy hiệu pha đọc: chỉ hiện trong lúc MC đọc câu hỏi (chưa tính giờ) -->
         <div id="readingBadge" class="hidden">
-          <div id="readingLabel">🎙 MC ĐANG ĐỌC CÂU HỎI…</div>
+          <div id="readingLabel">🎙 MC ĐANG ĐỌC — CHƯA TRẢ LỜI ĐƯỢC!</div>
           <div id="readingBarWrap"><div id="readingBar"></div></div>
-          <div id="readingHint">Đọc xong mới bắt đầu tính giờ trả lời</div>
+          <div id="readingHint">Đợi MC đọc xong câu hỏi + 4 đáp án rồi mới comment nhé!</div>
         </div>
       </div>
+
+      <!-- Băng lóe khi MC vừa đọc xong: TRẢ LỜI NGAY (stage.js bật ~2 giây) -->
+      <div id="goFlash">🟢 MC ĐỌC XONG — TRẢ LỜI NGAY!</div>
 
       <!-- Spotlight người thắng vòng loại -->
       <div id="winnerSpot" class="hidden">

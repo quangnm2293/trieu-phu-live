@@ -1,0 +1,338 @@
+[
+ {
+  "id": "q3-135",
+  "level": 3,
+  "category": "Địa lý",
+  "question": "Thủ đô của Hà Lan là thành phố nào?",
+  "options": {
+   "A": "Amsterdam",
+   "B": "Rotterdam",
+   "C": "Brussels",
+   "D": "Berlin"
+  },
+  "correct": "A",
+  "qualifier": true
+ },
+ {
+  "id": "q3-136",
+  "level": 3,
+  "category": "Toán học",
+  "question": "12 × 8 bằng bao nhiêu?",
+  "options": {
+   "A": "88",
+   "B": "96",
+   "C": "104",
+   "D": "86"
+  },
+  "correct": "B",
+  "qualifier": true
+ },
+ {
+  "id": "q3-137",
+  "level": 3,
+  "category": "Khoa học",
+  "question": "Ký hiệu hóa học của nguyên tố kẽm là gì?",
+  "options": {
+   "A": "Fe",
+   "B": "Sn",
+   "C": "Zn",
+   "D": "Pb"
+  },
+  "correct": "C",
+  "qualifier": true
+ },
+ {
+  "id": "q3-138",
+  "level": 3,
+  "category": "Lịch sử",
+  "question": "Nhà Lý được thành lập vào năm nào (Lý Công Uẩn lên ngôi)?",
+  "options": {
+   "A": "1010",
+   "B": "1225",
+   "C": "938",
+   "D": "1009"
+  },
+  "correct": "D",
+  "qualifier": true
+ },
+ {
+  "id": "q3-139",
+  "level": 3,
+  "category": "Thiên nhiên",
+  "question": "Loài chim nào là loài chim nhỏ nhất thế giới?",
+  "options": {
+   "A": "Chim sẻ",
+   "B": "Chim ruồi",
+   "C": "Chim én",
+   "D": "Chim sâu"
+  },
+  "correct": "B",
+  "qualifier": true
+ },
+ {
+  "id": "q3-140",
+  "level": 3,
+  "category": "Văn học",
+  "question": "Tác phẩm tùy bút 'Người lái đò sông Đà' là của nhà văn nào?",
+  "options": {
+   "A": "Nam Cao",
+   "B": "Thạch Lam",
+   "C": "Nguyễn Tuân",
+   "D": "Kim Lân"
+  },
+  "correct": "C",
+  "qualifier": true
+ },
+ {
+  "id": "q3-141",
+  "level": 3,
+  "category": "Địa lý",
+  "question": "Thủ đô của Thụy Sĩ (trên thực tế, nơi đặt cơ quan liên bang) là thành phố nào?",
+  "options": {
+   "A": "Zurich",
+   "B": "Geneva",
+   "C": "Lausanne",
+   "D": "Bern"
+  },
+  "correct": "D",
+  "qualifier": true
+ },
+ {
+  "id": "q3-142",
+  "level": 3,
+  "category": "Thể thao",
+  "question": "Trong môn cầu lông, mỗi ván đấu tiêu chuẩn hiện nay thi đấu đến bao nhiêu điểm (không tính kéo dài)?",
+  "options": {
+   "A": "21 điểm",
+   "B": "15 điểm",
+   "C": "11 điểm",
+   "D": "25 điểm"
+  },
+  "correct": "A",
+  "qualifier": true
+ },
+ {
+  "id": "q4-148",
+  "level": 4,
+  "category": "Toán học",
+  "question": "9 × 8 bằng bao nhiêu?",
+  "options": {
+   "A": "72",
+   "B": "64",
+   "C": "81",
+   "D": "69"
+  },
+  "correct": "A",
+  "qualifier": true
+ },
+ {
+  "id": "q4-149",
+  "level": 4,
+  "category": "Văn hóa",
+  "question": "Vào dịp Tết Hàn thực (mùng 3 tháng 3 âm lịch), người Việt thường ăn hai loại bánh nào?",
+  "options": {
+   "A": "Bánh chưng và bánh giầy",
+   "B": "Bánh trôi và bánh chay",
+   "C": "Bánh tét và bánh ít",
+   "D": "Bánh trung thu và bánh pía"
+  },
+  "correct": "B",
+  "qualifier": true
+ },
+ {
+  "id": "q4-150",
+  "level": 4,
+  "category": "Thiên nhiên",
+  "question": "Hoa sữa, loài hoa có mùi hương nồng đặc trưng của Hà Nội, thường nở rộ vào mùa nào?",
+  "options": {
+   "A": "Mùa xuân",
+   "B": "Mùa hạ",
+   "C": "Mùa thu",
+   "D": "Mùa đông"
+  },
+  "correct": "C",
+  "qualifier": true
+ },
+ {
+  "id": "q4-151",
+  "level": 4,
+  "category": "Thể thao",
+  "question": "Trong vòng cấm địa của đội mình, thủ môn bóng đá được phép dùng bộ phận nào để bắt bóng?",
+  "options": {
+   "A": "Chỉ được dùng chân",
+   "B": "Chỉ được dùng đầu",
+   "C": "Không được chạm bóng bằng bất kỳ bộ phận nào",
+   "D": "Đôi tay"
+  },
+  "correct": "D",
+  "qualifier": true
+ },
+ {
+  "id": "q4-152",
+  "level": 4,
+  "category": "Điện ảnh",
+  "question": "Nhân vật sư tử con, nhân vật chính trong bộ phim hoạt hình 'Vua sư tử' của Disney, có tên là gì?",
+  "options": {
+   "A": "Simba",
+   "B": "Nala",
+   "C": "Mufasa",
+   "D": "Timon"
+  },
+  "correct": "A",
+  "qualifier": true
+ },
+ {
+  "id": "q4-153",
+  "level": 4,
+  "category": "Văn học",
+  "question": "Trong truyện cổ tích 'Tấm Cám', sau khi bị hại, Tấm hóa thân thành con chim nào bay về bên nhà vua?",
+  "options": {
+   "A": "Chim sẻ",
+   "B": "Chim vàng anh",
+   "C": "Chim bồ câu",
+   "D": "Chim én"
+  },
+  "correct": "B",
+  "qualifier": true
+ },
+ {
+  "id": "q5-140",
+  "level": 5,
+  "category": "Toán học",
+  "question": "Căn bậc hai của 256 là bao nhiêu?",
+  "options": {
+   "A": "14",
+   "B": "18",
+   "C": "16",
+   "D": "64"
+  },
+  "correct": "C",
+  "qualifier": true
+ },
+ {
+  "id": "q5-141",
+  "level": 5,
+  "category": "Khoa học",
+  "question": "Công thức hóa học của khí ôzôn, tạo thành lớp ôzôn bảo vệ Trái Đất, là gì?",
+  "options": {
+   "A": "O₂",
+   "B": "CO₂",
+   "C": "H₂O",
+   "D": "O₃"
+  },
+  "correct": "D",
+  "qualifier": true
+ },
+ {
+  "id": "q5-142",
+  "level": 5,
+  "category": "Địa lý",
+  "question": "Bán đảo lớn ở khu vực Nam Á, có hình dạng gần giống một hình tam giác, được gọi là bán đảo nào?",
+  "options": {
+   "A": "Bán đảo Ấn Độ",
+   "B": "Bán đảo Ả Rập",
+   "C": "Bán đảo Triều Tiên",
+   "D": "Bán đảo Đông Dương"
+  },
+  "correct": "A",
+  "qualifier": true
+ },
+ {
+  "id": "q5-143",
+  "level": 5,
+  "category": "Văn học",
+  "question": "Trong Truyện Kiều, Thúy Kiều quyết định bán mình chủ yếu để cứu ai?",
+  "options": {
+   "A": "Kim Trọng",
+   "B": "Cha của nàng",
+   "C": "Từ Hải",
+   "D": "Thúc Sinh"
+  },
+  "correct": "B",
+  "qualifier": true
+ },
+ {
+  "id": "q5-144",
+  "level": 5,
+  "category": "Thể thao",
+  "question": "Trong môn quần vợt, sau điểm 0 (love), điểm thắng đầu tiên trong một game được tính là bao nhiêu?",
+  "options": {
+   "A": "10",
+   "B": "20",
+   "C": "15",
+   "D": "30"
+  },
+  "correct": "C",
+  "qualifier": true
+ },
+ {
+  "id": "q6-137",
+  "level": 6,
+  "category": "Toán học",
+  "question": "2 mũ 5 (2⁵) bằng bao nhiêu?",
+  "options": {
+   "A": "10",
+   "B": "25",
+   "C": "64",
+   "D": "32"
+  },
+  "correct": "D",
+  "qualifier": true
+ },
+ {
+  "id": "q6-138",
+  "level": 6,
+  "category": "Khoa học",
+  "question": "Công thức hóa học của vôi tôi (canxi hiđroxit) là gì?",
+  "options": {
+   "A": "Ca(OH)₂",
+   "B": "CaO",
+   "C": "CaCO₃",
+   "D": "CaCl₂"
+  },
+  "correct": "A",
+  "qualifier": true
+ },
+ {
+  "id": "q6-139",
+  "level": 6,
+  "category": "Địa lý",
+  "question": "Sông Danube, dòng sông lớn của châu Âu, chảy qua thủ đô Viên của quốc gia nào?",
+  "options": {
+   "A": "Đức",
+   "B": "Áo",
+   "C": "Hungary",
+   "D": "Romania"
+  },
+  "correct": "B",
+  "qualifier": true
+ },
+ {
+  "id": "q6-140",
+  "level": 6,
+  "category": "Lịch sử",
+  "question": "Vị hoàng đế nào đã thống nhất Trung Quốc vào năm 221 trước Công nguyên và lập ra nhà Tần?",
+  "options": {
+   "A": "Hán Vũ Đế",
+   "B": "Đường Thái Tông",
+   "C": "Tần Thủy Hoàng",
+   "D": "Tào Tháo"
+  },
+  "correct": "C",
+  "qualifier": true
+ },
+ {
+  "id": "q6-142",
+  "level": 6,
+  "category": "Thể thao",
+  "question": "Đội tuyển bóng đá quốc gia nào vô địch Giải vô địch bóng đá châu Âu Euro 2020 (được tổ chức vào năm 2021)?",
+  "options": {
+   "A": "Đội tuyển Anh",
+   "B": "Đội tuyển Tây Ban Nha",
+   "C": "Đội tuyển Bồ Đào Nha",
+   "D": "Đội tuyển Ý"
+  },
+  "correct": "D",
+  "qualifier": true
+ }
+]

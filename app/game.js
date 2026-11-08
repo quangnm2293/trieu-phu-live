@@ -359,6 +359,7 @@ class Engine {
     if (!q) { this.endRun(now, 'wrong', this.milestonePoints(level - 1)); return; }
     this.run.level = level;
     this.ctx = this.newCtx(q, 'ladder', level);
+    this.lastPoll = null; // câu mới — xóa kết quả phiếu của câu trước (phòng thủ, ngoài khóa qid ở publicState)
     // Thanh Nhiệt huyết đã đầy từ trước → +giờ chờ sẵn, cộng vào hạn chót khi cửa sổ
     // trả lời mở (tối đa 1 lần/câu) — vì giờ chỉ bắt đầu chạy sau khi MC đọc xong.
     if (this.likeMeter >= CFG.LIKE_METER_TARGET) {
@@ -518,7 +519,7 @@ class Engine {
     const total = ctx.poll.votes.size;
     const percents = {};
     for (const l of LETTERS) percents[l] = total ? Math.round((counts[l] / total) * 100) : 0;
-    this.lastPoll = { percents, total, at: now };
+    this.lastPoll = { percents, total, at: now, qid: ctx.qid };
     ctx.deadline = now + ctx.poll.frozenRemaining;
     ctx.poll = null;
     this.phaseEndsAt = ctx.deadline;
@@ -843,7 +844,10 @@ class Engine {
       const percents = {};
       for (const l of LETTERS) percents[l] = total ? Math.round((counts[l] / total) * 100) : 0;
       pollState = { active: true, endsAt: ctx.poll.endsAt, total, percents };
-    } else if (this.lastPoll && this.phase === 'question') {
+    } else if (this.lastPoll && ctx && this.lastPoll.qid === ctx.qid && this.phase === 'question') {
+      // Kết quả phiếu chỉ thuộc về ĐÚNG câu đã bầu — câu khác (kể cả lượt chơi sau)
+      // không bao giờ hiện tỉ lệ của câu cũ (lỗi live 08/11: tỉ lệ phiếu cũ hiện đè
+      // lên câu mới ngay trong lúc MC đang đọc, khán giả tưởng là kết quả thật).
       pollState = { active: false, total: this.lastPoll.total, percents: this.lastPoll.percents };
     }
     return {

@@ -389,6 +389,9 @@ let S = null;
 let serverOffset = 0; // serverNow - Date.now() tại lúc nhận gói
 let lastPhase = null;
 let lastHotseatResult = null;
+let prevReading = false; // pha đọc ở frame trước — bắt khoảnh khắc cửa sổ trả lời mở
+let prevQid = null;
+let goFlashTimer = 0;
 let lastTickSecond = -1;
 
 function buildLadder() {
@@ -474,6 +477,14 @@ function render() {
   // lời, đồng hồ chưa chạy) + huy hiệu "MC đang đọc" với thanh tiến trình đọc.
   const reading = !!(q && q.reading && ['qualifier', 'question'].includes(phase));
   $('readingBadge').classList.toggle('hidden', !reading);
+  // Cửa sổ VỪA mở cho đúng câu đó (MC vừa đọc xong) → lóe băng xanh thật to
+  // "MC ĐỌC XONG — TRẢ LỜI NGAY!" ~2 giây để cả phòng thấy đã được trả lời.
+  if (prevReading && !reading && q && prevQid && q.audioKey === prevQid && ['qualifier', 'question'].includes(phase)) {
+    const gf = $('goFlash');
+    if (gf) { gf.classList.add('show'); clearTimeout(goFlashTimer); goFlashTimer = setTimeout(() => gf.classList.remove('show'), 2100); }
+  }
+  prevReading = reading;
+  prevQid = q ? q.audioKey : null;
   $('answers').classList.toggle('waiting', reading);
   $('answers').style.visibility = (phase === 'intermission' || phase === 'run_end' || phase === 'boot') ? 'hidden' : 'visible';
   document.querySelectorAll('#answers .answer').forEach(el => {
@@ -490,10 +501,12 @@ function render() {
     el.classList.toggle('locked', cls === 'locked');
     el.classList.toggle('correct', cls === 'correct');
     el.classList.toggle('wrong', cls === 'wrong');
-    // Thanh phiếu khán giả
-    const pct = S.poll ? (S.poll.percents[L] || 0) : 0;
-    el.querySelector('.poll-bar').style.width = S.poll ? pct + '%' : '0%';
-    el.querySelector('.poll-pct').textContent = S.poll ? (S.poll.active ? `🗳 ${pct}%` : `${pct}%`) : '';
+    // Thanh phiếu khán giả — KHÔNG hiện trong pha đọc (phòng thủ phía sân khấu:
+    // MC còn đang đọc thì chưa thể có kết quả phiếu của câu này).
+    const showPoll = S.poll && !reading;
+    const pct = showPoll ? (S.poll.percents[L] || 0) : 0;
+    el.querySelector('.poll-bar').style.width = showPoll ? pct + '%' : '0%';
+    el.querySelector('.poll-pct').textContent = showPoll ? (S.poll.active ? `🗳 ${pct}%` : `${pct}%`) : '';
   });
 
   // Âm hiệu đúng/sai khi chuyển pha
