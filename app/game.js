@@ -65,7 +65,8 @@ class Engine {
     this.announcements = [];
     this.announceSeq = 0;
     this.audioSeq = 0;
-    this.audioCue = null; // {seq, keys:[...]}
+    this.audioCue = null; // {seq, keys:[...]} — cue mới nhất (giữ tương thích ngược)
+    this.cueLog = []; // nhật ký cue {seq, keys, ts} — state luôn kèm 5 cue gần nhất để stage không bỏ lỡ cue nào
     this.fastestRecord = null; // {ms, nickname}
     this.giftPending = new Map();
     this.bigGift = null;
@@ -125,7 +126,11 @@ class Engine {
   cue(keys) {
     if (!keys || !keys.length) return;
     this.audioSeq++;
-    this.audioCue = { seq: this.audioSeq, keys: Array.isArray(keys) ? keys : [keys] };
+    this.audioCue = { seq: this.audioSeq, keys: Array.isArray(keys) ? keys : [keys], ts: Date.now() };
+    // Ghi vào nhật ký (giữ tối đa 30 cue): state phát kèm 5 cue gần nhất nên 2 cue
+    // bắn liên tiếp giữa hai lần đẩy state không còn ghi đè mất nhau như trước.
+    this.cueLog.push(this.audioCue);
+    if (this.cueLog.length > 30) this.cueLog.shift();
   }
   announce(kind, text) {
     this.announceSeq++;
@@ -158,6 +163,10 @@ class Engine {
     this.phaseEndsAt = now + CFG.INTERMISSION_MS;
     this.ctx = null; this.run = null;
     if (first) this.cue(['mc/welcome']);
+    // Cue chuyển pha ƯU TIÊN: nhiệm vụ chính là NGẮT ngay clip đọc câu hỏi còn đang
+    // phát dở khi màn hình chuyển sang bảng vinh danh (trước đây pha này không có cue
+    // nào nên clip cũ cứ phát tràn qua màn nghỉ).
+    else this.cue(['mc/next-qualifier']);
   }
   startQualifier(now) {
     const q = this.drawQualifier();
@@ -203,6 +212,9 @@ class Engine {
     } else {
       this.pendingHotseat = null;
       this.qualifierFails++;
+      // Không ai thắng vòng loại: cue ƯU TIÊN để ngắt clip câu loại đang phát dở
+      // ngay tại màn công bố (khi có người thắng thì mc/hotseat-new đã làm việc này).
+      this.cue(['mc/qualifier-again']);
     }
     this.phase = 'qualifier_reveal';
     this.phaseEndsAt = now + CFG.REVEAL_TIME_MS;
@@ -256,6 +268,10 @@ class Engine {
     };
     if (run) this.cooldownUid = run.uid;
     if (result === 'walkaway') this.cue(['mc/walkaway']);
+    // Sai / hết giờ: trước đây kết thúc lượt KHÔNG có cue nào → clip câu hỏi phát tràn
+    // qua màn tổng kết. Cue mc/run-end ƯU TIÊN ngắt ngay. (Walkaway dùng câu riêng ở
+    // trên; quán quân đã có mc/champion ở màn công bố đáp án.)
+    else if (result === 'wrong' || result === 'timeout') this.cue(['mc/run-end']);
     if (result === 'champion') this.announce('champion', `🏆 QUÁN QUÂN! ${u ? u.nickname : ''} chinh phục 150.000.000 điểm!`);
     this.run = null; this.ctx = null;
     this.phase = 'run_end';
@@ -671,6 +687,7 @@ class Engine {
       likeMeter: { cur: this.likeMeter, target: CFG.LIKE_METER_TARGET, bonusUsedThisQuestion: !!(ctx && ctx.bonusUsed) },
       announcements: this.announcements,
       audioCue: this.audioCue,
+      audioCues: this.cueLog.slice(-5), // 5 cue gần nhất — stage xử lý mọi cue có seq > mốc đã nhận, theo thứ tự
       fastestRecord: this.fastestRecord,
       bigGift: this.bigGift && now - this.bigGift.ts < 8000 ? this.bigGift : null,
     };

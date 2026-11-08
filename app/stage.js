@@ -29,23 +29,43 @@ function setAvatar(el, user, size) {
 }
 
 // ---------- âm thanh: giọng MC (file mp3) ----------
-// Engine phát MỚI (sửa lỗi lệch tiếng/hình):
-// - Mỗi key được gắn seq của cue sinh ra nó; luôn giữ tham chiếu tới Audio đang phát.
-// - Cue ƯU TIÊN (đúng/sai/chốt đáp án/lên ghế nóng/bỏ cuộc/quán quân/mốc an toàn):
-//   NGẮT clip đang phát ngay lập tức, xoá sạch hàng đợi, phát cue này trước.
-// - Trước khi phát bất kỳ key nào đang chờ cũng kiểm tra "độ tươi": key thuộc cue cũ,
-//   clip đọc câu hỏi không còn là câu đang mở, hay clip mở câu mà câu đã chốt/công bố
-//   → BỎ QUA, không phát nối đuôi sau khi màn hình đã sang cảnh khác.
+// Engine phát — bản sửa vòng 2 (vẫn lệch tiếng/hình sau vòng 1):
+// - Server gửi kèm 5 cue gần nhất trong mỗi state (audioCues); stage xử lý MỌI cue
+//   có seq > mốc đã nhận THEO THỨ TỰ — hai cue bắn liên tiếp không còn ghi đè mất nhau.
+//   Lần đầu nối chỉ đồng bộ mốc seq, không phát lại cue cũ.
+// - Cue ƯU TIÊN (đúng/sai/chốt đáp án/lên ghế nóng/bỏ cuộc/quán quân/mốc an toàn +
+//   các cue chuyển pha run-end/next-qualifier/qualifier-again): NGẮT clip đang phát
+//   ngay lập tức, xoá sạch hàng đợi, phát cue này trước. Riêng 2 cue chuyển pha
+//   next-qualifier/qualifier-again: phần ngắt chạy ngay khi cue tới, còn câu thoại
+//   chỉ phát ở pha vòng loại (đúng thời điểm kể chuyện) nhờ cổng pha ở cueKeyFresh.
+// - Trước khi phát key đang chờ, kiểm tra "độ tươi" theo NGỮ CẢNH (không theo seq):
+//   clip đọc câu hỏi chỉ phát khi đúng câu đang mở; clip mở câu chỉ phát ở pha của nó.
+// - DỪNG THEO PHA: mỗi state mới, nếu clip q/ đang phát thuộc câu hỏi mà sân khấu đã
+//   rời (sang intermission/run_end, hoặc id câu khác hẳn) → dừng ngay + huỷ nốt các
+//   key còn lại của cue đó — kể cả khi cue chuyển pha bị lỡ.
 let audioUnlocked = false;
 let audioQueue = [];           // [{key, seq}]
 let audioPlaying = false;
 let currentAudio = null;       // phần tử Audio đang phát (để ngắt ngay khi cần)
+let currentEntry = null;       // {key, seq} của clip đang phát
 let newestCueSeq = 0;          // seq của cue mới nhất đã nhận
-let newestCueKeys = new Set(); // các key thuộc cue mới nhất
+let cueSynced = false;         // đã đồng bộ mốc seq ở state đầu tiên chưa
+const playedLog = [];          // các key đã THỰC SỰ bắt đầu phát (theo thứ tự) — phục vụ test
 const PRIORITY_KEYS = new Set([
   'mc/correct', 'mc/wrong', 'mc/locked', 'mc/hotseat-new',
   'mc/walkaway', 'mc/champion', 'mc/milestone5', 'mc/milestone10',
+  'mc/run-end', 'mc/next-qualifier', 'mc/qualifier-again',
 ]);
+// Cổng pha cho clip "mở câu": chỉ phát khi sân khấu đang ở đúng pha của nó.
+// (next-qualifier/qualifier-again khi tới ở pha intermission/qualifier_reveal vẫn
+// NGẮT clip cũ nhờ nhánh ưu tiên trong enqueueCue, nhưng câu thoại để dành phát
+// lúc vòng loại thật sự mở — tránh đọc 2 lần.)
+const OPEN_CLIP_PHASES = [
+  [/^mc\/level-\d+$/, ['question']],
+  [/^mc\/qualifier-intro$/, ['qualifier']],
+  [/^mc\/qualifier-again$/, ['qualifier']],
+  [/^mc\/next-qualifier$/, ['qualifier']],
+];
 function cueUrl(key) {
   if (key.startsWith('mc/')) return '/audio/mc/' + key.slice(3) + '.mp3';
   if (key.startsWith('q/')) return '/audio/questions/' + key.slice(2) + '.mp3';
@@ -56,41 +76,70 @@ function stopCurrentAudio() {
     try { currentAudio.onended = null; currentAudio.onerror = null; currentAudio.pause(); } catch (_) {}
     currentAudio = null;
   }
+  currentEntry = null;
   audioPlaying = false;
 }
 function cueKeyFresh(entry) {
-  // (a) key thuộc cue cũ hơn cue mới nhất và không nằm trong cue mới nhất → đã lỗi thời
-  if (entry.seq < newestCueSeq && !newestCueKeys.has(entry.key)) return false;
   if (!S) return true;
-  // (b) clip đọc câu hỏi: chỉ phát khi đúng câu đang mở trên sân khấu
+  // clip đọc câu hỏi: chỉ phát khi đúng câu đang mở trên sân khấu
   if (entry.key.startsWith('q/')) {
     if (!S.question || S.question.audioKey !== entry.key) return false;
     if (!['qualifier', 'question'].includes(S.phase)) return false;
   }
-  // (c) clip mở câu (giới thiệu cấp độ/vòng loại): câu đã chốt hoặc đã công bố → không đọc nữa
-  if (/^mc\/(level-\d+|qualifier-intro|qualifier-again|next-qualifier)$/.test(entry.key)) {
-    if (['locked', 'reveal', 'qualifier_reveal', 'run_end', 'intermission'].includes(S.phase)) return false;
+  // clip mở câu: chỉ phát ở pha của nó (xem OPEN_CLIP_PHASES)
+  for (const [re, phases] of OPEN_CLIP_PHASES) {
+    if (re.test(entry.key)) return phases.includes(S.phase);
   }
   return true;
 }
+// Dừng theo pha: clip đọc câu hỏi đang phát mà sân khấu đã rời câu hỏi đó
+// (vào intermission/run_end, hoặc đã sang câu khác — trừ lúc chốt/công bố của
+// CHÍNH câu đó, khi ấy cue ưu tiên sẽ tự ngắt) → dừng ngay, huỷ key cùng cue.
+function enforcePhaseExitStop() {
+  if (!currentEntry || !S) return;
+  if (!currentEntry.key.startsWith('q/')) return;
+  let stop = false;
+  if (S.phase === 'intermission' || S.phase === 'run_end') stop = true;
+  else {
+    const curKey = S.question ? S.question.audioKey : null;
+    if (curKey !== currentEntry.key && !['locked', 'reveal'].includes(S.phase)) stop = true;
+  }
+  if (stop) {
+    const seq = currentEntry.seq;
+    stopCurrentAudio();
+    audioQueue = audioQueue.filter(e => e.seq !== seq);
+    playNextCue();
+  }
+}
+// Gỡ hook kiểm thử (vô hại trên sóng): test CDP đọc trạng thái engine tiếng qua đây.
+window.__tpAudio = {
+  played: playedLog,
+  get current() { return currentEntry ? currentEntry.key : null; },
+  get queue() { return audioQueue.map(e => e.key); },
+  get newestSeq() { return newestCueSeq; },
+  get synced() { return cueSynced; },
+};
 function playNextCue() {
   if (audioPlaying || muted) return;
   while (audioQueue.length) {
     const entry = audioQueue.shift();
-    if (!cueKeyFresh(entry)) continue; // clip đã lỗi thời → bỏ qua
+    if (!cueKeyFresh(entry)) continue; // clip đã lỗi thời theo ngữ cảnh → bỏ qua
     const url = cueUrl(entry.key);
     if (!url) continue;
     const a = new Audio(url);
     currentAudio = a;
+    currentEntry = entry;
     audioPlaying = true;
-    const done = () => { if (currentAudio === a) currentAudio = null; audioPlaying = false; playNextCue(); };
+    playedLog.push(entry.key);
+    const done = () => { if (currentAudio === a) { currentAudio = null; currentEntry = null; } audioPlaying = false; playNextCue(); };
     a.onended = done;
     a.onerror = done; // clip chưa sinh → bỏ qua, không kẹt hàng đợi
     const p = a.play();
     if (p && p.catch) p.catch(() => { // trình duyệt chặn autoplay: chờ người dùng chạm 1 lần
-      if (currentAudio === a) currentAudio = null;
+      if (currentAudio === a) { currentAudio = null; currentEntry = null; }
       audioPlaying = false;
       audioQueue.unshift(entry);
+      playedLog.pop();
       $('soundHint').classList.remove('got');
     });
     return;
@@ -99,7 +148,6 @@ function playNextCue() {
 function enqueueCue(cue) {
   if (!cue || cue.seq <= newestCueSeq) return;
   newestCueSeq = cue.seq;
-  newestCueKeys = new Set(cue.keys);
   if (cue.keys.some(k => PRIORITY_KEYS.has(k))) {
     // ƯU TIÊN: ngắt ngay clip đang phát + xoá hàng đợi chờ → tiếng khớp với hình
     stopCurrentAudio();
@@ -108,6 +156,20 @@ function enqueueCue(cue) {
   for (const k of cue.keys) audioQueue.push({ key: k, seq: cue.seq });
   if (audioQueue.length > 8) audioQueue.splice(0, audioQueue.length - 8);
   playNextCue();
+}
+// Nhận cue từ state: xử lý LẦN LƯỢT mọi cue trong audioCues (5 cue gần nhất phía
+// server) có seq lớn hơn mốc đã nhận. State đầu tiên sau khi nối chỉ đồng bộ mốc
+// (không phát lại cue cũ); thiếu audioCues (server cũ) thì lùi về audioCue đơn.
+function processStateCues(state) {
+  const cues = Array.isArray(state.audioCues) && state.audioCues.length
+    ? state.audioCues : (state.audioCue ? [state.audioCue] : []);
+  if (!cues.length) return;
+  if (!cueSynced) {
+    newestCueSeq = Math.max(newestCueSeq, cues[cues.length - 1].seq);
+    cueSynced = true;
+    return;
+  }
+  for (const c of cues) enqueueCue(c);
 }
 function unlockAudio() {
   if (audioUnlocked) return;
@@ -359,7 +421,8 @@ function connect() {
     try {
       S = JSON.parse(e.data);
       serverOffset = S.serverNow - Date.now();
-      enqueueCue(S.audioCue);
+      processStateCues(S);
+      enforcePhaseExitStop(); // clip đọc câu hỏi không được phát tràn sang pha khác
       render();
     } catch (_) {}
   };
