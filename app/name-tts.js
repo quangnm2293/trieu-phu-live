@@ -56,6 +56,27 @@ function createNameTts(opts) {
   const ready = new Map();   // cacheKey -> tên file (đã sinh xong / tìm thấy trên đĩa)
   const pending = new Map(); // cacheKey -> Promise
   const failed = new Set();  // cacheKey đã sinh hỏng trong phiên này — không thử lại liên tục
+  const durations = new Map(); // cacheKey -> thời lượng clip (giây) đã đo được
+  const measuring = new Set(); // cacheKey đang đo thời lượng (tránh đo lặp)
+
+  // Đo thời lượng file tiếng (bất đồng bộ, không chặn game): macOS có sẵn
+  // afinfo; máy khác thử ffprobe. Game dùng số này để giữ pha đủ lâu cho clip
+  // tên phát trọn — đo không được thì game tự ước lượng.
+  function measureDuration(cacheKey, fileName) {
+    if (durations.has(cacheKey) || measuring.has(cacheKey)) return;
+    measuring.add(cacheKey);
+    const filePath = path.join(dir, fileName);
+    const done = sec => { if (Number.isFinite(sec) && sec > 0) durations.set(cacheKey, sec); measuring.delete(cacheKey); };
+    try {
+      execFile('afinfo', [filePath], { timeout: 5000 }, (e1, out1) => {
+        const m = !e1 && String(out1 || '').match(/estimated duration:\s*([\d.]+)\s*sec/);
+        if (m) return done(parseFloat(m[1]));
+        execFile('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', filePath], { timeout: 5000 }, (e2, out2) => {
+          done(e2 ? null : parseFloat(String(out2 || '').trim()));
+        });
+      });
+    } catch (_) { measuring.delete(cacheKey); }
+  }
   let mode = null;           // 'cmd' | 'say' | 'off' — chốt ở lần request đầu tiên
   let sayVoiceArgs = [];     // ['-v','Linh'] nếu máy có giọng Việt
   let loggedOff = false;
@@ -162,7 +183,7 @@ function createNameTts(opts) {
     const key = cacheKeyFor(kind, clean);
     if (findOnDisk(key) || pending.has(key) || failed.has(key)) return key;
     const p = generate(key, TEMPLATES[kind](clean))
-      .then(f => { if (!f) failed.add(key); })
+      .then(f => { if (!f) failed.add(key); else measureDuration(key, f); })
       .catch(() => failed.add(key))
       .finally(() => pending.delete(key));
     pending.set(key, p);
@@ -174,11 +195,22 @@ function createNameTts(opts) {
     if (!TEMPLATES[kind]) return null;
     const clean = sanitizeName(nickname);
     if (!clean) return null;
-    const f = findOnDisk(cacheKeyFor(kind, clean));
+    const key = cacheKeyFor(kind, clean);
+    const f = findOnDisk(key);
+    if (f) measureDuration(key, f); // file có sẵn từ phiên trước → đo bổ sung để game giữ pha đủ lâu
     return f ? 'dyn/' + f : null;
   }
 
-  return { request, readyKey };
+  /** Thời lượng (giây) của clip tên nếu đã đo được, ngược lại null. */
+  function durationSec(kind, nickname) {
+    if (!TEMPLATES[kind]) return null;
+    const clean = sanitizeName(nickname);
+    if (!clean) return null;
+    const d = durations.get(cacheKeyFor(kind, clean));
+    return Number.isFinite(d) && d > 0 ? d : null;
+  }
+
+  return { request, readyKey, durationSec };
 }
 
 module.exports = { createNameTts, sanitizeName, TEMPLATES };

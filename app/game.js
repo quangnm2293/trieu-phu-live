@@ -81,6 +81,8 @@ class Engine {
     });
     this.lastJokeIdx = 0; // clip joke sai câu <5 vừa phát — tránh lặp lại ngay lần kế tiếp
     this.pendingFastestCue = null; // {nickname, until} — chờ clip tên khán giả nhanh nhất sẵn sàng trong pha reveal
+    this.revealStartedAt = 0; // mốc bắt đầu pha reveal hiện tại + tổng thời lượng cue công bố
+    this.revealCueMs = 0;     // (clip tên nhanh nhất xếp hàng SAU cue này — tick dùng để giữ pha)
     this.giftPending = new Map();
     this.bigGift = null;
     this.dirty = false;
@@ -248,6 +250,10 @@ class Engine {
   // 'dyn/<file>' nếu clip tên đã sinh xong, null nếu chưa (→ bỏ qua lần đó).
   nameTtsReadyKey(kind, nickname) {
     try { return this.nameTts.readyKey(kind, nickname); } catch (_) { return null; }
+  }
+  // Thời lượng (giây) của clip tên nếu module TTS đã đo được; null → nơi gọi tự ước lượng.
+  nameTtsDurationSec(kind, nickname) {
+    try { return this.nameTts.durationSec ? this.nameTts.durationSec(kind, nickname) : null; } catch (_) { return null; }
   }
 
   // ---------- rút câu hỏi ----------
@@ -547,20 +553,20 @@ class Engine {
     // Mục B: có khán giả trả lời đúng → khơi sinh clip đọc tên người NHANH NHẤT
     // (top5[0]; scoreCtx đã loại chính người ghế nóng). Cue tên bắn trong pha
     // reveal ngay khi file sẵn sàng (xem tick) — chưa kịp thì bỏ qua.
+    let fastestName = null;
     if (res.top5.length) {
-      const fastest = res.top5[0];
-      if (this.requestNameCue('fastest', fastest.nickname)) {
-        this.pendingFastestCue = { nickname: fastest.nickname, until: now + CFG.REVEAL_TIME_MS };
-      }
+      fastestName = res.top5[0].nickname;
+      if (!this.requestNameCue('fastest', fastestName)) fastestName = null;
     }
+    let keys;
     if (correct) {
-      const keys = ['mc/correct'];
+      keys = ['mc/correct'];
       if (ctx.level === 5) { keys.push('mc/milestone5'); this.announce('milestone', '★ ĐÃ CHẠM MỐC AN TOÀN 2.000.000 ĐIỂM!'); }
       if (ctx.level === 10) { keys.push('mc/milestone10'); this.announce('milestone', '★ ĐÃ CHẠM MỐC AN TOÀN 22.000.000 ĐIỂM!'); }
       if (ctx.level === 15) keys.push('mc/champion');
       this.cue(keys);
     } else {
-      const keys = ['mc/wrong'];
+      keys = ['mc/wrong'];
       // Mục C: trả lời SAI (không tính hết giờ/DỪNG) ở câu 1–4 → thêm 1 câu joke
       // trêu nhẹ ngay sau mc/wrong; không lặp lại joke của lần sai ngay trước.
       if (ctx.hotseatResult === 'wrong' && ctx.level <= 4) {
@@ -572,7 +578,19 @@ class Engine {
       this.cue(keys);
     }
     this.phase = 'reveal';
-    this.phaseEndsAt = now + CFG.REVEAL_TIME_MS;
+    // Pha công bố KHÔNG kết thúc trước khi MC nói hết cue của pha này: sai câu
+    // 1–4 có joke 4–6s nối sau mc/wrong (2,7s) → tổng tới ~8,6s, trong khi
+    // REVEAL_TIME_MS mặc định chỉ 5s nên joke bị cắt đuôi (lỗi live tối 08/11 —
+    // "joke nói chưa xong đã chuyển sang nghỉ giải lao"). Đúng + mốc/champion
+    // cũng áp cùng luật. Lấy thời lượng thật từ durations.json + đệm 0,5s.
+    const cueMs = (keys || []).reduce((sum, k) => sum + (Number(this.durations[k]) || 0) * 1000, 0);
+    this.phaseEndsAt = now + Math.max(CFG.REVEAL_TIME_MS, Math.round(cueMs) + 500);
+    this.revealStartedAt = now;
+    this.revealCueMs = Math.round(cueMs);
+    // Clip tên khán giả nhanh nhất được chờ tới HẾT pha reveal này (không còn
+    // chốt cứng REVEAL_TIME_MS như trước — pha đã kéo dài theo cue thì hạn chờ
+    // cũng phải theo pha, và tick còn kéo dài thêm khi clip tên bắn ra).
+    if (fastestName) this.pendingFastestCue = { nickname: fastestName, until: this.phaseEndsAt };
   }
 
   // ---------- sự kiện ----------
@@ -697,7 +715,24 @@ class Engine {
       if (this.phase !== 'reveal' || now > p.until) this.pendingFastestCue = null;
       else {
         const key = this.nameTtsReadyKey('fastest', p.nickname);
-        if (key) { this.cue([key]); this.pendingFastestCue = null; }
+        if (key) {
+          // Chờ ĐO XONG thời lượng clip (afinfo/ffprobe chạy nền, ~vài trăm ms)
+          // rồi mới bắn cue — biết đúng độ dài mới giữ pha chuẩn được. Quá 1,2s
+          // chưa đo được (máy thiếu cả hai công cụ) thì bắn với ước lượng an toàn.
+          const durSec = this.nameTtsDurationSec('fastest', p.nickname);
+          if (durSec == null && !p.readyAt) p.readyAt = now;
+          if (durSec != null || (p.readyAt && now - p.readyAt >= 1200)) {
+            this.cue([key]);
+            this.pendingFastestCue = null;
+            // Giữ pha reveal đủ lâu để clip tên phát TRỌN (lỗi live tối 08/11:
+            // "đọc tên nhanh nhất chưa xong đã sang câu mới", "câu đọc câu không").
+            // Clip tên xếp hàng SAU cue công bố (mc/correct hoặc mc/wrong+joke)
+            // nên pha phải sống tới: cue công bố xong + clip tên + đệm 0,7s.
+            const dynMs = durSec ? Math.round(durSec * 1000) : 3200;
+            const cueEndsAt = (this.revealStartedAt || now) + (this.revealCueMs || 0);
+            this.phaseEndsAt = Math.max(this.phaseEndsAt, now + dynMs + 700, cueEndsAt + dynMs + 700);
+          }
+        }
       }
     }
     switch (this.phase) {
