@@ -4,9 +4,10 @@
  * phân bố đáp án đúng, pool câu hỏi loại.
  * Chạy: node test/validate-bank.js  (exit 0 = PASS)
  *
- * Kỳ vọng thiết kế ĐỢT 2 (ghép 08/11/2026): 2.000 câu bậc thang
- * (cấp 1–10: 134 câu/cấp, cấp 11–15: 132 câu/cấp) + pool vòng loại 62 câu.
- * Câu vòng loại gắn cờ qualifier:true; 24 câu vòng loại đợt 2 gắn thêm
+ * Kỳ vọng thiết kế ĐỢT 3 (ghép 09/11/2026): 2.400 câu bậc thang
+ * (cấp 1–5: 214 câu/cấp, cấp 6–10: 134 câu/cấp, cấp 11–15: 132 câu/cấp;
+ * 2.000 cũ + 80×5 cấp đầu) + pool vòng loại 162 câu (62 cũ + 100 mới).
+ * Câu vòng loại gắn cờ qualifier:true; các câu vòng loại đợt 2 (24) và đợt 3 (100) gắn thêm
  * qualifierOnly:true (chỉ dùng cho vòng loại — game.js drawLevel() loại
  * các câu này khỏi bậc thang nên KHÔNG tính vào số câu bậc thang theo cấp).
  * 38 câu vòng loại đợt 1 là dual-purpose (vừa bậc thang vừa vòng loại).
@@ -14,9 +15,9 @@
 const fs = require('fs');
 const path = require('path');
 
-const EXPECT_LADDER_PER_LEVEL = lv => (lv <= 10 ? 134 : 132);
-const EXPECT_LADDER_TOTAL = 2000;
-const EXPECT_QUALIFIER = 62;
+const EXPECT_LADDER_PER_LEVEL = lv => (lv <= 5 ? 214 : lv <= 10 ? 134 : 132);
+const EXPECT_LADDER_TOTAL = 2400;
+const EXPECT_QUALIFIER = 162;
 
 function validateBank(bank) {
   const errors = [];
@@ -49,14 +50,14 @@ function validateBank(bank) {
     else counts[q.level] = (counts[q.level] || 0) + 1;
     if (q.qualifier === true) qualifier++;
   }
-  // Kỳ vọng thiết kế đợt 2: đúng 134 câu bậc thang/cấp 1–10, 132 câu/cấp 11–15.
+  // Kỳ vọng thiết kế đợt 3: đúng 214 câu bậc thang/cấp 1–5, 134 câu/cấp 6–10, 132 câu/cấp 11–15.
   for (let lv = 1; lv <= 15; lv++) {
     const want = EXPECT_LADDER_PER_LEVEL(lv);
-    if ((counts[lv] || 0) !== want) errors.push(`cấp ${lv} có ${counts[lv] || 0} câu bậc thang (thiết kế đợt 2 cần đúng ${want})`);
+    if ((counts[lv] || 0) !== want) errors.push(`cấp ${lv} có ${counts[lv] || 0} câu bậc thang (thiết kế đợt 3 cần đúng ${want})`);
   }
   const ladderTotal = Object.values(counts).reduce((a, b) => a + b, 0);
-  if (ladderTotal !== EXPECT_LADDER_TOTAL) errors.push(`tổng câu bậc thang ${ladderTotal} (thiết kế đợt 2 cần đúng ${EXPECT_LADDER_TOTAL})`);
-  if (qualifier !== EXPECT_QUALIFIER) errors.push(`pool câu loại có ${qualifier} câu (thiết kế đợt 2 cần đúng ${EXPECT_QUALIFIER})`);
+  if (ladderTotal !== EXPECT_LADDER_TOTAL) errors.push(`tổng câu bậc thang ${ladderTotal} (thiết kế đợt 3 cần đúng ${EXPECT_LADDER_TOTAL})`);
+  if (qualifier !== EXPECT_QUALIFIER) errors.push(`pool câu loại có ${qualifier} câu (thiết kế đợt 3 cần đúng ${EXPECT_QUALIFIER})`);
   const totalDist = dist.A + dist.B + dist.C + dist.D;
   if (totalDist > 0) {
     for (const l of ['A', 'B', 'C', 'D']) {

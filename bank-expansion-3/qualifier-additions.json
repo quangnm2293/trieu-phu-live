@@ -1,0 +1,1502 @@
+[
+ {
+  "id": "q3-224",
+  "level": 3,
+  "category": "Địa lý",
+  "question": "Quốc gia nào có thủ đô là Canberra?",
+  "options": {
+   "A": "Canada",
+   "B": "New Zealand",
+   "C": "Úc",
+   "D": "Nam Phi"
+  },
+  "correct": "C",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q3-225",
+  "level": 3,
+  "category": "Lịch sử",
+  "question": "Ngô Quyền đánh bại quân Nam Hán năm 938 trên sông nào?",
+  "options": {
+   "A": "Sông Bạch Đằng",
+   "B": "Sông Hồng",
+   "C": "Sông Như Nguyệt",
+   "D": "Sông Cửu Long"
+  },
+  "correct": "A",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q3-226",
+  "level": 3,
+  "category": "Lịch sử",
+  "question": "Columbus tìm ra châu Mỹ vào năm nào?",
+  "options": {
+   "A": "1488",
+   "B": "1502",
+   "C": "1492",
+   "D": "1519"
+  },
+  "correct": "C",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q3-227",
+  "level": 3,
+  "category": "Toán",
+  "question": "13 × 7 bằng bao nhiêu?",
+  "options": {
+   "A": "84",
+   "B": "97",
+   "C": "91",
+   "D": "104"
+  },
+  "correct": "C",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q3-228",
+  "level": 3,
+  "category": "Toán",
+  "question": "Hình lục giác có bao nhiêu cạnh?",
+  "options": {
+   "A": "5 cạnh",
+   "B": "7 cạnh",
+   "C": "8 cạnh",
+   "D": "6 cạnh"
+  },
+  "correct": "D",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q3-229",
+  "level": 3,
+  "category": "Thể thao",
+  "question": "Huy chương đồng được trao cho vận động viên hạng mấy?",
+  "options": {
+   "A": "Hạng nhì",
+   "B": "Hạng ba",
+   "C": "Hạng tư",
+   "D": "Hạng năm"
+  },
+  "correct": "B",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q3-230",
+  "level": 3,
+  "category": "Thiên nhiên",
+  "question": "Loài động vật trên cạn nào chạy nhanh nhất?",
+  "options": {
+   "A": "Sư tử",
+   "B": "Linh dương",
+   "C": "Báo gêpa",
+   "D": "Ngựa vằn"
+  },
+  "correct": "C",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q3-231",
+  "level": 3,
+  "category": "Thiên nhiên",
+  "question": "Kangaroo cái nuôi con non trong bộ phận nào trên cơ thể?",
+  "options": {
+   "A": "Tổ trên cây",
+   "B": "Hang đất",
+   "C": "Mỏ chim mẹ",
+   "D": "Túi bụng"
+  },
+  "correct": "D",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q3-232",
+  "level": 3,
+  "category": "Công nghệ",
+  "question": "Trong công nghệ, AI là viết tắt của cụm từ nào?",
+  "options": {
+   "A": "Artificial Intelligence",
+   "B": "Automated Internet",
+   "C": "Advanced Interface",
+   "D": "Analog Information"
+  },
+  "correct": "A",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q4-236",
+  "level": 4,
+  "category": "Lịch sử",
+  "question": "Ai là tổng thống thứ 16 của Hoa Kỳ?",
+  "options": {
+   "A": "Thomas Jefferson",
+   "B": "Abraham Lincoln",
+   "C": "Theodore Roosevelt",
+   "D": "Andrew Jackson"
+  },
+  "correct": "B",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q4-237",
+  "level": 4,
+  "category": "Toán",
+  "question": "Căn bậc hai của 121 là bao nhiêu?",
+  "options": {
+   "A": "9",
+   "B": "12",
+   "C": "11",
+   "D": "13"
+  },
+  "correct": "C",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q4-238",
+  "level": 4,
+  "category": "Toán",
+  "question": "14 × 6 bằng bao nhiêu?",
+  "options": {
+   "A": "84",
+   "B": "76",
+   "C": "92",
+   "D": "96"
+  },
+  "correct": "A",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q4-239",
+  "level": 4,
+  "category": "Khoa học",
+  "question": "Ký hiệu hóa học của nguyên tố clo là gì?",
+  "options": {
+   "A": "C",
+   "B": "Cl",
+   "C": "Ca",
+   "D": "Co"
+  },
+  "correct": "B",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q4-240",
+  "level": 4,
+  "category": "Khoa học",
+  "question": "Mặt Trăng là vệ tinh tự nhiên của hành tinh nào?",
+  "options": {
+   "A": "Sao Hỏa",
+   "B": "Sao Kim",
+   "C": "Sao Mộc",
+   "D": "Trái Đất"
+  },
+  "correct": "D",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q4-241",
+  "level": 4,
+  "category": "Thể thao",
+  "question": "Trong bóng rổ, một cú ném thành công từ vị trí bên trong vạch ba điểm được tính mấy điểm?",
+  "options": {
+   "A": "1 điểm",
+   "B": "2 điểm",
+   "C": "3 điểm",
+   "D": "4 điểm"
+  },
+  "correct": "B",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q4-242",
+  "level": 4,
+  "category": "Thể thao",
+  "question": "Bàn cờ vua tiêu chuẩn có tổng cộng bao nhiêu ô?",
+  "options": {
+   "A": "32 ô",
+   "B": "48 ô",
+   "C": "64 ô",
+   "D": "81 ô"
+  },
+  "correct": "C",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q4-243",
+  "level": 4,
+  "category": "Công nghệ",
+  "question": "Phím tắt nào dùng để sao chép trên máy tính Windows?",
+  "options": {
+   "A": "Ctrl + C",
+   "B": "Ctrl + V",
+   "C": "Ctrl + X",
+   "D": "Ctrl + P"
+  },
+  "correct": "A",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q5-225",
+  "level": 5,
+  "category": "Lịch sử",
+  "question": "Nhà phát minh máy in chữ rời ở châu Âu là ai?",
+  "options": {
+   "A": "Leonardo da Vinci",
+   "B": "Isaac Newton",
+   "C": "Johannes Gutenberg",
+   "D": "Galileo Galilei"
+  },
+  "correct": "C",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q5-226",
+  "level": 5,
+  "category": "Lịch sử",
+  "question": "Hoàng Hoa Thám là thủ lĩnh của cuộc khởi nghĩa nào?",
+  "options": {
+   "A": "Khởi nghĩa Bãi Sậy",
+   "B": "Phong trào Cần Vương",
+   "C": "Khởi nghĩa Hương Khê",
+   "D": "Khởi nghĩa Yên Thế"
+  },
+  "correct": "D",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q5-227",
+  "level": 5,
+  "category": "Toán",
+  "question": "4 mũ 3 (4³) bằng bao nhiêu?",
+  "options": {
+   "A": "16",
+   "B": "48",
+   "C": "81",
+   "D": "64"
+  },
+  "correct": "D",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q5-228",
+  "level": 5,
+  "category": "Toán",
+  "question": "Trung bình cộng của 5, 9 và 13 là bao nhiêu?",
+  "options": {
+   "A": "7",
+   "B": "9",
+   "C": "8",
+   "D": "11"
+  },
+  "correct": "B",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q5-229",
+  "level": 5,
+  "category": "Thể thao",
+  "question": "Trong bóng chày, cú đánh đưa bóng ra khỏi sân gọi là gì?",
+  "options": {
+   "A": "Strike",
+   "B": "Foul ball",
+   "C": "Home run",
+   "D": "Base hit"
+  },
+  "correct": "C",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q5-230",
+  "level": 5,
+  "category": "Thể thao",
+  "question": "Môn nào thi đấu trên băng, dùng gậy đánh đĩa puck?",
+  "options": {
+   "A": "Bóng ném",
+   "B": "Bóng chày",
+   "C": "Cầu mây",
+   "D": "Khúc côn cầu trên băng"
+  },
+  "correct": "D",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q5-231",
+  "level": 5,
+  "category": "Âm nhạc/Nghệ thuật",
+  "question": "Tranh dân gian Hàng Trống là đặc sản của thành phố nào?",
+  "options": {
+   "A": "Bắc Ninh",
+   "B": "Hà Nội",
+   "C": "Huế",
+   "D": "Hội An"
+  },
+  "correct": "B",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q5-232",
+  "level": 5,
+  "category": "Thiên nhiên",
+  "question": "Loài hoa nào được coi là loài hoa lớn nhất thế giới?",
+  "options": {
+   "A": "Hoa sen",
+   "B": "Hoa hướng dương",
+   "C": "Hoa mẫu đơn",
+   "D": "Rafflesia"
+  },
+  "correct": "D",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q5-233",
+  "level": 5,
+  "category": "Thiên nhiên",
+  "question": "Gấu Bắc Cực sống chủ yếu ở vùng nào?",
+  "options": {
+   "A": "Bắc Cực",
+   "B": "Nam Cực",
+   "C": "Sa mạc Gobi",
+   "D": "Rừng Amazon"
+  },
+  "correct": "A",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q5-234",
+  "level": 5,
+  "category": "Công nghệ",
+  "question": "USB là viết tắt của cụm từ tiếng Anh nào?",
+  "options": {
+   "A": "United System Bus",
+   "B": "Universal Serial Bus",
+   "C": "Ultra Speed Bridge",
+   "D": "Unified Software Base"
+  },
+  "correct": "B",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q6-143",
+  "level": 6,
+  "category": "Địa lý",
+  "question": "Sông Hằng là con sông linh thiêng nổi tiếng của quốc gia nào?",
+  "options": {
+   "A": "Nepal",
+   "B": "Ấn Độ",
+   "C": "Bangladesh",
+   "D": "Pakistan"
+  },
+  "correct": "B",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q6-144",
+  "level": 6,
+  "category": "Văn học",
+  "question": "Thám tử Sherlock Holmes do nhà văn nào sáng tạo?",
+  "options": {
+   "A": "Agatha Christie",
+   "B": "Edgar Allan Poe",
+   "C": "Arthur Conan Doyle",
+   "D": "Jules Verne"
+  },
+  "correct": "C",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q6-145",
+  "level": 6,
+  "category": "Toán",
+  "question": "2 giờ 15 phút bằng bao nhiêu phút?",
+  "options": {
+   "A": "115 phút",
+   "B": "125 phút",
+   "C": "135 phút",
+   "D": "145 phút"
+  },
+  "correct": "C",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q6-146",
+  "level": 6,
+  "category": "Khoa học",
+  "question": "Ký hiệu hóa học của nguyên tố thủy ngân là gì?",
+  "options": {
+   "A": "Mg",
+   "B": "Ag",
+   "C": "Au",
+   "D": "Hg"
+  },
+  "correct": "D",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q6-147",
+  "level": 6,
+  "category": "Thể thao",
+  "question": "Võ sĩ Muhammad Ali nổi tiếng ở môn thể thao nào?",
+  "options": {
+   "A": "Đấu vật",
+   "B": "Karate",
+   "C": "Quyền anh",
+   "D": "Judo"
+  },
+  "correct": "C",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q6-148",
+  "level": 6,
+  "category": "Thể thao",
+  "question": "Cầu thủ bóng đá Pelé là người nước nào?",
+  "options": {
+   "A": "Argentina",
+   "B": "Bồ Đào Nha",
+   "C": "Pháp",
+   "D": "Brazil"
+  },
+  "correct": "D",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q6-149",
+  "level": 6,
+  "category": "Âm nhạc/Nghệ thuật",
+  "question": "Đàn nhị truyền thống của Việt Nam có mấy dây?",
+  "options": {
+   "A": "1 dây",
+   "B": "2 dây",
+   "C": "3 dây",
+   "D": "4 dây"
+  },
+  "correct": "B",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q6-150",
+  "level": 6,
+  "category": "Đời sống",
+  "question": "Chất nào tạo vị cay đặc trưng trong quả ớt?",
+  "options": {
+   "A": "Caffeine",
+   "B": "Curcumin",
+   "C": "Capsaicin",
+   "D": "Piperine"
+  },
+  "correct": "C",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q6-151",
+  "level": 6,
+  "category": "Thiên nhiên",
+  "question": "Chim kiwi không biết bay là loài đặc hữu của nước nào?",
+  "options": {
+   "A": "New Zealand",
+   "B": "Úc",
+   "C": "Madagascar",
+   "D": "Iceland"
+  },
+  "correct": "A",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q6-152",
+  "level": 6,
+  "category": "Công nghệ",
+  "question": "World Wide Web do nhà khoa học nào phát minh?",
+  "options": {
+   "A": "Alan Turing",
+   "B": "Vint Cerf",
+   "C": "Tim Berners-Lee",
+   "D": "Bill Gates"
+  },
+  "correct": "C",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q6-153",
+  "level": 6,
+  "category": "Công nghệ",
+  "question": "Mạng xã hội Facebook ra mắt vào năm nào?",
+  "options": {
+   "A": "2004",
+   "B": "2006",
+   "C": "2008",
+   "D": "2010"
+  },
+  "correct": "A",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q6-154",
+  "level": 6,
+  "category": "Địa lý",
+  "question": "Thủ đô của Ukraine là thành phố nào?",
+  "options": {
+   "A": "Kharkiv",
+   "B": "Kyiv",
+   "C": "Odesa",
+   "D": "Lviv"
+  },
+  "correct": "B",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q3-233",
+  "level": 3,
+  "category": "Ẩm thực",
+  "question": "Bánh pía là đặc sản nổi tiếng của tỉnh nào?",
+  "options": {
+   "A": "Sóc Trăng",
+   "B": "Trà Vinh",
+   "C": "Vĩnh Long",
+   "D": "Bạc Liêu"
+  },
+  "correct": "A",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q3-234",
+  "level": 3,
+  "category": "Địa lý",
+  "question": "Vải thiều Lục Ngạn thuộc tỉnh nào?",
+  "options": {
+   "A": "Lạng Sơn",
+   "B": "Hải Dương",
+   "C": "Bắc Giang",
+   "D": "Hưng Yên"
+  },
+  "correct": "C",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q3-235",
+  "level": 3,
+  "category": "Tiếng Anh",
+  "question": "Từ tiếng Anh 'hungry' có nghĩa là gì?",
+  "options": {
+   "A": "Mệt",
+   "B": "Khát",
+   "C": "Buồn ngủ",
+   "D": "Đói"
+  },
+  "correct": "D",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q3-236",
+  "level": 3,
+  "category": "Tiếng Anh",
+  "question": "Từ tiếng Anh 'kitchen' có nghĩa là gì?",
+  "options": {
+   "A": "Nhà bếp",
+   "B": "Phòng khách",
+   "C": "Phòng ngủ",
+   "D": "Nhà tắm"
+  },
+  "correct": "A",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q3-237",
+  "level": 3,
+  "category": "Địa lý",
+  "question": "Thác Dray Nur thuộc tỉnh nào ở Tây Nguyên?",
+  "options": {
+   "A": "Gia Lai",
+   "B": "Đắk Lắk",
+   "C": "Kon Tum",
+   "D": "Lâm Đồng"
+  },
+  "correct": "B",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q3-238",
+  "level": 3,
+  "category": "Địa lý",
+  "question": "Đèo Ngang nằm giữa Hà Tĩnh và tỉnh nào?",
+  "options": {
+   "A": "Nghệ An",
+   "B": "Quảng Ngãi",
+   "C": "Quảng Bình",
+   "D": "Thanh Hóa"
+  },
+  "correct": "C",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q3-239",
+  "level": 3,
+  "category": "Thiên nhiên",
+  "question": "Cây nắp ấm bắt loài nào để bổ sung dinh dưỡng?",
+  "options": {
+   "A": "Chim nhỏ",
+   "B": "Cá nhỏ",
+   "C": "Ếch nhái",
+   "D": "Côn trùng"
+  },
+  "correct": "D",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q3-240",
+  "level": 3,
+  "category": "Thiên nhiên",
+  "question": "Con nhím tự vệ nhờ bộ phận nào trên lưng?",
+  "options": {
+   "A": "Gai nhọn",
+   "B": "Vảy cứng",
+   "C": "Lớp mỡ",
+   "D": "Móng vuốt"
+  },
+  "correct": "A",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q3-241",
+  "level": 3,
+  "category": "Đời sống",
+  "question": "Vào lễ Halloween, người ta thường khắc mặt lên quả nào?",
+  "options": {
+   "A": "Dưa hấu",
+   "B": "Bí ngô",
+   "C": "Quả dừa",
+   "D": "Quả táo"
+  },
+  "correct": "B",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q3-242",
+  "level": 3,
+  "category": "Toán",
+  "question": "26 + 47 bằng bao nhiêu?",
+  "options": {
+   "A": "63",
+   "B": "71",
+   "C": "73",
+   "D": "83"
+  },
+  "correct": "C",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q3-243",
+  "level": 3,
+  "category": "Tiếng Anh",
+  "question": "Từ tiếng Anh 'teacher' có nghĩa là gì?",
+  "options": {
+   "A": "Bác sĩ",
+   "B": "Nông dân",
+   "C": "Công an",
+   "D": "Giáo viên"
+  },
+  "correct": "D",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q3-244",
+  "level": 3,
+  "category": "Ẩm thực",
+  "question": "Xôi gấc có màu gì đặc trưng?",
+  "options": {
+   "A": "Màu đỏ",
+   "B": "Màu tím",
+   "C": "Màu xanh",
+   "D": "Màu trắng"
+  },
+  "correct": "A",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q3-245",
+  "level": 3,
+  "category": "Địa lý",
+  "question": "Hồ Tà Đùng thuộc tỉnh nào?",
+  "options": {
+   "A": "Đắk Lắk",
+   "B": "Đắk Nông",
+   "C": "Gia Lai",
+   "D": "Bình Phước"
+  },
+  "correct": "B",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q3-246",
+  "level": 3,
+  "category": "Văn học",
+  "question": "Thành ngữ: 'Đi một ngày đàng, học một sàng ...' còn thiếu từ nào?",
+  "options": {
+   "A": "Ngoan",
+   "B": "Khéo",
+   "C": "Khôn",
+   "D": "Giỏi"
+  },
+  "correct": "C",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q3-247",
+  "level": 3,
+  "category": "Thể thao",
+  "question": "Kiểu bơi nằm ngửa trên mặt nước gọi là bơi gì?",
+  "options": {
+   "A": "Bơi ếch",
+   "B": "Bơi ngửa",
+   "C": "Bơi sải",
+   "D": "Bơi bướm"
+  },
+  "correct": "B",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q4-244",
+  "level": 4,
+  "category": "Ẩm thực",
+  "question": "Kẹo cu đơ là đặc sản của tỉnh nào?",
+  "options": {
+   "A": "Hà Tĩnh",
+   "B": "Nghệ An",
+   "C": "Thanh Hóa",
+   "D": "Quảng Bình"
+  },
+  "correct": "A",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q4-245",
+  "level": 4,
+  "category": "Ẩm thực",
+  "question": "Bánh phu thê Đình Bảng thuộc tỉnh nào?",
+  "options": {
+   "A": "Bắc Giang",
+   "B": "Bắc Ninh",
+   "C": "Hải Dương",
+   "D": "Vĩnh Phúc"
+  },
+  "correct": "B",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q4-246",
+  "level": 4,
+  "category": "Ẩm thực",
+  "question": "Tương Bần là đặc sản nổi tiếng của tỉnh nào?",
+  "options": {
+   "A": "Hà Nam",
+   "B": "Nam Định",
+   "C": "Hưng Yên",
+   "D": "Thái Bình"
+  },
+  "correct": "C",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q4-247",
+  "level": 4,
+  "category": "Ẩm thực",
+  "question": "Chả mực là đặc sản nổi tiếng của thành phố nào?",
+  "options": {
+   "A": "Hải Phòng",
+   "B": "Nha Trang",
+   "C": "Vũng Tàu",
+   "D": "Hạ Long"
+  },
+  "correct": "D",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q4-248",
+  "level": 4,
+  "category": "Ẩm thực",
+  "question": "Hủ tiếu Mỹ Tho thuộc tỉnh nào?",
+  "options": {
+   "A": "Tiền Giang",
+   "B": "Long An",
+   "C": "Bến Tre",
+   "D": "Vĩnh Long"
+  },
+  "correct": "A",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q4-249",
+  "level": 4,
+  "category": "Địa lý",
+  "question": "Cây thốt nốt là đặc sản của địa phương nào ở miền Tây?",
+  "options": {
+   "A": "Kiên Giang",
+   "B": "An Giang",
+   "C": "Hậu Giang",
+   "D": "Sóc Trăng"
+  },
+  "correct": "B",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q4-250",
+  "level": 4,
+  "category": "Địa lý",
+  "question": "Quýt hồng Lai Vung thuộc tỉnh nào?",
+  "options": {
+   "A": "Vĩnh Long",
+   "B": "Tiền Giang",
+   "C": "Đồng Tháp",
+   "D": "Bến Tre"
+  },
+  "correct": "C",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q4-251",
+  "level": 4,
+  "category": "Tiếng Anh",
+  "question": "Từ tiếng Anh 'window' có nghĩa là gì?",
+  "options": {
+   "A": "Cửa chính",
+   "B": "Bức tường",
+   "C": "Mái nhà",
+   "D": "Cửa sổ"
+  },
+  "correct": "D",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q4-252",
+  "level": 4,
+  "category": "Thiên nhiên",
+  "question": "Con hải ly thường xây gì bằng cành cây trên sông?",
+  "options": {
+   "A": "Đập",
+   "B": "Cầu",
+   "C": "Bè",
+   "D": "Tổ"
+  },
+  "correct": "A",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q4-253",
+  "level": 4,
+  "category": "Thiên nhiên",
+  "question": "Khi chạm vào, lá cây xấu hổ phản ứng thế nào?",
+  "options": {
+   "A": "Xòe ra",
+   "B": "Cụp lại",
+   "C": "Rụng xuống",
+   "D": "Đổi màu"
+  },
+  "correct": "B",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q4-254",
+  "level": 4,
+  "category": "Toán",
+  "question": "94 - 58 bằng bao nhiêu?",
+  "options": {
+   "A": "46",
+   "B": "42",
+   "C": "36",
+   "D": "52"
+  },
+  "correct": "C",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q4-255",
+  "level": 4,
+  "category": "Thể thao",
+  "question": "Trong cờ tướng, quân nào không được qua sông?",
+  "options": {
+   "A": "Quân xe",
+   "B": "Quân mã",
+   "C": "Quân pháo",
+   "D": "Quân tượng"
+  },
+  "correct": "D",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q4-256",
+  "level": 4,
+  "category": "Đời sống",
+  "question": "Trong lễ Vu Lan, người còn cả cha mẹ cài hoa màu gì?",
+  "options": {
+   "A": "Màu đỏ",
+   "B": "Màu trắng",
+   "C": "Màu vàng",
+   "D": "Màu tím"
+  },
+  "correct": "A",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q4-257",
+  "level": 4,
+  "category": "Địa lý",
+  "question": "Cầu Hàm Rồng ở Thanh Hóa bắc qua con sông nào?",
+  "options": {
+   "A": "Sông Chu",
+   "B": "Sông Mã",
+   "C": "Sông Lam",
+   "D": "Sông Đuống"
+  },
+  "correct": "B",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q5-235",
+  "level": 5,
+  "category": "Ẩm thực",
+  "question": "Mực một nắng là đặc sản của thành phố nào?",
+  "options": {
+   "A": "Nha Trang",
+   "B": "Quy Nhơn",
+   "C": "Phan Thiết",
+   "D": "Tuy Hòa"
+  },
+  "correct": "C",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q5-236",
+  "level": 5,
+  "category": "Địa lý",
+  "question": "Cù Lao Chàm thuộc địa phương nào của tỉnh Quảng Nam?",
+  "options": {
+   "A": "Tam Kỳ",
+   "B": "Hội An",
+   "C": "Điện Bàn",
+   "D": "Duy Xuyên"
+  },
+  "correct": "B",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q5-237",
+  "level": 5,
+  "category": "Địa lý",
+  "question": "Đèo Cả nằm giữa Khánh Hòa và tỉnh nào?",
+  "options": {
+   "A": "Bình Định",
+   "B": "Ninh Thuận",
+   "C": "Phú Yên",
+   "D": "Bình Thuận"
+  },
+  "correct": "C",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q5-238",
+  "level": 5,
+  "category": "Tiếng Anh",
+  "question": "Từ tiếng Anh 'thirsty' có nghĩa là gì?",
+  "options": {
+   "A": "Đói bụng",
+   "B": "Mệt mỏi",
+   "C": "Buồn ngủ",
+   "D": "Khát nước"
+  },
+  "correct": "D",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q5-239",
+  "level": 5,
+  "category": "Thiên nhiên",
+  "question": "Con lười nổi tiếng với đặc điểm di chuyển nào?",
+  "options": {
+   "A": "Rất chậm",
+   "B": "Rất nhanh",
+   "C": "Nhảy xa",
+   "D": "Bơi giỏi"
+  },
+  "correct": "A",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q5-240",
+  "level": 5,
+  "category": "Địa lý",
+  "question": "Hoa tam giác mạch nở nổi tiếng ở tỉnh nào phía Bắc?",
+  "options": {
+   "A": "Lào Cai",
+   "B": "Hà Giang",
+   "C": "Yên Bái",
+   "D": "Sơn La"
+  },
+  "correct": "B",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q5-241",
+  "level": 5,
+  "category": "Văn học",
+  "question": "Tục ngữ: 'Có công mài sắt, có ngày nên ...' còn thiếu từ nào?",
+  "options": {
+   "A": "Kéo",
+   "B": "Dao",
+   "C": "Gươm",
+   "D": "Kim"
+  },
+  "correct": "D",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q5-242",
+  "level": 5,
+  "category": "Khoa học",
+  "question": "Trẻ em thường có bao nhiêu chiếc răng sữa?",
+  "options": {
+   "A": "20 chiếc",
+   "B": "16 chiếc",
+   "C": "24 chiếc",
+   "D": "28 chiếc"
+  },
+  "correct": "A",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q5-243",
+  "level": 5,
+  "category": "Khoa học",
+  "question": "Mưa đá là những hạt gì rơi từ trên trời xuống?",
+  "options": {
+   "A": "Hạt cát",
+   "B": "Hạt băng",
+   "C": "Hạt muối",
+   "D": "Hạt bụi"
+  },
+  "correct": "B",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q5-244",
+  "level": 5,
+  "category": "Ẩm thực",
+  "question": "Bánh ít lá gai là đặc sản của tỉnh nào?",
+  "options": {
+   "A": "Phú Yên",
+   "B": "Quảng Ngãi",
+   "C": "Bình Định",
+   "D": "Khánh Hòa"
+  },
+  "correct": "C",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q5-245",
+  "level": 5,
+  "category": "Thể thao",
+  "question": "Trong bóng rổ FIBA, cầu thủ phạm mấy lỗi cá nhân thì bị loại?",
+  "options": {
+   "A": "3 lỗi",
+   "B": "4 lỗi",
+   "C": "6 lỗi",
+   "D": "5 lỗi"
+  },
+  "correct": "D",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q5-246",
+  "level": 5,
+  "category": "Địa lý",
+  "question": "Phá Tam Giang nằm ở địa phương nào?",
+  "options": {
+   "A": "Huế",
+   "B": "Quảng Trị",
+   "C": "Quảng Bình",
+   "D": "Đà Nẵng"
+  },
+  "correct": "A",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q6-155",
+  "level": 6,
+  "category": "Địa lý",
+  "question": "Thanh long là trái cây đặc sản nổi tiếng nhất của tỉnh nào?",
+  "options": {
+   "A": "Long An",
+   "B": "Bình Thuận",
+   "C": "Tiền Giang",
+   "D": "Ninh Thuận"
+  },
+  "correct": "B",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q6-156",
+  "level": 6,
+  "category": "Địa lý",
+  "question": "Nho là đặc sản nổi tiếng của tỉnh nào ở Nam Trung Bộ?",
+  "options": {
+   "A": "Bình Thuận",
+   "B": "Bình Định",
+   "C": "Ninh Thuận",
+   "D": "Phú Yên"
+  },
+  "correct": "C",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q6-157",
+  "level": 6,
+  "category": "Tiếng Anh",
+  "question": "Từ tiếng Anh 'butterfly' có nghĩa là gì?",
+  "options": {
+   "A": "Con ong",
+   "B": "Con kiến",
+   "C": "Con dế",
+   "D": "Con bướm"
+  },
+  "correct": "D",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q6-158",
+  "level": 6,
+  "category": "Thiên nhiên",
+  "question": "Ốc sên di chuyển bằng bộ phận nào?",
+  "options": {
+   "A": "Chân bụng",
+   "B": "Vây",
+   "C": "Cánh nhỏ",
+   "D": "Xúc tu"
+  },
+  "correct": "A",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q6-159",
+  "level": 6,
+  "category": "Văn học",
+  "question": "Tục ngữ: 'Nước chảy đá ...' còn thiếu từ nào?",
+  "options": {
+   "A": "Vỡ",
+   "B": "Mòn",
+   "C": "Nứt",
+   "D": "Lún"
+  },
+  "correct": "B",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q6-160",
+  "level": 6,
+  "category": "Khoa học",
+  "question": "Bộ xương người có bao nhiêu cặp xương sườn?",
+  "options": {
+   "A": "10 cặp",
+   "B": "11 cặp",
+   "C": "12 cặp",
+   "D": "13 cặp"
+  },
+  "correct": "C",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q6-161",
+  "level": 6,
+  "category": "Khoa học",
+  "question": "Xương bánh chè nằm ở khớp nào của cơ thể?",
+  "options": {
+   "A": "Cổ chân",
+   "B": "Khuỷu tay",
+   "C": "Vai",
+   "D": "Đầu gối"
+  },
+  "correct": "D",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q6-162",
+  "level": 6,
+  "category": "Khoa học",
+  "question": "Vì sao băng nổi được trên mặt nước?",
+  "options": {
+   "A": "Nhẹ hơn nước lỏng",
+   "B": "Nặng hơn nước lỏng",
+   "C": "Chứa nhiều muối hơn",
+   "D": "Không thấm nước"
+  },
+  "correct": "A",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q6-163",
+  "level": 6,
+  "category": "Toán",
+  "question": "13 × 6 bằng bao nhiêu?",
+  "options": {
+   "A": "66",
+   "B": "78",
+   "C": "84",
+   "D": "72"
+  },
+  "correct": "B",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q6-164",
+  "level": 6,
+  "category": "Đời sống",
+  "question": "Lễ Tình nhân Valentine rơi vào ngày nào của tháng Hai?",
+  "options": {
+   "A": "Ngày 12",
+   "B": "Ngày 13",
+   "C": "Ngày 14",
+   "D": "Ngày 15"
+  },
+  "correct": "C",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q6-165",
+  "level": 6,
+  "category": "Âm nhạc/Nghệ thuật",
+  "question": "Thùng đàn nguyệt có hình dáng giống vật nào?",
+  "options": {
+   "A": "Giọt nước",
+   "B": "Quả bầu",
+   "C": "Chiếc lá",
+   "D": "Mặt trăng"
+  },
+  "correct": "D",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q6-166",
+  "level": 6,
+  "category": "Địa lý",
+  "question": "Sông Trà Khúc chảy qua tỉnh nào ở miền Trung?",
+  "options": {
+   "A": "Quảng Ngãi",
+   "B": "Quảng Nam",
+   "C": "Bình Định",
+   "D": "Phú Yên"
+  },
+  "correct": "A",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q6-167",
+  "level": 6,
+  "category": "Ẩm thực",
+  "question": "Gỏi cá trích là đặc sản nổi tiếng của đảo nào?",
+  "options": {
+   "A": "Lý Sơn",
+   "B": "Cát Bà",
+   "C": "Côn Đảo",
+   "D": "Phú Quốc"
+  },
+  "correct": "D",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q3-248",
+  "level": 3,
+  "category": "Tiếng Anh",
+  "question": "Từ tiếng Anh 'sad' có nghĩa là gì?",
+  "options": {
+   "A": "Buồn",
+   "B": "Vui",
+   "C": "Giận",
+   "D": "Sợ"
+  },
+  "correct": "A",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q4-258",
+  "level": 4,
+  "category": "Ẩm thực",
+  "question": "Bánh căn là món ăn nổi tiếng của thành phố nào?",
+  "options": {
+   "A": "Phan Thiết",
+   "B": "Phan Rang",
+   "C": "Nha Trang",
+   "D": "Đà Lạt"
+  },
+  "correct": "B",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q5-247",
+  "level": 5,
+  "category": "Địa lý",
+  "question": "Đèo Bảo Lộc thuộc tỉnh nào?",
+  "options": {
+   "A": "Đồng Nai",
+   "B": "Bình Thuận",
+   "C": "Lâm Đồng",
+   "D": "Đắk Nông"
+  },
+  "correct": "C",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q5-248",
+  "level": 5,
+  "category": "Ẩm thực",
+  "question": "Bánh hỏi Bình Định thường ăn kèm với món nào?",
+  "options": {
+   "A": "Thịt bò",
+   "B": "Lòng heo",
+   "C": "Thịt gà",
+   "D": "Chả cá"
+  },
+  "correct": "B",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q4-259",
+  "level": 4,
+  "category": "Tiếng Anh",
+  "question": "Từ tiếng Anh 'brave' có nghĩa là gì?",
+  "options": {
+   "A": "Nhút nhát",
+   "B": "Dũng cảm",
+   "C": "Lười biếng",
+   "D": "Cẩn thận"
+  },
+  "correct": "B",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q4-260",
+  "level": 4,
+  "category": "Địa lý",
+  "question": "Đơn vị tiền tệ của Thụy Điển là đồng nào?",
+  "options": {
+   "A": "Euro",
+   "B": "Franc Thụy Sĩ",
+   "C": "Krona Thụy Điển",
+   "D": "Bảng Anh"
+  },
+  "correct": "C",
+  "qualifier": true,
+  "qualifierOnly": true
+ },
+ {
+  "id": "q5-249",
+  "level": 5,
+  "category": "Tiếng Anh",
+  "question": "Từ tiếng Anh 'journey' có nghĩa là gì?",
+  "options": {
+   "A": "Sân bay",
+   "B": "Hành lý",
+   "C": "Hộ chiếu",
+   "D": "Chuyến đi"
+  },
+  "correct": "D",
+  "qualifier": true,
+  "qualifierOnly": true
+ }
+]

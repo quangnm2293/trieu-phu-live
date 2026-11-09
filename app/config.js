@@ -28,6 +28,7 @@ module.exports = {
   QUALIFIER_MIN_MS: envInt('QUALIFIER_MIN_MS', 5000), // có đáp án đúng sau mốc này thì chốt sớm
   QUALIFIER_MAX_FAILS: envInt('QUALIFIER_MAX_FAILS', 3), // số câu loại liên tiếp không ai đúng trước khi nghỉ
   POLL_TIME_MS: envInt('POLL_TIME_MS', 10000), // phiếu "Hỏi ý kiến khán giả"
+  LIFELINE_REMIND_MS: envInt('LIFELINE_REMIND_MS', 10000), // còn ≤ ngưỡng này mà ghế nóng chưa trả lời + vẫn còn ≥1 trợ giúp → MC nhắc dùng trợ giúp (1 lần/câu)
 
   // --- Pha "MC đang đọc câu hỏi" (đọc xong mới bắt đầu tính giờ trả lời) ---
   // Khi câu hỏi mở: MC đọc clip câu hỏi, đồng hồ CHƯA chạy, đáp án CHƯA được nhận.

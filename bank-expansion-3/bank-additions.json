@@ -1,0 +1,5202 @@
+[
+ {
+  "id": "q1-135",
+  "level": 1,
+  "category": "Địa lý",
+  "question": "Thủ đô của Hoa Kỳ là thành phố nào?",
+  "options": {
+   "A": "New York",
+   "B": "Los Angeles",
+   "C": "Chicago",
+   "D": "Washington D.C."
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q1-136",
+  "level": 1,
+  "category": "Địa lý",
+  "question": "Sông Nile gắn liền với đất nước nào nổi tiếng có kim tự tháp?",
+  "options": {
+   "A": "Ấn Độ",
+   "B": "Brazil",
+   "C": "Canada",
+   "D": "Ai Cập"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q1-137",
+  "level": 1,
+  "category": "Địa lý",
+  "question": "Nhật Bản là quốc gia được tạo thành chủ yếu từ các gì?",
+  "options": {
+   "A": "Đồng bằng",
+   "B": "Hòn đảo",
+   "C": "Cao nguyên",
+   "D": "Sa mạc"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q1-138",
+  "level": 1,
+  "category": "Địa lý",
+  "question": "Hướng đối diện với hướng Đông là hướng nào?",
+  "options": {
+   "A": "Hướng Nam",
+   "B": "Hướng Tây",
+   "C": "Hướng Bắc",
+   "D": "Hướng Đông Bắc"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q1-139",
+  "level": 1,
+  "category": "Địa lý",
+  "question": "Việt Nam thuộc châu lục nào?",
+  "options": {
+   "A": "Châu Âu",
+   "B": "Châu Á",
+   "C": "Châu Phi",
+   "D": "Châu Đại Dương"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q1-140",
+  "level": 1,
+  "category": "Động vật",
+  "question": "Con ngựa thường ăn chủ yếu loại thức ăn nào?",
+  "options": {
+   "A": "Thịt",
+   "B": "Cá",
+   "C": "Cỏ",
+   "D": "Gạo"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q1-141",
+  "level": 1,
+  "category": "Động vật",
+  "question": "Gà mái đẻ ra thứ gì?",
+  "options": {
+   "A": "Sữa",
+   "B": "Mật",
+   "C": "Len",
+   "D": "Trứng"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q1-142",
+  "level": 1,
+  "category": "Động vật",
+  "question": "Con ếch khi còn nhỏ được gọi là gì?",
+  "options": {
+   "A": "Nòng nọc",
+   "B": "Nhộng",
+   "C": "Ấu trùng ong",
+   "D": "Chim non"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q1-143",
+  "level": 1,
+  "category": "Động vật",
+  "question": "Con trâu thường được người nông dân dùng để làm gì ngoài đồng?",
+  "options": {
+   "A": "Kéo xe khách",
+   "B": "Trông nhà",
+   "C": "Bắt chuột",
+   "D": "Cày ruộng"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q1-144",
+  "level": 1,
+  "category": "Động vật",
+  "question": "Con tê giác có bộ phận nào nổi bật trên mũi?",
+  "options": {
+   "A": "Vòi",
+   "B": "Ngà",
+   "C": "Mào",
+   "D": "Sừng"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q1-145",
+  "level": 1,
+  "category": "Động vật",
+  "question": "Con vật nào sống dưới biển và có tám xúc tu?",
+  "options": {
+   "A": "Bạch tuộc",
+   "B": "Sao biển",
+   "C": "Cá ngựa",
+   "D": "Sứa"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q1-146",
+  "level": 1,
+  "category": "Động vật",
+  "question": "Con cừu cho con người thứ gì để làm áo ấm?",
+  "options": {
+   "A": "Len",
+   "B": "Lụa",
+   "C": "Bông",
+   "D": "Da"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q1-147",
+  "level": 1,
+  "category": "Ẩm thực",
+  "question": "Bún chả Hà Nội gồm bún ăn kèm với thịt gì?",
+  "options": {
+   "A": "Thịt luộc",
+   "B": "Cá rán",
+   "C": "Gà luộc",
+   "D": "Thịt nướng"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q1-148",
+  "level": 1,
+  "category": "Ẩm thực",
+  "question": "Muối ăn thường có vị gì?",
+  "options": {
+   "A": "Ngọt",
+   "B": "Chua",
+   "C": "Đắng",
+   "D": "Mặn"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q1-149",
+  "level": 1,
+  "category": "Ẩm thực",
+  "question": "Bên trong quả dừa thường chứa chất lỏng nào?",
+  "options": {
+   "A": "Nước dừa",
+   "B": "Sữa dừa đặc",
+   "C": "Dầu ăn",
+   "D": "Nước đường"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q1-150",
+  "level": 1,
+  "category": "Ẩm thực",
+  "question": "Bánh cuốn được làm chủ yếu từ bột gì?",
+  "options": {
+   "A": "Bột gạo",
+   "B": "Bột mì",
+   "C": "Bột ngô",
+   "D": "Bột sắn"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q1-151",
+  "level": 1,
+  "category": "Ẩm thực",
+  "question": "Quả ớt thường có vị gì nổi bật?",
+  "options": {
+   "A": "Ngọt",
+   "B": "Mặn",
+   "C": "Cay",
+   "D": "Nhạt"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q1-152",
+  "level": 1,
+  "category": "Ẩm thực",
+  "question": "Nước tương (xì dầu) được làm chủ yếu từ hạt nào?",
+  "options": {
+   "A": "Đậu xanh",
+   "B": "Đậu phộng",
+   "C": "Đậu nành",
+   "D": "Hạt sen"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q1-153",
+  "level": 1,
+  "category": "Ẩm thực",
+  "question": "Món chè đậu xanh được nấu chủ yếu từ hạt nào?",
+  "options": {
+   "A": "Đậu đỏ",
+   "B": "Đậu xanh",
+   "C": "Đậu đen",
+   "D": "Đậu trắng"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q1-154",
+  "level": 1,
+  "category": "Ẩm thực",
+  "question": "Trái sầu riêng nổi tiếng vì đặc điểm nào?",
+  "options": {
+   "A": "Vỏ rất mỏng",
+   "B": "Không có hạt",
+   "C": "Ruột màu xanh",
+   "D": "Mùi thơm rất nồng"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q1-155",
+  "level": 1,
+  "category": "Toán học",
+  "question": "12 + 9 bằng bao nhiêu?",
+  "options": {
+   "A": "21",
+   "B": "19",
+   "C": "20",
+   "D": "22"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q1-156",
+  "level": 1,
+  "category": "Toán học",
+  "question": "25 - 7 bằng bao nhiêu?",
+  "options": {
+   "A": "18",
+   "B": "17",
+   "C": "19",
+   "D": "16"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q1-157",
+  "level": 1,
+  "category": "Toán học",
+  "question": "5 × 4 bằng bao nhiêu?",
+  "options": {
+   "A": "16",
+   "B": "20",
+   "C": "24",
+   "D": "15"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q1-158",
+  "level": 1,
+  "category": "Toán học",
+  "question": "6 × 6 bằng bao nhiêu?",
+  "options": {
+   "A": "36",
+   "B": "30",
+   "C": "32",
+   "D": "42"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q1-159",
+  "level": 1,
+  "category": "Toán học",
+  "question": "30 : 5 bằng bao nhiêu?",
+  "options": {
+   "A": "5",
+   "B": "7",
+   "C": "4",
+   "D": "6"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q1-160",
+  "level": 1,
+  "category": "Toán học",
+  "question": "Số tiếp theo trong dãy 2, 4, 6, 8 là số nào?",
+  "options": {
+   "A": "10",
+   "B": "9",
+   "C": "11",
+   "D": "12"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q1-161",
+  "level": 1,
+  "category": "Toán học",
+  "question": "9 + 9 bằng bao nhiêu?",
+  "options": {
+   "A": "18",
+   "B": "17",
+   "C": "19",
+   "D": "16"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q1-162",
+  "level": 1,
+  "category": "Văn học/Dân gian",
+  "question": "Trong truyện 'Rùa và Thỏ', con vật nào về đích trước?",
+  "options": {
+   "A": "Thỏ",
+   "B": "Sóc",
+   "C": "Khỉ",
+   "D": "Rùa"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q1-163",
+  "level": 1,
+  "category": "Văn học/Dân gian",
+  "question": "Theo sự tích, Mai An Tiêm gắn liền với loại quả nào?",
+  "options": {
+   "A": "Dưa gang",
+   "B": "Bí ngô",
+   "C": "Dưa hấu",
+   "D": "Mít"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q1-164",
+  "level": 1,
+  "category": "Văn học/Dân gian",
+  "question": "Trong truyện 'Thạch Sanh', Thạch Sanh dùng vật gì để bắn đại bàng?",
+  "options": {
+   "A": "Cung tên",
+   "B": "Giáo",
+   "C": "Kiếm",
+   "D": "Đá"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q1-165",
+  "level": 1,
+  "category": "Văn học/Dân gian",
+  "question": "Nhân vật Tôn Ngộ Không trong 'Tây Du Ký' sử dụng vũ khí nào?",
+  "options": {
+   "A": "Thanh kiếm",
+   "B": "Cây quạt",
+   "C": "Chiếc búa",
+   "D": "Gậy Như Ý"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q1-166",
+  "level": 1,
+  "category": "Văn học/Dân gian",
+  "question": "Trong truyện 'Sơn Tinh, Thủy Tinh', Sơn Tinh là thần của vùng nào?",
+  "options": {
+   "A": "Biển cả",
+   "B": "Sông sâu",
+   "C": "Núi cao",
+   "D": "Rừng rậm"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q1-167",
+  "level": 1,
+  "category": "Văn học/Dân gian",
+  "question": "Cô bé quàng khăn đỏ trong truyện cổ tích quàng chiếc khăn màu gì?",
+  "options": {
+   "A": "Màu xanh",
+   "B": "Màu vàng",
+   "C": "Màu đỏ",
+   "D": "Màu tím"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q1-168",
+  "level": 1,
+  "category": "Khoa học thường thức",
+  "question": "Trái Đất quay xung quanh vật nào?",
+  "options": {
+   "A": "Mặt Trăng",
+   "B": "Sao Hỏa",
+   "C": "Mặt Trời",
+   "D": "Sao Kim"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q1-169",
+  "level": 1,
+  "category": "Khoa học thường thức",
+  "question": "Bộ phận nào của cơ thể người bơm máu đi nuôi cơ thể?",
+  "options": {
+   "A": "Lá phổi",
+   "B": "Dạ dày",
+   "C": "Trái tim",
+   "D": "Lá gan"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q1-170",
+  "level": 1,
+  "category": "Khoa học thường thức",
+  "question": "Cây xanh quang hợp cần yếu tố nào từ thiên nhiên?",
+  "options": {
+   "A": "Gió lạnh",
+   "B": "Ánh sáng Mặt Trời",
+   "C": "Mưa đá",
+   "D": "Bóng tối"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q1-171",
+  "level": 1,
+  "category": "Khoa học thường thức",
+  "question": "Ngôi sao nào ở gần Trái Đất nhất?",
+  "options": {
+   "A": "Sao Bắc Cực",
+   "B": "Sao Hôm",
+   "C": "Sao Mai",
+   "D": "Mặt Trời"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q1-172",
+  "level": 1,
+  "category": "Khoa học thường thức",
+  "question": "Khi thở ra, con người thải ra loại khí nào?",
+  "options": {
+   "A": "Khí ôxy",
+   "B": "Khí cacbonic (CO2)",
+   "C": "Khí heli",
+   "D": "Khí hydro"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q1-173",
+  "level": 1,
+  "category": "Khoa học thường thức",
+  "question": "Bóng đèn điện phát ra gì khi có dòng điện chạy qua?",
+  "options": {
+   "A": "Ánh sáng",
+   "B": "Âm thanh",
+   "C": "Nước",
+   "D": "Khói"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q1-174",
+  "level": 1,
+  "category": "Đời sống",
+  "question": "Khi viết bằng bút chì sai, ta dùng vật gì để xóa?",
+  "options": {
+   "A": "Cục tẩy",
+   "B": "Thước kẻ",
+   "C": "Hồ dán",
+   "D": "Phấn"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q1-175",
+  "level": 1,
+  "category": "Đời sống",
+  "question": "Người đi xe máy khi tham gia giao thông phải đội vật gì để bảo vệ đầu?",
+  "options": {
+   "A": "Mũ bảo hiểm",
+   "B": "Mũ lưỡi trai",
+   "C": "Khăn trùm đầu",
+   "D": "Mũ len"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q1-176",
+  "level": 1,
+  "category": "Đời sống",
+  "question": "Tủ lạnh trong nhà được dùng chủ yếu để làm gì?",
+  "options": {
+   "A": "Bảo quản thức ăn",
+   "B": "Nấu chín thức ăn",
+   "C": "Giặt quần áo",
+   "D": "Sấy khô quần áo"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q1-177",
+  "level": 1,
+  "category": "Đời sống",
+  "question": "Điều hòa nhiệt độ trong phòng nóng được bật để làm gì?",
+  "options": {
+   "A": "Làm nóng không khí",
+   "B": "Làm mát không khí",
+   "C": "Lọc nước uống",
+   "D": "Phát nhạc"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q1-178",
+  "level": 1,
+  "category": "Đời sống",
+  "question": "Chìa khóa thường được dùng để làm gì?",
+  "options": {
+   "A": "Đo chiều dài",
+   "B": "Mở khóa cửa",
+   "C": "Cắt giấy",
+   "D": "Viết chữ"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q1-179",
+  "level": 1,
+  "category": "Đời sống",
+  "question": "Thang máy trong tòa nhà cao tầng giúp con người làm gì?",
+  "options": {
+   "A": "Đi sang tòa nhà khác",
+   "B": "Di chuyển lên xuống các tầng",
+   "C": "Đi xuống hầm mỏ",
+   "D": "Đi qua sông"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q1-180",
+  "level": 1,
+  "category": "Đời sống",
+  "question": "Xà phòng được dùng chủ yếu để làm gì?",
+  "options": {
+   "A": "Nấu ăn",
+   "B": "Viết bảng",
+   "C": "Đánh bóng giày",
+   "D": "Rửa sạch và tắm giặt"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q1-181",
+  "level": 1,
+  "category": "Đời sống",
+  "question": "Vật nào được trải trên giường để nằm ngủ cho êm?",
+  "options": {
+   "A": "Thảm chùi chân",
+   "B": "Rèm cửa",
+   "C": "Khăn bàn",
+   "D": "Đệm (nệm)"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q1-182",
+  "level": 1,
+  "category": "Đời sống",
+  "question": "Khi ra ngoài trời nắng, bôi kem chống nắng lên đâu?",
+  "options": {
+   "A": "Da",
+   "B": "Tóc",
+   "C": "Móng tay",
+   "D": "Quần áo"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q1-183",
+  "level": 1,
+  "category": "Thể thao",
+  "question": "Trong môn bóng rổ, người chơi ghi điểm bằng cách ném bóng vào đâu?",
+  "options": {
+   "A": "Khung thành",
+   "B": "Rổ",
+   "C": "Lưới vợt",
+   "D": "Hố cát"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q1-184",
+  "level": 1,
+  "category": "Thể thao",
+  "question": "Trong môn cờ vua, quân cờ nào quan trọng nhất cần được bảo vệ?",
+  "options": {
+   "A": "Quân Hậu",
+   "B": "Quân Xe",
+   "C": "Quân Tượng",
+   "D": "Quân Vua"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q1-185",
+  "level": 1,
+  "category": "Thể thao",
+  "question": "Huy hiệu Olympic có bao nhiêu vòng tròn lồng vào nhau?",
+  "options": {
+   "A": "5 vòng",
+   "B": "4 vòng",
+   "C": "6 vòng",
+   "D": "3 vòng"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q1-186",
+  "level": 1,
+  "category": "Thể thao",
+  "question": "Trong bóng đá, bàn thắng được công nhận khi bóng đi vào đâu?",
+  "options": {
+   "A": "Góc sân",
+   "B": "Ngoài đường biên",
+   "C": "Khu vực khán đài",
+   "D": "Khung thành đối phương"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q1-187",
+  "level": 1,
+  "category": "Thể thao",
+  "question": "Môn thể thao nào người chơi đứng trên ván và lướt trên sóng biển?",
+  "options": {
+   "A": "Trượt tuyết",
+   "B": "Lướt sóng",
+   "C": "Lặn biển",
+   "D": "Chèo thuyền"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q1-188",
+  "level": 1,
+  "category": "Lịch sử cơ bản",
+  "question": "Các Vua Hùng đã dựng nên nước đầu tiên của người Việt có tên là gì?",
+  "options": {
+   "A": "Âu Lạc",
+   "B": "Văn Lang",
+   "C": "Đại Việt",
+   "D": "Đại Nam"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q1-189",
+  "level": 1,
+  "category": "Âm nhạc",
+  "question": "Quốc ca của Việt Nam có tên là gì?",
+  "options": {
+   "A": "Việt Nam quê hương tôi",
+   "B": "Như có Bác trong ngày đại thắng",
+   "C": "Tiến quân ca",
+   "D": "Đất nước trọn niềm vui"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q1-190",
+  "level": 1,
+  "category": "Công nghệ đời thường",
+  "question": "Chuột máy tính được dùng chủ yếu để làm gì?",
+  "options": {
+   "A": "Gõ chữ",
+   "B": "Phát âm thanh",
+   "C": "Di chuyển con trỏ trên màn hình",
+   "D": "In giấy"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q1-191",
+  "level": 1,
+  "category": "Động vật",
+  "question": "Con vật nào được nuôi để giữ nhà và rất trung thành với chủ?",
+  "options": {
+   "A": "Con chó",
+   "B": "Con mèo",
+   "C": "Con gà",
+   "D": "Con vịt"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q1-192",
+  "level": 1,
+  "category": "Ẩm thực",
+  "question": "Nem chua là món ăn đặc sản nổi tiếng của tỉnh nào?",
+  "options": {
+   "A": "Nghệ An",
+   "B": "Thanh Hóa",
+   "C": "Quảng Bình",
+   "D": "Hà Tĩnh"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q1-193",
+  "level": 1,
+  "category": "Đời sống",
+  "question": "Đồng hồ đeo tay thường được đeo ở bộ phận nào?",
+  "options": {
+   "A": "Cổ chân",
+   "B": "Cổ",
+   "C": "Cổ tay",
+   "D": "Tai"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q1-194",
+  "level": 1,
+  "category": "Khoa học thường thức",
+  "question": "Con người có bao nhiêu giác quan chính thường được học ở tiểu học?",
+  "options": {
+   "A": "3 giác quan",
+   "B": "4 giác quan",
+   "C": "5 giác quan",
+   "D": "6 giác quan"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q1-195",
+  "level": 1,
+  "category": "Thể thao",
+  "question": "Trong môn nhảy dây, người chơi nhảy qua vật gì?",
+  "options": {
+   "A": "Quả bóng",
+   "B": "Chiếc vòng",
+   "C": "Tấm ván",
+   "D": "Sợi dây"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q1-196",
+  "level": 1,
+  "category": "Văn học/Dân gian",
+  "question": "Trong truyện 'Cây tre trăm đốt', anh Khoai được ông bụt giúp bằng câu thần chú nào khi ghép tre?",
+  "options": {
+   "A": "Khắc nhập",
+   "B": "Khắc xuất",
+   "C": "Mở ra",
+   "D": "Đóng lại"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q1-197",
+  "level": 1,
+  "category": "Động vật",
+  "question": "Khi ngủ, con dơi thường treo mình theo tư thế nào?",
+  "options": {
+   "A": "Nằm ngửa trên cành cây",
+   "B": "Treo ngược đầu xuống dưới",
+   "C": "Đứng thẳng trên mặt đất",
+   "D": "Cuộn tròn trong tổ lá"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q1-198",
+  "level": 1,
+  "category": "Màu sắc",
+  "question": "Màu đỏ pha với màu xanh dương sẽ tạo ra màu nào?",
+  "options": {
+   "A": "Màu cam",
+   "B": "Màu xanh lá",
+   "C": "Màu tím",
+   "D": "Màu nâu đất"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q1-199",
+  "level": 1,
+  "category": "Ẩm thực",
+  "question": "Quả khế khi cắt ngang thường có hình gì?",
+  "options": {
+   "A": "Hình ngôi sao",
+   "B": "Hình tròn",
+   "C": "Hình vuông",
+   "D": "Hình tam giác"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q1-200",
+  "level": 1,
+  "category": "Đặc sản",
+  "question": "Kẹo dừa là đặc sản nổi tiếng của tỉnh nào?",
+  "options": {
+   "A": "Cà Mau",
+   "B": "An Giang",
+   "C": "Trà Vinh",
+   "D": "Bến Tre"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q1-201",
+  "level": 1,
+  "category": "Động vật",
+  "question": "Con ốc sên thường mang theo thứ gì trên lưng?",
+  "options": {
+   "A": "Một chiếc lá khô",
+   "B": "Cái vỏ cứng của nó",
+   "C": "Một túi cát nhỏ",
+   "D": "Một hòn đá nhỏ"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q1-202",
+  "level": 1,
+  "category": "Nghề nghiệp",
+  "question": "Người thợ chuyên đóng bàn ghế, tủ giường bằng gỗ được gọi là thợ gì?",
+  "options": {
+   "A": "Thợ mộc",
+   "B": "Thợ may",
+   "C": "Thợ rèn",
+   "D": "Thợ hồ"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q1-203",
+  "level": 1,
+  "category": "Nghề nghiệp",
+  "question": "Thợ may thường dùng vật gì mềm và dẻo để đo số đo cơ thể khách hàng?",
+  "options": {
+   "A": "Thước kẻ gỗ",
+   "B": "Cân bàn lớn",
+   "C": "Thước dây mềm",
+   "D": "Thước đo góc"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q1-204",
+  "level": 1,
+  "category": "Cơ thể người",
+  "question": "Hàng lông nhỏ mọc ở mí mắt, giúp chắn bụi cho mắt được gọi là gì?",
+  "options": {
+   "A": "Lông mày",
+   "B": "Tóc mai",
+   "C": "Râu ria",
+   "D": "Lông mi"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q1-205",
+  "level": 1,
+  "category": "Cơ thể người",
+  "question": "Bộ phận nào ở giữa chân giúp ta gập và duỗi chân dễ dàng?",
+  "options": {
+   "A": "Cổ chân",
+   "B": "Đầu gối",
+   "C": "Gót chân",
+   "D": "Bắp chân"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q1-206",
+  "level": 1,
+  "category": "Giao thông",
+  "question": "Thuyền buồm di chuyển trên mặt nước chủ yếu nhờ vào sức gì?",
+  "options": {
+   "A": "Sức gió thổi",
+   "B": "Động cơ dầu",
+   "C": "Chân vịt điện",
+   "D": "Sức ngựa kéo"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q1-207",
+  "level": 1,
+  "category": "Giao thông",
+  "question": "Phương tiện bay nào có thể cất cánh thẳng đứng và đứng lơ lửng tại chỗ trên không?",
+  "options": {
+   "A": "Máy bay chở khách",
+   "B": "Khinh khí cầu",
+   "C": "Trực thăng",
+   "D": "Tàu lượn"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q1-208",
+  "level": 1,
+  "category": "Thời tiết",
+  "question": "Vào sáng sớm, lớp hơi nước trắng đục bay là là trên mặt đất khiến ta khó nhìn xa gọi là gì?",
+  "options": {
+   "A": "Mưa đá",
+   "B": "Khói bụi",
+   "C": "Mây đen",
+   "D": "Sương mù"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q1-209",
+  "level": 1,
+  "category": "Ngày lễ",
+  "question": "Vào Tết Trung thu, loại bánh truyền thống nào được nướng vàng và thường có nhân thập cẩm?",
+  "options": {
+   "A": "Bánh chưng",
+   "B": "Bánh nướng",
+   "C": "Bánh tét",
+   "D": "Bánh giầy"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q1-210",
+  "level": 1,
+  "category": "Ngày lễ",
+  "question": "Vào dịp Tết Nguyên đán, tiền mừng tuổi cho trẻ em thường được đựng trong vật gì?",
+  "options": {
+   "A": "Bao lì xì",
+   "B": "Hộp quà giấy",
+   "C": "Giỏ hoa quả",
+   "D": "Túi vải bố"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q1-211",
+  "level": 1,
+  "category": "Văn học dân gian",
+  "question": "Sự tích cây vú sữa là câu chuyện cảm động về tình yêu thương của ai dành cho con trai?",
+  "options": {
+   "A": "Người cha",
+   "B": "Ông ngoại",
+   "C": "Người mẹ",
+   "D": "Bà nội"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q1-212",
+  "level": 1,
+  "category": "Toán học",
+  "question": "17 + 8 bằng bao nhiêu?",
+  "options": {
+   "A": "23",
+   "B": "24",
+   "C": "26",
+   "D": "25"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q1-213",
+  "level": 1,
+  "category": "Đời sống",
+  "question": "Ta thường bôi thứ gì lên bàn chải để đánh răng cho sạch và thơm miệng?",
+  "options": {
+   "A": "Kem đánh răng",
+   "B": "Xà phòng tắm",
+   "C": "Dầu gội đầu",
+   "D": "Kem dưỡng da"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q1-214",
+  "level": 1,
+  "category": "Đời sống",
+  "question": "Khi trời rét, ta đeo vật gì vào tay để giữ ấm?",
+  "options": {
+   "A": "Mũ len",
+   "B": "Khăn quàng",
+   "C": "Găng tay",
+   "D": "Tất chân"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q2-135",
+  "level": 2,
+  "category": "Địa lý",
+  "question": "Thủ đô của Trung Quốc là thành phố nào?",
+  "options": {
+   "A": "Thiên Tân",
+   "B": "Bắc Kinh",
+   "C": "Thượng Hải",
+   "D": "Trùng Khánh"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q2-136",
+  "level": 2,
+  "category": "Địa lý",
+  "question": "Hồ nào nằm ngay trung tâm thành phố Đà Lạt?",
+  "options": {
+   "A": "Hồ Than Thở",
+   "B": "Hồ Tuyền Lâm",
+   "C": "Hồ Suối Vàng",
+   "D": "Hồ Xuân Hương"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q2-137",
+  "level": 2,
+  "category": "Địa lý",
+  "question": "Sông nào được coi là sông dài nhất thế giới?",
+  "options": {
+   "A": "Sông Dương Tử",
+   "B": "Sông A-ma-dôn",
+   "C": "Sông Nin",
+   "D": "Sông Mê Kông"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q2-138",
+  "level": 2,
+  "category": "Địa lý",
+  "question": "Bãi biển Mỹ Khê nổi tiếng thuộc thành phố nào?",
+  "options": {
+   "A": "Nha Trang",
+   "B": "Quy Nhơn",
+   "C": "Đà Nẵng",
+   "D": "Vũng Tàu"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q2-139",
+  "level": 2,
+  "category": "Địa lý",
+  "question": "Mũi Đôi - điểm cực Đông trên đất liền của Việt Nam thuộc tỉnh nào?",
+  "options": {
+   "A": "Phú Yên",
+   "B": "Bình Thuận",
+   "C": "Ninh Thuận",
+   "D": "Khánh Hòa"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q2-140",
+  "level": 2,
+  "category": "Địa lý",
+  "question": "Đất nước nào nổi tiếng với hoa tuy-líp và những chiếc cối xay gió?",
+  "options": {
+   "A": "Hà Lan",
+   "B": "Đan Mạch",
+   "C": "Bỉ",
+   "D": "Áo"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q2-141",
+  "level": 2,
+  "category": "Địa lý",
+  "question": "Điệu nhảy tango nổi tiếng có nguồn gốc từ quốc gia nào?",
+  "options": {
+   "A": "Tây Ban Nha",
+   "B": "Bra-xin",
+   "C": "Ác-hen-ti-na",
+   "D": "Mê-hi-cô"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q2-142",
+  "level": 2,
+  "category": "Địa lý",
+  "question": "Dòng sông nào tạo nên thác Niagara nổi tiếng ở biên giới Hoa Kỳ và Ca-na-đa?",
+  "options": {
+   "A": "Sông Mississippi",
+   "B": "Sông Niagara",
+   "C": "Sông Colorado",
+   "D": "Sông Amazon"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q2-143",
+  "level": 2,
+  "category": "Địa lý",
+  "question": "Dãy núi cao nhất thế giới là dãy núi nào?",
+  "options": {
+   "A": "An-đét",
+   "B": "An-pơ",
+   "C": "Trường Sơn",
+   "D": "Hi-ma-lay-a"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q2-144",
+  "level": 2,
+  "category": "Lịch sử",
+  "question": "Vị tướng nào chỉ huy quân Trần giành thắng lợi ở Hàm Tử và Chương Dương năm 1285?",
+  "options": {
+   "A": "Trần Quang Khải",
+   "B": "Trần Khánh Dư",
+   "C": "Trần Quốc Toản",
+   "D": "Phạm Ngũ Lão"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q2-145",
+  "level": 2,
+  "category": "Lịch sử",
+  "question": "Mai Thúc Loan lãnh đạo cuộc khởi nghĩa chống lại triều đại phong kiến Trung Quốc nào?",
+  "options": {
+   "A": "Nhà Hán",
+   "B": "Nhà Tống",
+   "C": "Nhà Minh",
+   "D": "Nhà Đường"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q2-146",
+  "level": 2,
+  "category": "Lịch sử",
+  "question": "Ai là vị Đại tướng đầu tiên của Quân đội nhân dân Việt Nam?",
+  "options": {
+   "A": "Văn Tiến Dũng",
+   "B": "Nguyễn Chí Thanh",
+   "C": "Võ Nguyên Giáp",
+   "D": "Hoàng Văn Thái"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q2-147",
+  "level": 2,
+  "category": "Lịch sử",
+  "question": "Vị vua nào cho xây dựng Văn Miếu ở Thăng Long vào năm 1070?",
+  "options": {
+   "A": "Lý Thái Tổ",
+   "B": "Lý Nhân Tông",
+   "C": "Lý Thánh Tông",
+   "D": "Lê Thánh Tông"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q2-148",
+  "level": 2,
+  "category": "Lịch sử",
+  "question": "Vị vua nào đặt quốc hiệu nước ta là Đại Nam?",
+  "options": {
+   "A": "Gia Long",
+   "B": "Thiệu Trị",
+   "C": "Minh Mạng",
+   "D": "Tự Đức"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q2-149",
+  "level": 2,
+  "category": "Lịch sử",
+  "question": "Đảng Cộng sản Việt Nam được thành lập vào năm nào?",
+  "options": {
+   "A": "1930",
+   "B": "1925",
+   "C": "1945",
+   "D": "1954"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q2-150",
+  "level": 2,
+  "category": "Lịch sử",
+  "question": "Trong Cách mạng Tháng Tám năm 1945, chính quyền cách mạng được giành đầu tiên ở thành phố nào?",
+  "options": {
+   "A": "Hà Nội",
+   "B": "Huế",
+   "C": "Sài Gòn",
+   "D": "Hải Phòng"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q2-151",
+  "level": 2,
+  "category": "Lịch sử",
+  "question": "Cuộc kháng chiến chống Tống do Lý Thường Kiệt chỉ huy gắn liền với phòng tuyến trên sông nào?",
+  "options": {
+   "A": "Sông Bạch Đằng",
+   "B": "Sông Như Nguyệt",
+   "C": "Sông Hồng",
+   "D": "Sông Lam"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q2-152",
+  "level": 2,
+  "category": "Văn học",
+  "question": "Trong tác phẩm \"Tắt đèn\" của Ngô Tất Tố, nhân vật chính chịu nhiều áp bức là ai?",
+  "options": {
+   "A": "Lão Hạc",
+   "B": "Chí Phèo",
+   "C": "Chị Dậu",
+   "D": "Ông Hai"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q2-153",
+  "level": 2,
+  "category": "Văn học",
+  "question": "Theo sự tích bánh chưng, bánh giầy, hoàng tử nào đã làm ra hai loại bánh này dâng vua Hùng?",
+  "options": {
+   "A": "Mai An Tiêm",
+   "B": "Lang Liêu",
+   "C": "Sơn Tinh",
+   "D": "Thạch Sanh"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q2-154",
+  "level": 2,
+  "category": "Văn học",
+  "question": "Sự tích Hồ Gươm gắn liền với việc vị vua nào trả gươm thần cho Rùa thần?",
+  "options": {
+   "A": "Lý Công Uẩn",
+   "B": "Trần Hưng Đạo",
+   "C": "Lê Lợi",
+   "D": "Đinh Tiên Hoàng"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q2-155",
+  "level": 2,
+  "category": "Văn học",
+  "question": "Trong truyện \"Tấm Cám\", bà lão hàng nước đã tìm thấy Tấm ở trong vật gì?",
+  "options": {
+   "A": "Quả bầu",
+   "B": "Quả dưa",
+   "C": "Ống tre",
+   "D": "Quả thị"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q2-156",
+  "level": 2,
+  "category": "Văn học",
+  "question": "Câu thơ \"Thân em vừa trắng lại vừa tròn\" mở đầu bài thơ nào của Hồ Xuân Hương?",
+  "options": {
+   "A": "Qua Đèo Ngang",
+   "B": "Bánh chưng",
+   "C": "Tự tình",
+   "D": "Bánh trôi nước"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q2-157",
+  "level": 2,
+  "category": "Văn học",
+  "question": "Trong ca dao \"Công cha như núi Thái Sơn\", công cha được so sánh với ngọn núi nào?",
+  "options": {
+   "A": "Núi Thái Sơn",
+   "B": "Núi Ba Vì",
+   "C": "Núi Ngự Bình",
+   "D": "Núi Hồng Lĩnh"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q2-158",
+  "level": 2,
+  "category": "Văn học",
+  "question": "Truyện cổ tích \"Cây khế\" còn được biết đến với tên gọi nào?",
+  "options": {
+   "A": "Cây tre trăm đốt",
+   "B": "Sự tích dưa hấu",
+   "C": "Bánh chưng bánh giầy",
+   "D": "Ăn khế trả vàng"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q2-159",
+  "level": 2,
+  "category": "Văn học",
+  "question": "Nhân vật chính trong tiểu thuyết \"Số đỏ\" của Vũ Trọng Phụng là ai?",
+  "options": {
+   "A": "Chí Phèo",
+   "B": "Lão Hạc",
+   "C": "Anh Pha",
+   "D": "Xuân Tóc Đỏ"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q2-160",
+  "level": 2,
+  "category": "Văn học",
+  "question": "Bài thơ \"Bạn đến chơi nhà\" là sáng tác của nhà thơ nào?",
+  "options": {
+   "A": "Nguyễn Du",
+   "B": "Nguyễn Khuyến",
+   "C": "Hồ Xuân Hương",
+   "D": "Tú Xương"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q2-161",
+  "level": 2,
+  "category": "Văn học",
+  "question": "Bài thơ \"Ông đồ\" là sáng tác của nhà thơ nào?",
+  "options": {
+   "A": "Nguyễn Khuyến",
+   "B": "Vũ Đình Liên",
+   "C": "Tú Xương",
+   "D": "Hàn Mặc Tử"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q2-162",
+  "level": 2,
+  "category": "Toán học",
+  "question": "6 × 9 bằng bao nhiêu?",
+  "options": {
+   "A": "54",
+   "B": "45",
+   "C": "63",
+   "D": "56"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q2-163",
+  "level": 2,
+  "category": "Toán học",
+  "question": "200 + 150 bằng bao nhiêu?",
+  "options": {
+   "A": "400",
+   "B": "340",
+   "C": "300",
+   "D": "350"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q2-164",
+  "level": 2,
+  "category": "Toán học",
+  "question": "Một hình chữ nhật có chiều dài 7 cm và chiều rộng 3 cm. Chu vi của hình đó là bao nhiêu?",
+  "options": {
+   "A": "21 cm",
+   "B": "20 cm",
+   "C": "10 cm",
+   "D": "14 cm"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q2-165",
+  "level": 2,
+  "category": "Toán học",
+  "question": "8 × 8 bằng bao nhiêu?",
+  "options": {
+   "A": "56",
+   "B": "72",
+   "C": "64",
+   "D": "48"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q2-166",
+  "level": 2,
+  "category": "Toán học",
+  "question": "1/2 + 1/2 bằng bao nhiêu?",
+  "options": {
+   "A": "1",
+   "B": "1/2",
+   "C": "2",
+   "D": "1/4"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q2-167",
+  "level": 2,
+  "category": "Toán học",
+  "question": "Số chẵn lớn nhất có một chữ số là số nào?",
+  "options": {
+   "A": "8",
+   "B": "7",
+   "C": "9",
+   "D": "6"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q2-168",
+  "level": 2,
+  "category": "Toán học",
+  "question": "Chu vi của hình vuông có cạnh 6 cm là bao nhiêu?",
+  "options": {
+   "A": "36 cm",
+   "B": "12 cm",
+   "C": "24 cm",
+   "D": "18 cm"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q2-169",
+  "level": 2,
+  "category": "Toán học",
+  "question": "Một góc vuông có số đo là bao nhiêu độ?",
+  "options": {
+   "A": "90 độ",
+   "B": "45 độ",
+   "C": "180 độ",
+   "D": "60 độ"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q2-170",
+  "level": 2,
+  "category": "Toán học",
+  "question": "63 : 9 bằng bao nhiêu?",
+  "options": {
+   "A": "7",
+   "B": "6",
+   "C": "8",
+   "D": "9"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q2-171",
+  "level": 2,
+  "category": "Toán học",
+  "question": "5 ki-lô-mét bằng bao nhiêu mét?",
+  "options": {
+   "A": "50 mét",
+   "B": "5.000 mét",
+   "C": "50.000 mét",
+   "D": "500 mét"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q2-172",
+  "level": 2,
+  "category": "Khoa học",
+  "question": "Trong một cơn giông, chúng ta thường quan sát thấy hiện tượng nào trước?",
+  "options": {
+   "A": "Nghe thấy tiếng sấm trước",
+   "B": "Cảm thấy gió mạnh trước",
+   "C": "Nhìn thấy tia chớp trước",
+   "D": "Nhìn thấy mưa rơi trước"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q2-173",
+  "level": 2,
+  "category": "Khoa học",
+  "question": "Ký hiệu hóa học của nguyên tố cacbon là gì?",
+  "options": {
+   "A": "Ca",
+   "B": "C",
+   "C": "Cu",
+   "D": "Cl"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q2-174",
+  "level": 2,
+  "category": "Khoa học",
+  "question": "Dụng cụ nào dùng để quan sát các vật rất nhỏ mà mắt thường không nhìn rõ?",
+  "options": {
+   "A": "Kính lúp",
+   "B": "Kính hiển vi",
+   "C": "Kính viễn vọng",
+   "D": "Kính râm"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q2-175",
+  "level": 2,
+  "category": "Khoa học",
+  "question": "Khí nào trong không khí giúp duy trì sự cháy?",
+  "options": {
+   "A": "Khí nitơ",
+   "B": "Khí cacbonic",
+   "C": "Khí ô-xi",
+   "D": "Khí hiđrô"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q2-176",
+  "level": 2,
+  "category": "Khoa học",
+  "question": "Cầu vồng thường được mô tả gồm bao nhiêu màu chính?",
+  "options": {
+   "A": "9 màu",
+   "B": "5 màu",
+   "C": "7 màu",
+   "D": "3 màu"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q2-177",
+  "level": 2,
+  "category": "Khoa học",
+  "question": "Trái Đất quay một vòng quanh Mặt Trời mất khoảng thời gian bao lâu?",
+  "options": {
+   "A": "Khoảng 24 giờ",
+   "B": "Khoảng 7 ngày",
+   "C": "Khoảng 365 ngày",
+   "D": "Khoảng 30 ngày"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q2-178",
+  "level": 2,
+  "category": "Khoa học",
+  "question": "Hành tinh nào xa Mặt Trời nhất trong Hệ Mặt Trời?",
+  "options": {
+   "A": "Sao Hải Vương",
+   "B": "Sao Thiên Vương",
+   "C": "Sao Thổ",
+   "D": "Sao Mộc"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q2-179",
+  "level": 2,
+  "category": "Sinh học",
+  "question": "Loài côn trùng nào tạo ra mật ong?",
+  "options": {
+   "A": "Kiến",
+   "B": "Chuồn chuồn",
+   "C": "Bướm",
+   "D": "Ong mật"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q2-180",
+  "level": 2,
+  "category": "Sinh học",
+  "question": "Cá mập thuộc lớp động vật nào?",
+  "options": {
+   "A": "Lớp Thú",
+   "B": "Lớp Lưỡng cư",
+   "C": "Lớp Cá",
+   "D": "Lớp Bò sát"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q2-181",
+  "level": 2,
+  "category": "Sinh học",
+  "question": "Quả nào có vỏ xanh, ruột đỏ, hạt đen và thường ăn vào mùa hè để giải khát?",
+  "options": {
+   "A": "Quả dưa chuột",
+   "B": "Quả dưa hấu",
+   "C": "Quả bí đỏ",
+   "D": "Quả thanh long"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q2-182",
+  "level": 2,
+  "category": "Sinh học",
+  "question": "Con tằm thường ăn loại lá cây nào?",
+  "options": {
+   "A": "Lá chuối",
+   "B": "Lá lúa",
+   "C": "Lá tre",
+   "D": "Lá dâu"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q2-183",
+  "level": 2,
+  "category": "Sinh học",
+  "question": "Loài vật nào sau đây thuộc nhóm động vật ăn cỏ?",
+  "options": {
+   "A": "Con hổ",
+   "B": "Con sói",
+   "C": "Con báo",
+   "D": "Con bò"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q2-184",
+  "level": 2,
+  "category": "Sinh học",
+  "question": "Con kiến có bao nhiêu chân?",
+  "options": {
+   "A": "8 chân",
+   "B": "4 chân",
+   "C": "6 chân",
+   "D": "10 chân"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q2-185",
+  "level": 2,
+  "category": "Sinh học",
+  "question": "Chim gõ kiến dùng chiếc mỏ dài và cứng của mình để làm gì?",
+  "options": {
+   "A": "Đào hang dưới đất",
+   "B": "Xé thịt con mồi",
+   "C": "Đục thân cây tìm sâu",
+   "D": "Lọc nước lấy thức ăn"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q2-186",
+  "level": 2,
+  "category": "Sinh học",
+  "question": "Loài bò sát nào có thể tự rụng đuôi để trốn tránh kẻ thù?",
+  "options": {
+   "A": "Thằn lằn",
+   "B": "Rắn hổ mang",
+   "C": "Cá sấu",
+   "D": "Rùa cạn"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q2-187",
+  "level": 2,
+  "category": "Thể thao",
+  "question": "Trong môn điền kinh, cự ly chạy ngắn phổ biến nhất thường được nhắc tới là bao nhiêu mét?",
+  "options": {
+   "A": "200 mét",
+   "B": "100 mét",
+   "C": "400 mét",
+   "D": "1.500 mét"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q2-188",
+  "level": 2,
+  "category": "Thể thao",
+  "question": "Trong bóng đá, cầu thủ nhận thẻ đỏ sẽ bị xử lý thế nào?",
+  "options": {
+   "A": "Bị đuổi khỏi sân",
+   "B": "Được thay người tự do",
+   "C": "Nhận thêm một thẻ vàng",
+   "D": "Được đá phạt đền"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q2-189",
+  "level": 2,
+  "category": "Thể thao",
+  "question": "Trong cờ tướng, quân xe di chuyển theo đường nào?",
+  "options": {
+   "A": "Đi hình chữ L",
+   "B": "Đi thẳng ngang hoặc dọc",
+   "C": "Đi chéo một ô",
+   "D": "Đi vòng tròn"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q2-190",
+  "level": 2,
+  "category": "Thể thao",
+  "question": "Giải đấu Wimbledon nổi tiếng thế giới thuộc môn thể thao nào?",
+  "options": {
+   "A": "Quần vợt",
+   "B": "Cầu lông",
+   "C": "Bóng bàn",
+   "D": "Golf"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q2-191",
+  "level": 2,
+  "category": "Thể thao",
+  "question": "Trong môn bóng chuyền, mỗi đội được chạm bóng tối đa bao nhiêu lần trước khi đưa bóng sang sân đối phương?",
+  "options": {
+   "A": "3 lần",
+   "B": "2 lần",
+   "C": "4 lần",
+   "D": "5 lần"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q2-192",
+  "level": 2,
+  "category": "Thể thao",
+  "question": "Quả bóng rổ truyền thống thường có màu gì nổi bật?",
+  "options": {
+   "A": "Màu xanh lá",
+   "B": "Màu cam",
+   "C": "Màu tím",
+   "D": "Màu hồng"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q2-193",
+  "level": 2,
+  "category": "Thể thao",
+  "question": "Trong môn bắn cung, vận động viên dùng dụng cụ nào để bắn trúng hồng tâm?",
+  "options": {
+   "A": "Vợt và cầu",
+   "B": "Kiếm và khiên",
+   "C": "Gậy và bóng",
+   "D": "Cung và tên"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q2-194",
+  "level": 2,
+  "category": "Thể thao",
+  "question": "Trong môn bơi lội, kiểu bơi nào người bơi nằm sấp và quạt hai tay luân phiên qua đầu?",
+  "options": {
+   "A": "Bơi ngửa",
+   "B": "Bơi bướm",
+   "C": "Bơi ếch",
+   "D": "Bơi sải"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q2-195",
+  "level": 2,
+  "category": "Tiếng Anh",
+  "question": "Từ tiếng Anh \"Thank you\" có nghĩa là gì?",
+  "options": {
+   "A": "Xin chào",
+   "B": "Tạm biệt",
+   "C": "Cảm ơn bạn",
+   "D": "Xin lỗi bạn"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q2-196",
+  "level": 2,
+  "category": "Tiếng Anh",
+  "question": "Từ tiếng Anh \"five\" chỉ số nào?",
+  "options": {
+   "A": "Số 5",
+   "B": "Số 9",
+   "C": "Số 6",
+   "D": "Số 4"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q2-197",
+  "level": 2,
+  "category": "Tiếng Anh",
+  "question": "Màu đỏ trong tiếng Anh là từ nào?",
+  "options": {
+   "A": "Yellow",
+   "B": "Blue",
+   "C": "Red",
+   "D": "Green"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q2-198",
+  "level": 2,
+  "category": "Tiếng Anh",
+  "question": "Từ tiếng Anh \"dog\" chỉ con vật nào?",
+  "options": {
+   "A": "Con gà",
+   "B": "Con cá",
+   "C": "Con mèo",
+   "D": "Con chó"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q2-199",
+  "level": 2,
+  "category": "Tiếng Anh",
+  "question": "Từ tiếng Anh \"book\" có nghĩa là gì?",
+  "options": {
+   "A": "Cái bàn",
+   "B": "Quyển sách",
+   "C": "Cái ghế",
+   "D": "Cây bút"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q2-200",
+  "level": 2,
+  "category": "Tiếng Anh",
+  "question": "Từ tiếng Anh \"January\" chỉ tháng nào trong năm?",
+  "options": {
+   "A": "Tháng 2",
+   "B": "Tháng 1",
+   "C": "Tháng 12",
+   "D": "Tháng 6"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q2-201",
+  "level": 2,
+  "category": "Văn hóa",
+  "question": "Lễ hội Đền Hùng được tổ chức tại tỉnh nào?",
+  "options": {
+   "A": "Hà Nội",
+   "B": "Phú Thọ",
+   "C": "Bắc Ninh",
+   "D": "Ninh Bình"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q2-202",
+  "level": 2,
+  "category": "Văn hóa",
+  "question": "Làng gốm Bát Tràng truyền thống nổi tiếng thuộc thành phố nào ngày nay?",
+  "options": {
+   "A": "Hà Nội",
+   "B": "Huế",
+   "C": "Hải Phòng",
+   "D": "Bắc Ninh"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q2-203",
+  "level": 2,
+  "category": "Văn hóa",
+  "question": "Múa lân thường xuất hiện nhiều trong dịp lễ nào sau đây?",
+  "options": {
+   "A": "Lễ Vu Lan",
+   "B": "Tết Đoan Ngọ",
+   "C": "Ngày Quốc khánh",
+   "D": "Tết Trung thu"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q2-204",
+  "level": 2,
+  "category": "Văn hóa",
+  "question": "Nhạc cụ nào được chơi bằng cách thổi hơi vào ống trúc có lỗ bấm?",
+  "options": {
+   "A": "Đàn bầu",
+   "B": "Trống cơm",
+   "C": "Đàn tranh",
+   "D": "Sáo trúc"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q2-205",
+  "level": 2,
+  "category": "Văn hóa",
+  "question": "Áo tứ thân là trang phục truyền thống gắn liền với vùng nào?",
+  "options": {
+   "A": "Nam Bộ",
+   "B": "Trung Bộ",
+   "C": "Tây Nguyên",
+   "D": "Bắc Bộ"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q2-206",
+  "level": 2,
+  "category": "Địa lý",
+  "question": "Thủ đô của Ma-lai-xi-a là thành phố nào?",
+  "options": {
+   "A": "Manila",
+   "B": "Bangkok",
+   "C": "Kuala Lumpur",
+   "D": "Jakarta"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q2-207",
+  "level": 2,
+  "category": "Toán học",
+  "question": "11 × 11 bằng bao nhiêu?",
+  "options": {
+   "A": "131",
+   "B": "111",
+   "C": "101",
+   "D": "121"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q2-208",
+  "level": 2,
+  "category": "Khoa học",
+  "question": "Băng là nước ở trạng thái (thể) nào?",
+  "options": {
+   "A": "Thể khí",
+   "B": "Thể plasma",
+   "C": "Thể rắn",
+   "D": "Thể lỏng"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q2-209",
+  "level": 2,
+  "category": "Văn học",
+  "question": "Trong truyện dân gian, nhân vật chú Cuội thường gắn liền với hình ảnh nào?",
+  "options": {
+   "A": "Ngồi dưới gốc cây đa trên Mặt Trăng",
+   "B": "Cưỡi ngựa trắng ra trận",
+   "C": "Xuống biển tìm ngọc trai",
+   "D": "Đội đá vá trời"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q2-210",
+  "level": 2,
+  "category": "Thể thao",
+  "question": "Môn thể thao nào chơi trên bàn, dùng vợt nhỏ đánh bóng nhẹ qua lưới ở giữa bàn?",
+  "options": {
+   "A": "Bóng bàn",
+   "B": "Quần vợt",
+   "C": "Bóng chuyền",
+   "D": "Cầu lông"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q2-211",
+  "level": 2,
+  "category": "Tiếng Anh",
+  "question": "Từ tiếng Anh \"cat\" chỉ con vật nào?",
+  "options": {
+   "A": "Con chim",
+   "B": "Con thỏ",
+   "C": "Con chó",
+   "D": "Con mèo"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q2-212",
+  "level": 2,
+  "category": "Sinh học",
+  "question": "Loài hoa nào là biểu tượng nổi tiếng của mùa xuân ở Nhật Bản?",
+  "options": {
+   "A": "Hoa tulip",
+   "B": "Hoa anh đào",
+   "C": "Hoa hướng dương",
+   "D": "Hoa mẫu đơn"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q2-213",
+  "level": 2,
+  "category": "Ẩm thực",
+  "question": "Bánh cáy là đặc sản nổi tiếng của tỉnh nào?",
+  "options": {
+   "A": "Thái Bình",
+   "B": "Hải Phòng",
+   "C": "Quảng Ninh",
+   "D": "Nam Định"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q2-214",
+  "level": 2,
+  "category": "Đời sống",
+  "question": "Trong nghề mộc, cái bào được dùng chủ yếu để làm gì?",
+  "options": {
+   "A": "Cưa gỗ thành từng đoạn",
+   "B": "Khoan lỗ trên gỗ",
+   "C": "Bào cho bề mặt gỗ phẳng và nhẵn",
+   "D": "Đóng đinh vào gỗ"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q3-144",
+  "level": 3,
+  "category": "Địa lý",
+  "question": "Đỉnh Phan Xi Păng, nóc nhà Đông Dương, thuộc dãy núi nào?",
+  "options": {
+   "A": "Trường Sơn",
+   "B": "Ngọc Linh",
+   "C": "Hoàng Liên Sơn",
+   "D": "Bạch Mã"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q3-145",
+  "level": 3,
+  "category": "Lịch sử",
+  "question": "Cách mạng Tháng Tám của Việt Nam thành công vào tháng nào năm 1945?",
+  "options": {
+   "A": "Tháng 2",
+   "B": "Tháng 8",
+   "C": "Tháng 5",
+   "D": "Tháng 12"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q3-146",
+  "level": 3,
+  "category": "Lịch sử",
+  "question": "Nhà Trần đã đánh thắng quân Nguyên - Mông xâm lược tổng cộng bao nhiêu lần?",
+  "options": {
+   "A": "1 lần",
+   "B": "2 lần",
+   "C": "4 lần",
+   "D": "3 lần"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q3-147",
+  "level": 3,
+  "category": "Lịch sử",
+  "question": "Julius Caesar là nhà lãnh đạo nổi tiếng của đế chế cổ đại nào?",
+  "options": {
+   "A": "Hy Lạp",
+   "B": "La Mã",
+   "C": "Ai Cập",
+   "D": "Babylon"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q3-148",
+  "level": 3,
+  "category": "Lịch sử",
+  "question": "Đại phá quân Thanh ở Ngọc Hồi - Đống Đa diễn ra vào dịp nào năm 1789?",
+  "options": {
+   "A": "Tết Trung thu",
+   "B": "Tết Đoan ngọ",
+   "C": "Rằm tháng Giêng",
+   "D": "Tết Nguyên đán"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q3-149",
+  "level": 3,
+  "category": "Văn học",
+  "question": "Câu thành ngữ 'Ếch ngồi đáy giếng' dùng để chỉ người có đặc điểm gì?",
+  "options": {
+   "A": "Rất chăm chỉ học hỏi",
+   "B": "Sống ẩn dật nơi yên tĩnh",
+   "C": "Hiểu biết nông cạn nhưng tự cao",
+   "D": "Luôn khiêm tốn lắng nghe"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q3-150",
+  "level": 3,
+  "category": "Văn học",
+  "question": "Tục ngữ 'Uống nước nhớ nguồn' khuyên con người điều gì?",
+  "options": {
+   "A": "Tiết kiệm nước sạch",
+   "B": "Nhớ quê hương khi đi xa",
+   "C": "Uống đủ nước mỗi ngày",
+   "D": "Biết ơn người đã giúp đỡ mình"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q3-151",
+  "level": 3,
+  "category": "Văn học",
+  "question": "Tùy bút 'Ai đã đặt tên cho dòng sông?' là tác phẩm của nhà văn nào?",
+  "options": {
+   "A": "Nguyễn Tuân",
+   "B": "Hoàng Phủ Ngọc Tường",
+   "C": "Thạch Lam",
+   "D": "Xuân Quỳnh"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q3-152",
+  "level": 3,
+  "category": "Văn học",
+  "question": "Trong truyện cổ tích 'Tấm Cám', con vật nào giúp Tấm nhặt thóc khi bị Cám làm khó?",
+  "options": {
+   "A": "Cá bống",
+   "B": "Gà trống",
+   "C": "Chim sẻ",
+   "D": "Bươm bướm"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q3-153",
+  "level": 3,
+  "category": "Toán học",
+  "question": "30% của 90 là bao nhiêu?",
+  "options": {
+   "A": "27",
+   "B": "24",
+   "C": "30",
+   "D": "33"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q3-154",
+  "level": 3,
+  "category": "Toán học",
+  "question": "Số chẵn lớn nhất có hai chữ số là số nào?",
+  "options": {
+   "A": "98",
+   "B": "99",
+   "C": "96",
+   "D": "90"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q3-155",
+  "level": 3,
+  "category": "Toán học",
+  "question": "Hình vuông có cạnh 6 cm thì diện tích bằng bao nhiêu?",
+  "options": {
+   "A": "24 cm²",
+   "B": "36 cm²",
+   "C": "30 cm²",
+   "D": "42 cm²"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q3-156",
+  "level": 3,
+  "category": "Toán học",
+  "question": "1000 − 375 bằng bao nhiêu?",
+  "options": {
+   "A": "615",
+   "B": "635",
+   "C": "625",
+   "D": "725"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q3-157",
+  "level": 3,
+  "category": "Toán học",
+  "question": "Phân số 3/5 viết dưới dạng số thập phân là bao nhiêu?",
+  "options": {
+   "A": "0,35",
+   "B": "0,53",
+   "C": "0,75",
+   "D": "0,6"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q3-158",
+  "level": 3,
+  "category": "Toán học",
+  "question": "Chu vi của hình vuông có cạnh 5 cm là bao nhiêu?",
+  "options": {
+   "A": "15 cm",
+   "B": "25 cm",
+   "C": "10 cm",
+   "D": "20 cm"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q3-159",
+  "level": 3,
+  "category": "Toán học",
+  "question": "Trung bình cộng của ba số 4, 6 và 8 là bao nhiêu?",
+  "options": {
+   "A": "5",
+   "B": "6",
+   "C": "7",
+   "D": "9"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q3-160",
+  "level": 3,
+  "category": "Khoa học",
+  "question": "Ký hiệu hóa học CO₂ là của khí nào?",
+  "options": {
+   "A": "Ôxy",
+   "B": "Hiđrô",
+   "C": "Nitơ",
+   "D": "Cacbon đioxit (khí cacbonic)"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q3-161",
+  "level": 3,
+  "category": "Khoa học",
+  "question": "Mặt Trăng là gì đối với Trái Đất?",
+  "options": {
+   "A": "Vệ tinh tự nhiên",
+   "B": "Hành tinh",
+   "C": "Ngôi sao",
+   "D": "Sao chổi"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q3-162",
+  "level": 3,
+  "category": "Sinh học",
+  "question": "Con ong thợ dùng bộ phận nào ở cuối bụng để tự vệ?",
+  "options": {
+   "A": "Răng nanh",
+   "B": "Móng vuốt",
+   "C": "Vòi hút",
+   "D": "Ngòi chích (kim độc)"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q3-163",
+  "level": 3,
+  "category": "Nghệ thuật",
+  "question": "Đàn piano thuộc nhóm nhạc cụ nào?",
+  "options": {
+   "A": "Nhạc cụ phím",
+   "B": "Nhạc cụ dây gảy",
+   "C": "Nhạc cụ hơi",
+   "D": "Nhạc cụ gõ"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q3-164",
+  "level": 3,
+  "category": "Nghệ thuật",
+  "question": "Nhà soạn nhạc Beethoven, bị điếc ở cuối đời, là người nước nào?",
+  "options": {
+   "A": "Áo",
+   "B": "Pháp",
+   "C": "Đức",
+   "D": "Ý"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q3-165",
+  "level": 3,
+  "category": "Nghệ thuật",
+  "question": "Nhạc cụ truyền thống nào của Việt Nam chỉ có một dây duy nhất?",
+  "options": {
+   "A": "Đàn bầu",
+   "B": "Đàn tranh",
+   "C": "Đàn nguyệt",
+   "D": "Đàn tỳ bà"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q3-166",
+  "level": 3,
+  "category": "Nghệ thuật",
+  "question": "Trong múa ba lê, vũ công thường đi loại giày đặc trưng nào?",
+  "options": {
+   "A": "Giày cao gót",
+   "B": "Giày thể thao",
+   "C": "Giày đế bằng vải bố",
+   "D": "Giày mũi nhọn"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q3-167",
+  "level": 3,
+  "category": "Nghệ thuật",
+  "question": "Hát chèo là loại hình sân khấu dân gian truyền thống của vùng nào?",
+  "options": {
+   "A": "Đồng bằng Bắc Bộ",
+   "B": "Nam Bộ",
+   "C": "Tây Nguyên",
+   "D": "Miền Trung"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q3-168",
+  "level": 3,
+  "category": "Nghệ thuật",
+  "question": "Kèn trumpet (kèn đồng) thuộc nhóm nhạc cụ nào?",
+  "options": {
+   "A": "Nhạc cụ dây",
+   "B": "Nhạc cụ hơi bằng đồng",
+   "C": "Nhạc cụ phím",
+   "D": "Nhạc cụ gõ"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q3-169",
+  "level": 3,
+  "category": "Thể thao",
+  "question": "Trong môn golf, người chơi dùng dụng cụ gì để đánh bóng vào lỗ?",
+  "options": {
+   "A": "Vợt",
+   "B": "Gậy khúc côn",
+   "C": "Chày bóng chày",
+   "D": "Gậy golf"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q3-170",
+  "level": 3,
+  "category": "Thể thao",
+  "question": "Trong môn cầu lông, quả cầu được làm chủ yếu từ vật liệu gì gắn trên đế cao su?",
+  "options": {
+   "A": "Nhựa cứng",
+   "B": "Lông vũ",
+   "C": "Giấy",
+   "D": "Vải"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q3-171",
+  "level": 3,
+  "category": "Thể thao",
+  "question": "Trong môn điền kinh chạy tiếp sức, vận động viên chuyền cho nhau vật gì?",
+  "options": {
+   "A": "Vòng tiếp sức",
+   "B": "Bóng tiếp sức",
+   "C": "Gậy tiếp sức",
+   "D": "Khăn tiếp sức"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q3-172",
+  "level": 3,
+  "category": "Công nghệ",
+  "question": "Bàn phím máy tính phổ biến hiện nay được sắp xếp theo kiểu bố trí nào?",
+  "options": {
+   "A": "ABCDEF",
+   "B": "QWERTY",
+   "C": "AZERTY quốc tế",
+   "D": "DVORAK cổ điển"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q3-173",
+  "level": 3,
+  "category": "Công nghệ",
+  "question": "Thiết bị nào sau đây dùng để in văn bản từ máy tính ra giấy?",
+  "options": {
+   "A": "Máy in",
+   "B": "Máy quét",
+   "C": "Loa",
+   "D": "Webcam"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q3-174",
+  "level": 3,
+  "category": "Công nghệ",
+  "question": "Đơn vị đo dung lượng pin điện thoại phổ biến được ghi trên thông số là gì?",
+  "options": {
+   "A": "MHz",
+   "B": "GB",
+   "C": "W (oát)",
+   "D": "mAh (miliampe giờ)"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q3-175",
+  "level": 3,
+  "category": "Thể thao",
+  "question": "Trong môn quần vợt, dụng cụ chính để đánh bóng là gì?",
+  "options": {
+   "A": "Gậy tennis",
+   "B": "Chày tennis",
+   "C": "Paddle gỗ",
+   "D": "Vợt tennis"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q3-176",
+  "level": 3,
+  "category": "Nghệ thuật",
+  "question": "Loại hình nghệ thuật tranh dân gian nổi tiếng của Việt Nam gắn với làng ở Bắc Ninh là tranh gì?",
+  "options": {
+   "A": "Tranh Hàng Trống",
+   "B": "Tranh Đông Hồ",
+   "C": "Tranh Kim Hoàng",
+   "D": "Tranh làng Sình"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q3-177",
+  "level": 3,
+  "category": "Địa lý",
+  "question": "Phần lớn diện tích Vườn quốc gia Cát Tiên thuộc địa bàn tỉnh nào?",
+  "options": {
+   "A": "Lâm Đồng",
+   "B": "Đồng Nai",
+   "C": "Bình Phước",
+   "D": "Tây Ninh"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q3-178",
+  "level": 3,
+  "category": "Văn hóa",
+  "question": "Chùa Một Cột ở Hà Nội được xây dựng với hình dáng mô phỏng loài hoa nào?",
+  "options": {
+   "A": "Hoa sen",
+   "B": "Hoa đào",
+   "C": "Hoa mai",
+   "D": "Hoa cúc"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q3-179",
+  "level": 3,
+  "category": "Văn hóa",
+  "question": "Thánh địa Mỹ Sơn là quần thể đền tháp cổ của vương quốc nào?",
+  "options": {
+   "A": "Phù Nam",
+   "B": "Đại Việt",
+   "C": "Champa",
+   "D": "Chân Lạp"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q3-180",
+  "level": 3,
+  "category": "Ẩm thực",
+  "question": "Món chả mực Hạ Long giã tay được làm chủ yếu từ thịt của con vật nào?",
+  "options": {
+   "A": "Con tôm",
+   "B": "Con cua",
+   "C": "Con cá",
+   "D": "Con mực"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q3-181",
+  "level": 3,
+  "category": "Ẩm thực",
+  "question": "Mì Quảng truyền thống thường được ăn kèm với thứ gì giòn tan sau đây?",
+  "options": {
+   "A": "Bánh tráng nướng",
+   "B": "Bánh phồng tôm",
+   "C": "Bánh đa vừng",
+   "D": "Bánh quẩy chiên"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q3-182",
+  "level": 3,
+  "category": "Văn hóa",
+  "question": "Nón bài thơ của Huế có điểm đặc biệt nào?",
+  "options": {
+   "A": "Có thêu rồng phượng bằng chỉ vàng",
+   "B": "Có hình và thơ lồng giữa hai lớp lá",
+   "C": "Có đính hạt cườm quanh vành nón",
+   "D": "Có quai nón làm bằng lụa tơ tằm"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q3-183",
+  "level": 3,
+  "category": "Văn hóa",
+  "question": "Lễ hội đua bò Bảy Núi ở An Giang là nét văn hóa truyền thống của đồng bào dân tộc nào?",
+  "options": {
+   "A": "Dân tộc Chăm",
+   "B": "Dân tộc Hoa",
+   "C": "Dân tộc Kinh",
+   "D": "Dân tộc Khmer"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q3-184",
+  "level": 3,
+  "category": "Ẩm thực",
+  "question": "Mắm nêm là nước chấm đặc trưng thường ăn kèm với món nào ở miền Trung?",
+  "options": {
+   "A": "Phở bò tái chín",
+   "B": "Bún chả cá thu",
+   "C": "Bánh tráng cuốn thịt heo",
+   "D": "Cơm tấm sườn bì"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q3-185",
+  "level": 3,
+  "category": "Ẩm thực",
+  "question": "Kẹo dừa truyền thống được nấu từ cơm dừa kết hợp với nguyên liệu nào để tạo độ dẻo dai?",
+  "options": {
+   "A": "Mạch nha",
+   "B": "Bột nếp",
+   "C": "Mật ong",
+   "D": "Đường phèn"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q3-186",
+  "level": 3,
+  "category": "Khoa học",
+  "question": "Hiện tượng Mặt Trăng đi vào giữa Trái Đất và Mặt Trời, che khuất Mặt Trời, được gọi là gì?",
+  "options": {
+   "A": "Nguyệt thực",
+   "B": "Nhật thực",
+   "C": "Sao băng",
+   "D": "Cực quang"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q3-187",
+  "level": 3,
+  "category": "Khoa học",
+  "question": "Hiện tượng hơi nước ngưng tụ thành những hạt nước nhỏ lơ lửng sát mặt đất vào buổi sáng sớm được gọi là gì?",
+  "options": {
+   "A": "Sương muối",
+   "B": "Mưa phùn",
+   "C": "Giông tố",
+   "D": "Sương mù"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q3-188",
+  "level": 3,
+  "category": "Lịch sử",
+  "question": "Phùng Hưng, thủ lĩnh khởi nghĩa chống nhà Đường, được nhân dân tôn xưng là gì?",
+  "options": {
+   "A": "Bố Cái Đại Vương",
+   "B": "Hưng Đạo Vương",
+   "C": "Đức Thánh Trần",
+   "D": "Lý Nam Đế"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q3-189",
+  "level": 3,
+  "category": "Lịch sử",
+  "question": "Để giành quyền tự chủ vào đầu thế kỷ 10, Khúc Thừa Dụ đã tự xưng giữ chức gì ở vùng đất Giao Châu?",
+  "options": {
+   "A": "Thái thú",
+   "B": "Đô hộ phủ",
+   "C": "Tiết độ sứ",
+   "D": "Kinh lược sứ"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q3-190",
+  "level": 3,
+  "category": "Lịch sử",
+  "question": "Trạng nguyên Mạc Đĩnh Chi được gọi là 'lưỡng quốc trạng nguyên' vì ông từng đỗ trạng nguyên ở Việt Nam và quốc gia nào?",
+  "options": {
+   "A": "Nhật Bản",
+   "B": "Trung Quốc",
+   "C": "Triều Tiên",
+   "D": "Mông Cổ"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q3-191",
+  "level": 3,
+  "category": "Lịch sử",
+  "question": "Danh sĩ Chu Văn An nổi tiếng với bản sớ xin chém bảy tên quan nịnh thần, bản sớ đó được gọi là gì?",
+  "options": {
+   "A": "Trảm nịnh sớ",
+   "B": "Bình gian sớ",
+   "C": "Thất ngôn sớ",
+   "D": "Thất trảm sớ"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q3-192",
+  "level": 3,
+  "category": "Lịch sử",
+  "question": "Ngô Quyền từng là con rể và là tướng dưới quyền của vị hào trưởng Ái Châu nào?",
+  "options": {
+   "A": "Dương Đình Nghệ",
+   "B": "Khúc Thừa Dụ",
+   "C": "Phùng Hưng",
+   "D": "Đinh Bộ Lĩnh"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q3-193",
+  "level": 3,
+  "category": "Lịch sử",
+  "question": "Năm 1416, Lê Lợi cùng các hào kiệt tổ chức hội thề bí mật chuẩn bị khởi nghĩa tại địa điểm nào?",
+  "options": {
+   "A": "Đền Kiếp Bạc",
+   "B": "Núi Chí Linh",
+   "C": "Lũng Nhai",
+   "D": "Lam Sơn"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q3-194",
+  "level": 3,
+  "category": "Lịch sử",
+  "question": "Trong truyền thuyết An Dương Vương, Mị Châu đã rắc thứ gì dọc đường chạy trốn để Trọng Thủy lần theo dấu vết?",
+  "options": {
+   "A": "Hạt gạo trắng",
+   "B": "Lông ngỗng trắng",
+   "C": "Cánh hoa trắng",
+   "D": "Tro bếp trắng"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q3-195",
+  "level": 3,
+  "category": "Văn học",
+  "question": "Nhà thơ trào phúng Tú Xương có tên thật là gì?",
+  "options": {
+   "A": "Nguyễn Tế Xương",
+   "B": "Trần Văn Xương",
+   "C": "Nguyễn Văn Xương",
+   "D": "Trần Tế Xương"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q3-196",
+  "level": 3,
+  "category": "Văn học",
+  "question": "Trong 'Dế Mèn phiêu lưu ký', Dế Mèn vô cùng hối hận vì thói kiêu căng của mình đã gián tiếp gây ra cái chết của nhân vật nào?",
+  "options": {
+   "A": "Dế Choắt",
+   "B": "Dế Trũi",
+   "C": "Chị Cốc",
+   "D": "Anh Gọng Vó"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q3-197",
+  "level": 3,
+  "category": "Văn học",
+  "question": "Bài thơ 'Bên kia sông Đuống' là sáng tác của nhà thơ nào?",
+  "options": {
+   "A": "Hữu Thỉnh",
+   "B": "Tế Hanh",
+   "C": "Hoàng Cầm",
+   "D": "Trần Đăng Khoa"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q3-198",
+  "level": 3,
+  "category": "Văn học",
+  "question": "Trong Truyện Kiều của Nguyễn Du, em gái của Thúy Kiều có tên là gì?",
+  "options": {
+   "A": "Thúy Nga",
+   "B": "Thúy Vân",
+   "C": "Thúy Hạnh",
+   "D": "Thúy Loan"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q3-199",
+  "level": 3,
+  "category": "Văn học",
+  "question": "Truyện ngắn 'Đời thừa' của Nam Cao xoay quanh nhân vật văn sĩ nghèo có tên là gì?",
+  "options": {
+   "A": "Thứ",
+   "B": "Chí Phèo",
+   "C": "Điền",
+   "D": "Hộ"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q3-200",
+  "level": 3,
+  "category": "Khoa học",
+  "question": "Một người trưởng thành bình thường có bao nhiêu đôi xương sườn?",
+  "options": {
+   "A": "12 đôi",
+   "B": "10 đôi",
+   "C": "11 đôi",
+   "D": "13 đôi"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q3-201",
+  "level": 3,
+  "category": "Khoa học",
+  "question": "Thành phần nào trong máu có vai trò chính giúp máu đông lại khi cơ thể bị thương?",
+  "options": {
+   "A": "Hồng cầu",
+   "B": "Bạch cầu",
+   "C": "Tiểu cầu",
+   "D": "Huyết tương"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q3-202",
+  "level": 3,
+  "category": "Khoa học",
+  "question": "Thành phần nào trong máu có nhiệm vụ bảo vệ cơ thể chống lại vi khuẩn và vi rút gây bệnh?",
+  "options": {
+   "A": "Hồng cầu",
+   "B": "Bạch cầu",
+   "C": "Tiểu cầu",
+   "D": "Huyết tương"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q3-203",
+  "level": 3,
+  "category": "Khoa học",
+  "question": "Trong mắt người, lớp màng ở đáy mắt nơi tiếp nhận ánh sáng và hình ảnh được gọi là gì?",
+  "options": {
+   "A": "Giác mạc",
+   "B": "Mống mắt",
+   "C": "Thủy tinh thể",
+   "D": "Võng mạc"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q3-204",
+  "level": 3,
+  "category": "Khoa học",
+  "question": "Giác quan giúp con người ngửi và phân biệt các mùi được gọi là gì?",
+  "options": {
+   "A": "Khứu giác",
+   "B": "Thị giác",
+   "C": "Thính giác",
+   "D": "Vị giác"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q3-205",
+  "level": 3,
+  "category": "Khoa học",
+  "question": "Khí quản của người chia thành hai nhánh dẫn khí đi vào hai lá phổi, hai nhánh đó được gọi là gì?",
+  "options": {
+   "A": "Khí quản chính",
+   "B": "Thanh quản",
+   "C": "Phế quản",
+   "D": "Thực quản"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q3-206",
+  "level": 3,
+  "category": "Nghệ thuật",
+  "question": "Đàn T'rưng, nhạc cụ truyền thống của đồng bào Tây Nguyên, được làm chủ yếu từ vật liệu nào?",
+  "options": {
+   "A": "Dây tơ tằm",
+   "B": "Ống tre nứa",
+   "C": "Da trâu thuộc",
+   "D": "Đồng thau đúc"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q3-207",
+  "level": 3,
+  "category": "Nghệ thuật",
+  "question": "Nghệ nhân hát xẩm xưa thường biểu diễn ở những nơi nào để phục vụ người qua lại?",
+  "options": {
+   "A": "Trong cung đình",
+   "B": "Trên sân khấu lớn",
+   "C": "Trong nhà thờ họ",
+   "D": "Ở chợ và đường phố"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q3-208",
+  "level": 3,
+  "category": "Nghệ thuật",
+  "question": "Bài ca 'Dạ cổ hoài lang' của nghệ sĩ Cao Văn Lầu được xem là tiền thân của điệu nhạc nào nổi tiếng trong cải lương?",
+  "options": {
+   "A": "Điệu vọng cổ",
+   "B": "Điệu lý con sáo",
+   "C": "Điệu hò Đồng Tháp",
+   "D": "Điệu ru con Nam Bộ"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q3-209",
+  "level": 3,
+  "category": "Thể thao",
+  "question": "Trong môn bóng chuyền, ở các ván đấu thông thường (trừ ván quyết định), một đội cần đạt ít nhất bao nhiêu điểm và hơn đối thủ 2 điểm để thắng ván?",
+  "options": {
+   "A": "15 điểm",
+   "B": "21 điểm",
+   "C": "25 điểm",
+   "D": "30 điểm"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q3-210",
+  "level": 3,
+  "category": "Thể thao",
+  "question": "Kiểu bơi nào có động tác hai chân đạp nước ra phía sau mô phỏng động tác của chân ếch?",
+  "options": {
+   "A": "Bơi sải",
+   "B": "Bơi ếch",
+   "C": "Bơi ngửa",
+   "D": "Bơi bướm"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q3-211",
+  "level": 3,
+  "category": "Thể thao",
+  "question": "Trong cờ tướng, quân Pháo muốn ăn một quân của đối phương thì phải nhảy qua đúng bao nhiêu quân làm 'ngòi'?",
+  "options": {
+   "A": "Không cần quân nào",
+   "B": "Đúng hai quân",
+   "C": "Đúng ba quân",
+   "D": "Đúng một quân"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q3-212",
+  "level": 3,
+  "category": "Toán học",
+  "question": "Một hình bình hành có hai cạnh liên tiếp dài 7,5 cm và 4,5 cm. Chu vi của hình đó là bao nhiêu?",
+  "options": {
+   "A": "24 cm",
+   "B": "21 cm",
+   "C": "22 cm",
+   "D": "23 cm"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q3-213",
+  "level": 3,
+  "category": "Toán học",
+  "question": "Một hình thang có hai đáy dài 6,5 cm và 9,5 cm, chiều cao 4 cm. Diện tích của hình thang là bao nhiêu?",
+  "options": {
+   "A": "30 cm²",
+   "B": "34 cm²",
+   "C": "32 cm²",
+   "D": "36 cm²"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q3-214",
+  "level": 3,
+  "category": "Toán học",
+  "question": "Trung bình cộng của bốn số 7, 13, 16 và 20 là bao nhiêu?",
+  "options": {
+   "A": "13",
+   "B": "14",
+   "C": "15",
+   "D": "16"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q3-215",
+  "level": 3,
+  "category": "Toán học",
+  "question": "18 × 7 bằng bao nhiêu?",
+  "options": {
+   "A": "116",
+   "B": "124",
+   "C": "136",
+   "D": "126"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q3-216",
+  "level": 3,
+  "category": "Công nghệ",
+  "question": "Trên bàn phím máy tính, phím Enter thường được dùng để làm gì khi soạn thảo văn bản?",
+  "options": {
+   "A": "Xuống dòng mới",
+   "B": "Xóa ký tự",
+   "C": "Viết hoa chữ",
+   "D": "Lưu văn bản"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q3-217",
+  "level": 3,
+  "category": "Công nghệ",
+  "question": "Loa của máy tính và điện thoại là thiết bị dùng để phát ra thứ gì?",
+  "options": {
+   "A": "Hình ảnh",
+   "B": "Văn bản",
+   "C": "Âm thanh",
+   "D": "Tín hiệu mạng"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q3-218",
+  "level": 3,
+  "category": "Toán học",
+  "question": "40% của 150 là bao nhiêu?",
+  "options": {
+   "A": "50",
+   "B": "60",
+   "C": "55",
+   "D": "65"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q3-219",
+  "level": 3,
+  "category": "Toán học",
+  "question": "Một góc bẹt có số đo bằng bao nhiêu độ?",
+  "options": {
+   "A": "90 độ",
+   "B": "120 độ",
+   "C": "150 độ",
+   "D": "180 độ"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q3-220",
+  "level": 3,
+  "category": "Công nghệ",
+  "question": "Ổ cứng trong máy tính có chức năng chính là gì?",
+  "options": {
+   "A": "Lưu trữ dữ liệu lâu dài",
+   "B": "Xử lý dữ liệu tạm thời",
+   "C": "Hiển thị hình ảnh",
+   "D": "Kết nối mạng không dây"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q3-221",
+  "level": 3,
+  "category": "Khoa học",
+  "question": "Vệt sáng lóe lên trên bầu trời đêm khi một thiên thạch nhỏ bốc cháy trong khí quyển Trái Đất thường được gọi là gì?",
+  "options": {
+   "A": "Sao chổi",
+   "B": "Sao hôm",
+   "C": "Sao băng",
+   "D": "Sao mai"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q3-222",
+  "level": 3,
+  "category": "Văn học",
+  "question": "Theo sự tích trầu cau, người vợ sau khi qua đời đã hóa thành loài cây leo nào quấn quanh cây cau?",
+  "options": {
+   "A": "Cây tầm gửi",
+   "B": "Cây trầu",
+   "C": "Cây tiêu",
+   "D": "Cây nho"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q3-223",
+  "level": 3,
+  "category": "Khoa học",
+  "question": "Đơn vị đo cường độ âm thanh (độ to của âm thanh) là gì?",
+  "options": {
+   "A": "Héc (Hz)",
+   "B": "Oát (W)",
+   "C": "Ampe (A)",
+   "D": "Đề-xi-ben (dB)"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q4-156",
+  "level": 4,
+  "category": "Lịch sử",
+  "question": "Năm 1010, vua Lý Thái Tổ dời đô từ Hoa Lư về địa điểm nào?",
+  "options": {
+   "A": "Phú Xuân",
+   "B": "Gia Định",
+   "C": "Cổ Loa",
+   "D": "Thăng Long"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q4-157",
+  "level": 4,
+  "category": "Lịch sử",
+  "question": "Thành Cổ Loa gắn liền với vị vua nào trong lịch sử Việt Nam?",
+  "options": {
+   "A": "Hùng Vương",
+   "B": "Đinh Tiên Hoàng",
+   "C": "An Dương Vương",
+   "D": "Lê Đại Hành"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q4-158",
+  "level": 4,
+  "category": "Văn học",
+  "question": "Bài thơ 'Vội vàng' là sáng tác của nhà thơ nào?",
+  "options": {
+   "A": "Xuân Diệu",
+   "B": "Hàn Mặc Tử",
+   "C": "Chế Lan Viên",
+   "D": "Lưu Trọng Lư"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q4-159",
+  "level": 4,
+  "category": "Văn học",
+  "question": "Truyện ngắn 'Làng' với nhân vật ông Hai là sáng tác của nhà văn nào?",
+  "options": {
+   "A": "Nam Cao",
+   "B": "Kim Lân",
+   "C": "Thạch Lam",
+   "D": "Nguyễn Khải"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q4-160",
+  "level": 4,
+  "category": "Toán học",
+  "question": "Số 144 là bình phương của số nào?",
+  "options": {
+   "A": "14",
+   "B": "16",
+   "C": "18",
+   "D": "12"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q4-161",
+  "level": 4,
+  "category": "Toán học",
+  "question": "Giá trị gần đúng của số pi (π) thường dùng trong tính toán phổ thông là bao nhiêu?",
+  "options": {
+   "A": "3,12",
+   "B": "3,14",
+   "C": "3,16",
+   "D": "3,18"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q4-162",
+  "level": 4,
+  "category": "Toán học",
+  "question": "Một hình phẳng có 6 cạnh được gọi là hình gì?",
+  "options": {
+   "A": "Ngũ giác",
+   "B": "Thất giác",
+   "C": "Bát giác",
+   "D": "Lục giác"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q4-163",
+  "level": 4,
+  "category": "Toán học",
+  "question": "Trong hệ số La Mã, ký hiệu XIX biểu thị số nào?",
+  "options": {
+   "A": "19",
+   "B": "17",
+   "C": "21",
+   "D": "9"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q4-164",
+  "level": 4,
+  "category": "Toán học",
+  "question": "Trung bình cộng của ba số 10, 20 và 30 bằng bao nhiêu?",
+  "options": {
+   "A": "15",
+   "B": "25",
+   "C": "30",
+   "D": "20"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q4-165",
+  "level": 4,
+  "category": "Khoa học",
+  "question": "Nhà phát minh Thomas Edison nổi tiếng với việc hoàn thiện và thương mại hóa thiết bị nào?",
+  "options": {
+   "A": "Bóng đèn sợi đốt",
+   "B": "Điện thoại",
+   "C": "Máy bay",
+   "D": "Ô tô"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q4-166",
+  "level": 4,
+  "category": "Khoa học",
+  "question": "Ở tế bào người, thông tin di truyền DNA chủ yếu nằm ở đâu?",
+  "options": {
+   "A": "Màng tế bào",
+   "B": "Nhân tế bào",
+   "C": "Tế bào chất",
+   "D": "Không bào"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q4-167",
+  "level": 4,
+  "category": "Nghệ thuật",
+  "question": "Tranh dân gian Đông Hồ có nguồn gốc từ làng Đông Hồ thuộc tỉnh nào ngày nay?",
+  "options": {
+   "A": "Hà Nội",
+   "B": "Hải Dương",
+   "C": "Bắc Ninh",
+   "D": "Hưng Yên"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q4-168",
+  "level": 4,
+  "category": "Nghệ thuật",
+  "question": "Họa sĩ Pablo Picasso là người nước nào?",
+  "options": {
+   "A": "Pháp",
+   "B": "Tây Ban Nha",
+   "C": "Ý",
+   "D": "Hà Lan"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q4-169",
+  "level": 4,
+  "category": "Nghệ thuật",
+  "question": "Nhà hát Opera Sydney ở Úc nổi tiếng với mái vòm có hình dáng gợi liên tưởng đến điều gì?",
+  "options": {
+   "A": "Sóng biển",
+   "B": "Núi băng",
+   "C": "Cánh buồm (vỏ sò)",
+   "D": "Hoa sen"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q4-170",
+  "level": 4,
+  "category": "Thể thao",
+  "question": "Thế vận hội Olympic hiện đại đầu tiên được tổ chức vào năm 1896 tại thành phố nào?",
+  "options": {
+   "A": "Athens",
+   "B": "Paris",
+   "C": "London",
+   "D": "Rome"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q4-171",
+  "level": 4,
+  "category": "Thể thao",
+  "question": "Vận động viên chạy nước rút Usain Bolt là người nước nào?",
+  "options": {
+   "A": "Hoa Kỳ",
+   "B": "Kenya",
+   "C": "Jamaica",
+   "D": "Ethiopia"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q4-172",
+  "level": 4,
+  "category": "Thể thao",
+  "question": "Trụ sở chính của Liên đoàn Bóng đá Thế giới FIFA đặt tại thành phố nào?",
+  "options": {
+   "A": "Geneva",
+   "B": "Zurich",
+   "C": "Paris",
+   "D": "London"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q4-173",
+  "level": 4,
+  "category": "Đời sống",
+  "question": "Ngày Nhà giáo Việt Nam được kỷ niệm vào ngày nào hằng năm?",
+  "options": {
+   "A": "Ngày 20 tháng 11",
+   "B": "Ngày 20 tháng 10",
+   "C": "Ngày 5 tháng 9",
+   "D": "Ngày 26 tháng 3"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q4-174",
+  "level": 4,
+  "category": "Đời sống",
+  "question": "Ngày Quốc khánh của Hoa Kỳ (Ngày Độc lập) là ngày nào?",
+  "options": {
+   "A": "Ngày 1 tháng 7",
+   "B": "Ngày 4 tháng 7",
+   "C": "Ngày 14 tháng 7",
+   "D": "Ngày 25 tháng 12"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q4-175",
+  "level": 4,
+  "category": "Đời sống",
+  "question": "Đơn vị thường dùng để tính lượng điện năng tiêu thụ của hộ gia đình, quen gọi là 'số điện', là gì?",
+  "options": {
+   "A": "Kilôoát (kW)",
+   "B": "Vôn (V)",
+   "C": "Kilôoát giờ (kWh)",
+   "D": "Ampe (A)"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q4-176",
+  "level": 4,
+  "category": "Lịch sử",
+  "question": "Ai là vị hoàng đế đầu tiên của nước Pháp với danh xưng Napoleon I?",
+  "options": {
+   "A": "Louis XIV",
+   "B": "Napoléon Bonaparte",
+   "C": "Charlemagne",
+   "D": "Charles de Gaulle"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q4-177",
+  "level": 4,
+  "category": "Nghệ thuật",
+  "question": "Loại hình sân khấu truyền thống 'tuồng' ở miền Nam Việt Nam còn được gọi bằng tên nào?",
+  "options": {
+   "A": "Chèo",
+   "B": "Hát bội",
+   "C": "Cải lương",
+   "D": "Quan họ"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q4-178",
+  "level": 4,
+  "category": "Địa lý",
+  "question": "Thủ đô của Uzbekistan là thành phố nào?",
+  "options": {
+   "A": "Tashkent",
+   "B": "Almaty",
+   "C": "Kabul",
+   "D": "Islamabad"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q4-179",
+  "level": 4,
+  "category": "Địa lý",
+  "question": "Thủ đô của Kyrgyzstan là thành phố nào?",
+  "options": {
+   "A": "Astana",
+   "B": "Bishkek",
+   "C": "Dushanbe",
+   "D": "Kabul"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q4-180",
+  "level": 4,
+  "category": "Địa lý",
+  "question": "Thủ đô của Georgia (Gruzia) là thành phố nào?",
+  "options": {
+   "A": "Baku",
+   "B": "Ankara",
+   "C": "Tbilisi",
+   "D": "Sofia"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q4-181",
+  "level": 4,
+  "category": "Địa lý",
+  "question": "Thủ đô của Armenia là thành phố nào?",
+  "options": {
+   "A": "Baku",
+   "B": "Tehran",
+   "C": "Beirut",
+   "D": "Yerevan"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q4-182",
+  "level": 4,
+  "category": "Địa lý",
+  "question": "Thủ đô của Slovakia là thành phố nào?",
+  "options": {
+   "A": "Bratislava",
+   "B": "Viên",
+   "C": "Praha",
+   "D": "Budapest"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q4-183",
+  "level": 4,
+  "category": "Địa lý",
+  "question": "Thủ phủ của bang California (Hoa Kỳ) là thành phố nào?",
+  "options": {
+   "A": "Los Angeles",
+   "B": "Sacramento",
+   "C": "San Francisco",
+   "D": "San Diego"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q4-184",
+  "level": 4,
+  "category": "Địa lý",
+  "question": "Thủ phủ của bang Texas (Hoa Kỳ) là thành phố nào?",
+  "options": {
+   "A": "Houston",
+   "B": "Dallas",
+   "C": "Austin",
+   "D": "San Antonio"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q4-185",
+  "level": 4,
+  "category": "Địa lý",
+  "question": "Đèo Pha Đin, một trong 'tứ đại đỉnh đèo' của vùng Tây Bắc, nằm trên ranh giới giữa tỉnh Sơn La và tỉnh nào?",
+  "options": {
+   "A": "Lai Châu",
+   "B": "Lào Cai",
+   "C": "Phú Thọ",
+   "D": "Điện Biên"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q4-186",
+  "level": 4,
+  "category": "Địa lý",
+  "question": "Sông Lam chảy dọc theo ranh giới tự nhiên giữa tỉnh Nghệ An và tỉnh nào?",
+  "options": {
+   "A": "Hà Tĩnh",
+   "B": "Thanh Hóa",
+   "C": "Ninh Bình",
+   "D": "Quảng Trị"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q4-187",
+  "level": 4,
+  "category": "Địa lý",
+  "question": "Bán đảo Yucatán, vùng đất của nền văn minh Maya cổ đại, phần lớn thuộc lãnh thổ quốc gia nào?",
+  "options": {
+   "A": "Cuba",
+   "B": "Mexico",
+   "C": "Honduras",
+   "D": "Panama"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q4-188",
+  "level": 4,
+  "category": "Địa lý",
+  "question": "Bán đảo Sinai là phần lãnh thổ nằm ở châu Á của quốc gia nào?",
+  "options": {
+   "A": "Israel",
+   "B": "Jordan",
+   "C": "Ai Cập",
+   "D": "Sudan"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q4-189",
+  "level": 4,
+  "category": "Lịch sử",
+  "question": "Trong khởi nghĩa Lam Sơn, vị tướng nào đã mặc áo bào của Lê Lợi, liều mình xông ra phá vòng vây quân Minh để cứu chúa?",
+  "options": {
+   "A": "Nguyễn Trãi",
+   "B": "Đinh Lễ",
+   "C": "Lưu Nhân Chú",
+   "D": "Lê Lai"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q4-190",
+  "level": 4,
+  "category": "Lịch sử",
+  "question": "Vị tướng nhà Trần nào nổi tiếng với tài bơi lặn, chuyên lặn xuống đục thủng thuyền của giặc Nguyên – Mông?",
+  "options": {
+   "A": "Yết Kiêu",
+   "B": "Trần Nhật Duật",
+   "C": "Trần Quang Khải",
+   "D": "Nguyễn Khoái"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q4-191",
+  "level": 4,
+  "category": "Lịch sử",
+  "question": "Vị tướng nhà Trần nào gắn liền với giai thoại ngồi đan sọt bên đường, mải nghĩ việc nước đến nỗi bị ngọn giáo đâm vào đùi mà không hay biết?",
+  "options": {
+   "A": "Trần Hưng Đạo",
+   "B": "Phạm Ngũ Lão",
+   "C": "Trần Quang Khải",
+   "D": "Trần Quốc Toản"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q4-192",
+  "level": 4,
+  "category": "Lịch sử",
+  "question": "Mạc Đăng Dung lên ngôi, lập ra nhà Mạc vào năm nào?",
+  "options": {
+   "A": "Năm 1509",
+   "B": "Năm 1516",
+   "C": "Năm 1527",
+   "D": "Năm 1540"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q4-193",
+  "level": 4,
+  "category": "Lịch sử",
+  "question": "Năm 1698, vị tướng nào được chúa Nguyễn cử vào miền Nam thiết lập phủ Gia Định, mở mang vùng đất phương Nam?",
+  "options": {
+   "A": "Nguyễn Hoàng",
+   "B": "Đào Duy Từ",
+   "C": "Lê Văn Duyệt",
+   "D": "Nguyễn Hữu Cảnh"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q4-194",
+  "level": 4,
+  "category": "Lịch sử",
+  "question": "Sau khi triều đình ký hòa ước với Pháp, vị chỉ huy nào ở lại Gò Công dựng cờ 'Bình Tây đại nguyên soái' để tiếp tục kháng chiến?",
+  "options": {
+   "A": "Trương Định",
+   "B": "Nguyễn Trung Trực",
+   "C": "Thiên Hộ Dương",
+   "D": "Nguyễn Hữu Huân"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q4-195",
+  "level": 4,
+  "category": "Lịch sử",
+  "question": "Vụ án oan năm 1442 khiến Nguyễn Trãi bị tru di tam tộc mang tên gì, theo tên khu vườn vải nơi xảy ra vụ việc?",
+  "options": {
+   "A": "Án Ôn Lăng",
+   "B": "Án Lệ Chi Viên",
+   "C": "Án Đông Quan",
+   "D": "Án Lam Kinh"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q4-196",
+  "level": 4,
+  "category": "Lịch sử",
+  "question": "Mặt trận Việt Minh được thành lập tại Pác Bó (Cao Bằng) vào năm nào?",
+  "options": {
+   "A": "Năm 1930",
+   "B": "Năm 1936",
+   "C": "Năm 1941",
+   "D": "Năm 1945"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q4-197",
+  "level": 4,
+  "category": "Lịch sử",
+  "question": "Vụ ám sát nhân vật nào tại Sarajevo năm 1914 đã châm ngòi cho Chiến tranh thế giới thứ nhất?",
+  "options": {
+   "A": "Sa hoàng Nikolai II",
+   "B": "Vua Petar I của Serbia",
+   "C": "Thủ tướng Áo Metternich",
+   "D": "Thái tử Áo – Hung Franz Ferdinand"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q4-198",
+  "level": 4,
+  "category": "Lịch sử",
+  "question": "Trong sứ mệnh Apollo 11 năm 1969, phi hành gia nào ở lại module chỉ huy bay quanh Mặt Trăng trong khi Neil Armstrong và Buzz Aldrin đáp xuống bề mặt?",
+  "options": {
+   "A": "Michael Collins",
+   "B": "John Glenn",
+   "C": "Alan Shepard",
+   "D": "Jim Lovell"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q4-199",
+  "level": 4,
+  "category": "Văn học",
+  "question": "Trong 'Dế Mèn phiêu lưu ký' của Tô Hoài, người bạn hàng xóm gầy yếu của Dế Mèn, bị chị Cốc mổ chết oan, tên là gì?",
+  "options": {
+   "A": "Dế Trũi",
+   "B": "Dế Choắt",
+   "C": "Anh Gọng Vó",
+   "D": "Chị Cốc"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q4-200",
+  "level": 4,
+  "category": "Văn học",
+  "question": "Theo tiểu thuyết của Arthur Conan Doyle, thám tử Sherlock Holmes sống tại địa chỉ nào ở London?",
+  "options": {
+   "A": "Số 10 phố Downing",
+   "B": "Số 7 phố Savile Row",
+   "C": "Số 221B phố Baker",
+   "D": "Số 9 phố Kensington"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q4-201",
+  "level": 4,
+  "category": "Văn học",
+  "question": "Bài thơ 'Sang thu' với hình ảnh 'bỗng nhận ra hương ổi' là sáng tác của nhà thơ nào?",
+  "options": {
+   "A": "Xuân Diệu",
+   "B": "Huy Cận",
+   "C": "Tế Hanh",
+   "D": "Hữu Thỉnh"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q4-202",
+  "level": 4,
+  "category": "Văn học",
+  "question": "Bài thơ 'Bếp lửa' viết về tình cảm dành cho người bà là sáng tác của nhà thơ nào?",
+  "options": {
+   "A": "Bằng Việt",
+   "B": "Thanh Hải",
+   "C": "Trần Đăng Khoa",
+   "D": "Phạm Tiến Duật"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q4-203",
+  "level": 4,
+  "category": "Văn học",
+  "question": "Nhân vật chính trong tiểu thuyết 'Bỉ vỏ' của Nguyên Hồng, người phụ nữ bị cuộc đời xô đẩy vào con đường trộm cắp, tên là gì?",
+  "options": {
+   "A": "Thị Nở",
+   "B": "Tám Bính",
+   "C": "Thị Kính",
+   "D": "Chị Dậu"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q4-204",
+  "level": 4,
+  "category": "Văn học",
+  "question": "Nhân vật chính của tiểu thuyết 'Thép đã tôi thế đấy' của văn học Liên Xô là ai?",
+  "options": {
+   "A": "Yuri Zhivago",
+   "B": "Rodion Raskolnikov",
+   "C": "Pavel Korchagin",
+   "D": "Pierre Bezukhov"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q4-205",
+  "level": 4,
+  "category": "Khoa học",
+  "question": "Hiện tượng ánh sáng trắng khi đi qua lăng kính bị tách thành dải màu cầu vồng được gọi là gì?",
+  "options": {
+   "A": "Khúc xạ ánh sáng",
+   "B": "Phản xạ toàn phần",
+   "C": "Nhiễu xạ ánh sáng",
+   "D": "Tán sắc ánh sáng"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q4-206",
+  "level": 4,
+  "category": "Khoa học",
+  "question": "Khi magma từ lòng đất phun trào lên bề mặt Trái Đất, nó được gọi bằng tên gì?",
+  "options": {
+   "A": "Dung nham",
+   "B": "Đá bazan",
+   "C": "Thạch quyển",
+   "D": "Miệng núi lửa"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q4-207",
+  "level": 4,
+  "category": "Khoa học",
+  "question": "Hiện tượng cực quang trên bầu trời đêm thường được quan sát rõ nhất ở khu vực nào của Trái Đất?",
+  "options": {
+   "A": "Khu vực xích đạo",
+   "B": "Khu vực gần hai cực",
+   "C": "Khu vực ôn đới",
+   "D": "Khu vực nhiệt đới"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q4-208",
+  "level": 4,
+  "category": "Khoa học",
+  "question": "Trong hàng hải, một hải lý quốc tế bằng bao nhiêu mét?",
+  "options": {
+   "A": "1000 mét",
+   "B": "1609 mét",
+   "C": "1850 mét",
+   "D": "1852 mét"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q4-209",
+  "level": 4,
+  "category": "Khoa học",
+  "question": "Chim cú mèo có thể xoay đầu tối đa khoảng bao nhiêu độ nhờ cấu tạo đốt sống cổ đặc biệt?",
+  "options": {
+   "A": "270 độ",
+   "B": "180 độ",
+   "C": "120 độ",
+   "D": "90 độ"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q4-210",
+  "level": 4,
+  "category": "Khoa học",
+  "question": "Dụng cụ nào được dùng để đo áp suất khí quyển, góp phần giúp dự báo thời tiết?",
+  "options": {
+   "A": "Nhiệt kế",
+   "B": "Phong vũ biểu",
+   "C": "Ẩm kế",
+   "D": "Vũ lượng kế"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q4-211",
+  "level": 4,
+  "category": "Toán học",
+  "question": "17 × 4 bằng bao nhiêu?",
+  "options": {
+   "A": "64",
+   "B": "58",
+   "C": "68",
+   "D": "78"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q4-212",
+  "level": 4,
+  "category": "Toán học",
+  "question": "48 + 37 bằng bao nhiêu?",
+  "options": {
+   "A": "75",
+   "B": "95",
+   "C": "81",
+   "D": "85"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q4-213",
+  "level": 4,
+  "category": "Toán học",
+  "question": "96 : 8 bằng bao nhiêu?",
+  "options": {
+   "A": "12",
+   "B": "14",
+   "C": "16",
+   "D": "11"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q4-214",
+  "level": 4,
+  "category": "Toán học",
+  "question": "Giai thừa của 5, ký hiệu 5!, bằng bao nhiêu?",
+  "options": {
+   "A": "60",
+   "B": "100",
+   "C": "120",
+   "D": "720"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q4-215",
+  "level": 4,
+  "category": "Toán học",
+  "question": "Trong hình bình hành, hai cạnh đối diện có tính chất gì?",
+  "options": {
+   "A": "Chỉ song song với nhau",
+   "B": "Chỉ bằng nhau",
+   "C": "Vuông góc với nhau",
+   "D": "Song song và bằng nhau"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q4-216",
+  "level": 4,
+  "category": "Nghệ thuật",
+  "question": "Nhạc cụ truyền thống của thổ dân Úc, làm từ thân cây rỗng dài và được thổi bằng hơi liên tục, có tên là gì?",
+  "options": {
+   "A": "Didgeridoo",
+   "B": "Sitar",
+   "C": "Shamisen",
+   "D": "Balalaika"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q4-217",
+  "level": 4,
+  "category": "Nghệ thuật",
+  "question": "Đàn ukulele, nhạc cụ nhỏ gắn liền với vùng đảo Hawaii, theo cấu tạo tiêu chuẩn có bao nhiêu dây?",
+  "options": {
+   "A": "6 dây",
+   "B": "4 dây",
+   "C": "5 dây",
+   "D": "3 dây"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q4-218",
+  "level": 4,
+  "category": "Nghệ thuật",
+  "question": "Khèn, nhạc cụ thổi gồm nhiều ống trúc gắn vào một bầu, là nhạc cụ truyền thống tiêu biểu của dân tộc nào ở vùng núi phía Bắc Việt Nam?",
+  "options": {
+   "A": "Dân tộc Thái",
+   "B": "Dân tộc Tày",
+   "C": "Dân tộc Mông",
+   "D": "Dân tộc Mường"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q4-219",
+  "level": 4,
+  "category": "Nghệ thuật",
+  "question": "Chùa Một Cột ở Hà Nội, với kiến trúc như đóa sen vươn lên từ mặt nước, được xây dựng năm 1049 dưới triều vị vua nào?",
+  "options": {
+   "A": "Lý Công Uẩn",
+   "B": "Lý Nhân Tông",
+   "C": "Lý Anh Tông",
+   "D": "Lý Thái Tông"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q4-220",
+  "level": 4,
+  "category": "Thể thao",
+  "question": "Môn võ Karate có nguồn gốc từ hòn đảo nào của Nhật Bản?",
+  "options": {
+   "A": "Okinawa",
+   "B": "Hokkaido",
+   "C": "Kyushu",
+   "D": "Shikoku"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q4-221",
+  "level": 4,
+  "category": "Thể thao",
+  "question": "Trước mỗi trận đấu, đô vật sumo ở Nhật Bản thường rắc thứ gì lên võ đài để thanh tẩy theo nghi lễ truyền thống?",
+  "options": {
+   "A": "Cát mịn",
+   "B": "Muối trắng",
+   "C": "Gạo nếp",
+   "D": "Tro hương"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q4-222",
+  "level": 4,
+  "category": "Thể thao",
+  "question": "Tại giải đua xe đạp Tour de France, chiếc áo danh giá dành cho tay đua đang dẫn đầu bảng tổng sắp được gọi là gì?",
+  "options": {
+   "A": "Áo xanh lá",
+   "B": "Áo chấm bi",
+   "C": "Áo vàng",
+   "D": "Áo trắng"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q4-223",
+  "level": 4,
+  "category": "Thể thao",
+  "question": "Đại hội thể thao Đông Nam Á (SEA Games) có tiền thân là đại hội dành cho các nước bán đảo Đông Nam Á, mang tên viết tắt nào?",
+  "options": {
+   "A": "ASIAD",
+   "B": "Arafura Games",
+   "C": "Far Eastern Games",
+   "D": "SEAP Games"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q4-224",
+  "level": 4,
+  "category": "Thể thao",
+  "question": "Nhân vật nào được coi là cha đẻ của Thế vận hội Olympic hiện đại, người sáng lập Ủy ban Olympic Quốc tế?",
+  "options": {
+   "A": "Pierre de Coubertin",
+   "B": "Juan Antonio Samaranch",
+   "C": "Thomas Bach",
+   "D": "Avery Brundage"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q4-225",
+  "level": 4,
+  "category": "Kinh tế – Đời sống",
+  "question": "Đơn vị tiền tệ của Ba Lan là đồng nào?",
+  "options": {
+   "A": "Koruna",
+   "B": "Zloty",
+   "C": "Lev",
+   "D": "Leu"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q4-226",
+  "level": 4,
+  "category": "Kinh tế – Đời sống",
+  "question": "Đơn vị tiền tệ của Hungary là đồng nào?",
+  "options": {
+   "A": "Koruna",
+   "B": "Dinar",
+   "C": "Forint",
+   "D": "Kuna"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q4-227",
+  "level": 4,
+  "category": "Kinh tế – Đời sống",
+  "question": "Ngân hàng Trung ương châu Âu (ECB) đặt trụ sở chính tại thành phố nào của Đức?",
+  "options": {
+   "A": "Berlin",
+   "B": "Munich",
+   "C": "Hamburg",
+   "D": "Frankfurt"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q4-228",
+  "level": 4,
+  "category": "Kinh tế – Đời sống",
+  "question": "Ban Thư ký ASEAN đặt trụ sở tại thủ đô nào của Indonesia?",
+  "options": {
+   "A": "Jakarta",
+   "B": "Bangkok",
+   "C": "Kuala Lumpur",
+   "D": "Manila"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q4-229",
+  "level": 4,
+  "category": "Địa lý",
+  "question": "Thủ đô của Turkmenistan là thành phố nào?",
+  "options": {
+   "A": "Almaty",
+   "B": "Ashgabat",
+   "C": "Kabul",
+   "D": "Tehran"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q4-230",
+  "level": 4,
+  "category": "Địa lý",
+  "question": "Thủ phủ của bang New York (Hoa Kỳ), nơi đặt trụ sở chính quyền bang, là thành phố nào?",
+  "options": {
+   "A": "Thành phố New York",
+   "B": "Buffalo",
+   "C": "Rochester",
+   "D": "Albany"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q4-231",
+  "level": 4,
+  "category": "Văn học",
+  "question": "Nhân vật chính của tiểu thuyết 'Bá tước Monte Cristo', viên thủy thủ bị giam oan trong nhà tù trên đảo If, là ai?",
+  "options": {
+   "A": "Edmond Dantès",
+   "B": "Jean Valjean",
+   "C": "Rodion Raskolnikov",
+   "D": "Julien Sorel"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q4-232",
+  "level": 4,
+  "category": "Toán học",
+  "question": "15% của 200 là bao nhiêu?",
+  "options": {
+   "A": "20",
+   "B": "25",
+   "C": "30",
+   "D": "35"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q4-233",
+  "level": 4,
+  "category": "Nghệ thuật",
+  "question": "Bộ truyện tranh 'Doraemon' là sáng tác của tác giả người Nhật nào?",
+  "options": {
+   "A": "Eiichiro Oda",
+   "B": "Fujiko F. Fujio",
+   "C": "Akira Toriyama",
+   "D": "Gosho Aoyama"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q4-234",
+  "level": 4,
+  "category": "Địa lý",
+  "question": "Đơn vị tiền tệ của Canada là gì?",
+  "options": {
+   "A": "Đô la Mỹ",
+   "B": "Bảng Anh",
+   "C": "Euro",
+   "D": "Đô la Canada"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q4-235",
+  "level": 4,
+  "category": "Lịch sử",
+  "question": "Tác phẩm 'Đường Kách mệnh' (xuất bản năm 1927) là của ai?",
+  "options": {
+   "A": "Phan Bội Châu",
+   "B": "Nguyễn Ái Quốc",
+   "C": "Tôn Đức Thắng",
+   "D": "Phạm Văn Đồng"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q5-145",
+  "level": 5,
+  "category": "Lịch sử Việt Nam",
+  "question": "Tác phẩm 'Bình Ngô đại cáo', bản tuyên ngôn độc lập sau kháng chiến chống Minh, do ai soạn thảo?",
+  "options": {
+   "A": "Lê Lợi",
+   "B": "Chu Văn An",
+   "C": "Nguyễn Trãi",
+   "D": "Nguyễn Bỉnh Khiêm"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q5-146",
+  "level": 5,
+  "category": "Lịch sử Việt Nam",
+  "question": "Phòng tuyến sông Như Nguyệt, nơi Lý Thường Kiệt tổ chức kháng chiến, gắn với cuộc kháng chiến chống quân xâm lược nào?",
+  "options": {
+   "A": "Quân Tống",
+   "B": "Quân Nguyên – Mông",
+   "C": "Quân Minh",
+   "D": "Quân Thanh"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q5-147",
+  "level": 5,
+  "category": "Lịch sử thế giới",
+  "question": "Alexander Đại đế, nhà chinh phục nổi tiếng thời cổ đại, là vua của vương quốc nào?",
+  "options": {
+   "A": "Macedonia",
+   "B": "La Mã",
+   "C": "Ba Tư",
+   "D": "Ai Cập"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q5-148",
+  "level": 5,
+  "category": "Lịch sử thế giới",
+  "question": "Hoàng đế La Mã Julius Caesar bị ám sát vào năm 44 trước Công nguyên tại thành phố nào?",
+  "options": {
+   "A": "Athens",
+   "B": "Alexandria",
+   "C": "Rome",
+   "D": "Constantinople"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q5-149",
+  "level": 5,
+  "category": "Lịch sử thế giới",
+  "question": "Trận Waterloo năm 1815, nơi Napoleon Bonaparte thất bại lần cuối, nay thuộc lãnh thổ quốc gia nào?",
+  "options": {
+   "A": "Pháp",
+   "B": "Đức",
+   "C": "Bỉ",
+   "D": "Hà Lan"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q5-150",
+  "level": 5,
+  "category": "Lịch sử thế giới",
+  "question": "Nữ hoàng Victoria, vị quân chủ trị vì lâu trong thế kỷ 19, là nữ hoàng của quốc gia nào?",
+  "options": {
+   "A": "Pháp",
+   "B": "Áo",
+   "C": "Anh",
+   "D": "Tây Ban Nha"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q5-151",
+  "level": 5,
+  "category": "Lịch sử thế giới",
+  "question": "Thành phố Istanbul của Thổ Nhĩ Kỳ ngày nay từng là kinh đô của đế quốc La Mã phương Đông. Tên gọi cũ của thành phố này là gì?",
+  "options": {
+   "A": "Troy",
+   "B": "Angora",
+   "C": "Smyrna",
+   "D": "Constantinople"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q5-152",
+  "level": 5,
+  "category": "Địa lý",
+  "question": "Sông Nile, con sông dài nổi tiếng của châu Phi, đổ nước ra biển nào?",
+  "options": {
+   "A": "Biển Đỏ",
+   "B": "Biển Địa Trung Hải",
+   "C": "Biển Ả Rập",
+   "D": "Biển Caspi"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q5-153",
+  "level": 5,
+  "category": "Địa lý",
+  "question": "Kiểu khí hậu Địa Trung Hải có đặc điểm nổi bật nào về mùa hè?",
+  "options": {
+   "A": "Mưa nhiều và ẩm",
+   "B": "Nóng và khô",
+   "C": "Lạnh và có tuyết",
+   "D": "Mát và nhiều sương mù"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q5-154",
+  "level": 5,
+  "category": "Văn học",
+  "question": "Nhân vật Xuân Tóc Đỏ xuất hiện trong tiểu thuyết 'Số đỏ' của nhà văn nào?",
+  "options": {
+   "A": "Ngô Tất Tố",
+   "B": "Nguyễn Tuân",
+   "C": "Vũ Trọng Phụng",
+   "D": "Thạch Lam"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q5-155",
+  "level": 5,
+  "category": "Văn học",
+  "question": "Lý Bạch, nhà thơ lãng mạn vĩ đại thời Đường của Trung Quốc, được hậu thế tôn xưng là gì?",
+  "options": {
+   "A": "Thi Thánh",
+   "B": "Thi Phật",
+   "C": "Thi Tiên",
+   "D": "Thi Quỷ"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q5-156",
+  "level": 5,
+  "category": "Khoa học",
+  "question": "Hành tinh nào trong Hệ Mặt Trời được gọi là 'hành tinh đỏ' vì bề mặt giàu oxit sắt?",
+  "options": {
+   "A": "Sao Kim",
+   "B": "Sao Hỏa",
+   "C": "Sao Thủy",
+   "D": "Sao Mộc"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q5-157",
+  "level": 5,
+  "category": "Toán học",
+  "question": "Trong dãy Fibonacci bắt đầu 1, 1, 2, 3, 5, 8, số hạng tiếp theo sau số 8 là số nào?",
+  "options": {
+   "A": "13",
+   "B": "11",
+   "C": "16",
+   "D": "21"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q5-158",
+  "level": 5,
+  "category": "Toán học",
+  "question": "25% của 80 bằng bao nhiêu?",
+  "options": {
+   "A": "16",
+   "B": "24",
+   "C": "32",
+   "D": "20"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q5-159",
+  "level": 5,
+  "category": "Toán học",
+  "question": "Ước chung lớn nhất của 12 và 18 là bao nhiêu?",
+  "options": {
+   "A": "6",
+   "B": "3",
+   "C": "9",
+   "D": "36"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q5-160",
+  "level": 5,
+  "category": "Toán học",
+  "question": "Giá trị của lũy thừa 3 mũ 3 (3³) bằng bao nhiêu?",
+  "options": {
+   "A": "9",
+   "B": "27",
+   "C": "18",
+   "D": "81"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q5-161",
+  "level": 5,
+  "category": "Toán học",
+  "question": "Số thập phân tương đương với phân số 3/4 là số nào?",
+  "options": {
+   "A": "0,34",
+   "B": "0,43",
+   "C": "0,75",
+   "D": "0,25"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q5-162",
+  "level": 5,
+  "category": "Nghệ thuật",
+  "question": "Nhà soạn nhạc thiên tài Wolfgang Amadeus Mozart là người nước nào?",
+  "options": {
+   "A": "Áo",
+   "B": "Đức",
+   "C": "Ý",
+   "D": "Pháp"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q5-163",
+  "level": 5,
+  "category": "Thể thao",
+  "question": "Giải vô địch bóng đá thế giới (World Cup) lần đầu tiên được tổ chức vào năm 1930 tại quốc gia nào?",
+  "options": {
+   "A": "Uruguay",
+   "B": "Brazil",
+   "C": "Italy",
+   "D": "Anh"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q5-164",
+  "level": 5,
+  "category": "Thể thao",
+  "question": "Môn võ judo, môn võ Olympic dùng nhiều đòn quật và khóa siết, xuất phát từ quốc gia nào?",
+  "options": {
+   "A": "Hàn Quốc",
+   "B": "Trung Quốc",
+   "C": "Mông Cổ",
+   "D": "Nhật Bản"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q5-165",
+  "level": 5,
+  "category": "Thể thao",
+  "question": "Cờ vua hiện đại có nguồn gốc từ trò chơi chaturanga cổ xưa của quốc gia nào?",
+  "options": {
+   "A": "Trung Quốc",
+   "B": "Ba Tư",
+   "C": "Ấn Độ",
+   "D": "Ai Cập"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q5-166",
+  "level": 5,
+  "category": "Thể thao",
+  "question": "Trong môn bóng đá, cầu thủ nào là người duy nhất trong đội được phép dùng tay chơi bóng trong vòng cấm địa của đội mình?",
+  "options": {
+   "A": "Hậu vệ",
+   "B": "Thủ môn",
+   "C": "Đội trưởng",
+   "D": "Tiền đạo"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q5-167",
+  "level": 5,
+  "category": "Văn hóa",
+  "question": "Tết Nguyên Đán của người Việt được tổ chức vào ngày nào theo âm lịch?",
+  "options": {
+   "A": "Rằm tháng Giêng",
+   "B": "Mùng 1 tháng Chạp",
+   "C": "Rằm tháng 7",
+   "D": "Mùng 1 tháng Giêng"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q5-168",
+  "level": 5,
+  "category": "Văn hóa",
+  "question": "Đức Phật Thích Ca Mâu Ni, người sáng lập Phật giáo, đản sinh tại vườn Lâm Tỳ Ni, nay thuộc quốc gia nào?",
+  "options": {
+   "A": "Ấn Độ",
+   "B": "Sri Lanka",
+   "C": "Thái Lan",
+   "D": "Nepal"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q5-169",
+  "level": 5,
+  "category": "Văn hóa",
+  "question": "Kinh sách thiêng liêng và quan trọng nhất của đạo Hồi (Islam) có tên là gì?",
+  "options": {
+   "A": "Kinh Thánh",
+   "B": "Kinh Veda",
+   "C": "Kinh Qur'an (Koran)",
+   "D": "Kinh Phật"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q5-170",
+  "level": 5,
+  "category": "Tiếng Anh",
+  "question": "Từ tiếng Anh nào có nghĩa trái ngược (trái nghĩa) với từ 'ancient' (cổ xưa)?",
+  "options": {
+   "A": "antique",
+   "B": "modern",
+   "C": "old",
+   "D": "historic"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q5-171",
+  "level": 5,
+  "category": "Tiếng Anh",
+  "question": "Dạng quá khứ đơn (past simple) của động từ 'go' trong tiếng Anh là gì?",
+  "options": {
+   "A": "goed",
+   "B": "gone away",
+   "C": "went",
+   "D": "goes"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q5-172",
+  "level": 5,
+  "category": "Tiếng Anh",
+  "question": "Từ tiếng Anh 'library' có nghĩa tiếng Việt là gì?",
+  "options": {
+   "A": "Hiệu sách",
+   "B": "Phòng thí nghiệm",
+   "C": "Thư viện",
+   "D": "Bảo tàng"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q5-173",
+  "level": 5,
+  "category": "Tiếng Anh",
+  "question": "Trong tiếng Anh, từ 'geography' dùng để chỉ môn học nào?",
+  "options": {
+   "A": "Lịch sử",
+   "B": "Sinh học",
+   "C": "Hóa học",
+   "D": "Địa lý"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q5-174",
+  "level": 5,
+  "category": "Lịch sử",
+  "question": "Nhà du hành vũ trụ người Liên Xô Yuri Gagarin thực hiện chuyến bay đầu tiên của con người vào vũ trụ năm nào?",
+  "options": {
+   "A": "1957",
+   "B": "1965",
+   "C": "1969",
+   "D": "1961"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q5-175",
+  "level": 5,
+  "category": "Toán học",
+  "question": "Kết quả của phép nhân 9 × 9 bằng bao nhiêu?",
+  "options": {
+   "A": "72",
+   "B": "81",
+   "C": "99",
+   "D": "108"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q5-176",
+  "level": 5,
+  "category": "Tiếng Anh",
+  "question": "Dạng số nhiều (plural) đúng của danh từ tiếng Anh 'child' là gì?",
+  "options": {
+   "A": "children",
+   "B": "childs",
+   "C": "childes",
+   "D": "childrens"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q5-177",
+  "level": 5,
+  "category": "Lịch sử Việt Nam",
+  "question": "Chiến công đốt cháy tàu chiến Pháp Esperance (tức tàu Hy Vọng) năm 1861 của nghĩa quân Nguyễn Trung Trực diễn ra tại địa điểm nào?",
+  "options": {
+   "A": "Nhật Tảo (Long An)",
+   "B": "Rạch Giá (Kiên Giang)",
+   "C": "Ba Tri (Bến Tre)",
+   "D": "Cù Lao Phố (Đồng Nai)"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q5-178",
+  "level": 5,
+  "category": "Lịch sử Việt Nam",
+  "question": "Thủ lĩnh nghĩa quân chống Pháp ở Nam Kỳ giữa thế kỷ 19, được nghĩa quân suy tôn làm Bình Tây Đại nguyên soái, là ai?",
+  "options": {
+   "A": "Nguyễn Hữu Huân",
+   "B": "Trương Định",
+   "C": "Thiên Hộ Dương",
+   "D": "Nguyễn Trung Trực"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q5-179",
+  "level": 5,
+  "category": "Lịch sử Việt Nam",
+  "question": "Năm 1885, vị quan phụ chính nào của triều Nguyễn đã hạ lệnh tấn công quân Pháp tại đồn Mang Cá và Tòa Khâm sứ ở Huế?",
+  "options": {
+   "A": "Nguyễn Văn Tường",
+   "B": "Hoàng Kế Viêm",
+   "C": "Tôn Thất Thuyết",
+   "D": "Trần Xuân Soạn"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q5-180",
+  "level": 5,
+  "category": "Lịch sử Việt Nam",
+  "question": "Người trợ thủ trẻ của Phan Đình Phùng, nổi tiếng vì chế tạo thành công súng trường theo mẫu Pháp cho nghĩa quân Hương Khê, là ai?",
+  "options": {
+   "A": "Tống Duy Tân",
+   "B": "Đinh Công Tráng",
+   "C": "Phạm Bành",
+   "D": "Cao Thắng"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q5-181",
+  "level": 5,
+  "category": "Lịch sử Việt Nam",
+  "question": "Năm 1527, vị quyền thần nào đã phế bỏ nhà Lê sơ và lên ngôi, lập ra nhà Mạc?",
+  "options": {
+   "A": "Mạc Đăng Dung",
+   "B": "Nguyễn Kim",
+   "C": "Trịnh Kiểm",
+   "D": "Nguyễn Hoàng"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q5-182",
+  "level": 5,
+  "category": "Lịch sử Việt Nam",
+  "question": "Nhân vật nào được coi là người đặt nền móng cho họ Trịnh nắm quyền ở Đàng Ngoài, từng giữ chức Thái sư, tước Thái quốc công?",
+  "options": {
+   "A": "Trịnh Cương",
+   "B": "Trịnh Kiểm",
+   "C": "Trịnh Tùng",
+   "D": "Trịnh Doanh"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q5-183",
+  "level": 5,
+  "category": "Lịch sử Việt Nam",
+  "question": "Nhà giáo nổi tiếng thời Trần nào đã dâng bản Thất trảm sớ xin vua chém bảy tên nịnh thần?",
+  "options": {
+   "A": "Nguyễn Bỉnh Khiêm",
+   "B": "Lê Quý Đôn",
+   "C": "Chu Văn An",
+   "D": "Nguyễn Trãi"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q5-184",
+  "level": 5,
+  "category": "Lịch sử Việt Nam",
+  "question": "Nhà trí thức nào thời Nguyễn đã gửi lên vua Tự Đức hàng chục bản điều trần đề xuất canh tân đất nước?",
+  "options": {
+   "A": "Phan Châu Trinh",
+   "B": "Huỳnh Thúc Kháng",
+   "C": "Lương Văn Can",
+   "D": "Nguyễn Trường Tộ"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q5-185",
+  "level": 5,
+  "category": "Lịch sử Việt Nam",
+  "question": "Năm 1927, cụ Huỳnh Thúc Kháng đã sáng lập và làm chủ bút tờ báo quốc ngữ nào tại Huế?",
+  "options": {
+   "A": "Báo Tiếng Dân",
+   "B": "Báo Thần Chung",
+   "C": "Báo Đông Pháp",
+   "D": "Báo Trung Bắc Tân Văn"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q5-186",
+  "level": 5,
+  "category": "Lịch sử Việt Nam",
+  "question": "Tại hội nghị Bình Than năm 1282, vị thiếu niên họ Trần nào vì không được dự bàn việc chống giặc Nguyên-Mông nên đã bóp nát quả cam trong tay?",
+  "options": {
+   "A": "Trần Quốc Tuấn",
+   "B": "Trần Quang Khải",
+   "C": "Trần Quốc Toản",
+   "D": "Trần Khánh Dư"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q5-187",
+  "level": 5,
+  "category": "Lịch sử Việt Nam",
+  "question": "Năm 1558, vị tướng nào được cử vào trấn thủ xứ Thuận Hóa, từ đó mở đầu cơ nghiệp của các chúa Nguyễn ở Đàng Trong?",
+  "options": {
+   "A": "Nguyễn Hoàng",
+   "B": "Nguyễn Kim",
+   "C": "Nguyễn Phúc Nguyên",
+   "D": "Nguyễn Phúc Lan"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q5-188",
+  "level": 5,
+  "category": "Lịch sử thế giới",
+  "question": "Nữ anh hùng người Pháp nào đã chỉ huy quân đội giải vây cho thành Orléans vào năm 1429 trong Chiến tranh Trăm Năm?",
+  "options": {
+   "A": "Catherine de Médicis",
+   "B": "Jeanne d'Arc",
+   "C": "Marie Antoinette",
+   "D": "Aliénor xứ Aquitaine"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q5-189",
+  "level": 5,
+  "category": "Lịch sử thế giới",
+  "question": "Sau khi Magellan tử trận ở Philippines, thủy thủ nào đã chỉ huy con tàu Victoria hoàn thành chuyến đi vòng quanh thế giới đầu tiên vào năm 1522?",
+  "options": {
+   "A": "Vasco da Gama",
+   "B": "Bartolomeu Dias",
+   "C": "Juan Sebastián Elcano",
+   "D": "Amerigo Vespucci"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q5-190",
+  "level": 5,
+  "category": "Lịch sử thế giới",
+  "question": "Vị vua người Hung (Hun) nào ở thế kỷ 5 được người châu Âu đương thời gọi bằng biệt danh 'Ngọn roi của Thượng đế'?",
+  "options": {
+   "A": "Thành Cát Tư Hãn",
+   "B": "Julius Caesar",
+   "C": "Hannibal Barca",
+   "D": "Attila"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q5-191",
+  "level": 5,
+  "category": "Lịch sử thế giới",
+  "question": "Lãnh tụ Hồi giáo nào đã tái chiếm thành Jerusalem từ tay quân Thập tự chinh vào năm 1187?",
+  "options": {
+   "A": "Saladin",
+   "B": "Harun al-Rashid",
+   "C": "Suleiman Đại đế",
+   "D": "Mehmed II"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q5-192",
+  "level": 5,
+  "category": "Lịch sử thế giới",
+  "question": "Nhà thám hiểm Viking nào được coi là người châu Âu đầu tiên đặt chân lên Bắc Mỹ, tại vùng đất ông gọi là Vinland vào khoảng năm 1000?",
+  "options": {
+   "A": "Christopher Columbus",
+   "B": "Leif Ericsson",
+   "C": "Erik Mũi Đỏ",
+   "D": "Marco Polo"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q5-193",
+  "level": 5,
+  "category": "Lịch sử thế giới",
+  "question": "Thủ tướng Anh Winston Churchill đã được trao giải Nobel vào năm 1953 ở lĩnh vực nào?",
+  "options": {
+   "A": "Hòa bình",
+   "B": "Kinh tế học",
+   "C": "Văn học",
+   "D": "Vật lý học"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q5-194",
+  "level": 5,
+  "category": "Địa lý",
+  "question": "Quốc gia châu Phi nào có toàn bộ lãnh thổ bị bao quanh bởi Cộng hòa Nam Phi?",
+  "options": {
+   "A": "Eswatini",
+   "B": "Botswana",
+   "C": "Zimbabwe",
+   "D": "Lesotho"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q5-195",
+  "level": 5,
+  "category": "Địa lý",
+  "question": "Cùng với Uzbekistan ở châu Á, quốc gia châu Âu nào là một trong hai nước 'nội lục kép' trên thế giới, tức chỉ giáp với các nước cũng không có biển?",
+  "options": {
+   "A": "Liechtenstein",
+   "B": "Luxembourg",
+   "C": "Andorra",
+   "D": "San Marino"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q5-196",
+  "level": 5,
+  "category": "Địa lý",
+  "question": "Thác nước cao nhất thế giới, cao gần 1.000 mét và nằm trong vùng rừng rậm của Venezuela, có tên là gì?",
+  "options": {
+   "A": "Thác Niagara",
+   "B": "Thác Angel",
+   "C": "Thác Victoria",
+   "D": "Thác Iguazu"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q5-197",
+  "level": 5,
+  "category": "Địa lý",
+  "question": "Eo biển Sunda của Indonesia, nơi có đảo núi lửa Krakatau, nằm giữa hai đảo lớn nào?",
+  "options": {
+   "A": "Borneo và Sulawesi",
+   "B": "Sumatra và Borneo",
+   "C": "Java và Sumatra",
+   "D": "Java và Bali"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q5-198",
+  "level": 5,
+  "category": "Địa lý",
+  "question": "Ngân hàng hạt giống toàn cầu, nơi lưu trữ hạt giống cây trồng của thế giới trong lòng núi băng, được xây dựng tại quần đảo nào của Na Uy?",
+  "options": {
+   "A": "Quần đảo Faroe",
+   "B": "Quần đảo Lofoten",
+   "C": "Quần đảo Åland",
+   "D": "Quần đảo Svalbard"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q5-199",
+  "level": 5,
+  "category": "Địa lý",
+  "question": "Hệ thống thác Iguazu nổi tiếng ở Nam Mỹ nằm trên biên giới giữa Argentina và quốc gia nào?",
+  "options": {
+   "A": "Braxin (Brazil)",
+   "B": "Paraguay",
+   "C": "Uruguay",
+   "D": "Bolivia"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q5-200",
+  "level": 5,
+  "category": "Địa lý",
+  "question": "Đỉnh núi Matterhorn với hình kim tự tháp đặc trưng nằm trên biên giới giữa Thụy Sĩ và quốc gia nào?",
+  "options": {
+   "A": "Nước Pháp",
+   "B": "Nước Ý",
+   "C": "Nước Áo",
+   "D": "Nước Đức"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q5-201",
+  "level": 5,
+  "category": "Địa lý",
+  "question": "Năm 2018, quốc vương Mswati III đã quyết định đổi tên nước Swaziland thành tên gọi nào?",
+  "options": {
+   "A": "Lesotho",
+   "B": "Botswana",
+   "C": "Eswatini",
+   "D": "Namibia"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q5-202",
+  "level": 5,
+  "category": "Địa lý",
+  "question": "Loài chim dodo, loài chim không biết bay đã tuyệt chủng vào thế kỷ 17, từng sinh sống duy nhất trên hòn đảo nào ở Ấn Độ Dương?",
+  "options": {
+   "A": "Đảo Madagascar",
+   "B": "Đảo Sri Lanka",
+   "C": "Đảo Réunion",
+   "D": "Đảo Mauritius"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q5-203",
+  "level": 5,
+  "category": "Địa lý",
+  "question": "Quốc gia nào ở Nam Mỹ sử dụng tiếng Hà Lan làm ngôn ngữ chính thức?",
+  "options": {
+   "A": "Suriname",
+   "B": "Guyana",
+   "C": "Venezuela",
+   "D": "Ecuador"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q5-204",
+  "level": 5,
+  "category": "Toán học",
+  "question": "Một cấp số cộng có số hạng đầu bằng 5 và công sai bằng 3. Số hạng thứ mười của cấp số cộng này bằng bao nhiêu?",
+  "options": {
+   "A": "30",
+   "B": "32",
+   "C": "35",
+   "D": "29"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q5-205",
+  "level": 5,
+  "category": "Địa lý",
+  "question": "Thủ đô của quốc đảo Maldives, quốc gia có địa hình thấp nhất thế giới ở Ấn Độ Dương, là thành phố nào?",
+  "options": {
+   "A": "Colombo",
+   "B": "Victoria",
+   "C": "Malé",
+   "D": "Port Louis"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q5-206",
+  "level": 5,
+  "category": "Văn học",
+  "question": "Nhân vật Phương Định, cô gái trong tổ trinh sát mặt đường chuyên phá bom trên tuyến Trường Sơn, là nhân vật chính của truyện ngắn nào?",
+  "options": {
+   "A": "Chiếc lược ngà",
+   "B": "Lặng lẽ Sa Pa",
+   "C": "Bến quê",
+   "D": "Những ngôi sao xa xôi"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q5-207",
+  "level": 5,
+  "category": "Văn học",
+  "question": "Trong tiểu thuyết 'Đôn Kihôtê' của Cervantes, người giám mã thực tế và trung thành luôn theo hầu hiệp sĩ Đôn Kihôtê tên là gì?",
+  "options": {
+   "A": "Sancho Panza",
+   "B": "Jean Passepartout",
+   "C": "Bác sĩ Watson",
+   "D": "Sam Gamgee"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q5-208",
+  "level": 5,
+  "category": "Văn học",
+  "question": "Trong tiểu thuyết 'Robinson Crusoe' của Daniel Defoe, Robinson đã đặt tên cho người bạn thổ dân được ông cứu trên đảo hoang là gì?",
+  "options": {
+   "A": "Thứ Hai",
+   "B": "Thứ Sáu",
+   "C": "Thứ Tư",
+   "D": "Chủ Nhật"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q5-209",
+  "level": 5,
+  "category": "Văn học",
+  "question": "Nhân vật chính của tiểu thuyết 'Những người khốn khổ', người cựu tù khổ sai bị thanh tra Javert truy đuổi suốt nhiều năm, tên là gì?",
+  "options": {
+   "A": "Edmond Dantès",
+   "B": "Julien Sorel",
+   "C": "Jean Valjean",
+   "D": "Rodion Raskolnikov"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q5-210",
+  "level": 5,
+  "category": "Văn học",
+  "question": "Nhân vật chính của tiểu thuyết 'Tội ác và hình phạt' của Dostoevsky, cựu sinh viên nghèo đã gây án mạng với bà cho vay nặng lãi, tên là gì?",
+  "options": {
+   "A": "Dmitri Karamazov",
+   "B": "Ivan Karamazov",
+   "C": "Pierre Bezukhov",
+   "D": "Rodion Raskolnikov"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q5-211",
+  "level": 5,
+  "category": "Văn học",
+  "question": "Thám tử tư người Bỉ Hercule Poirot, nổi tiếng với bộ ria mép tỉa gọn và 'những tế bào xám', là nhân vật của nhà văn nào?",
+  "options": {
+   "A": "Agatha Christie",
+   "B": "Arthur Conan Doyle",
+   "C": "Georges Simenon",
+   "D": "Maurice Leblanc"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q5-212",
+  "level": 5,
+  "category": "Văn học",
+  "question": "Trong tiểu thuyết 'Nhà thờ Đức Bà Paris' của Victor Hugo, anh kéo chuông bị gù lưng, chột mắt và điếc, đem lòng yêu nàng Esmeralda, tên là gì?",
+  "options": {
+   "A": "Claude Frollo",
+   "B": "Quasimodo",
+   "C": "Pierre Gringoire",
+   "D": "Phoebus de Chateaupers"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q5-213",
+  "level": 5,
+  "category": "Văn học",
+  "question": "Tiểu thuyết 'Mắt biếc', kể chuyện tình đơn phương của Ngạn dành cho Hà Lan, là tác phẩm của nhà văn nào?",
+  "options": {
+   "A": "Nguyễn Ngọc Tư",
+   "B": "Trang Hạ",
+   "C": "Nguyễn Nhật Ánh",
+   "D": "Nguyễn Phong Việt"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q5-214",
+  "level": 5,
+  "category": "Khoa học",
+  "question": "Loại axit nào có mặt trong dịch vị dạ dày của con người, giúp tiêu hóa thức ăn và diệt khuẩn?",
+  "options": {
+   "A": "Axit sunfuric",
+   "B": "Axit nitric",
+   "C": "Axit axetic",
+   "D": "Axit clohidric"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q5-215",
+  "level": 5,
+  "category": "Khoa học",
+  "question": "Hợp chất NaOH, một bazơ mạnh được dùng để sản xuất xà phòng và giấy, có tên thông thường là gì?",
+  "options": {
+   "A": "Xút ăn da",
+   "B": "Vôi tôi",
+   "C": "Soda khan",
+   "D": "Phèn chua"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q5-216",
+  "level": 5,
+  "category": "Khoa học",
+  "question": "Bào quan nào trong tế bào đảm nhiệm việc đóng gói, hoàn thiện và phân phối các sản phẩm protein?",
+  "options": {
+   "A": "Nhân tế bào",
+   "B": "Bộ máy Golgi",
+   "C": "Ti thể",
+   "D": "Lục lạp"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q5-217",
+  "level": 5,
+  "category": "Khoa học",
+  "question": "Thành tế bào của thực vật có độ bền cơ học cao nhờ được cấu tạo chủ yếu từ chất nào sau đây?",
+  "options": {
+   "A": "Tinh bột",
+   "B": "Prôtêin",
+   "C": "Xenlulozơ",
+   "D": "Kitin"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q5-218",
+  "level": 5,
+  "category": "Khoa học",
+  "question": "Prôtêin nào trong hồng cầu chứa nguyên tố sắt và đảm nhiệm việc vận chuyển khí ôxy từ phổi đến các mô?",
+  "options": {
+   "A": "Insulin",
+   "B": "Collagen",
+   "C": "Keratin",
+   "D": "Hemoglobin (huyết sắc tố)"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q5-219",
+  "level": 5,
+  "category": "Văn hóa",
+  "question": "Theo phong tục Tết của người Việt, vào ngày 23 tháng Chạp, ông Công ông Táo cưỡi con vật nào để về trời?",
+  "options": {
+   "A": "Cá chép",
+   "B": "Ngựa gỗ",
+   "C": "Rùa vàng",
+   "D": "Chim én"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q5-220",
+  "level": 5,
+  "category": "Lịch sử Việt Nam",
+  "question": "Hiệp ước nào được ký năm 1884 giữa triều Nguyễn và Pháp, chính thức đặt nước ta dưới ách bảo hộ của thực dân Pháp?",
+  "options": {
+   "A": "Hiệp ước Nhâm Tuất",
+   "B": "Hiệp ước Patenotre",
+   "C": "Hiệp ước Giáp Tuất",
+   "D": "Hiệp ước Harmand"
+  },
+  "correct": "B"
+ },
+ {
+  "id": "q5-221",
+  "level": 5,
+  "category": "Địa lý",
+  "question": "Sa mạc Kalahari, vùng đất khô hạn nổi tiếng với những đụn cát đỏ, nằm chủ yếu trên lãnh thổ quốc gia nào?",
+  "options": {
+   "A": "Ai Cập",
+   "B": "Libya",
+   "C": "Botswana",
+   "D": "Algeria"
+  },
+  "correct": "C"
+ },
+ {
+  "id": "q5-222",
+  "level": 5,
+  "category": "Điện ảnh",
+  "question": "Loạt phim viễn tưởng 'Chiến tranh giữa các vì sao' (Star Wars) ra mắt năm 1977 là sáng tạo của đạo diễn nào?",
+  "options": {
+   "A": "Steven Spielberg",
+   "B": "James Cameron",
+   "C": "Ridley Scott",
+   "D": "George Lucas"
+  },
+  "correct": "D"
+ },
+ {
+  "id": "q5-223",
+  "level": 5,
+  "category": "Khoa học",
+  "question": "Ở cơ thể người, lượng glucose dư thừa được chuyển hóa và dự trữ chủ yếu ở gan và cơ dưới dạng nào?",
+  "options": {
+   "A": "Glycogen",
+   "B": "Xenlulozơ",
+   "C": "Tinh bột",
+   "D": "Fructozơ"
+  },
+  "correct": "A"
+ },
+ {
+  "id": "q5-224",
+  "level": 5,
+  "category": "Lịch sử",
+  "question": "Sự kiện Nhật Bản tấn công Trân Châu Cảng (Pearl Harbor), khiến Hoa Kỳ chính thức tham gia Chiến tranh thế giới thứ hai, diễn ra vào năm nào?",
+  "options": {
+   "A": "Năm 1939",
+   "B": "Năm 1943",
+   "C": "Năm 1945",
+   "D": "Năm 1941"
+  },
+  "correct": "D"
+ }
+]

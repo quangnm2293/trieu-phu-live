@@ -39,6 +39,7 @@ function mcClips() {
     'lifeline-5050': 'Quyền trợ giúp năm mươi năm mươi đã được sử dụng! Hai đáp án sai đã bị loại bỏ.',
     'lifeline-poll': 'Người chơi hỏi ý kiến khán giả! Quý vị khán giả hãy comment đáp án để giúp người chơi nào!',
     'lifeline-swap': 'Người chơi quyết định đổi câu hỏi! Một câu hỏi mới cùng cấp độ sẽ được đưa ra.',
+    'lifeline-remind': 'Sắp hết giờ rồi! Ghế nóng vẫn còn quyền trợ giúp, hãy gõ 50, KHÁN GIẢ hoặc ĐỔI câu nếu cần nhé!',
     'walkaway': 'Người chơi quyết định dừng cuộc chơi và bảo toàn số điểm hiện có. Xin chúc mừng!',
     'champion': 'Không thể tin được! Chúng ta đã có nhà vô địch một trăm năm mươi triệu điểm! Xin chúc mừng triệu phú của đêm nay!',
     'run-end': 'Lượt chơi đã kết thúc. Cảm ơn người chơi và toàn thể quý vị khán giả đã tham gia!',

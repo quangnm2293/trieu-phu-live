@@ -310,6 +310,7 @@ class Engine {
       reading: false, answersOpen: false, windowOpenedAt: 0, readingMs: 0, readingEndsAt: 0,
       preWindowBonusMs: 0, // bonus +giờ (Nhiệt huyết) tích lũy trong lúc đọc — cộng vào hạn chót khi cửa sổ mở
       pollPending: false, // ghế nóng xin phiếu khán giả trong lúc đọc → phiếu mở ngay khi cửa sổ mở
+      lifelineReminded: false, // MC đã nhắc dùng trợ giúp cho câu này chưa (tối đa 1 lần/câu, khi sắp hết giờ)
       answers: new Map(), // uid -> {letter, elapsedMs}
       removed: [], hotseatAnswer: null, hotseatResult: null,
       poll: null, bonusUsed: false, scored: false,
@@ -764,6 +765,17 @@ class Engine {
         if (ctx.poll) { if (now >= ctx.poll.endsAt) this.endPoll(now); break; }
         // Pha đọc: đồng hồ chưa chạy — hết cửa sổ đọc dự phòng thì tự mở cửa sổ.
         if (ctx.reading) { if (now >= ctx.readingEndsAt) this.openWindow(now); break; }
+        // Nhắc dùng trợ giúp: còn ≤ LIFELINE_REMIND_MS, ghế nóng CHƯA chốt đáp án,
+        // không đang bầu phiếu và VẪN CÒN ≥1 quyền trợ giúp → MC nhắc đúng 1 lần/câu.
+        if (!ctx.lifelineReminded && ctx.answersOpen && !ctx.reading && !ctx.hotseatAnswer && !ctx.poll
+          && this.run && (this.run.lifelines.fifty || this.run.lifelines.poll || this.run.lifelines.swap)) {
+          const remainMs = ctx.deadline - now;
+          if (remainMs > 0 && remainMs <= CFG.LIFELINE_REMIND_MS) {
+            ctx.lifelineReminded = true;
+            this.cue(['mc/lifeline-remind']);
+            this.announce('lifeline', '⏰ Sắp hết giờ! Ghế nóng còn quyền trợ giúp — gõ 50 / KHÁN GIẢ / ĐỔI nếu cần!');
+          }
+        }
         if (now >= ctx.deadline) {
           // hết giờ = sai (ghế nóng không chốt đáp án)
           ctx.hotseatAnswer = null;
