@@ -1,0 +1,12002 @@
+{
+ "q1-001": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 1
+ },
+ "q1-002": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-003": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-004": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q1-005": {
+  "oldLevel": 1,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q1-006": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-007": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q1-008": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q1-009": {
+  "oldLevel": 1,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q1-010": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 1
+ },
+ "q1-011": {
+  "oldLevel": 1,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q1-012": {
+  "oldLevel": 1,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q1-013": {
+  "oldLevel": 1,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q1-014": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q1-015": {
+  "oldLevel": 1,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q1-016": {
+  "oldLevel": 1,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q1-017": {
+  "oldLevel": 1,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q1-018": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 1
+ },
+ "q1-019": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-020": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-021": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-022": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 1
+ },
+ "q1-023": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-024": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-025": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-026": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q1-027": {
+  "oldLevel": 1,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q1-028": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-029": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q1-030": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 1
+ },
+ "q1-031": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-032": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q1-033": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q1-034": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q1-035": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-036": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q1-037": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-038": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q1-039": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-040": {
+  "oldLevel": 1,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q1-041": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-042": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 1
+ },
+ "q1-043": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-044": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-045": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-046": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 1
+ },
+ "q1-047": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-048": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q1-049": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-050": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q1-051": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-052": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-053": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q1-054": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 1
+ },
+ "q1-055": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-056": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q1-057": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-058": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-059": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-060": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q1-061": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q1-062": {
+  "oldLevel": 1,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q1-063": {
+  "oldLevel": 1,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q1-064": {
+  "oldLevel": 1,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q1-065": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-066": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-067": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-001": {
+  "oldLevel": 2,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q2-002": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-003": {
+  "oldLevel": 2,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q2-004": {
+  "oldLevel": 2,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q2-005": {
+  "oldLevel": 2,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q2-006": {
+  "oldLevel": 2,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q2-007": {
+  "oldLevel": 2,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q2-008": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-009": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-010": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-011": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-012": {
+  "oldLevel": 2,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q2-013": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-014": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-015": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-016": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-017": {
+  "oldLevel": 2,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q2-018": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-019": {
+  "oldLevel": 2,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q2-020": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-021": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-022": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-023": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-024": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-025": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-026": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-027": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-028": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-029": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-030": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-031": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-032": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-033": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-034": {
+  "oldLevel": 2,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q2-035": {
+  "oldLevel": 2,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q2-036": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-037": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-038": {
+  "oldLevel": 2,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q2-039": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-040": {
+  "oldLevel": 2,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q2-041": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-042": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-043": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-044": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-045": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-046": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-047": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-048": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-049": {
+  "oldLevel": 2,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q2-050": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-051": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-052": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-053": {
+  "oldLevel": 2,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q2-054": {
+  "oldLevel": 2,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q2-055": {
+  "oldLevel": 2,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q2-056": {
+  "oldLevel": 2,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q2-057": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-058": {
+  "oldLevel": 2,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q2-059": {
+  "oldLevel": 2,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q2-060": {
+  "oldLevel": 2,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q2-061": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-062": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-063": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-064": {
+  "oldLevel": 2,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q2-065": {
+  "oldLevel": 2,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q2-066": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-067": {
+  "oldLevel": 2,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q3-001": {
+  "oldLevel": 3,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q3-002": {
+  "oldLevel": 3,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q3-003": {
+  "oldLevel": 3,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q3-004": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-005": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-006": {
+  "oldLevel": 3,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q3-007": {
+  "oldLevel": 3,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q3-008": {
+  "oldLevel": 3,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q3-009": {
+  "oldLevel": 3,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q3-010": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-011": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-012": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-013": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-014": {
+  "oldLevel": 3,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q3-015": {
+  "oldLevel": 3,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q3-016": {
+  "oldLevel": 3,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q3-017": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-018": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-019": {
+  "oldLevel": 3,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q3-020": {
+  "oldLevel": 3,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q3-021": {
+  "oldLevel": 3,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q3-022": {
+  "oldLevel": 3,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q3-023": {
+  "oldLevel": 3,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q3-024": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-025": {
+  "oldLevel": 3,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q3-026": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-027": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-028": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-029": {
+  "oldLevel": 3,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q3-030": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-031": {
+  "oldLevel": 3,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q3-032": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-033": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-034": {
+  "oldLevel": 3,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q3-035": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-036": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-037": {
+  "oldLevel": 3,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q3-038": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-039": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-040": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-041": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-042": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-043": {
+  "oldLevel": 3,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q3-044": {
+  "oldLevel": 3,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q3-045": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-046": {
+  "oldLevel": 3,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q3-047": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-048": {
+  "oldLevel": 3,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q3-049": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-050": {
+  "oldLevel": 3,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q3-051": {
+  "oldLevel": 3,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q3-052": {
+  "oldLevel": 3,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q3-053": {
+  "oldLevel": 3,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q3-054": {
+  "oldLevel": 3,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q3-055": {
+  "oldLevel": 3,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q3-056": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-057": {
+  "oldLevel": 3,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q3-058": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-059": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-060": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-061": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-062": {
+  "oldLevel": 3,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q3-063": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-064": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-065": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-066": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-067": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q4-001": {
+  "oldLevel": 4,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q4-002": {
+  "oldLevel": 4,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q4-003": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-004": {
+  "oldLevel": 4,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q4-005": {
+  "oldLevel": 4,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q4-006": {
+  "oldLevel": 4,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q4-007": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-008": {
+  "oldLevel": 4,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q4-009": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-012": {
+  "oldLevel": 4,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q4-014": {
+  "oldLevel": 4,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q4-015": {
+  "oldLevel": 4,
+  "newLevel": 2,
+  "medianDifficulty": 1
+ },
+ "q4-018": {
+  "oldLevel": 4,
+  "newLevel": 2,
+  "medianDifficulty": 1
+ },
+ "q4-019": {
+  "oldLevel": 4,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q4-021": {
+  "oldLevel": 4,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q4-022": {
+  "oldLevel": 4,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q4-023": {
+  "oldLevel": 4,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q4-024": {
+  "oldLevel": 4,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q4-025": {
+  "oldLevel": 4,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q4-026": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-028": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-029": {
+  "oldLevel": 4,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q4-031": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-032": {
+  "oldLevel": 4,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q4-033": {
+  "oldLevel": 4,
+  "newLevel": 2,
+  "medianDifficulty": 1
+ },
+ "q4-034": {
+  "oldLevel": 4,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q4-036": {
+  "oldLevel": 4,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q4-037": {
+  "oldLevel": 4,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q4-038": {
+  "oldLevel": 4,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q4-039": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-041": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-042": {
+  "oldLevel": 4,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q4-043": {
+  "oldLevel": 4,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q4-044": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-045": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-046": {
+  "oldLevel": 4,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q4-047": {
+  "oldLevel": 4,
+  "newLevel": 2,
+  "medianDifficulty": 1
+ },
+ "q4-048": {
+  "oldLevel": 4,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q4-049": {
+  "oldLevel": 4,
+  "newLevel": 2,
+  "medianDifficulty": 1
+ },
+ "q4-050": {
+  "oldLevel": 4,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q4-051": {
+  "oldLevel": 4,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q4-052": {
+  "oldLevel": 4,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q4-053": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-054": {
+  "oldLevel": 4,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q4-055": {
+  "oldLevel": 4,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q4-057": {
+  "oldLevel": 4,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q4-058": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-059": {
+  "oldLevel": 4,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q4-060": {
+  "oldLevel": 4,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q4-061": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-062": {
+  "oldLevel": 4,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q4-063": {
+  "oldLevel": 4,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q4-066": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-067": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-068": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-069": {
+  "oldLevel": 4,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q4-070": {
+  "oldLevel": 4,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q4-071": {
+  "oldLevel": 4,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q4-072": {
+  "oldLevel": 4,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q4-073": {
+  "oldLevel": 4,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q4-074": {
+  "oldLevel": 4,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q4-075": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-076": {
+  "oldLevel": 4,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q4-077": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-078": {
+  "oldLevel": 4,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q4-079": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-080": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-001": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-002": {
+  "oldLevel": 5,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q5-003": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-004": {
+  "oldLevel": 5,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q5-005": {
+  "oldLevel": 5,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q5-006": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-007": {
+  "oldLevel": 5,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q5-008": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-009": {
+  "oldLevel": 5,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q5-010": {
+  "oldLevel": 5,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q5-011": {
+  "oldLevel": 5,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q5-014": {
+  "oldLevel": 5,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q5-015": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-016": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-017": {
+  "oldLevel": 5,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q5-018": {
+  "oldLevel": 5,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q5-019": {
+  "oldLevel": 5,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q5-020": {
+  "oldLevel": 5,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q5-021": {
+  "oldLevel": 5,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q5-022": {
+  "oldLevel": 5,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q5-023": {
+  "oldLevel": 5,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q5-024": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-025": {
+  "oldLevel": 5,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q5-026": {
+  "oldLevel": 5,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q5-027": {
+  "oldLevel": 5,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q5-028": {
+  "oldLevel": 5,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q5-029": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-030": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-031": {
+  "oldLevel": 5,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q5-032": {
+  "oldLevel": 5,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q5-033": {
+  "oldLevel": 5,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q5-034": {
+  "oldLevel": 5,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q5-035": {
+  "oldLevel": 5,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q5-036": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-037": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-038": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-039": {
+  "oldLevel": 5,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q5-040": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-041": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-042": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-043": {
+  "oldLevel": 5,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q5-044": {
+  "oldLevel": 5,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q5-046": {
+  "oldLevel": 5,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q5-047": {
+  "oldLevel": 5,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q5-048": {
+  "oldLevel": 5,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q5-050": {
+  "oldLevel": 5,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q5-051": {
+  "oldLevel": 5,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q5-052": {
+  "oldLevel": 5,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q5-053": {
+  "oldLevel": 5,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q5-054": {
+  "oldLevel": 5,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q5-055": {
+  "oldLevel": 5,
+  "newLevel": 2,
+  "medianDifficulty": 1
+ },
+ "q5-056": {
+  "oldLevel": 5,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q5-057": {
+  "oldLevel": 5,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q5-058": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-059": {
+  "oldLevel": 5,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q5-060": {
+  "oldLevel": 5,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q5-061": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-062": {
+  "oldLevel": 5,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q5-063": {
+  "oldLevel": 5,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q5-064": {
+  "oldLevel": 5,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q5-065": {
+  "oldLevel": 5,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q5-066": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-068": {
+  "oldLevel": 5,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q5-069": {
+  "oldLevel": 5,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q5-070": {
+  "oldLevel": 5,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q5-071": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-072": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q6-001": {
+  "oldLevel": 6,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q6-002": {
+  "oldLevel": 6,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q6-003": {
+  "oldLevel": 6,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q6-004": {
+  "oldLevel": 6,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q6-005": {
+  "oldLevel": 6,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q6-006": {
+  "oldLevel": 6,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q6-007": {
+  "oldLevel": 6,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q6-008": {
+  "oldLevel": 6,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q6-009": {
+  "oldLevel": 6,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q6-010": {
+  "oldLevel": 6,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q6-011": {
+  "oldLevel": 6,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q6-012": {
+  "oldLevel": 6,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q6-013": {
+  "oldLevel": 6,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q6-014": {
+  "oldLevel": 6,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q6-016": {
+  "oldLevel": 6,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q6-017": {
+  "oldLevel": 6,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q6-018": {
+  "oldLevel": 6,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q6-019": {
+  "oldLevel": 6,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q6-020": {
+  "oldLevel": 6,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q6-021": {
+  "oldLevel": 6,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q6-022": {
+  "oldLevel": 6,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q6-023": {
+  "oldLevel": 6,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q6-024": {
+  "oldLevel": 6,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q6-025": {
+  "oldLevel": 6,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q6-026": {
+  "oldLevel": 6,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q6-027": {
+  "oldLevel": 6,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q6-028": {
+  "oldLevel": 6,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q6-029": {
+  "oldLevel": 6,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q6-030": {
+  "oldLevel": 6,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q6-031": {
+  "oldLevel": 6,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q6-032": {
+  "oldLevel": 6,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q6-033": {
+  "oldLevel": 6,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q6-034": {
+  "oldLevel": 6,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q6-035": {
+  "oldLevel": 6,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q6-036": {
+  "oldLevel": 6,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q6-037": {
+  "oldLevel": 6,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q6-039": {
+  "oldLevel": 6,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q6-040": {
+  "oldLevel": 6,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q6-041": {
+  "oldLevel": 6,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q6-042": {
+  "oldLevel": 6,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q6-043": {
+  "oldLevel": 6,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q6-044": {
+  "oldLevel": 6,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q6-045": {
+  "oldLevel": 6,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q6-046": {
+  "oldLevel": 6,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q6-047": {
+  "oldLevel": 6,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q6-048": {
+  "oldLevel": 6,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q6-049": {
+  "oldLevel": 6,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q6-050": {
+  "oldLevel": 6,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q6-051": {
+  "oldLevel": 6,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q6-052": {
+  "oldLevel": 6,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q6-053": {
+  "oldLevel": 6,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q6-054": {
+  "oldLevel": 6,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q6-055": {
+  "oldLevel": 6,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q6-056": {
+  "oldLevel": 6,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q6-057": {
+  "oldLevel": 6,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q6-058": {
+  "oldLevel": 6,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q6-059": {
+  "oldLevel": 6,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q6-060": {
+  "oldLevel": 6,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q6-061": {
+  "oldLevel": 6,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q6-062": {
+  "oldLevel": 6,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q6-063": {
+  "oldLevel": 6,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q6-064": {
+  "oldLevel": 6,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q6-065": {
+  "oldLevel": 6,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q6-066": {
+  "oldLevel": 6,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q6-067": {
+  "oldLevel": 6,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q6-068": {
+  "oldLevel": 6,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q6-069": {
+  "oldLevel": 6,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q7-001": {
+  "oldLevel": 7,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q7-002": {
+  "oldLevel": 7,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q7-003": {
+  "oldLevel": 7,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q7-004": {
+  "oldLevel": 7,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q7-005": {
+  "oldLevel": 7,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q7-006": {
+  "oldLevel": 7,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q7-007": {
+  "oldLevel": 7,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q7-008": {
+  "oldLevel": 7,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q7-009": {
+  "oldLevel": 7,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q7-011": {
+  "oldLevel": 7,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q7-012": {
+  "oldLevel": 7,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q7-014": {
+  "oldLevel": 7,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q7-015": {
+  "oldLevel": 7,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q7-016": {
+  "oldLevel": 7,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q7-017": {
+  "oldLevel": 7,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q7-019": {
+  "oldLevel": 7,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q7-020": {
+  "oldLevel": 7,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q7-022": {
+  "oldLevel": 7,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q7-023": {
+  "oldLevel": 7,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q7-024": {
+  "oldLevel": 7,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q7-025": {
+  "oldLevel": 7,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q7-027": {
+  "oldLevel": 7,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q7-028": {
+  "oldLevel": 7,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q7-029": {
+  "oldLevel": 7,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q7-030": {
+  "oldLevel": 7,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q7-031": {
+  "oldLevel": 7,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q7-032": {
+  "oldLevel": 7,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q7-034": {
+  "oldLevel": 7,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q7-035": {
+  "oldLevel": 7,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q7-036": {
+  "oldLevel": 7,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q7-037": {
+  "oldLevel": 7,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q7-038": {
+  "oldLevel": 7,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q7-039": {
+  "oldLevel": 7,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q7-040": {
+  "oldLevel": 7,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q7-041": {
+  "oldLevel": 7,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q7-042": {
+  "oldLevel": 7,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q7-043": {
+  "oldLevel": 7,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q7-045": {
+  "oldLevel": 7,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q7-047": {
+  "oldLevel": 7,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q7-048": {
+  "oldLevel": 7,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q7-052": {
+  "oldLevel": 7,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q7-054": {
+  "oldLevel": 7,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q7-055": {
+  "oldLevel": 7,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q7-057": {
+  "oldLevel": 7,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q7-058": {
+  "oldLevel": 7,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q7-059": {
+  "oldLevel": 7,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q7-060": {
+  "oldLevel": 7,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q7-061": {
+  "oldLevel": 7,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q7-062": {
+  "oldLevel": 7,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q7-063": {
+  "oldLevel": 7,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q7-064": {
+  "oldLevel": 7,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q7-065": {
+  "oldLevel": 7,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q7-066": {
+  "oldLevel": 7,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q7-067": {
+  "oldLevel": 7,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q7-068": {
+  "oldLevel": 7,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q7-069": {
+  "oldLevel": 7,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q7-070": {
+  "oldLevel": 7,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q7-071": {
+  "oldLevel": 7,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q7-072": {
+  "oldLevel": 7,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q7-073": {
+  "oldLevel": 7,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q7-074": {
+  "oldLevel": 7,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q7-075": {
+  "oldLevel": 7,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q7-076": {
+  "oldLevel": 7,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q7-077": {
+  "oldLevel": 7,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q7-078": {
+  "oldLevel": 7,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q7-079": {
+  "oldLevel": 7,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q7-080": {
+  "oldLevel": 7,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q8-001": {
+  "oldLevel": 8,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q8-002": {
+  "oldLevel": 8,
+  "newLevel": 8,
+  "medianDifficulty": 4
+ },
+ "q8-003": {
+  "oldLevel": 8,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q8-004": {
+  "oldLevel": 8,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q8-005": {
+  "oldLevel": 8,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q8-006": {
+  "oldLevel": 8,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q8-007": {
+  "oldLevel": 8,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q8-008": {
+  "oldLevel": 8,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q8-009": {
+  "oldLevel": 8,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q8-010": {
+  "oldLevel": 8,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q8-011": {
+  "oldLevel": 8,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q8-012": {
+  "oldLevel": 8,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q8-013": {
+  "oldLevel": 8,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q8-014": {
+  "oldLevel": 8,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q8-015": {
+  "oldLevel": 8,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q8-016": {
+  "oldLevel": 8,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q8-017": {
+  "oldLevel": 8,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q8-018": {
+  "oldLevel": 8,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q8-019": {
+  "oldLevel": 8,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q8-020": {
+  "oldLevel": 8,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q8-021": {
+  "oldLevel": 8,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q8-022": {
+  "oldLevel": 8,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q8-023": {
+  "oldLevel": 8,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q8-024": {
+  "oldLevel": 8,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q8-025": {
+  "oldLevel": 8,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q8-026": {
+  "oldLevel": 8,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q8-028": {
+  "oldLevel": 8,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q8-029": {
+  "oldLevel": 8,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q8-030": {
+  "oldLevel": 8,
+  "newLevel": 8,
+  "medianDifficulty": 4
+ },
+ "q8-031": {
+  "oldLevel": 8,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q8-032": {
+  "oldLevel": 8,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q8-033": {
+  "oldLevel": 8,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q8-034": {
+  "oldLevel": 8,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q8-035": {
+  "oldLevel": 8,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q8-036": {
+  "oldLevel": 8,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q8-037": {
+  "oldLevel": 8,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q8-038": {
+  "oldLevel": 8,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q8-039": {
+  "oldLevel": 8,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q8-040": {
+  "oldLevel": 8,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q8-041": {
+  "oldLevel": 8,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q8-042": {
+  "oldLevel": 8,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q8-043": {
+  "oldLevel": 8,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q8-044": {
+  "oldLevel": 8,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q8-045": {
+  "oldLevel": 8,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q8-046": {
+  "oldLevel": 8,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q8-047": {
+  "oldLevel": 8,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q8-048": {
+  "oldLevel": 8,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q8-049": {
+  "oldLevel": 8,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q8-050": {
+  "oldLevel": 8,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q8-051": {
+  "oldLevel": 8,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q8-052": {
+  "oldLevel": 8,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q8-053": {
+  "oldLevel": 8,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q8-054": {
+  "oldLevel": 8,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q8-055": {
+  "oldLevel": 8,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q8-056": {
+  "oldLevel": 8,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q8-057": {
+  "oldLevel": 8,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q8-058": {
+  "oldLevel": 8,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q8-059": {
+  "oldLevel": 8,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q8-060": {
+  "oldLevel": 8,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q8-061": {
+  "oldLevel": 8,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q8-062": {
+  "oldLevel": 8,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q8-063": {
+  "oldLevel": 8,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q8-064": {
+  "oldLevel": 8,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q8-065": {
+  "oldLevel": 8,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q8-067": {
+  "oldLevel": 8,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q8-068": {
+  "oldLevel": 8,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q8-069": {
+  "oldLevel": 8,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q9-001": {
+  "oldLevel": 9,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q9-002": {
+  "oldLevel": 9,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q9-003": {
+  "oldLevel": 9,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q9-004": {
+  "oldLevel": 9,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q9-005": {
+  "oldLevel": 9,
+  "newLevel": 12,
+  "medianDifficulty": 6
+ },
+ "q9-006": {
+  "oldLevel": 9,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q9-007": {
+  "oldLevel": 9,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q9-008": {
+  "oldLevel": 9,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q9-009": {
+  "oldLevel": 9,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q9-010": {
+  "oldLevel": 9,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q9-011": {
+  "oldLevel": 9,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q9-012": {
+  "oldLevel": 9,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q9-013": {
+  "oldLevel": 9,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q9-014": {
+  "oldLevel": 9,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q9-015": {
+  "oldLevel": 9,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q9-016": {
+  "oldLevel": 9,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q9-017": {
+  "oldLevel": 9,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q9-018": {
+  "oldLevel": 9,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q9-019": {
+  "oldLevel": 9,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q9-020": {
+  "oldLevel": 9,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q9-021": {
+  "oldLevel": 9,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q9-022": {
+  "oldLevel": 9,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q9-023": {
+  "oldLevel": 9,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q9-024": {
+  "oldLevel": 9,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q9-025": {
+  "oldLevel": 9,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q9-026": {
+  "oldLevel": 9,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q9-027": {
+  "oldLevel": 9,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q9-028": {
+  "oldLevel": 9,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q9-029": {
+  "oldLevel": 9,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q9-030": {
+  "oldLevel": 9,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q9-031": {
+  "oldLevel": 9,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q9-033": {
+  "oldLevel": 9,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q9-034": {
+  "oldLevel": 9,
+  "newLevel": 12,
+  "medianDifficulty": 6
+ },
+ "q9-035": {
+  "oldLevel": 9,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q9-036": {
+  "oldLevel": 9,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q9-037": {
+  "oldLevel": 9,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q9-038": {
+  "oldLevel": 9,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q9-039": {
+  "oldLevel": 9,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q9-040": {
+  "oldLevel": 9,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q9-041": {
+  "oldLevel": 9,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q9-042": {
+  "oldLevel": 9,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q9-043": {
+  "oldLevel": 9,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q9-044": {
+  "oldLevel": 9,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q9-045": {
+  "oldLevel": 9,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q9-046": {
+  "oldLevel": 9,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q9-047": {
+  "oldLevel": 9,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q9-048": {
+  "oldLevel": 9,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q9-049": {
+  "oldLevel": 9,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q9-050": {
+  "oldLevel": 9,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q9-051": {
+  "oldLevel": 9,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q9-052": {
+  "oldLevel": 9,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q9-053": {
+  "oldLevel": 9,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q9-054": {
+  "oldLevel": 9,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q9-055": {
+  "oldLevel": 9,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q9-056": {
+  "oldLevel": 9,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q9-057": {
+  "oldLevel": 9,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q9-059": {
+  "oldLevel": 9,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q9-060": {
+  "oldLevel": 9,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q9-061": {
+  "oldLevel": 9,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q9-062": {
+  "oldLevel": 9,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q9-063": {
+  "oldLevel": 9,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q9-064": {
+  "oldLevel": 9,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q9-065": {
+  "oldLevel": 9,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q9-066": {
+  "oldLevel": 9,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q9-067": {
+  "oldLevel": 9,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q9-068": {
+  "oldLevel": 9,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q9-069": {
+  "oldLevel": 9,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q10-001": {
+  "oldLevel": 10,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q10-002": {
+  "oldLevel": 10,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q10-003": {
+  "oldLevel": 10,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q10-004": {
+  "oldLevel": 10,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q10-005": {
+  "oldLevel": 10,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q10-006": {
+  "oldLevel": 10,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q10-007": {
+  "oldLevel": 10,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q10-008": {
+  "oldLevel": 10,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q10-009": {
+  "oldLevel": 10,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q10-010": {
+  "oldLevel": 10,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q10-011": {
+  "oldLevel": 10,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q10-012": {
+  "oldLevel": 10,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q10-013": {
+  "oldLevel": 10,
+  "newLevel": 12,
+  "medianDifficulty": 6
+ },
+ "q10-014": {
+  "oldLevel": 10,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q10-015": {
+  "oldLevel": 10,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q10-016": {
+  "oldLevel": 10,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q10-017": {
+  "oldLevel": 10,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q10-018": {
+  "oldLevel": 10,
+  "newLevel": 15,
+  "medianDifficulty": 9
+ },
+ "q10-019": {
+  "oldLevel": 10,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q10-020": {
+  "oldLevel": 10,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q10-021": {
+  "oldLevel": 10,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q10-022": {
+  "oldLevel": 10,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q10-023": {
+  "oldLevel": 10,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q10-024": {
+  "oldLevel": 10,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q10-025": {
+  "oldLevel": 10,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q10-026": {
+  "oldLevel": 10,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q10-027": {
+  "oldLevel": 10,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q10-028": {
+  "oldLevel": 10,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q10-029": {
+  "oldLevel": 10,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q10-030": {
+  "oldLevel": 10,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q10-031": {
+  "oldLevel": 10,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q10-032": {
+  "oldLevel": 10,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q10-033": {
+  "oldLevel": 10,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q10-034": {
+  "oldLevel": 10,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q10-035": {
+  "oldLevel": 10,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q10-036": {
+  "oldLevel": 10,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q10-037": {
+  "oldLevel": 10,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q10-038": {
+  "oldLevel": 10,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q10-039": {
+  "oldLevel": 10,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q10-040": {
+  "oldLevel": 10,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q10-041": {
+  "oldLevel": 10,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q10-042": {
+  "oldLevel": 10,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q10-043": {
+  "oldLevel": 10,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q10-044": {
+  "oldLevel": 10,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q10-045": {
+  "oldLevel": 10,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q10-046": {
+  "oldLevel": 10,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q10-047": {
+  "oldLevel": 10,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q10-048": {
+  "oldLevel": 10,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q10-049": {
+  "oldLevel": 10,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q10-050": {
+  "oldLevel": 10,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q10-051": {
+  "oldLevel": 10,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q10-052": {
+  "oldLevel": 10,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q10-053": {
+  "oldLevel": 10,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q10-054": {
+  "oldLevel": 10,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q10-055": {
+  "oldLevel": 10,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q10-056": {
+  "oldLevel": 10,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q10-057": {
+  "oldLevel": 10,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q10-058": {
+  "oldLevel": 10,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q10-059": {
+  "oldLevel": 10,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q10-060": {
+  "oldLevel": 10,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q10-061": {
+  "oldLevel": 10,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q10-062": {
+  "oldLevel": 10,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q10-063": {
+  "oldLevel": 10,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q10-064": {
+  "oldLevel": 10,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q10-065": {
+  "oldLevel": 10,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q10-066": {
+  "oldLevel": 10,
+  "newLevel": 15,
+  "medianDifficulty": 9
+ },
+ "q10-067": {
+  "oldLevel": 10,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q11-001": {
+  "oldLevel": 11,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q11-002": {
+  "oldLevel": 11,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q11-003": {
+  "oldLevel": 11,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q11-004": {
+  "oldLevel": 11,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q11-005": {
+  "oldLevel": 11,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q11-006": {
+  "oldLevel": 11,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q11-007": {
+  "oldLevel": 11,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q11-008": {
+  "oldLevel": 11,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q11-009": {
+  "oldLevel": 11,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q11-010": {
+  "oldLevel": 11,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q11-011": {
+  "oldLevel": 11,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q11-012": {
+  "oldLevel": 11,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q11-013": {
+  "oldLevel": 11,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q11-014": {
+  "oldLevel": 11,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q11-015": {
+  "oldLevel": 11,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q11-016": {
+  "oldLevel": 11,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q11-017": {
+  "oldLevel": 11,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q11-018": {
+  "oldLevel": 11,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q11-019": {
+  "oldLevel": 11,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q11-020": {
+  "oldLevel": 11,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q11-021": {
+  "oldLevel": 11,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q11-022": {
+  "oldLevel": 11,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q11-023": {
+  "oldLevel": 11,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q11-024": {
+  "oldLevel": 11,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q11-025": {
+  "oldLevel": 11,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q11-026": {
+  "oldLevel": 11,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q11-027": {
+  "oldLevel": 11,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q11-028": {
+  "oldLevel": 11,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q11-029": {
+  "oldLevel": 11,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q11-030": {
+  "oldLevel": 11,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q11-031": {
+  "oldLevel": 11,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q11-032": {
+  "oldLevel": 11,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q11-033": {
+  "oldLevel": 11,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q11-034": {
+  "oldLevel": 11,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q11-035": {
+  "oldLevel": 11,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q11-036": {
+  "oldLevel": 11,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q11-037": {
+  "oldLevel": 11,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q11-038": {
+  "oldLevel": 11,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q11-039": {
+  "oldLevel": 11,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q11-040": {
+  "oldLevel": 11,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q11-041": {
+  "oldLevel": 11,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q11-042": {
+  "oldLevel": 11,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q11-043": {
+  "oldLevel": 11,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q11-044": {
+  "oldLevel": 11,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q11-045": {
+  "oldLevel": 11,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q11-046": {
+  "oldLevel": 11,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q11-047": {
+  "oldLevel": 11,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q11-048": {
+  "oldLevel": 11,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q11-049": {
+  "oldLevel": 11,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q11-050": {
+  "oldLevel": 11,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q11-051": {
+  "oldLevel": 11,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q11-052": {
+  "oldLevel": 11,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q11-053": {
+  "oldLevel": 11,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q11-054": {
+  "oldLevel": 11,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q11-055": {
+  "oldLevel": 11,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q11-056": {
+  "oldLevel": 11,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q11-057": {
+  "oldLevel": 11,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q11-058": {
+  "oldLevel": 11,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q11-059": {
+  "oldLevel": 11,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q11-060": {
+  "oldLevel": 11,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q11-061": {
+  "oldLevel": 11,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q11-062": {
+  "oldLevel": 11,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q11-063": {
+  "oldLevel": 11,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q11-064": {
+  "oldLevel": 11,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q11-065": {
+  "oldLevel": 11,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q11-066": {
+  "oldLevel": 11,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q12-001": {
+  "oldLevel": 12,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q12-002": {
+  "oldLevel": 12,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q12-003": {
+  "oldLevel": 12,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q12-004": {
+  "oldLevel": 12,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q12-005": {
+  "oldLevel": 12,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q12-006": {
+  "oldLevel": 12,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q12-007": {
+  "oldLevel": 12,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q12-008": {
+  "oldLevel": 12,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q12-009": {
+  "oldLevel": 12,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q12-010": {
+  "oldLevel": 12,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q12-011": {
+  "oldLevel": 12,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q12-012": {
+  "oldLevel": 12,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q12-013": {
+  "oldLevel": 12,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q12-014": {
+  "oldLevel": 12,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q12-015": {
+  "oldLevel": 12,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q12-016": {
+  "oldLevel": 12,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q12-017": {
+  "oldLevel": 12,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q12-018": {
+  "oldLevel": 12,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q12-019": {
+  "oldLevel": 12,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q12-020": {
+  "oldLevel": 12,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q12-021": {
+  "oldLevel": 12,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q12-022": {
+  "oldLevel": 12,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q12-023": {
+  "oldLevel": 12,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q12-024": {
+  "oldLevel": 12,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q12-025": {
+  "oldLevel": 12,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q12-026": {
+  "oldLevel": 12,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q12-027": {
+  "oldLevel": 12,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q12-028": {
+  "oldLevel": 12,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q12-029": {
+  "oldLevel": 12,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q12-030": {
+  "oldLevel": 12,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q12-031": {
+  "oldLevel": 12,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q12-032": {
+  "oldLevel": 12,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q12-033": {
+  "oldLevel": 12,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q12-034": {
+  "oldLevel": 12,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q12-035": {
+  "oldLevel": 12,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q12-036": {
+  "oldLevel": 12,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q12-037": {
+  "oldLevel": 12,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q12-038": {
+  "oldLevel": 12,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q12-039": {
+  "oldLevel": 12,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q12-040": {
+  "oldLevel": 12,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q12-041": {
+  "oldLevel": 12,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q12-042": {
+  "oldLevel": 12,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q12-043": {
+  "oldLevel": 12,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q12-044": {
+  "oldLevel": 12,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q12-045": {
+  "oldLevel": 12,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q12-046": {
+  "oldLevel": 12,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q12-047": {
+  "oldLevel": 12,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q12-048": {
+  "oldLevel": 12,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q12-049": {
+  "oldLevel": 12,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q12-050": {
+  "oldLevel": 12,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q12-051": {
+  "oldLevel": 12,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q12-052": {
+  "oldLevel": 12,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q12-053": {
+  "oldLevel": 12,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q12-054": {
+  "oldLevel": 12,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q12-055": {
+  "oldLevel": 12,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q12-056": {
+  "oldLevel": 12,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q12-057": {
+  "oldLevel": 12,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q12-058": {
+  "oldLevel": 12,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q12-059": {
+  "oldLevel": 12,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q12-060": {
+  "oldLevel": 12,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q12-061": {
+  "oldLevel": 12,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q12-062": {
+  "oldLevel": 12,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q12-063": {
+  "oldLevel": 12,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q12-064": {
+  "oldLevel": 12,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q12-065": {
+  "oldLevel": 12,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q12-066": {
+  "oldLevel": 12,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q13-001": {
+  "oldLevel": 13,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q13-002": {
+  "oldLevel": 13,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q13-003": {
+  "oldLevel": 13,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q13-004": {
+  "oldLevel": 13,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q13-005": {
+  "oldLevel": 13,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q13-006": {
+  "oldLevel": 13,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q13-007": {
+  "oldLevel": 13,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q13-008": {
+  "oldLevel": 13,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q13-009": {
+  "oldLevel": 13,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q13-011": {
+  "oldLevel": 13,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q13-012": {
+  "oldLevel": 13,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q13-013": {
+  "oldLevel": 13,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q13-014": {
+  "oldLevel": 13,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q13-015": {
+  "oldLevel": 13,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q13-016": {
+  "oldLevel": 13,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q13-017": {
+  "oldLevel": 13,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q13-018": {
+  "oldLevel": 13,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q13-020": {
+  "oldLevel": 13,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q13-021": {
+  "oldLevel": 13,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q13-022": {
+  "oldLevel": 13,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q13-023": {
+  "oldLevel": 13,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q13-024": {
+  "oldLevel": 13,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q13-025": {
+  "oldLevel": 13,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q13-027": {
+  "oldLevel": 13,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q13-028": {
+  "oldLevel": 13,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q13-029": {
+  "oldLevel": 13,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q13-030": {
+  "oldLevel": 13,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q13-031": {
+  "oldLevel": 13,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q13-032": {
+  "oldLevel": 13,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q13-033": {
+  "oldLevel": 13,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q13-034": {
+  "oldLevel": 13,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q13-035": {
+  "oldLevel": 13,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q13-037": {
+  "oldLevel": 13,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q13-038": {
+  "oldLevel": 13,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q13-039": {
+  "oldLevel": 13,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q13-040": {
+  "oldLevel": 13,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q13-042": {
+  "oldLevel": 13,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q13-043": {
+  "oldLevel": 13,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q13-044": {
+  "oldLevel": 13,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q13-045": {
+  "oldLevel": 13,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q13-046": {
+  "oldLevel": 13,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q13-047": {
+  "oldLevel": 13,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q13-048": {
+  "oldLevel": 13,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q13-049": {
+  "oldLevel": 13,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q13-050": {
+  "oldLevel": 13,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q13-051": {
+  "oldLevel": 13,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q13-052": {
+  "oldLevel": 13,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q13-053": {
+  "oldLevel": 13,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q13-054": {
+  "oldLevel": 13,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q13-055": {
+  "oldLevel": 13,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q13-056": {
+  "oldLevel": 13,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q13-057": {
+  "oldLevel": 13,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q13-060": {
+  "oldLevel": 13,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q13-061": {
+  "oldLevel": 13,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q13-062": {
+  "oldLevel": 13,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q13-063": {
+  "oldLevel": 13,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q13-064": {
+  "oldLevel": 13,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q13-065": {
+  "oldLevel": 13,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q13-066": {
+  "oldLevel": 13,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q13-067": {
+  "oldLevel": 13,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q13-068": {
+  "oldLevel": 13,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q13-069": {
+  "oldLevel": 13,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q13-070": {
+  "oldLevel": 13,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q13-071": {
+  "oldLevel": 13,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q13-072": {
+  "oldLevel": 13,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q13-073": {
+  "oldLevel": 13,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q14-001": {
+  "oldLevel": 14,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q14-002": {
+  "oldLevel": 14,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q14-003": {
+  "oldLevel": 14,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q14-004": {
+  "oldLevel": 14,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q14-005": {
+  "oldLevel": 14,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q14-006": {
+  "oldLevel": 14,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q14-007": {
+  "oldLevel": 14,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q14-008": {
+  "oldLevel": 14,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q14-009": {
+  "oldLevel": 14,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q14-010": {
+  "oldLevel": 14,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q14-011": {
+  "oldLevel": 14,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q14-012": {
+  "oldLevel": 14,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q14-013": {
+  "oldLevel": 14,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q14-014": {
+  "oldLevel": 14,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q14-015": {
+  "oldLevel": 14,
+  "newLevel": 15,
+  "medianDifficulty": 13
+ },
+ "q14-016": {
+  "oldLevel": 14,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q14-017": {
+  "oldLevel": 14,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q14-018": {
+  "oldLevel": 14,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q14-019": {
+  "oldLevel": 14,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q14-020": {
+  "oldLevel": 14,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q14-022": {
+  "oldLevel": 14,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q14-023": {
+  "oldLevel": 14,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q14-024": {
+  "oldLevel": 14,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q14-025": {
+  "oldLevel": 14,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q14-026": {
+  "oldLevel": 14,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q14-027": {
+  "oldLevel": 14,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q14-029": {
+  "oldLevel": 14,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q14-030": {
+  "oldLevel": 14,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q14-031": {
+  "oldLevel": 14,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q14-033": {
+  "oldLevel": 14,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q14-034": {
+  "oldLevel": 14,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q14-035": {
+  "oldLevel": 14,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q14-036": {
+  "oldLevel": 14,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q14-037": {
+  "oldLevel": 14,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q14-038": {
+  "oldLevel": 14,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q14-039": {
+  "oldLevel": 14,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q14-040": {
+  "oldLevel": 14,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q14-041": {
+  "oldLevel": 14,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q14-042": {
+  "oldLevel": 14,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q14-044": {
+  "oldLevel": 14,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q14-045": {
+  "oldLevel": 14,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q14-046": {
+  "oldLevel": 14,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q14-047": {
+  "oldLevel": 14,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q14-048": {
+  "oldLevel": 14,
+  "newLevel": 8,
+  "medianDifficulty": 4
+ },
+ "q14-049": {
+  "oldLevel": 14,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q14-050": {
+  "oldLevel": 14,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q14-051": {
+  "oldLevel": 14,
+  "newLevel": 8,
+  "medianDifficulty": 4
+ },
+ "q14-052": {
+  "oldLevel": 14,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q14-053": {
+  "oldLevel": 14,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q14-054": {
+  "oldLevel": 14,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q14-055": {
+  "oldLevel": 14,
+  "newLevel": 8,
+  "medianDifficulty": 4
+ },
+ "q14-056": {
+  "oldLevel": 14,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q14-057": {
+  "oldLevel": 14,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q14-058": {
+  "oldLevel": 14,
+  "newLevel": 8,
+  "medianDifficulty": 4
+ },
+ "q14-060": {
+  "oldLevel": 14,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q14-061": {
+  "oldLevel": 14,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q14-062": {
+  "oldLevel": 14,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q14-063": {
+  "oldLevel": 14,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q14-064": {
+  "oldLevel": 14,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q14-065": {
+  "oldLevel": 14,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q14-066": {
+  "oldLevel": 14,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q14-067": {
+  "oldLevel": 14,
+  "newLevel": 8,
+  "medianDifficulty": 4
+ },
+ "q14-068": {
+  "oldLevel": 14,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q14-069": {
+  "oldLevel": 14,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q14-070": {
+  "oldLevel": 14,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q14-071": {
+  "oldLevel": 14,
+  "newLevel": 8,
+  "medianDifficulty": 4
+ },
+ "q15-001": {
+  "oldLevel": 15,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q15-002": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 12
+ },
+ "q15-003": {
+  "oldLevel": 15,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q15-004": {
+  "oldLevel": 15,
+  "newLevel": 8,
+  "medianDifficulty": 4
+ },
+ "q15-005": {
+  "oldLevel": 15,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q15-006": {
+  "oldLevel": 15,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q15-007": {
+  "oldLevel": 15,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q15-008": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q15-009": {
+  "oldLevel": 15,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q15-010": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 14
+ },
+ "q15-011": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 13
+ },
+ "q15-012": {
+  "oldLevel": 15,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q15-013": {
+  "oldLevel": 15,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q15-014": {
+  "oldLevel": 15,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q15-015": {
+  "oldLevel": 15,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q15-016": {
+  "oldLevel": 15,
+  "newLevel": 8,
+  "medianDifficulty": 4
+ },
+ "q15-017": {
+  "oldLevel": 15,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q15-018": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q15-019": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q15-020": {
+  "oldLevel": 15,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q15-021": {
+  "oldLevel": 15,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q15-022": {
+  "oldLevel": 15,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q15-023": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q15-024": {
+  "oldLevel": 15,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q15-025": {
+  "oldLevel": 15,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q15-026": {
+  "oldLevel": 15,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q15-027": {
+  "oldLevel": 15,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q15-028": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 13
+ },
+ "q15-029": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q15-030": {
+  "oldLevel": 15,
+  "newLevel": 8,
+  "medianDifficulty": 4
+ },
+ "q15-031": {
+  "oldLevel": 15,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q15-032": {
+  "oldLevel": 15,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q15-033": {
+  "oldLevel": 15,
+  "newLevel": 12,
+  "medianDifficulty": 6
+ },
+ "q15-035": {
+  "oldLevel": 15,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q15-036": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q15-037": {
+  "oldLevel": 15,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q15-038": {
+  "oldLevel": 15,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q15-039": {
+  "oldLevel": 15,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q15-040": {
+  "oldLevel": 15,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q15-041": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q15-042": {
+  "oldLevel": 15,
+  "newLevel": 12,
+  "medianDifficulty": 6
+ },
+ "q15-043": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q15-044": {
+  "oldLevel": 15,
+  "newLevel": 12,
+  "medianDifficulty": 6
+ },
+ "q15-045": {
+  "oldLevel": 15,
+  "newLevel": 12,
+  "medianDifficulty": 6
+ },
+ "q15-046": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 12
+ },
+ "q15-047": {
+  "oldLevel": 15,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q15-048": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q15-049": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q15-050": {
+  "oldLevel": 15,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q15-051": {
+  "oldLevel": 15,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q15-052": {
+  "oldLevel": 15,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q15-053": {
+  "oldLevel": 15,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q15-054": {
+  "oldLevel": 15,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q15-055": {
+  "oldLevel": 15,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q15-056": {
+  "oldLevel": 15,
+  "newLevel": 8,
+  "medianDifficulty": 4
+ },
+ "q15-057": {
+  "oldLevel": 15,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q15-058": {
+  "oldLevel": 15,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q15-059": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q15-060": {
+  "oldLevel": 15,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q15-061": {
+  "oldLevel": 15,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q15-062": {
+  "oldLevel": 15,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q15-063": {
+  "oldLevel": 15,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q15-064": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q15-065": {
+  "oldLevel": 15,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q15-066": {
+  "oldLevel": 15,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q15-067": {
+  "oldLevel": 15,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q1-068": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-069": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-070": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-071": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-072": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-073": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-074": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-075": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-076": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q1-077": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-078": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-079": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-080": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-081": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-082": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-083": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-084": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-085": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-086": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-087": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-088": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-089": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-090": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-091": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-092": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q1-093": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q1-094": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-095": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-096": {
+  "oldLevel": 1,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q1-097": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-098": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q1-099": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-100": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q1-101": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-102": {
+  "oldLevel": 1,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q1-103": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-104": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-105": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-106": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-107": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-108": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-109": {
+  "oldLevel": 1,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q1-110": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-111": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-112": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-113": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-114": {
+  "oldLevel": 1,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q1-115": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-116": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q1-117": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q1-118": {
+  "oldLevel": 1,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q1-119": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-120": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-121": {
+  "oldLevel": 1,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q1-122": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-123": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-124": {
+  "oldLevel": 1,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q1-125": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-126": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-127": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q1-128": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-129": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-130": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-131": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q1-132": {
+  "oldLevel": 1,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q1-133": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-134": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-068": {
+  "oldLevel": 2,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q2-069": {
+  "oldLevel": 2,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q2-070": {
+  "oldLevel": 2,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q2-071": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-072": {
+  "oldLevel": 2,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q2-073": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-074": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-075": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-076": {
+  "oldLevel": 2,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q2-077": {
+  "oldLevel": 2,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q2-078": {
+  "oldLevel": 2,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q2-079": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-080": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-081": {
+  "oldLevel": 2,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q2-082": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-083": {
+  "oldLevel": 2,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q2-084": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-085": {
+  "oldLevel": 2,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q2-086": {
+  "oldLevel": 2,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q2-087": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-088": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-089": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-090": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-091": {
+  "oldLevel": 2,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q2-092": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-093": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-094": {
+  "oldLevel": 2,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q2-095": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-096": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-097": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-098": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-099": {
+  "oldLevel": 2,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q2-100": {
+  "oldLevel": 2,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q2-101": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-102": {
+  "oldLevel": 2,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q2-103": {
+  "oldLevel": 2,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q2-104": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-105": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-106": {
+  "oldLevel": 2,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q2-107": {
+  "oldLevel": 2,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q2-108": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-109": {
+  "oldLevel": 2,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q2-110": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-111": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-112": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-113": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-114": {
+  "oldLevel": 2,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q2-115": {
+  "oldLevel": 2,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q2-116": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-117": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-118": {
+  "oldLevel": 2,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q2-119": {
+  "oldLevel": 2,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q2-120": {
+  "oldLevel": 2,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q2-121": {
+  "oldLevel": 2,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q2-122": {
+  "oldLevel": 2,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q2-123": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-124": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-125": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-126": {
+  "oldLevel": 2,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q2-127": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-128": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-129": {
+  "oldLevel": 2,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q2-130": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-131": {
+  "oldLevel": 2,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q2-132": {
+  "oldLevel": 2,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q2-133": {
+  "oldLevel": 2,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q2-134": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q3-068": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-069": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-070": {
+  "oldLevel": 3,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q3-071": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-072": {
+  "oldLevel": 3,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q3-073": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-074": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-075": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-076": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-077": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-078": {
+  "oldLevel": 3,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q3-079": {
+  "oldLevel": 3,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q3-080": {
+  "oldLevel": 3,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q3-081": {
+  "oldLevel": 3,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q3-082": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-083": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-084": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-085": {
+  "oldLevel": 3,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q3-086": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-087": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-088": {
+  "oldLevel": 3,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q3-089": {
+  "oldLevel": 3,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q3-090": {
+  "oldLevel": 3,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q3-091": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-092": {
+  "oldLevel": 3,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q3-093": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-094": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-095": {
+  "oldLevel": 3,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q3-096": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-097": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-098": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-099": {
+  "oldLevel": 3,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q3-100": {
+  "oldLevel": 3,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q3-101": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-102": {
+  "oldLevel": 3,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q3-103": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-104": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-105": {
+  "oldLevel": 3,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q3-106": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-107": {
+  "oldLevel": 3,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q3-108": {
+  "oldLevel": 3,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q3-109": {
+  "oldLevel": 3,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q3-110": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-111": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-113": {
+  "oldLevel": 3,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q3-114": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-115": {
+  "oldLevel": 3,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q3-116": {
+  "oldLevel": 3,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q3-117": {
+  "oldLevel": 3,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q3-118": {
+  "oldLevel": 3,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q3-119": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-120": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-121": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-122": {
+  "oldLevel": 3,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q3-123": {
+  "oldLevel": 3,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q3-124": {
+  "oldLevel": 3,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q3-125": {
+  "oldLevel": 3,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q3-126": {
+  "oldLevel": 3,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q3-127": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-128": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-129": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-130": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-131": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-132": {
+  "oldLevel": 3,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q3-133": {
+  "oldLevel": 3,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q3-134": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-143": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-081": {
+  "oldLevel": 4,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q4-082": {
+  "oldLevel": 4,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q4-083": {
+  "oldLevel": 4,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q4-084": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-085": {
+  "oldLevel": 4,
+  "newLevel": 2,
+  "medianDifficulty": 1
+ },
+ "q4-086": {
+  "oldLevel": 4,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q4-087": {
+  "oldLevel": 4,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q4-088": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-089": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-090": {
+  "oldLevel": 4,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q4-091": {
+  "oldLevel": 4,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q4-092": {
+  "oldLevel": 4,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q4-093": {
+  "oldLevel": 4,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q4-094": {
+  "oldLevel": 4,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q4-095": {
+  "oldLevel": 4,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q4-096": {
+  "oldLevel": 4,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q4-097": {
+  "oldLevel": 4,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q4-098": {
+  "oldLevel": 4,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q4-099": {
+  "oldLevel": 4,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q4-100": {
+  "oldLevel": 4,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q4-101": {
+  "oldLevel": 4,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q4-102": {
+  "oldLevel": 4,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q4-103": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-104": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-105": {
+  "oldLevel": 4,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q4-106": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-108": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-109": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-110": {
+  "oldLevel": 4,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q4-111": {
+  "oldLevel": 4,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q4-112": {
+  "oldLevel": 4,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q4-113": {
+  "oldLevel": 4,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q4-114": {
+  "oldLevel": 4,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q4-115": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-116": {
+  "oldLevel": 4,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q4-117": {
+  "oldLevel": 4,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q4-118": {
+  "oldLevel": 4,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q4-119": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-120": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-121": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-122": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-123": {
+  "oldLevel": 4,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q4-124": {
+  "oldLevel": 4,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q4-125": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-126": {
+  "oldLevel": 4,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q4-127": {
+  "oldLevel": 4,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q4-128": {
+  "oldLevel": 4,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q4-129": {
+  "oldLevel": 4,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q4-130": {
+  "oldLevel": 4,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q4-131": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-132": {
+  "oldLevel": 4,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q4-133": {
+  "oldLevel": 4,
+  "newLevel": 2,
+  "medianDifficulty": 1
+ },
+ "q4-134": {
+  "oldLevel": 4,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q4-135": {
+  "oldLevel": 4,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q4-136": {
+  "oldLevel": 4,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q4-137": {
+  "oldLevel": 4,
+  "newLevel": 2,
+  "medianDifficulty": 1
+ },
+ "q4-138": {
+  "oldLevel": 4,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q4-139": {
+  "oldLevel": 4,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q4-140": {
+  "oldLevel": 4,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q4-141": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-142": {
+  "oldLevel": 4,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q4-143": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-144": {
+  "oldLevel": 4,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q4-145": {
+  "oldLevel": 4,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q4-146": {
+  "oldLevel": 4,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q4-147": {
+  "oldLevel": 4,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q4-155": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-073": {
+  "oldLevel": 5,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q5-074": {
+  "oldLevel": 5,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q5-075": {
+  "oldLevel": 5,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q5-076": {
+  "oldLevel": 5,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q5-077": {
+  "oldLevel": 5,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q5-078": {
+  "oldLevel": 5,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q5-079": {
+  "oldLevel": 5,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q5-080": {
+  "oldLevel": 5,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q5-081": {
+  "oldLevel": 5,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q5-082": {
+  "oldLevel": 5,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q5-083": {
+  "oldLevel": 5,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q5-084": {
+  "oldLevel": 5,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q5-085": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-086": {
+  "oldLevel": 5,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q5-087": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-088": {
+  "oldLevel": 5,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q5-089": {
+  "oldLevel": 5,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q5-090": {
+  "oldLevel": 5,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q5-091": {
+  "oldLevel": 5,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q5-092": {
+  "oldLevel": 5,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q5-093": {
+  "oldLevel": 5,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q5-094": {
+  "oldLevel": 5,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q5-095": {
+  "oldLevel": 5,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q5-096": {
+  "oldLevel": 5,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q5-097": {
+  "oldLevel": 5,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q5-098": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-099": {
+  "oldLevel": 5,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q5-100": {
+  "oldLevel": 5,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q5-101": {
+  "oldLevel": 5,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q5-102": {
+  "oldLevel": 5,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q5-103": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-104": {
+  "oldLevel": 5,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q5-105": {
+  "oldLevel": 5,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q5-106": {
+  "oldLevel": 5,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q5-107": {
+  "oldLevel": 5,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q5-108": {
+  "oldLevel": 5,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q5-109": {
+  "oldLevel": 5,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q5-110": {
+  "oldLevel": 5,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q5-111": {
+  "oldLevel": 5,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q5-112": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-113": {
+  "oldLevel": 5,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q5-114": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-115": {
+  "oldLevel": 5,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q5-116": {
+  "oldLevel": 5,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q5-117": {
+  "oldLevel": 5,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q5-118": {
+  "oldLevel": 5,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q5-119": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-120": {
+  "oldLevel": 5,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q5-121": {
+  "oldLevel": 5,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q5-122": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-123": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-124": {
+  "oldLevel": 5,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q5-125": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-126": {
+  "oldLevel": 5,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q5-127": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-128": {
+  "oldLevel": 5,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q5-129": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-130": {
+  "oldLevel": 5,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q5-131": {
+  "oldLevel": 5,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q5-132": {
+  "oldLevel": 5,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q5-133": {
+  "oldLevel": 5,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q5-134": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-135": {
+  "oldLevel": 5,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q5-136": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-137": {
+  "oldLevel": 5,
+  "newLevel": 2,
+  "medianDifficulty": 1
+ },
+ "q5-138": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-139": {
+  "oldLevel": 5,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q6-070": {
+  "oldLevel": 6,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q6-071": {
+  "oldLevel": 6,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q6-072": {
+  "oldLevel": 6,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q6-073": {
+  "oldLevel": 6,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q6-074": {
+  "oldLevel": 6,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q6-075": {
+  "oldLevel": 6,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q6-076": {
+  "oldLevel": 6,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q6-077": {
+  "oldLevel": 6,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q6-078": {
+  "oldLevel": 6,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q6-079": {
+  "oldLevel": 6,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q6-080": {
+  "oldLevel": 6,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q6-081": {
+  "oldLevel": 6,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q6-082": {
+  "oldLevel": 6,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q6-083": {
+  "oldLevel": 6,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q6-084": {
+  "oldLevel": 6,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q6-085": {
+  "oldLevel": 6,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q6-086": {
+  "oldLevel": 6,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q6-087": {
+  "oldLevel": 6,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q6-088": {
+  "oldLevel": 6,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q6-089": {
+  "oldLevel": 6,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q6-090": {
+  "oldLevel": 6,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q6-091": {
+  "oldLevel": 6,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q6-092": {
+  "oldLevel": 6,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q6-093": {
+  "oldLevel": 6,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q6-094": {
+  "oldLevel": 6,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q6-095": {
+  "oldLevel": 6,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q6-096": {
+  "oldLevel": 6,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q6-097": {
+  "oldLevel": 6,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q6-098": {
+  "oldLevel": 6,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q6-099": {
+  "oldLevel": 6,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q6-100": {
+  "oldLevel": 6,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q6-101": {
+  "oldLevel": 6,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q6-102": {
+  "oldLevel": 6,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q6-103": {
+  "oldLevel": 6,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q6-104": {
+  "oldLevel": 6,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q6-105": {
+  "oldLevel": 6,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q6-106": {
+  "oldLevel": 6,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q6-107": {
+  "oldLevel": 6,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q6-108": {
+  "oldLevel": 6,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q6-109": {
+  "oldLevel": 6,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q6-110": {
+  "oldLevel": 6,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q6-111": {
+  "oldLevel": 6,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q6-112": {
+  "oldLevel": 6,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q6-113": {
+  "oldLevel": 6,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q6-114": {
+  "oldLevel": 6,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q6-115": {
+  "oldLevel": 6,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q6-116": {
+  "oldLevel": 6,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q6-117": {
+  "oldLevel": 6,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q6-118": {
+  "oldLevel": 6,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q6-119": {
+  "oldLevel": 6,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q6-120": {
+  "oldLevel": 6,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q6-121": {
+  "oldLevel": 6,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q6-122": {
+  "oldLevel": 6,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q6-123": {
+  "oldLevel": 6,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q6-124": {
+  "oldLevel": 6,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q6-125": {
+  "oldLevel": 6,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q6-126": {
+  "oldLevel": 6,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q6-127": {
+  "oldLevel": 6,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q6-128": {
+  "oldLevel": 6,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q6-129": {
+  "oldLevel": 6,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q6-130": {
+  "oldLevel": 6,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q6-131": {
+  "oldLevel": 6,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q6-132": {
+  "oldLevel": 6,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q6-133": {
+  "oldLevel": 6,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q6-134": {
+  "oldLevel": 6,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q6-135": {
+  "oldLevel": 6,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q6-136": {
+  "oldLevel": 6,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q7-081": {
+  "oldLevel": 7,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q7-082": {
+  "oldLevel": 7,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q7-083": {
+  "oldLevel": 7,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q7-084": {
+  "oldLevel": 7,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q7-085": {
+  "oldLevel": 7,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q7-086": {
+  "oldLevel": 7,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q7-087": {
+  "oldLevel": 7,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q7-088": {
+  "oldLevel": 7,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q7-089": {
+  "oldLevel": 7,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q7-090": {
+  "oldLevel": 7,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q7-091": {
+  "oldLevel": 7,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q7-092": {
+  "oldLevel": 7,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q7-093": {
+  "oldLevel": 7,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q7-094": {
+  "oldLevel": 7,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q7-095": {
+  "oldLevel": 7,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q7-097": {
+  "oldLevel": 7,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q7-098": {
+  "oldLevel": 7,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q7-099": {
+  "oldLevel": 7,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q7-100": {
+  "oldLevel": 7,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q7-101": {
+  "oldLevel": 7,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q7-102": {
+  "oldLevel": 7,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q7-103": {
+  "oldLevel": 7,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q7-104": {
+  "oldLevel": 7,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q7-105": {
+  "oldLevel": 7,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q7-106": {
+  "oldLevel": 7,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q7-108": {
+  "oldLevel": 7,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q7-109": {
+  "oldLevel": 7,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q7-110": {
+  "oldLevel": 7,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q7-111": {
+  "oldLevel": 7,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q7-112": {
+  "oldLevel": 7,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q7-113": {
+  "oldLevel": 7,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q7-114": {
+  "oldLevel": 7,
+  "newLevel": 2,
+  "medianDifficulty": 1
+ },
+ "q7-115": {
+  "oldLevel": 7,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q7-116": {
+  "oldLevel": 7,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q7-117": {
+  "oldLevel": 7,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q7-118": {
+  "oldLevel": 7,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q7-119": {
+  "oldLevel": 7,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q7-120": {
+  "oldLevel": 7,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q7-121": {
+  "oldLevel": 7,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q7-122": {
+  "oldLevel": 7,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q7-123": {
+  "oldLevel": 7,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q7-124": {
+  "oldLevel": 7,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q7-125": {
+  "oldLevel": 7,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q7-126": {
+  "oldLevel": 7,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q7-127": {
+  "oldLevel": 7,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q7-128": {
+  "oldLevel": 7,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q7-129": {
+  "oldLevel": 7,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q7-130": {
+  "oldLevel": 7,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q7-131": {
+  "oldLevel": 7,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q7-132": {
+  "oldLevel": 7,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q7-133": {
+  "oldLevel": 7,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q7-135": {
+  "oldLevel": 7,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q7-136": {
+  "oldLevel": 7,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q7-137": {
+  "oldLevel": 7,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q7-138": {
+  "oldLevel": 7,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q7-140": {
+  "oldLevel": 7,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q7-141": {
+  "oldLevel": 7,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q7-142": {
+  "oldLevel": 7,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q7-143": {
+  "oldLevel": 7,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q7-144": {
+  "oldLevel": 7,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q7-145": {
+  "oldLevel": 7,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q7-146": {
+  "oldLevel": 7,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q7-147": {
+  "oldLevel": 7,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q7-151": {
+  "oldLevel": 7,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q7-152": {
+  "oldLevel": 7,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q7-153": {
+  "oldLevel": 7,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q7-154": {
+  "oldLevel": 7,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q8-070": {
+  "oldLevel": 8,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q8-071": {
+  "oldLevel": 8,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q8-072": {
+  "oldLevel": 8,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q8-073": {
+  "oldLevel": 8,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q8-074": {
+  "oldLevel": 8,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q8-075": {
+  "oldLevel": 8,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q8-076": {
+  "oldLevel": 8,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q8-077": {
+  "oldLevel": 8,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q8-078": {
+  "oldLevel": 8,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q8-079": {
+  "oldLevel": 8,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q8-080": {
+  "oldLevel": 8,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q8-081": {
+  "oldLevel": 8,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q8-082": {
+  "oldLevel": 8,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q8-083": {
+  "oldLevel": 8,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q8-084": {
+  "oldLevel": 8,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q8-085": {
+  "oldLevel": 8,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q8-086": {
+  "oldLevel": 8,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q8-087": {
+  "oldLevel": 8,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q8-088": {
+  "oldLevel": 8,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q8-089": {
+  "oldLevel": 8,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q8-090": {
+  "oldLevel": 8,
+  "newLevel": 2,
+  "medianDifficulty": 1
+ },
+ "q8-091": {
+  "oldLevel": 8,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q8-092": {
+  "oldLevel": 8,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q8-093": {
+  "oldLevel": 8,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q8-094": {
+  "oldLevel": 8,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q8-095": {
+  "oldLevel": 8,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q8-096": {
+  "oldLevel": 8,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q8-097": {
+  "oldLevel": 8,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q8-098": {
+  "oldLevel": 8,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q8-099": {
+  "oldLevel": 8,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q8-100": {
+  "oldLevel": 8,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q8-101": {
+  "oldLevel": 8,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q8-102": {
+  "oldLevel": 8,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q8-103": {
+  "oldLevel": 8,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q8-104": {
+  "oldLevel": 8,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q8-105": {
+  "oldLevel": 8,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q8-106": {
+  "oldLevel": 8,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q8-107": {
+  "oldLevel": 8,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q8-108": {
+  "oldLevel": 8,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q8-109": {
+  "oldLevel": 8,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q8-110": {
+  "oldLevel": 8,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q8-111": {
+  "oldLevel": 8,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q8-112": {
+  "oldLevel": 8,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q8-113": {
+  "oldLevel": 8,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q8-114": {
+  "oldLevel": 8,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q8-115": {
+  "oldLevel": 8,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q8-116": {
+  "oldLevel": 8,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q8-117": {
+  "oldLevel": 8,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q8-118": {
+  "oldLevel": 8,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q8-119": {
+  "oldLevel": 8,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q8-120": {
+  "oldLevel": 8,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q8-121": {
+  "oldLevel": 8,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q8-122": {
+  "oldLevel": 8,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q8-123": {
+  "oldLevel": 8,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q8-124": {
+  "oldLevel": 8,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q8-125": {
+  "oldLevel": 8,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q8-126": {
+  "oldLevel": 8,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q8-127": {
+  "oldLevel": 8,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q8-128": {
+  "oldLevel": 8,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q8-129": {
+  "oldLevel": 8,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q8-130": {
+  "oldLevel": 8,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q8-131": {
+  "oldLevel": 8,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q8-132": {
+  "oldLevel": 8,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q8-133": {
+  "oldLevel": 8,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q8-134": {
+  "oldLevel": 8,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q8-135": {
+  "oldLevel": 8,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q8-136": {
+  "oldLevel": 8,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q9-070": {
+  "oldLevel": 9,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q9-071": {
+  "oldLevel": 9,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q9-072": {
+  "oldLevel": 9,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q9-073": {
+  "oldLevel": 9,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q9-075": {
+  "oldLevel": 9,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q9-076": {
+  "oldLevel": 9,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q9-077": {
+  "oldLevel": 9,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q9-078": {
+  "oldLevel": 9,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q9-079": {
+  "oldLevel": 9,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q9-080": {
+  "oldLevel": 9,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q9-081": {
+  "oldLevel": 9,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q9-082": {
+  "oldLevel": 9,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q9-083": {
+  "oldLevel": 9,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q9-084": {
+  "oldLevel": 9,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q9-085": {
+  "oldLevel": 9,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q9-086": {
+  "oldLevel": 9,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q9-087": {
+  "oldLevel": 9,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q9-088": {
+  "oldLevel": 9,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q9-089": {
+  "oldLevel": 9,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q9-090": {
+  "oldLevel": 9,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q9-091": {
+  "oldLevel": 9,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q9-092": {
+  "oldLevel": 9,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q9-093": {
+  "oldLevel": 9,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q9-094": {
+  "oldLevel": 9,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q9-095": {
+  "oldLevel": 9,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q9-096": {
+  "oldLevel": 9,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q9-097": {
+  "oldLevel": 9,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q9-098": {
+  "oldLevel": 9,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q9-099": {
+  "oldLevel": 9,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q9-100": {
+  "oldLevel": 9,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q9-101": {
+  "oldLevel": 9,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q9-102": {
+  "oldLevel": 9,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q9-103": {
+  "oldLevel": 9,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q9-104": {
+  "oldLevel": 9,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q9-105": {
+  "oldLevel": 9,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q9-106": {
+  "oldLevel": 9,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q9-107": {
+  "oldLevel": 9,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q9-108": {
+  "oldLevel": 9,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q9-109": {
+  "oldLevel": 9,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q9-110": {
+  "oldLevel": 9,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q9-111": {
+  "oldLevel": 9,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q9-112": {
+  "oldLevel": 9,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q9-113": {
+  "oldLevel": 9,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q9-114": {
+  "oldLevel": 9,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q9-115": {
+  "oldLevel": 9,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q9-116": {
+  "oldLevel": 9,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q9-117": {
+  "oldLevel": 9,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q9-118": {
+  "oldLevel": 9,
+  "newLevel": 2,
+  "medianDifficulty": 1
+ },
+ "q9-119": {
+  "oldLevel": 9,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q9-120": {
+  "oldLevel": 9,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q9-121": {
+  "oldLevel": 9,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q9-122": {
+  "oldLevel": 9,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q9-123": {
+  "oldLevel": 9,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q9-124": {
+  "oldLevel": 9,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q9-125": {
+  "oldLevel": 9,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q9-126": {
+  "oldLevel": 9,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q9-127": {
+  "oldLevel": 9,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q9-128": {
+  "oldLevel": 9,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q9-129": {
+  "oldLevel": 9,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q9-130": {
+  "oldLevel": 9,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q9-131": {
+  "oldLevel": 9,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q9-132": {
+  "oldLevel": 9,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q9-133": {
+  "oldLevel": 9,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q9-134": {
+  "oldLevel": 9,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q9-135": {
+  "oldLevel": 9,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q9-136": {
+  "oldLevel": 9,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q9-137": {
+  "oldLevel": 9,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q10-075": {
+  "oldLevel": 10,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q10-076": {
+  "oldLevel": 10,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q10-077": {
+  "oldLevel": 10,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q10-078": {
+  "oldLevel": 10,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q10-079": {
+  "oldLevel": 10,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q10-080": {
+  "oldLevel": 10,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q10-081": {
+  "oldLevel": 10,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q10-082": {
+  "oldLevel": 10,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q10-084": {
+  "oldLevel": 10,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q10-085": {
+  "oldLevel": 10,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q10-087": {
+  "oldLevel": 10,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q10-089": {
+  "oldLevel": 10,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q10-090": {
+  "oldLevel": 10,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q10-092": {
+  "oldLevel": 10,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q10-093": {
+  "oldLevel": 10,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q10-094": {
+  "oldLevel": 10,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q10-095": {
+  "oldLevel": 10,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q10-096": {
+  "oldLevel": 10,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q10-097": {
+  "oldLevel": 10,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q10-098": {
+  "oldLevel": 10,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q10-099": {
+  "oldLevel": 10,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q10-101": {
+  "oldLevel": 10,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q10-103": {
+  "oldLevel": 10,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q10-104": {
+  "oldLevel": 10,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q10-106": {
+  "oldLevel": 10,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q10-107": {
+  "oldLevel": 10,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q10-108": {
+  "oldLevel": 10,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q10-109": {
+  "oldLevel": 10,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q10-110": {
+  "oldLevel": 10,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q10-111": {
+  "oldLevel": 10,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q10-112": {
+  "oldLevel": 10,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q10-113": {
+  "oldLevel": 10,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q10-114": {
+  "oldLevel": 10,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q10-115": {
+  "oldLevel": 10,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q10-116": {
+  "oldLevel": 10,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q10-117": {
+  "oldLevel": 10,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q10-118": {
+  "oldLevel": 10,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q10-119": {
+  "oldLevel": 10,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q10-120": {
+  "oldLevel": 10,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q10-121": {
+  "oldLevel": 10,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q10-122": {
+  "oldLevel": 10,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q10-123": {
+  "oldLevel": 10,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q10-124": {
+  "oldLevel": 10,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q10-125": {
+  "oldLevel": 10,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q10-126": {
+  "oldLevel": 10,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q10-127": {
+  "oldLevel": 10,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q10-128": {
+  "oldLevel": 10,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q10-129": {
+  "oldLevel": 10,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q10-130": {
+  "oldLevel": 10,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q10-131": {
+  "oldLevel": 10,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q10-132": {
+  "oldLevel": 10,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q10-133": {
+  "oldLevel": 10,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q10-140": {
+  "oldLevel": 10,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q10-144": {
+  "oldLevel": 10,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q10-147": {
+  "oldLevel": 10,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q10-148": {
+  "oldLevel": 10,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q10-149": {
+  "oldLevel": 10,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q10-150": {
+  "oldLevel": 10,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q10-151": {
+  "oldLevel": 10,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q10-152": {
+  "oldLevel": 10,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q10-153": {
+  "oldLevel": 10,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q10-154": {
+  "oldLevel": 10,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q10-155": {
+  "oldLevel": 10,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q10-156": {
+  "oldLevel": 10,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q10-157": {
+  "oldLevel": 10,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q10-158": {
+  "oldLevel": 10,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q10-159": {
+  "oldLevel": 10,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q11-068": {
+  "oldLevel": 11,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q11-069": {
+  "oldLevel": 11,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q11-071": {
+  "oldLevel": 11,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q11-072": {
+  "oldLevel": 11,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q11-073": {
+  "oldLevel": 11,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q11-074": {
+  "oldLevel": 11,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q11-075": {
+  "oldLevel": 11,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q11-076": {
+  "oldLevel": 11,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q11-077": {
+  "oldLevel": 11,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q11-078": {
+  "oldLevel": 11,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q11-079": {
+  "oldLevel": 11,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q11-080": {
+  "oldLevel": 11,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q11-081": {
+  "oldLevel": 11,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q11-082": {
+  "oldLevel": 11,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q11-083": {
+  "oldLevel": 11,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q11-084": {
+  "oldLevel": 11,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q11-085": {
+  "oldLevel": 11,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q11-086": {
+  "oldLevel": 11,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q11-087": {
+  "oldLevel": 11,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q11-088": {
+  "oldLevel": 11,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q11-089": {
+  "oldLevel": 11,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q11-090": {
+  "oldLevel": 11,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q11-091": {
+  "oldLevel": 11,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q11-092": {
+  "oldLevel": 11,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q11-093": {
+  "oldLevel": 11,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q11-094": {
+  "oldLevel": 11,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q11-095": {
+  "oldLevel": 11,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q11-096": {
+  "oldLevel": 11,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q11-097": {
+  "oldLevel": 11,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q11-098": {
+  "oldLevel": 11,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q11-099": {
+  "oldLevel": 11,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q11-100": {
+  "oldLevel": 11,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q11-101": {
+  "oldLevel": 11,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q11-102": {
+  "oldLevel": 11,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q11-103": {
+  "oldLevel": 11,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q11-104": {
+  "oldLevel": 11,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q11-106": {
+  "oldLevel": 11,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q11-107": {
+  "oldLevel": 11,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q11-108": {
+  "oldLevel": 11,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q11-109": {
+  "oldLevel": 11,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q11-110": {
+  "oldLevel": 11,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q11-111": {
+  "oldLevel": 11,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q11-112": {
+  "oldLevel": 11,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q11-113": {
+  "oldLevel": 11,
+  "newLevel": 15,
+  "medianDifficulty": 12
+ },
+ "q11-114": {
+  "oldLevel": 11,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q11-115": {
+  "oldLevel": 11,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q11-116": {
+  "oldLevel": 11,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q11-118": {
+  "oldLevel": 11,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q11-119": {
+  "oldLevel": 11,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q11-120": {
+  "oldLevel": 11,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q11-121": {
+  "oldLevel": 11,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q11-122": {
+  "oldLevel": 11,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q11-123": {
+  "oldLevel": 11,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q11-124": {
+  "oldLevel": 11,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q11-126": {
+  "oldLevel": 11,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q11-127": {
+  "oldLevel": 11,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q11-128": {
+  "oldLevel": 11,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q11-129": {
+  "oldLevel": 11,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q11-130": {
+  "oldLevel": 11,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q11-131": {
+  "oldLevel": 11,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q11-132": {
+  "oldLevel": 11,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q11-135": {
+  "oldLevel": 11,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q11-138": {
+  "oldLevel": 11,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q11-139": {
+  "oldLevel": 11,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q11-140": {
+  "oldLevel": 11,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q11-141": {
+  "oldLevel": 11,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q12-068": {
+  "oldLevel": 12,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q12-070": {
+  "oldLevel": 12,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q12-071": {
+  "oldLevel": 12,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q12-073": {
+  "oldLevel": 12,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q12-075": {
+  "oldLevel": 12,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q12-076": {
+  "oldLevel": 12,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q12-077": {
+  "oldLevel": 12,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q12-078": {
+  "oldLevel": 12,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q12-079": {
+  "oldLevel": 12,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q12-080": {
+  "oldLevel": 12,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q12-081": {
+  "oldLevel": 12,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q12-082": {
+  "oldLevel": 12,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q12-083": {
+  "oldLevel": 12,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q12-085": {
+  "oldLevel": 12,
+  "newLevel": 15,
+  "medianDifficulty": 12
+ },
+ "q12-086": {
+  "oldLevel": 12,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q12-087": {
+  "oldLevel": 12,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q12-088": {
+  "oldLevel": 12,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q12-089": {
+  "oldLevel": 12,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q12-090": {
+  "oldLevel": 12,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q12-091": {
+  "oldLevel": 12,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q12-092": {
+  "oldLevel": 12,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q12-093": {
+  "oldLevel": 12,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q12-094": {
+  "oldLevel": 12,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q12-095": {
+  "oldLevel": 12,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q12-096": {
+  "oldLevel": 12,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q12-097": {
+  "oldLevel": 12,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q12-098": {
+  "oldLevel": 12,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q12-099": {
+  "oldLevel": 12,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q12-100": {
+  "oldLevel": 12,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q12-101": {
+  "oldLevel": 12,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q12-102": {
+  "oldLevel": 12,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q12-103": {
+  "oldLevel": 12,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q12-104": {
+  "oldLevel": 12,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q12-105": {
+  "oldLevel": 12,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q12-106": {
+  "oldLevel": 12,
+  "newLevel": 15,
+  "medianDifficulty": 12
+ },
+ "q12-107": {
+  "oldLevel": 12,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q12-108": {
+  "oldLevel": 12,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q12-109": {
+  "oldLevel": 12,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q12-110": {
+  "oldLevel": 12,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q12-111": {
+  "oldLevel": 12,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q12-112": {
+  "oldLevel": 12,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q12-113": {
+  "oldLevel": 12,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q12-114": {
+  "oldLevel": 12,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q12-115": {
+  "oldLevel": 12,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q12-116": {
+  "oldLevel": 12,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q12-117": {
+  "oldLevel": 12,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q12-118": {
+  "oldLevel": 12,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q12-119": {
+  "oldLevel": 12,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q12-120": {
+  "oldLevel": 12,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q12-121": {
+  "oldLevel": 12,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q12-122": {
+  "oldLevel": 12,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q12-123": {
+  "oldLevel": 12,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q12-124": {
+  "oldLevel": 12,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q12-125": {
+  "oldLevel": 12,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q12-126": {
+  "oldLevel": 12,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q12-127": {
+  "oldLevel": 12,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q12-128": {
+  "oldLevel": 12,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q12-129": {
+  "oldLevel": 12,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q12-130": {
+  "oldLevel": 12,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q12-131": {
+  "oldLevel": 12,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q12-132": {
+  "oldLevel": 12,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q12-135": {
+  "oldLevel": 12,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q12-136": {
+  "oldLevel": 12,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q12-137": {
+  "oldLevel": 12,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q12-139": {
+  "oldLevel": 12,
+  "newLevel": 9,
+  "medianDifficulty": 5
+ },
+ "q12-140": {
+  "oldLevel": 12,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q13-075": {
+  "oldLevel": 13,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q13-076": {
+  "oldLevel": 13,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q13-077": {
+  "oldLevel": 13,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q13-079": {
+  "oldLevel": 13,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q13-080": {
+  "oldLevel": 13,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q13-081": {
+  "oldLevel": 13,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q13-082": {
+  "oldLevel": 13,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q13-084": {
+  "oldLevel": 13,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q13-085": {
+  "oldLevel": 13,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q13-086": {
+  "oldLevel": 13,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q13-087": {
+  "oldLevel": 13,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q13-088": {
+  "oldLevel": 13,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q13-089": {
+  "oldLevel": 13,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q13-090": {
+  "oldLevel": 13,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q13-091": {
+  "oldLevel": 13,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q13-092": {
+  "oldLevel": 13,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q13-093": {
+  "oldLevel": 13,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q13-094": {
+  "oldLevel": 13,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q13-096": {
+  "oldLevel": 13,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q13-097": {
+  "oldLevel": 13,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q13-098": {
+  "oldLevel": 13,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q13-099": {
+  "oldLevel": 13,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q13-101": {
+  "oldLevel": 13,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q13-102": {
+  "oldLevel": 13,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q13-104": {
+  "oldLevel": 13,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q13-105": {
+  "oldLevel": 13,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q13-107": {
+  "oldLevel": 13,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q13-108": {
+  "oldLevel": 13,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q13-109": {
+  "oldLevel": 13,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q13-110": {
+  "oldLevel": 13,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q13-111": {
+  "oldLevel": 13,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q13-112": {
+  "oldLevel": 13,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q13-113": {
+  "oldLevel": 13,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q13-116": {
+  "oldLevel": 13,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q13-117": {
+  "oldLevel": 13,
+  "newLevel": 15,
+  "medianDifficulty": 12
+ },
+ "q13-118": {
+  "oldLevel": 13,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q13-119": {
+  "oldLevel": 13,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q13-120": {
+  "oldLevel": 13,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q13-121": {
+  "oldLevel": 13,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q13-122": {
+  "oldLevel": 13,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q13-123": {
+  "oldLevel": 13,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q13-124": {
+  "oldLevel": 13,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q13-126": {
+  "oldLevel": 13,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q13-127": {
+  "oldLevel": 13,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q13-130": {
+  "oldLevel": 13,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q13-131": {
+  "oldLevel": 13,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q13-132": {
+  "oldLevel": 13,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q13-133": {
+  "oldLevel": 13,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q13-135": {
+  "oldLevel": 13,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q13-136": {
+  "oldLevel": 13,
+  "newLevel": 7,
+  "medianDifficulty": 4
+ },
+ "q13-137": {
+  "oldLevel": 13,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q13-138": {
+  "oldLevel": 13,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q13-139": {
+  "oldLevel": 13,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q13-141": {
+  "oldLevel": 13,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q13-142": {
+  "oldLevel": 13,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q13-145": {
+  "oldLevel": 13,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q13-147": {
+  "oldLevel": 13,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q13-149": {
+  "oldLevel": 13,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q13-151": {
+  "oldLevel": 13,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q13-152": {
+  "oldLevel": 13,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q13-153": {
+  "oldLevel": 13,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q13-154": {
+  "oldLevel": 13,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q13-157": {
+  "oldLevel": 13,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q13-158": {
+  "oldLevel": 13,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q13-159": {
+  "oldLevel": 13,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q13-160": {
+  "oldLevel": 13,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q14-072": {
+  "oldLevel": 14,
+  "newLevel": 15,
+  "medianDifficulty": 12
+ },
+ "q14-073": {
+  "oldLevel": 14,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q14-074": {
+  "oldLevel": 14,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q14-076": {
+  "oldLevel": 14,
+  "newLevel": 15,
+  "medianDifficulty": 12
+ },
+ "q14-077": {
+  "oldLevel": 14,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q14-078": {
+  "oldLevel": 14,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q14-079": {
+  "oldLevel": 14,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q14-082": {
+  "oldLevel": 14,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q14-083": {
+  "oldLevel": 14,
+  "newLevel": 15,
+  "medianDifficulty": 12
+ },
+ "q14-084": {
+  "oldLevel": 14,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q14-085": {
+  "oldLevel": 14,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q14-086": {
+  "oldLevel": 14,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q14-087": {
+  "oldLevel": 14,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q14-089": {
+  "oldLevel": 14,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q14-090": {
+  "oldLevel": 14,
+  "newLevel": 15,
+  "medianDifficulty": 12
+ },
+ "q14-091": {
+  "oldLevel": 14,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q14-093": {
+  "oldLevel": 14,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q14-094": {
+  "oldLevel": 14,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q14-095": {
+  "oldLevel": 14,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q14-096": {
+  "oldLevel": 14,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q14-097": {
+  "oldLevel": 14,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q14-098": {
+  "oldLevel": 14,
+  "newLevel": 15,
+  "medianDifficulty": 12
+ },
+ "q14-099": {
+  "oldLevel": 14,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q14-100": {
+  "oldLevel": 14,
+  "newLevel": 15,
+  "medianDifficulty": 12
+ },
+ "q14-101": {
+  "oldLevel": 14,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q14-102": {
+  "oldLevel": 14,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q14-103": {
+  "oldLevel": 14,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q14-104": {
+  "oldLevel": 14,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q14-105": {
+  "oldLevel": 14,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q14-106": {
+  "oldLevel": 14,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q14-107": {
+  "oldLevel": 14,
+  "newLevel": 8,
+  "medianDifficulty": 4
+ },
+ "q14-108": {
+  "oldLevel": 14,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q14-110": {
+  "oldLevel": 14,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q14-111": {
+  "oldLevel": 14,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q14-112": {
+  "oldLevel": 14,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q14-113": {
+  "oldLevel": 14,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q14-115": {
+  "oldLevel": 14,
+  "newLevel": 8,
+  "medianDifficulty": 4
+ },
+ "q14-116": {
+  "oldLevel": 14,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q14-117": {
+  "oldLevel": 14,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q14-118": {
+  "oldLevel": 14,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q14-119": {
+  "oldLevel": 14,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q14-120": {
+  "oldLevel": 14,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q14-121": {
+  "oldLevel": 14,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q14-122": {
+  "oldLevel": 14,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q14-123": {
+  "oldLevel": 14,
+  "newLevel": 11,
+  "medianDifficulty": 6
+ },
+ "q14-124": {
+  "oldLevel": 14,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q14-125": {
+  "oldLevel": 14,
+  "newLevel": 15,
+  "medianDifficulty": 12
+ },
+ "q14-128": {
+  "oldLevel": 14,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q14-129": {
+  "oldLevel": 14,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q14-130": {
+  "oldLevel": 14,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q14-131": {
+  "oldLevel": 14,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q14-132": {
+  "oldLevel": 14,
+  "newLevel": 8,
+  "medianDifficulty": 4
+ },
+ "q14-133": {
+  "oldLevel": 14,
+  "newLevel": 15,
+  "medianDifficulty": 12
+ },
+ "q14-134": {
+  "oldLevel": 14,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q14-135": {
+  "oldLevel": 14,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q14-136": {
+  "oldLevel": 14,
+  "newLevel": 12,
+  "medianDifficulty": 6
+ },
+ "q14-137": {
+  "oldLevel": 14,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q14-139": {
+  "oldLevel": 14,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q14-141": {
+  "oldLevel": 14,
+  "newLevel": 8,
+  "medianDifficulty": 4
+ },
+ "q14-142": {
+  "oldLevel": 14,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q14-143": {
+  "oldLevel": 14,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q14-145": {
+  "oldLevel": 14,
+  "newLevel": 8,
+  "medianDifficulty": 4
+ },
+ "q14-146": {
+  "oldLevel": 14,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q14-147": {
+  "oldLevel": 14,
+  "newLevel": 12,
+  "medianDifficulty": 6
+ },
+ "q14-150": {
+  "oldLevel": 14,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q14-151": {
+  "oldLevel": 14,
+  "newLevel": 8,
+  "medianDifficulty": 4
+ },
+ "q15-068": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q15-069": {
+  "oldLevel": 15,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q15-070": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 13
+ },
+ "q15-071": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 13
+ },
+ "q15-072": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q15-073": {
+  "oldLevel": 15,
+  "newLevel": 12,
+  "medianDifficulty": 6
+ },
+ "q15-074": {
+  "oldLevel": 15,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q15-075": {
+  "oldLevel": 15,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q15-076": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q15-077": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 12
+ },
+ "q15-078": {
+  "oldLevel": 15,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q15-079": {
+  "oldLevel": 15,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q15-080": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 12
+ },
+ "q15-081": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q15-082": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 13
+ },
+ "q15-083": {
+  "oldLevel": 15,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q15-084": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q15-085": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q15-086": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 12
+ },
+ "q15-087": {
+  "oldLevel": 15,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q15-088": {
+  "oldLevel": 15,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q15-089": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q15-090": {
+  "oldLevel": 15,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q15-091": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q15-092": {
+  "oldLevel": 15,
+  "newLevel": 8,
+  "medianDifficulty": 4
+ },
+ "q15-093": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q15-094": {
+  "oldLevel": 15,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q15-095": {
+  "oldLevel": 15,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q15-096": {
+  "oldLevel": 15,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q15-097": {
+  "oldLevel": 15,
+  "newLevel": 8,
+  "medianDifficulty": 4
+ },
+ "q15-098": {
+  "oldLevel": 15,
+  "newLevel": 12,
+  "medianDifficulty": 6
+ },
+ "q15-099": {
+  "oldLevel": 15,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q15-100": {
+  "oldLevel": 15,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q15-101": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 13
+ },
+ "q15-102": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q15-104": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 12
+ },
+ "q15-105": {
+  "oldLevel": 15,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q15-106": {
+  "oldLevel": 15,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q15-107": {
+  "oldLevel": 15,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q15-108": {
+  "oldLevel": 15,
+  "newLevel": 12,
+  "medianDifficulty": 6
+ },
+ "q15-109": {
+  "oldLevel": 15,
+  "newLevel": 8,
+  "medianDifficulty": 4
+ },
+ "q15-110": {
+  "oldLevel": 15,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q15-111": {
+  "oldLevel": 15,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q15-112": {
+  "oldLevel": 15,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q15-113": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q15-114": {
+  "oldLevel": 15,
+  "newLevel": 8,
+  "medianDifficulty": 4
+ },
+ "q15-115": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q15-116": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 12
+ },
+ "q15-117": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q15-118": {
+  "oldLevel": 15,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q15-119": {
+  "oldLevel": 15,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q15-120": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 9
+ },
+ "q15-121": {
+  "oldLevel": 15,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q15-122": {
+  "oldLevel": 15,
+  "newLevel": 8,
+  "medianDifficulty": 4
+ },
+ "q15-123": {
+  "oldLevel": 15,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q15-125": {
+  "oldLevel": 15,
+  "newLevel": 10,
+  "medianDifficulty": 5
+ },
+ "q15-126": {
+  "oldLevel": 15,
+  "newLevel": 13,
+  "medianDifficulty": 7
+ },
+ "q15-127": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 11
+ },
+ "q15-129": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 12
+ },
+ "q15-130": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 12
+ },
+ "q15-131": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 12
+ },
+ "q15-132": {
+  "oldLevel": 15,
+  "newLevel": 14,
+  "medianDifficulty": 8
+ },
+ "q15-133": {
+  "oldLevel": 15,
+  "newLevel": 5,
+  "medianDifficulty": 3
+ },
+ "q15-135": {
+  "oldLevel": 15,
+  "newLevel": 12,
+  "medianDifficulty": 6
+ },
+ "q15-137": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 10
+ },
+ "q15-139": {
+  "oldLevel": 15,
+  "newLevel": 15,
+  "medianDifficulty": 14
+ },
+ "q1-135": {
+  "oldLevel": 1,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q1-136": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q1-137": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-138": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-139": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-140": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-141": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-142": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q1-143": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-144": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-145": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-146": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-147": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q1-148": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-149": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-150": {
+  "oldLevel": 1,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q1-151": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-152": {
+  "oldLevel": 1,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q1-153": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-154": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-155": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-156": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-157": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-158": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-159": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-160": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-161": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-162": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-163": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q1-164": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q1-165": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q1-166": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q1-167": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-168": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-169": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-170": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-171": {
+  "oldLevel": 1,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q1-172": {
+  "oldLevel": 1,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q1-173": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-174": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-175": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-176": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-177": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-178": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-179": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-180": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-181": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-182": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-183": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-184": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q1-185": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q1-186": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-187": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-188": {
+  "oldLevel": 1,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q1-189": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q1-190": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-191": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-192": {
+  "oldLevel": 1,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q1-193": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-194": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q1-195": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-196": {
+  "oldLevel": 1,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q1-197": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q1-198": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q1-199": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q1-200": {
+  "oldLevel": 1,
+  "newLevel": 3,
+  "medianDifficulty": 3
+ },
+ "q1-201": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-202": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-203": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-204": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q1-205": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-206": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-207": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q1-208": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q1-209": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-210": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-211": {
+  "oldLevel": 1,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q1-212": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-213": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q1-214": {
+  "oldLevel": 1,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-135": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-136": {
+  "oldLevel": 2,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q2-137": {
+  "oldLevel": 2,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q2-138": {
+  "oldLevel": 2,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q2-139": {
+  "oldLevel": 2,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q2-140": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-141": {
+  "oldLevel": 2,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q2-142": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-143": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-144": {
+  "oldLevel": 2,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q2-145": {
+  "oldLevel": 2,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q2-146": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-147": {
+  "oldLevel": 2,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q2-148": {
+  "oldLevel": 2,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q2-149": {
+  "oldLevel": 2,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q2-150": {
+  "oldLevel": 2,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q2-151": {
+  "oldLevel": 2,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q2-152": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-153": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-154": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-155": {
+  "oldLevel": 2,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q2-156": {
+  "oldLevel": 2,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q2-157": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-158": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-159": {
+  "oldLevel": 2,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q2-160": {
+  "oldLevel": 2,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q2-161": {
+  "oldLevel": 2,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q2-162": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-163": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-164": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-165": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-166": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-167": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-168": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-169": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-170": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-171": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-172": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-173": {
+  "oldLevel": 2,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q2-174": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-175": {
+  "oldLevel": 2,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q2-176": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-177": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-178": {
+  "oldLevel": 2,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q2-179": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-180": {
+  "oldLevel": 2,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q2-181": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-182": {
+  "oldLevel": 2,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q2-183": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-184": {
+  "oldLevel": 2,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q2-185": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-186": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-187": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-188": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-189": {
+  "oldLevel": 2,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q2-190": {
+  "oldLevel": 2,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q2-191": {
+  "oldLevel": 2,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q2-192": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-193": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-194": {
+  "oldLevel": 2,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q2-195": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-196": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-197": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-198": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-199": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-200": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-201": {
+  "oldLevel": 2,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q2-202": {
+  "oldLevel": 2,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q2-203": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-204": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-205": {
+  "oldLevel": 2,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q2-206": {
+  "oldLevel": 2,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q2-207": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-208": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-209": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-210": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-211": {
+  "oldLevel": 2,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q2-212": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q2-213": {
+  "oldLevel": 2,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q2-214": {
+  "oldLevel": 2,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-144": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-145": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-146": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-147": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-148": {
+  "oldLevel": 3,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q3-149": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-150": {
+  "oldLevel": 3,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q3-151": {
+  "oldLevel": 3,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q3-152": {
+  "oldLevel": 3,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q3-153": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-154": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-155": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-156": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-157": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-158": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-159": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-160": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-161": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-162": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-163": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-164": {
+  "oldLevel": 3,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q3-165": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-166": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-167": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-168": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-169": {
+  "oldLevel": 3,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q3-170": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-171": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-172": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-173": {
+  "oldLevel": 3,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q3-174": {
+  "oldLevel": 3,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q3-175": {
+  "oldLevel": 3,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q3-176": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-177": {
+  "oldLevel": 3,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q3-178": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-179": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-180": {
+  "oldLevel": 3,
+  "newLevel": 1,
+  "medianDifficulty": 1
+ },
+ "q3-181": {
+  "oldLevel": 3,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q3-182": {
+  "oldLevel": 3,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q3-183": {
+  "oldLevel": 3,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q3-184": {
+  "oldLevel": 3,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q3-185": {
+  "oldLevel": 3,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q3-186": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-187": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-188": {
+  "oldLevel": 3,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q3-189": {
+  "oldLevel": 3,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q3-190": {
+  "oldLevel": 3,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q3-191": {
+  "oldLevel": 3,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q3-192": {
+  "oldLevel": 3,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q3-193": {
+  "oldLevel": 3,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q3-194": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-195": {
+  "oldLevel": 3,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q3-196": {
+  "oldLevel": 3,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q3-197": {
+  "oldLevel": 3,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q3-198": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-199": {
+  "oldLevel": 3,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q3-200": {
+  "oldLevel": 3,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q3-201": {
+  "oldLevel": 3,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q3-202": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-203": {
+  "oldLevel": 3,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q3-204": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-205": {
+  "oldLevel": 3,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q3-206": {
+  "oldLevel": 3,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q3-207": {
+  "oldLevel": 3,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q3-208": {
+  "oldLevel": 3,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q3-209": {
+  "oldLevel": 3,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q3-210": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 1
+ },
+ "q3-211": {
+  "oldLevel": 3,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q3-212": {
+  "oldLevel": 3,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q3-213": {
+  "oldLevel": 3,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q3-214": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-215": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-216": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 1
+ },
+ "q3-217": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 1
+ },
+ "q3-218": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-219": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-220": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-221": {
+  "oldLevel": 3,
+  "newLevel": 2,
+  "medianDifficulty": 2
+ },
+ "q3-222": {
+  "oldLevel": 3,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q3-223": {
+  "oldLevel": 3,
+  "newLevel": 5,
+  "medianDifficulty": 4
+ },
+ "q4-156": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-157": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-158": {
+  "oldLevel": 4,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q4-159": {
+  "oldLevel": 4,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q4-160": {
+  "oldLevel": 4,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q4-161": {
+  "oldLevel": 4,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q4-162": {
+  "oldLevel": 4,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q4-163": {
+  "oldLevel": 4,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q4-164": {
+  "oldLevel": 4,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q4-165": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-166": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-167": {
+  "oldLevel": 4,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q4-168": {
+  "oldLevel": 4,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q4-169": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-170": {
+  "oldLevel": 4,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q4-171": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-172": {
+  "oldLevel": 4,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q4-173": {
+  "oldLevel": 4,
+  "newLevel": 2,
+  "medianDifficulty": 1
+ },
+ "q4-174": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-175": {
+  "oldLevel": 4,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q4-176": {
+  "oldLevel": 4,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q4-177": {
+  "oldLevel": 4,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q4-178": {
+  "oldLevel": 4,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q4-179": {
+  "oldLevel": 4,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q4-180": {
+  "oldLevel": 4,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q4-181": {
+  "oldLevel": 4,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q4-182": {
+  "oldLevel": 4,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q4-183": {
+  "oldLevel": 4,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q4-184": {
+  "oldLevel": 4,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q4-185": {
+  "oldLevel": 4,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q4-186": {
+  "oldLevel": 4,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q4-187": {
+  "oldLevel": 4,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q4-188": {
+  "oldLevel": 4,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q4-189": {
+  "oldLevel": 4,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q4-190": {
+  "oldLevel": 4,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q4-191": {
+  "oldLevel": 4,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q4-192": {
+  "oldLevel": 4,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q4-193": {
+  "oldLevel": 4,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q4-194": {
+  "oldLevel": 4,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q4-195": {
+  "oldLevel": 4,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q4-196": {
+  "oldLevel": 4,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q4-197": {
+  "oldLevel": 4,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q4-198": {
+  "oldLevel": 4,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q4-199": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-200": {
+  "oldLevel": 4,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q4-201": {
+  "oldLevel": 4,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q4-202": {
+  "oldLevel": 4,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q4-203": {
+  "oldLevel": 4,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q4-204": {
+  "oldLevel": 4,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q4-205": {
+  "oldLevel": 4,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q4-206": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-207": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-208": {
+  "oldLevel": 4,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q4-209": {
+  "oldLevel": 4,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q4-210": {
+  "oldLevel": 4,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q4-211": {
+  "oldLevel": 4,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q4-212": {
+  "oldLevel": 4,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q4-213": {
+  "oldLevel": 4,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q4-214": {
+  "oldLevel": 4,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q4-215": {
+  "oldLevel": 4,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q4-216": {
+  "oldLevel": 4,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q4-217": {
+  "oldLevel": 4,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q4-218": {
+  "oldLevel": 4,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q4-219": {
+  "oldLevel": 4,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q4-220": {
+  "oldLevel": 4,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q4-221": {
+  "oldLevel": 4,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q4-222": {
+  "oldLevel": 4,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q4-223": {
+  "oldLevel": 4,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q4-224": {
+  "oldLevel": 4,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q4-225": {
+  "oldLevel": 4,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q4-226": {
+  "oldLevel": 4,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q4-227": {
+  "oldLevel": 4,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q4-228": {
+  "oldLevel": 4,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q4-229": {
+  "oldLevel": 4,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q4-230": {
+  "oldLevel": 4,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q4-231": {
+  "oldLevel": 4,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q4-232": {
+  "oldLevel": 4,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q4-233": {
+  "oldLevel": 4,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q4-234": {
+  "oldLevel": 4,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q4-235": {
+  "oldLevel": 4,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q5-145": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-146": {
+  "oldLevel": 5,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q5-147": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-148": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-149": {
+  "oldLevel": 5,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q5-150": {
+  "oldLevel": 5,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q5-151": {
+  "oldLevel": 5,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q5-152": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-153": {
+  "oldLevel": 5,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q5-154": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-155": {
+  "oldLevel": 5,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q5-156": {
+  "oldLevel": 5,
+  "newLevel": 2,
+  "medianDifficulty": 1
+ },
+ "q5-157": {
+  "oldLevel": 5,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q5-158": {
+  "oldLevel": 5,
+  "newLevel": 2,
+  "medianDifficulty": 1
+ },
+ "q5-159": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-160": {
+  "oldLevel": 5,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q5-161": {
+  "oldLevel": 5,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q5-162": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-163": {
+  "oldLevel": 5,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q5-164": {
+  "oldLevel": 5,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q5-165": {
+  "oldLevel": 5,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q5-166": {
+  "oldLevel": 5,
+  "newLevel": 2,
+  "medianDifficulty": 1
+ },
+ "q5-167": {
+  "oldLevel": 5,
+  "newLevel": 2,
+  "medianDifficulty": 1
+ },
+ "q5-168": {
+  "oldLevel": 5,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q5-169": {
+  "oldLevel": 5,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q5-170": {
+  "oldLevel": 5,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q5-171": {
+  "oldLevel": 5,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q5-172": {
+  "oldLevel": 5,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q5-173": {
+  "oldLevel": 5,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q5-174": {
+  "oldLevel": 5,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q5-175": {
+  "oldLevel": 5,
+  "newLevel": 2,
+  "medianDifficulty": 1
+ },
+ "q5-176": {
+  "oldLevel": 5,
+  "newLevel": 3,
+  "medianDifficulty": 2
+ },
+ "q5-177": {
+  "oldLevel": 5,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q5-178": {
+  "oldLevel": 5,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q5-179": {
+  "oldLevel": 5,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q5-180": {
+  "oldLevel": 5,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q5-181": {
+  "oldLevel": 5,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q5-182": {
+  "oldLevel": 5,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q5-183": {
+  "oldLevel": 5,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q5-184": {
+  "oldLevel": 5,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q5-185": {
+  "oldLevel": 5,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q5-186": {
+  "oldLevel": 5,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q5-187": {
+  "oldLevel": 5,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q5-188": {
+  "oldLevel": 5,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q5-189": {
+  "oldLevel": 5,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q5-190": {
+  "oldLevel": 5,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q5-191": {
+  "oldLevel": 5,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q5-192": {
+  "oldLevel": 5,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q5-193": {
+  "oldLevel": 5,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q5-194": {
+  "oldLevel": 5,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q5-195": {
+  "oldLevel": 5,
+  "newLevel": 14,
+  "medianDifficulty": 9
+ },
+ "q5-196": {
+  "oldLevel": 5,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q5-197": {
+  "oldLevel": 5,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q5-198": {
+  "oldLevel": 5,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q5-199": {
+  "oldLevel": 5,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q5-200": {
+  "oldLevel": 5,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q5-201": {
+  "oldLevel": 5,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q5-202": {
+  "oldLevel": 5,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q5-203": {
+  "oldLevel": 5,
+  "newLevel": 13,
+  "medianDifficulty": 8
+ },
+ "q5-204": {
+  "oldLevel": 5,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q5-205": {
+  "oldLevel": 5,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q5-206": {
+  "oldLevel": 5,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q5-207": {
+  "oldLevel": 5,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q5-208": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-209": {
+  "oldLevel": 5,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q5-210": {
+  "oldLevel": 5,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q5-211": {
+  "oldLevel": 5,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q5-212": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-213": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-214": {
+  "oldLevel": 5,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q5-215": {
+  "oldLevel": 5,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q5-216": {
+  "oldLevel": 5,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q5-217": {
+  "oldLevel": 5,
+  "newLevel": 6,
+  "medianDifficulty": 4
+ },
+ "q5-218": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-219": {
+  "oldLevel": 5,
+  "newLevel": 2,
+  "medianDifficulty": 1
+ },
+ "q5-220": {
+  "oldLevel": 5,
+  "newLevel": 12,
+  "medianDifficulty": 7
+ },
+ "q5-221": {
+  "oldLevel": 5,
+  "newLevel": 10,
+  "medianDifficulty": 6
+ },
+ "q5-222": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ },
+ "q5-223": {
+  "oldLevel": 5,
+  "newLevel": 8,
+  "medianDifficulty": 5
+ },
+ "q5-224": {
+  "oldLevel": 5,
+  "newLevel": 4,
+  "medianDifficulty": 3
+ }
+}

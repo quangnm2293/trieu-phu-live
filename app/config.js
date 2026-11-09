@@ -41,7 +41,7 @@ module.exports = {
   READING_TEST_MS: envInt('READING_TEST_MS', 0), // >0: ép cửa sổ đọc = đúng số ms này (QA/test — ghi đè durations)
   REVEAL_TIME_MS: envInt('REVEAL_TIME_MS', 5000), // hiện đáp án + TOP 5
   LOCKED_MS: envInt('LOCKED_MS', 1500), // hiện trạng thái "đã chốt đáp án" trước khi công bố
-  INTERMISSION_MS: envInt('INTERMISSION_MS', 10000), // nghỉ giữa các lượt (đại ca yêu cầu rút ngắn tối 08/11 — cũ 20s)
+  INTERMISSION_MS: envInt('INTERMISSION_MS', 7000), // nghỉ giữa các lượt (đại ca yêu cầu 7s tối 09/11 — cũ 20s → 10s → 7s)
   RUN_END_MS: envInt('RUN_END_MS', 6000), // bảng tổng kết lượt
 
   // --- Thang điểm (ĐIỂM trong game — không phải tiền thật) ---
@@ -73,6 +73,9 @@ module.exports = {
   HOTSEAT_COOLDOWN_RUNS: envInt('HOTSEAT_COOLDOWN_RUNS', 1),
   BIG_GIFT_COINS: envInt('BIG_GIFT_COINS', 199),
   QUALIFIER_MODE: process.env.QUALIFIER_MODE || 'choice', // biến thể 'order' chưa bật ở v1
+  JOKE_CORRECT_CHANCE: envFloat('JOKE_CORRECT_CHANCE', 0.7), // xác suất MC chêm 1 câu joke chúc mừng sau đáp án ĐÚNG ở câu 1–5 (đại ca yêu cầu "joke thêm nhiều vào đi" — 09/11)
+  JOKE_WRONG_CHANCE: envFloat('JOKE_WRONG_CHANCE', 0.9), // xác suất chêm joke trêu sau đáp án SAI ở câu 1–6 (gần như luôn)
+  JOKE_BREAK_CHANCE: envFloat('JOKE_BREAK_CHANCE', 0.6), // xác suất MC nói 1 câu joke chung cả phòng khi vào pha nghỉ giải lao
   BANK_PATH: process.env.BANK_PATH || 'questions/bank.json',
   RELAY_ENABLED: envBool('RELAY_ENABLED', true),
 };

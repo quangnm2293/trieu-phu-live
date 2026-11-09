@@ -11,6 +11,11 @@
  * qualifierOnly:true (chỉ dùng cho vòng loại — game.js drawLevel() loại
  * các câu này khỏi bậc thang nên KHÔNG tính vào số câu bậc thang theo cấp).
  * 38 câu vòng loại đợt 1 là dual-purpose (vừa bậc thang vừa vòng loại).
+ *
+ * Cập nhật GÁN LẠI CẤP 09/11/2026 (xem bank-relevel/REPORT.md): mọi câu bậc thang
+ * được xếp lại cấp theo độ khó trung vị chấm mù 3 vòng — số câu/cấp KHÔNG đổi,
+ * và thêm kiểm tra phân bố đáp án đúng THEO TỪNG CẤP: mỗi chữ A–D phải nằm
+ * trong ±10% quanh 25% ở mọi cấp (trước đây chỉ kiểm toàn cục 15–35%).
  */
 const fs = require('fs');
 const path = require('path');
@@ -26,6 +31,7 @@ function validateBank(bank) {
   const texts = new Set();
   const counts = {};
   const dist = { A: 0, B: 0, C: 0, D: 0 };
+  const distByLevel = {};
   let qualifier = 0;
   let qualifierOnly = 0;
   for (const q of bank) {
@@ -45,7 +51,10 @@ function validateBank(bank) {
     if (optVals.some(v => !v)) errors.push(`${at} phải có đủ 4 đáp án A–D không rỗng`);
     if (new Set(optVals).size !== 4) errors.push(`${at} 4 đáp án phải khác nhau`);
     if (!letters.includes(q.correct)) errors.push(`${at} correct phải thuộc A–D`);
-    else if (q.qualifierOnly !== true) dist[q.correct]++;
+    else if (q.qualifierOnly !== true) {
+      dist[q.correct]++;
+      (distByLevel[q.level] = distByLevel[q.level] || { A: 0, B: 0, C: 0, D: 0 })[q.correct]++;
+    }
     if (q.qualifierOnly === true) qualifierOnly++;
     else counts[q.level] = (counts[q.level] || 0) + 1;
     if (q.qualifier === true) qualifier++;
@@ -65,7 +74,19 @@ function validateBank(bank) {
       if (pct < 15 || pct > 35) errors.push(`đáp án đúng lệch về ${l}: ${pct.toFixed(1)}% (nên trong 15–35%)`);
     }
   }
-  return { errors, counts, total: bank.length, qualifier, dist };
+  // Phân bố đáp án THEO CẤP (sau gán lại cấp 09/11): mỗi cấp, mỗi chữ trong ±10% quanh 25%.
+  for (let lv = 1; lv <= 15; lv++) {
+    const d = distByLevel[lv];
+    const n = counts[lv] || 0;
+    if (!d || !n) continue;
+    for (const l of ['A', 'B', 'C', 'D']) {
+      const share = d[l] / n;
+      if (Math.abs(share - 0.25) > 0.10) {
+        errors.push(`cấp ${lv}: đáp án ${l} chiếm ${(share * 100).toFixed(1)}% (ngoài ±10% quanh 25%)`);
+      }
+    }
+  }
+  return { errors, counts, total: bank.length, qualifier, dist, distByLevel };
 }
 
 if (require.main === module) {
@@ -79,6 +100,10 @@ if (require.main === module) {
   for (let lv = 1; lv <= 15; lv++) console.log(`  Cấp ${String(lv).padStart(2)}: ${r.counts[lv] || 0} câu bậc thang`);
   console.log(`  TỔNG: ${ladderTotal} câu bậc thang · câu loại (qualifier): ${r.qualifier} · tổng mục trong file: ${r.total}`);
   console.log(`  Phân bố đáp án đúng (bậc thang): A=${r.dist.A} B=${r.dist.B} C=${r.dist.C} D=${r.dist.D}`);
+  for (let lv = 1; lv <= 15; lv++) {
+    const d = r.distByLevel && r.distByLevel[lv];
+    if (d) console.log(`    cấp ${String(lv).padStart(2)}: A=${d.A} B=${d.B} C=${d.C} D=${d.D}`);
+  }
   if (r.errors.length) {
     for (const e of r.errors) console.log('  LỖI: ' + e);
     console.log('BANK FAIL');

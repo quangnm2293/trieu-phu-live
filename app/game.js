@@ -79,7 +79,10 @@ class Engine {
       cmdTemplate: CFG.NAME_TTS_CMD,
       log: m => console.log(m),
     });
-    this.lastJokeIdx = 0; // clip joke sai câu <5 vừa phát — tránh lặp lại ngay lần kế tiếp
+    this.lastJokeIdx = 0; // clip joke sai vừa phát — tránh lặp lại ngay lần kế tiếp
+    this.lastJokeCorrectIdx = 0; // clip joke ĐÚNG vừa phát (bộ nhớ chống lặp riêng từng nhóm joke)
+    this.lastJokeWelcomeIdx = 0; // clip joke chào ghế nóng mới vừa phát (chống lặp riêng)
+    this.lastJokeBreakIdx = 0; // clip joke lúc nghỉ vừa phát ở lần nghỉ trước (chống lặp riêng)
     this.pendingFastestCue = null; // {nickname, until} — chờ clip tên khán giả nhanh nhất sẵn sàng trong pha reveal
     this.revealStartedAt = 0; // mốc bắt đầu pha reveal hiện tại + tổng thời lượng cue công bố
     this.revealCueMs = 0;     // (clip tên nhanh nhất xếp hàng SAU cue này — tick dùng để giữ pha)
@@ -285,6 +288,16 @@ class Engine {
     // phát dở khi màn hình chuyển sang bảng vinh danh (trước đây pha này không có cue
     // nào nên clip cũ cứ phát tràn qua màn nghỉ).
     else this.cue(['mc/next-qualifier']);
+    // Joke lúc nghỉ giải lao: theo xác suất JOKE_BREAK_CHANCE, MC chêm 1 câu trêu
+    // chung cả phòng ngay sau cue chuyển pha. KHÔNG kéo dài pha nghỉ (vẫn đúng
+    // INTERMISSION_MS) — clip ngắn ~5s phát trong nền nhạc nghỉ, bị ngắt khi hết
+    // giờ nghỉ cũng chấp nhận được (câu độc lập). Chống lặp với lần nghỉ trước.
+    if (!first && Math.random() < CFG.JOKE_BREAK_CHANCE) {
+      let n;
+      do { n = 1 + Math.floor(Math.random() * 6); } while (n === this.lastJokeBreakIdx);
+      this.lastJokeBreakIdx = n;
+      this.cue([`mc/joke-break-${n}`]);
+    }
   }
   startQualifier(now) {
     const q = this.drawQualifier();
@@ -359,6 +372,15 @@ class Engine {
     this.requestNameCue('hotseat', u.nickname);
     const nameKey = this.nameTtsReadyKey('hotseat', u.nickname);
     if (nameKey) this.cue([nameKey]);
+    // Joke chào ghế nóng mới: 1 câu trêu vui chắp SAU TOÀN BỘ chuỗi chào hiện có
+    // (mc/hotseat-new đã bắn ở closeQualifier + clip đọc tên ở trên) — cue bắn
+    // sau nên hàng đợi stage phát nối tiếp, không chồng tiếng. Chống lặp riêng.
+    {
+      let n;
+      do { n = 1 + Math.floor(Math.random() * 8); } while (n === this.lastJokeWelcomeIdx);
+      this.lastJokeWelcomeIdx = n;
+      this.cue([`mc/joke-welcome-${n}`]);
+    }
     this.startQuestion(now, 1);
   }
   startQuestion(now, level) {
@@ -562,15 +584,24 @@ class Engine {
     let keys;
     if (correct) {
       keys = ['mc/correct'];
+      // Joke chúc mừng: trả lời ĐÚNG ở câu 1–5 → theo xác suất JOKE_CORRECT_CHANCE
+      // chêm 1 câu trêu vui ngay sau mc/correct (không lặp clip đúng lần trước;
+      // bộ nhớ chống lặp riêng nhóm joke-correct).
+      if (ctx.level <= 5 && Math.random() < CFG.JOKE_CORRECT_CHANCE) {
+        let n;
+        do { n = 1 + Math.floor(Math.random() * 12); } while (n === this.lastJokeCorrectIdx);
+        this.lastJokeCorrectIdx = n;
+        keys.push(`mc/joke-correct-${n}`);
+      }
       if (ctx.level === 5) { keys.push('mc/milestone5'); this.announce('milestone', '★ ĐÃ CHẠM MỐC AN TOÀN 2.000.000 ĐIỂM!'); }
       if (ctx.level === 10) { keys.push('mc/milestone10'); this.announce('milestone', '★ ĐÃ CHẠM MỐC AN TOÀN 22.000.000 ĐIỂM!'); }
       if (ctx.level === 15) keys.push('mc/champion');
       this.cue(keys);
     } else {
       keys = ['mc/wrong'];
-      // Mục C: trả lời SAI (không tính hết giờ/DỪNG) ở câu 1–4 → thêm 1 câu joke
+      // Mục C: trả lời SAI (không tính hết giờ/DỪNG) ở câu 1–6 → thêm 1 câu joke
       // trêu nhẹ ngay sau mc/wrong; không lặp lại joke của lần sai ngay trước.
-      if (ctx.hotseatResult === 'wrong' && ctx.level <= 4) {
+      if (ctx.hotseatResult === 'wrong' && ctx.level <= 6 && Math.random() < CFG.JOKE_WRONG_CHANCE) {
         let n;
         do { n = 1 + Math.floor(Math.random() * 6); } while (n === this.lastJokeIdx);
         this.lastJokeIdx = n;
@@ -580,7 +611,7 @@ class Engine {
     }
     this.phase = 'reveal';
     // Pha công bố KHÔNG kết thúc trước khi MC nói hết cue của pha này: sai câu
-    // 1–4 có joke 4–6s nối sau mc/wrong (2,7s) → tổng tới ~8,6s, trong khi
+    // 1–6 có joke 4–6s nối sau mc/wrong (2,7s) → tổng tới ~8,6s, trong khi
     // REVEAL_TIME_MS mặc định chỉ 5s nên joke bị cắt đuôi (lỗi live tối 08/11 —
     // "joke nói chưa xong đã chuyển sang nghỉ giải lao"). Đúng + mốc/champion
     // cũng áp cùng luật. Lấy thời lượng thật từ durations.json + đệm 0,5s.

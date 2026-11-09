@@ -50,6 +50,36 @@ function mcClips() {
     'joke-wrong-4': 'Sai bét! Đáp án này mà đúng thì em xin phép đi bằng đầu. Về luyện thêm rồi quay lại nhé!',
     'joke-wrong-5': 'Hụt rồi! Câu này dễ như ăn kẹo mà cũng trượt. Chắc run quá thôi, lần sau bình tĩnh nhé!',
     'joke-wrong-6': 'Ôi thôi xong! Vấp ngay câu khởi động. Về nhà đừng kể cho ai nghe đấy nhé!',
+    // Joke chúc mừng khi ghế nóng trả lời ĐÚNG ở câu 1–5 (xác suất JOKE_CORRECT_CHANCE, mặc định 70%)
+    'joke-correct-1': 'Đúng rồi! Bạn này học bài kỹ ghê, chắc hồi đi học toàn ngồi bàn đầu!',
+    'joke-correct-2': 'Chính xác! Não bộ chạy nhanh thế này chắc lắp chip đời mới rồi!',
+    'joke-correct-3': 'Hay quá! Trả lời nhẹ như không, khán giả bắt đầu thấy lo cho MC rồi đấy!',
+    'joke-correct-4': 'Đúng phóc! Kiến thức cỡ này chắc ở nhà bị gọi là bách khoa toàn thư!',
+    'joke-correct-5': 'Xuất sắc! Bạn trả lời mà MC chưa kịp chớp mắt luôn. Ghê thật!',
+    'joke-correct-6': 'Chuẩn không cần chỉnh! Chắc tối qua nằm mơ thấy trước đáp án hả bạn?',
+    'joke-correct-7': 'Trúng phóc! Bạn này mà đi thi là giám thị phải kiểm tra tai nghe đấy!',
+    'joke-correct-8': 'Đúng nữa rồi! Kiến thức đầy bụng thế này, ăn cơm chắc cũng phải nghĩ!',
+    'joke-correct-9': 'Hay chưa! Đáp án vừa ra là bạn bắt gọn, như mèo vồ chuột vậy!',
+    'joke-correct-10': 'Chuẩn luôn! Bộ nhớ này mà là điện thoại chắc phải một terabyte!',
+    'joke-correct-11': 'Đúng rồi đó! Bạn trả lời nhanh vậy, MC đọc đáp án còn không kịp!',
+    'joke-correct-12': 'Xuất thần! Câu này nhiều người vấp lắm, bạn qua nhẹ như đi dạo!',
+    // Joke chào người chơi MỚI lên ghế nóng — bắn sau chuỗi chào/đọc tên (luôn phát)
+    'joke-welcome-1': 'Ghế nóng vừa có chủ mới! Nhìn mặt sáng sủa thế này chắc không vấp câu một đâu!',
+    'joke-welcome-2': 'Xin chào người chơi mới! Ghế này hơi nóng, ngồi cẩn thận kẻo phỏng kiến thức!',
+    'joke-welcome-3': 'Người chơi mới lên sóng! Tim đập thình thịch mà mặt vẫn tỉnh bơ, hay lắm!',
+    'joke-welcome-4': 'Chào mừng bạn đến với ghế nóng! Cứ bình tĩnh, sai thì khán giả cười thôi, không sao!',
+    'joke-welcome-5': 'Một gương mặt mới toanh! Khán giả vỗ tay đi, biết đâu đây là nhà vô địch tối nay!',
+    'joke-welcome-6': 'Ghế nóng đổi chủ! Bạn ngồi xuống là nhiệt độ phòng tăng hẳn hai độ!',
+    'joke-welcome-7': 'Chào bạn mới! Cứ coi ghế nóng như ghế đá công viên, khác cái là có tiền điểm thôi!',
+    'joke-welcome-8': 'Người chơi mới xuất hiện! Nhìn ánh mắt này là biết ở nhà cày sách dữ lắm!',
+    // Joke lúc NGHỈ giải lao (xác suất JOKE_BREAK_CHANCE, mặc định 60%) — trêu chung cả phòng,
+    // phát sau cue chuyển pha, KHÔNG kéo dài pha nghỉ 7s (clip ngắn ~5s, thoại độc lập).
+    'joke-break-1': 'Nghỉ giải lao chút nhé cả nhà! Ai chưa uống nước thì uống, ai chưa thả tim thì thả nào!',
+    'joke-break-2': 'Phút thư giãn! Khán giả comment điểm danh cái nào, xem còn ai chưa chạy mất dép!',
+    'joke-break-3': 'Giải lao ngắn thôi! Ai đang lurk thì lộ diện đi, MC thấy hết đấy nhé!',
+    'joke-break-4': 'Nghỉ một nhịp! Tay ai mỏi vì comment nhanh quá thì xoa bóp đi, sắp vào vòng mới!',
+    'joke-break-5': 'Giờ giải lao! Ai đoán được người thắng vòng sau, comment tên mình cho MC ghi sổ!',
+    'joke-break-6': 'Thư giãn nào cả nhà! Hít sâu một cái, vòng loại tới là phải nhanh tay hơn nữa đấy!',
   };
   for (let i = 0; i < 15; i++) {
     clips[`level-${i + 1}`] = `Câu hỏi số ${ORDINALS[i]}, trị giá ${VALUE_WORDS[i]}.`;
